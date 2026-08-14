@@ -76,6 +76,8 @@ async function check(page, url) {
   if (index.broken.length) problems.push(`index broken images: ${index.broken.join(", ")}`);
   if (index.external.length) problems.push(`index still links to scribehow: ${index.external.join(", ")}`);
   for (const href of index.internal) {
+    // These are authenticated Express routes, not static files.
+    if (/^edit\//i.test(href)) continue;
     const target = path.join(ROOT, decodeURIComponent(href.split("#")[0]));
     if (!fs.existsSync(target)) problems.push(`index dead link: ${href}`);
   }

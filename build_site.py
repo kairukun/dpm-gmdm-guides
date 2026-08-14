@@ -1292,17 +1292,6 @@ a { color: var(--navy); }
 .auth-card .btn { width: 100%; text-align: center; margin-top: 8px; border: 0; cursor: pointer; }
 .auth-error { color: var(--red); font-size: 0.88rem; margin: 0 0 8px; }
 .auth-back { text-align: center; margin: 16px 0 0; font-size: 0.9rem; }
-.auth-static { font-size: 0.92rem; line-height: 1.55; color: var(--muted); }
-.auth-static p { margin: 0 0 10px; }
-.auth-static strong { color: var(--ink); }
-.auth-steps { margin: 0 0 12px; padding-left: 20px; }
-.auth-steps li { margin-bottom: 4px; }
-.auth-static code {
-  background: rgba(15, 23, 42, 0.06);
-  border-radius: 4px;
-  padding: 1px 5px;
-  font-size: 0.88em;
-}
 
 .editor-body { background: var(--page); }
 .editor-wrap { max-width: 940px; margin: 0 auto; padding: 28px 24px 72px; }
@@ -1503,7 +1492,8 @@ JS = """(function () {
     });
   });
 
-  // The published copy is static, so sign-in stays hidden unless the API answers.
+  // Show the same sign-in entry point in every deployment. A full deployment
+  // serves /api/me from server.js; static previews remain view-only.
   fetch('/api/me')
     .then(function (r) {
       var type = r.headers.get('content-type') || '';
@@ -1512,7 +1502,7 @@ JS = """(function () {
     })
     .then(renderAuth)
     .catch(function () {
-      document.body.setAttribute('data-static-site', 'true');
+      renderAuth({ authenticated: false });
     });
 })();
 """

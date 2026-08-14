@@ -23,6 +23,7 @@ const USERS = Array.isArray(AUTH.users)
     ? [{ email: AUTH.email, passwordHash: AUTH.passwordHash, displayName: AUTH.displayName }]
     : [];
 const PORT = Number(process.env.PORT || 8899);
+const HOST = process.env.HOST || "0.0.0.0";
 const SESSION_SECRET =
   process.env.SESSION_SECRET ||
   crypto
@@ -41,6 +42,7 @@ const upload = multer({
 
 const app = express();
 app.disable("x-powered-by");
+if (process.env.NODE_ENV === "production") app.set("trust proxy", 1);
 app.use(cookieParser());
 app.use(express.json({ limit: "4mb" }));
 app.use(
@@ -52,6 +54,7 @@ app.use(
     cookie: {
       httpOnly: true,
       sameSite: "lax",
+      secure: process.env.NODE_ENV === "production",
       maxAge: 1000 * 60 * 60 * 12,
     },
   })
@@ -276,7 +279,11 @@ app.get(["/edit/:slug", "/edit/:slug.html"], (req, res) => {
 
 app.use(express.static(ROOT, { extensions: ["html"] }));
 
-app.listen(PORT, "127.0.0.1", () => {
-  console.log(`DPM Guides running at http://127.0.0.1:${PORT}`);
+app.get("/api/health", (_req, res) => {
+  res.json({ ok: true });
+});
+
+app.listen(PORT, HOST, () => {
+  console.log(`DPM Guides running on ${HOST}:${PORT}`);
   console.log(`Editor accounts: ${USERS.map((u) => u.email).join(", ")}`);
 });

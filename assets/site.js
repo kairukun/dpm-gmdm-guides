@@ -76,7 +76,8 @@
     });
   });
 
-  // The published copy is static, so sign-in stays hidden unless the API answers.
+  // Show the same sign-in entry point in every deployment. A full deployment
+  // serves /api/me from server.js; static previews remain view-only.
   fetch('/api/me')
     .then(function (r) {
       var type = r.headers.get('content-type') || '';
@@ -85,6 +86,6 @@
     })
     .then(renderAuth)
     .catch(function () {
-      document.body.setAttribute('data-static-site', 'true');
+      renderAuth({ authenticated: false });
     });
 })();

@@ -23,20 +23,6 @@
       <p class="auth-error" id="error" hidden></p>
       <button class="btn btn-primary" type="submit">Sign in</button>
     </form>
-    <div class="auth-static" id="static-notice" hidden>
-      <p><strong>Editing isn't available on the published site.</strong></p>
-      <p>
-        This address is a read-only copy hosted on GitHub Pages, which can only serve files &mdash;
-        there is no sign-in service behind it.
-      </p>
-      <p>To edit guides, run the editor on your computer:</p>
-      <ol class="auth-steps">
-        <li>Open the project folder</li>
-        <li>Run <code>npm start</code></li>
-        <li>Go to <code>http://127.0.0.1:8899/login.html</code></li>
-      </ol>
-      <p>Saving there rebuilds the guide pages, which you can then publish.</p>
-    </div>
     <p class="auth-back"><a href="index.html">Back to guides</a></p>
   </main>
   <script>
@@ -45,14 +31,7 @@
       var next = params.get("next") || "index.html";
       var form = document.getElementById("login-form");
       var error = document.getElementById("error");
-      var staticNotice = document.getElementById("static-notice");
 
-      function showStaticMode() {
-        form.hidden = true;
-        staticNotice.hidden = false;
-      }
-
-      // The published copy has no API behind it, so probe before offering the form.
       fetch("/api/me")
         .then(function (r) {
           var type = r.headers.get("content-type") || "";
@@ -62,7 +41,7 @@
         .then(function (me) {
           if (me.authenticated) location.replace(next);
         })
-        .catch(showStaticMode);
+        .catch(function () {});
 
       form.addEventListener("submit", function (e) {
         e.preventDefault();
@@ -83,7 +62,10 @@
             }
             location.replace(next);
           })
-          .catch(showStaticMode);
+          .catch(function () {
+            error.textContent = "The editor server is unavailable. This deployment must run npm start.";
+            error.hidden = false;
+          });
       });
     })();
   </script>
