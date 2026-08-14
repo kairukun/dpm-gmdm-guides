@@ -238,13 +238,6 @@ def card_html(guide: dict) -> str:
     meta = []
     if guide["steps"]:
         meta.append(f'<span class="meta-item">{guide["steps"]} steps</span>')
-    if guide["pdf"]:
-        meta.append('<span class="meta-item meta-pdf">PDF ready</span>')
-    pdf_link = (
-        f'<a class="btn btn-ghost" href="{html.escape(guide["pdf"])}" target="_blank" rel="noopener">Download PDF</a>'
-        if guide["pdf"]
-        else ""
-    )
     tags = "".join(
         f'<span class="tag">{html.escape(t)}</span>' for t in dict.fromkeys(guide["tags"])
     )
@@ -263,7 +256,6 @@ def card_html(guide: dict) -> str:
               <div class="card-meta">{''.join(meta)}</div>
               <div class="card-actions">
                 {open_link}
-                {pdf_link}
                 {edit_link}
               </div>
             </article>"""
@@ -320,8 +312,8 @@ def build_html(groups: list[dict]) -> str:
       <img class="hero-logo" src="assets/dpm-lockup.png" alt="Dossani Paradise Management">
       <h1 class="hero-title">GM / DM Guides</h1>
       <p class="hero-sub">
-        Step-by-step walkthroughs for the systems your restaurant runs on. Open a guide online
-        or download the PDF for training and reference.
+        Step-by-step walkthroughs for the systems your restaurant runs on.
+        Open a guide for training and day-to-day reference.
       </p>
       <div class="hero-stats">
         <div class="stat"><span class="stat-num">{total}</span><span class="stat-label">Guides</span></div>
@@ -507,11 +499,6 @@ def guide_page_html(
     blocks = content.get("blocks") or []
     steps = [b for b in blocks if b.get("kind") == "step"]
     shots = sum(1 for s in steps if (s.get("image") or {}).get("file"))
-    pdf_btn = (
-        f'<a class="btn btn-ghost" href="{html.escape(up + guide["pdf"])}" target="_blank" rel="noopener">Download PDF</a>'
-        if guide["pdf"]
-        else ""
-    )
     tags = "".join(
         f'<span class="tag">{html.escape(t)}</span>' for t in dict.fromkeys(guide["tags"])
     )
@@ -558,7 +545,6 @@ def guide_page_html(
       <div class="guide-tags">{tags}</div>
       <div class="guide-actions">
         <span class="guide-count">{len(steps)} steps &middot; {shots} screenshots</span>
-        {pdf_btn}
       </div>
     </div>
   </div>

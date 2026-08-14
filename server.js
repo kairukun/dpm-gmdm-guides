@@ -17,9 +17,18 @@ const ROOT = __dirname;
 const CONTENT_DIR = path.join(ROOT, "guide-content");
 const IMAGE_ROOT = path.join(ROOT, "assets", "guides");
 const AUTH = JSON.parse(fs.readFileSync(path.join(ROOT, "auth-config.json"), "utf8"));
+const USERS = Array.isArray(AUTH.users)
+  ? AUTH.users
+  : AUTH.email
+    ? [{ email: AUTH.email, passwordHash: AUTH.passwordHash, displayName: AUTH.displayName }]
+    : [];
 const PORT = Number(process.env.PORT || 8899);
 const SESSION_SECRET =
-  process.env.SESSION_SECRET || crypto.createHash("sha256").update(AUTH.passwordHash).digest("hex");
+  process.env.SESSION_SECRET ||
+  crypto
+    .createHash("sha256")
+    .update(USERS.map((u) => u.passwordHash).join("|") || "dpm-guides")
+    .digest("hex");
 
 const upload = multer({
   storage: multer.memoryStorage(),
@@ -113,12 +122,16 @@ app.post("/api/login", async (req, res) => {
     .trim()
     .toLowerCase();
   const password = String(req.body?.password || "");
-  if (email !== AUTH.email.toLowerCase()) {
+  const account = USERS.find((u) => String(u.email || "").toLowerCase() === email);
+  if (!account) {
     return res.status(401).json({ error: "Invalid email or password" });
   }
-  const ok = await bcrypt.compare(password, AUTH.passwordHash);
+  const ok = await bcrypt.compare(password, account.passwordHash);
   if (!ok) return res.status(401).json({ error: "Invalid email or password" });
-  req.session.user = { email: AUTH.email, name: AUTH.displayName || "Editor" };
+  req.session.user = {
+    email: account.email,
+    name: account.displayName || account.email,
+  };
   res.json({ ok: true, user: req.session.user });
 });
 
@@ -265,5 +278,5 @@ app.use(express.static(ROOT, { extensions: ["html"] }));
 
 app.listen(PORT, "127.0.0.1", () => {
   console.log(`DPM Guides running at http://127.0.0.1:${PORT}`);
-  console.log(`Editor login: ${AUTH.email}`);
+  console.log(`Editor accounts: ${USERS.map((u) => u.email).join(", ")}`);
 });
