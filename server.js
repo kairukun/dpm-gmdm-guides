@@ -267,11 +267,18 @@ app.get(["/login", "/login.html"], (_req, res) => {
   res.sendFile(path.join(ROOT, "login.html"));
 });
 
-app.get(["/edit/:slug", "/edit/:slug.html"], (req, res) => {
+// The editor lives at the site root so its relative asset paths also work on
+// the published copy, which has no route rewriting.
+app.get(["/edit", "/edit.html"], (req, res) => {
+  const slug = String(req.query.guide || "");
   if (!req.session.user) {
-    return res.redirect(`/login.html?next=${encodeURIComponent(`/edit/${req.params.slug}`)}`);
+    return res.redirect(`/login.html?next=${encodeURIComponent(`edit.html?guide=${slug}`)}`);
   }
   res.sendFile(path.join(ROOT, "edit.html"));
+});
+
+app.get(["/edit/:slug", "/edit/:slug.html"], (req, res) => {
+  res.redirect(`/edit.html?guide=${encodeURIComponent(req.params.slug)}`);
 });
 
 app.use(express.static(ROOT, { extensions: ["html"] }));

@@ -4,16 +4,17 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Edit guide | Dossani Paradise Management</title>
-  <link rel="stylesheet" href="/assets/styles.css">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="assets/editor-auth.js"></script>
 </head>
 <body class="editor-body">
   <header class="guide-bar">
     <div class="guide-bar-inner">
-      <a class="guide-back" id="back-link" href="/index.html">All guides</a>
+      <a class="guide-back" id="back-link" href="index.html">All guides</a>
       <div class="editor-bar-actions">
         <span class="editor-user" id="editor-user"></span>
         <button class="btn btn-ghost" type="button" id="logout-btn">Sign out</button>
-        <img class="guide-bar-logo" src="/assets/dpm-lockup.png" alt="Dossani Paradise Management">
+        <img class="guide-bar-logo" src="assets/dpm-lockup.png" alt="Dossani Paradise Management">
       </div>
     </div>
   </header>
@@ -59,12 +60,21 @@
 
   <script>
     (function () {
-      var slug = location.pathname.replace(/^\/edit\//, "").replace(/\.html$/, "").replace(/\/$/, "");
+      var params = new URLSearchParams(location.search);
+      var slug = (params.get("guide") || location.pathname.replace(/^.*\/edit\//, ""))
+        .replace(/\.html$/, "")
+        .replace(/\/$/, "");
+      var contentFile = "guide-content/" + slug + ".json";
       var guide = null;
+      var backend = null;
+      var session = null;
+      var sha = null;
       var blocksEl = document.getElementById("blocks");
       var statusEl = document.getElementById("status");
       var loading = document.getElementById("loading");
       var editor = document.getElementById("editor");
+      var KINDS = ["step", "tip", "warning", "section"];
+      var IMAGE_TYPES = { "image/png": "png", "image/jpeg": "jpeg", "image/webp": "webp", "image/gif": "gif" };
 
       function showStatus(msg, isError) {
         statusEl.hidden = false;
@@ -105,7 +115,7 @@
           var kind = b.kind || "step";
           var label = kind === "step" ? (++stepNo) : kind.toUpperCase();
           var img = b.image && b.image.file
-            ? '<div class="block-image"><img src="/' + escapeHtml(b.image.file) + '" alt=""><label class="upload-btn">Replace screenshot<input type="file" accept="image/*" data-upload="' + i + '" hidden></label></div>'
+            ? '<div class="block-image"><img src="' + escapeHtml(b.image.file) + '" alt=""><label class="upload-btn">Replace screenshot<input type="file" accept="image/*" data-upload="' + i + '" hidden></label></div>'
             : (kind === "step"
               ? '<div class="block-image empty"><label class="upload-btn">Add screenshot<input type="file" accept="image/*" data-upload="' + i + '" hidden></label></div>'
               : "");
@@ -129,6 +139,16 @@
             "</article>"
           );
         }).join("");
+      }
+
+      function stepIndexOf(blockIndex) {
+        var seen = 0;
+        for (var k = 0; k < guide.blocks.length; k++) {
+          if (guide.blocks[k].kind !== "step") continue;
+          if (k === blockIndex) return seen;
+          seen++;
+        }
+        return -1;
       }
 
       function bindBlockEvents() {
@@ -163,39 +183,16 @@
             var file = e.target.files && e.target.files[0];
             if (!file) return;
             readFormIntoGuide();
-            var card = e.target.closest(".block-card");
-            var blockIndex = Number(card.dataset.index);
-            var stepIndex = -1;
-            var seen = 0;
-            for (var k = 0; k < guide.blocks.length; k++) {
-              if (guide.blocks[k].kind !== "step") continue;
-              if (k === blockIndex) { stepIndex = seen; break; }
-              seen++;
-            }
+            var stepIndex = stepIndexOf(Number(e.target.closest(".block-card").dataset.index));
             if (stepIndex < 0) {
               showStatus("Screenshots can only be attached to steps.", true);
               return;
             }
             showStatus("Saving text, then uploading screenshot…");
-            fetch("/api/guides/" + encodeURIComponent(slug), {
-              method: "PUT",
-              headers: { "Content-Type": "application/json" },
-              body: JSON.stringify(guide)
-            }).then(function (r) { return r.json().then(function (d) { return { ok: r.ok, d: d }; }); })
-              .then(function (res) {
-                if (!res.ok) throw new Error(res.d.error || "Save failed");
-                guide = res.d.guide;
-                var fd = new FormData();
-                fd.append("image", file);
-                fd.append("stepIndex", String(stepIndex));
-                return fetch("/api/guides/" + encodeURIComponent(slug) + "/image", { method: "POST", body: fd });
-              })
-              .then(function (r) { return r.json().then(function (d) { return { ok: r.ok, d: d }; }); })
-              .then(function (res) {
-                if (!res.ok) throw new Error(res.d.error || "Upload failed");
-                guide = res.d.guide;
+            backend.uploadImage(file, stepIndex)
+              .then(function () {
                 fillForm();
-                showStatus("Screenshot updated.");
+                showStatus(backend.savedMessage("Screenshot updated."));
               })
               .catch(function (err) { showStatus(err.message, true); });
           }
@@ -209,11 +206,162 @@
         document.getElementById("section").value = guide.section || "";
         document.getElementById("subsection").value = guide.subsection || "";
         document.getElementById("crumb").textContent = [guide.section, guide.subsection].filter(Boolean).join(" / ");
-        document.getElementById("view-link").href = "/guides/" + slug + ".html";
-        document.getElementById("back-link").href = "/guides/" + slug + ".html";
+        document.getElementById("view-link").href = "guides/" + slug + ".html";
+        document.getElementById("back-link").href = "guides/" + slug + ".html";
         renderBlocks();
         bindBlockEvents();
       }
+
+      /* ---------- local server backend ---------- */
+
+      function jsonResult(r) {
+        return r.json().then(function (d) { return { ok: r.ok, d: d }; });
+      }
+
+      var serverBackend = {
+        savedMessage: function (msg) { return msg + " Guide pages rebuilt."; },
+        load: function () {
+          return fetch("/api/guides/" + encodeURIComponent(slug)).then(jsonResult).then(function (res) {
+            if (!res.ok) throw new Error(res.d.error || "Guide not found");
+            return res.d;
+          });
+        },
+        save: function () {
+          return fetch("/api/guides/" + encodeURIComponent(slug), {
+            method: "PUT",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(guide)
+          }).then(jsonResult).then(function (res) {
+            if (!res.ok) throw new Error(res.d.error || "Save failed");
+            return res.d.guide;
+          });
+        },
+        uploadImage: function (file, stepIndex) {
+          return serverBackend.save().then(function (saved) {
+            guide = saved;
+            var fd = new FormData();
+            fd.append("image", file);
+            fd.append("stepIndex", String(stepIndex));
+            return fetch("/api/guides/" + encodeURIComponent(slug) + "/image", { method: "POST", body: fd })
+              .then(jsonResult)
+              .then(function (res) {
+                if (!res.ok) throw new Error(res.d.error || "Upload failed");
+                guide = res.d.guide;
+              });
+          });
+        },
+        signOut: function () {
+          fetch("/api/logout", { method: "POST" }).then(function () {
+            location.href = "login.html";
+          });
+        }
+      };
+
+      /* ---------- published site backend (access code + GitHub) ---------- */
+
+      // Mirrors the numbering and trimming the local server applies on save.
+      function normalized() {
+        var n = 0;
+        var blocks = (guide.blocks || []).map(function (b) {
+          var kind = KINDS.indexOf(b.kind) >= 0 ? b.kind : "step";
+          var out = { kind: kind, text: String(b.text || "").trim(), number: null };
+          if (kind === "step") {
+            out.number = ++n;
+            if (b.image && typeof b.image === "object") out.image = b.image;
+          }
+          return out;
+        });
+        if (!String(guide.title || "").trim()) throw new Error("Title is required");
+        if (!n) throw new Error("At least one step is required");
+        var out = {};
+        for (var k in guide) out[k] = guide[k];
+        out.title = String(guide.title).trim();
+        out.name = out.title;
+        out.description = String(guide.description || "").trim();
+        out.blocks = blocks;
+        out.updatedAt = new Date().toISOString();
+        out.updatedBy = "web editor";
+        return out;
+      }
+
+      function imageDimensions(file) {
+        return new Promise(function (resolve) {
+          var url = URL.createObjectURL(file);
+          var probe = new Image();
+          probe.onload = function () {
+            URL.revokeObjectURL(url);
+            resolve({ width: probe.naturalWidth, height: probe.naturalHeight });
+          };
+          probe.onerror = function () {
+            URL.revokeObjectURL(url);
+            resolve(null);
+          };
+          probe.src = url;
+        });
+      }
+
+      var staticBackend = {
+        savedMessage: function (msg) {
+          return msg + " The published pages rebuild in about a minute.";
+        },
+        load: function () {
+          return DPMEditor.readJson(session, contentFile).then(function (res) {
+            sha = res.sha;
+            return res.data;
+          });
+        },
+        save: function () {
+          var payload = normalized();
+          return DPMEditor.writeJson(
+            session,
+            contentFile,
+            payload,
+            "Edit " + slug + " from the web editor",
+            sha
+          ).then(function (res) {
+            sha = res.content && res.content.sha;
+            return payload;
+          });
+        },
+        uploadImage: function (file, stepIndex) {
+          var ext = IMAGE_TYPES[file.type];
+          if (!ext) return Promise.reject(new Error("Use a PNG, JPEG, WebP or GIF image."));
+          var name =
+            "step-" + String(stepIndex + 1).padStart(2, "0") + "-web-" + Date.now() + "." + ext;
+          var repoPath = "assets/guides/" + slug + "/" + name;
+          return Promise.all([DPMEditor.fileToBase64(file), imageDimensions(file)])
+            .then(function (both) {
+              return DPMEditor.write(
+                session,
+                repoPath,
+                both[0],
+                "Add screenshot for " + slug
+              ).then(function () { return both[1]; });
+            })
+            .then(function (dims) {
+              var seen = 0;
+              guide.blocks = (guide.blocks || []).map(function (b) {
+                if (b.kind !== "step" || seen++ !== stepIndex) return b;
+                var image = { file: repoPath, targets: [] };
+                if (dims) {
+                  image.width = dims.width;
+                  image.height = dims.height;
+                }
+                var copy = {};
+                for (var k in b) copy[k] = b[k];
+                copy.image = image;
+                return copy;
+              });
+              return staticBackend.save().then(function (saved) { guide = saved; });
+            });
+        },
+        signOut: function () {
+          DPMEditor.clearSession();
+          location.href = "login.html";
+        }
+      };
+
+      /* ---------- wiring ---------- */
 
       document.querySelector(".editor-add").addEventListener("click", function (e) {
         var btn = e.target.closest("[data-add]");
@@ -228,46 +376,54 @@
       document.getElementById("save-btn").addEventListener("click", function () {
         readFormIntoGuide();
         showStatus("Saving…");
-        fetch("/api/guides/" + encodeURIComponent(slug), {
-          method: "PUT",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(guide)
-        }).then(function (r) { return r.json().then(function (d) { return { ok: r.ok, d: d }; }); })
-          .then(function (res) {
-            if (!res.ok) throw new Error(res.d.error || "Save failed");
-            guide = res.d.guide;
+        Promise.resolve()
+          .then(function () { return backend.save(); })
+          .then(function (saved) {
+            guide = saved;
             fillForm();
-            showStatus("Saved. Guide pages rebuilt.");
+            showStatus(backend.savedMessage("Saved."));
           })
           .catch(function (err) { showStatus(err.message, true); });
       });
 
       document.getElementById("logout-btn").addEventListener("click", function () {
-        fetch("/api/logout", { method: "POST" }).then(function () {
-          location.href = "/login.html";
-        });
+        backend.signOut();
       });
 
-      fetch("/api/me").then(function (r) { return r.json(); }).then(function (me) {
-        if (!me.authenticated) {
-          location.replace("/login.html?next=" + encodeURIComponent(location.pathname));
-          return null;
-        }
-        document.getElementById("editor-user").textContent = me.user.email;
-        return fetch("/api/guides/" + encodeURIComponent(slug));
-      }).then(function (r) {
-        if (!r) return;
-        return r.json().then(function (d) { return { ok: r.ok, d: d }; });
-      }).then(function (res) {
-        if (!res) return;
-        if (!res.ok) throw new Error(res.d.error || "Guide not found");
-        guide = res.d;
-        fillForm();
-        loading.hidden = true;
-        editor.hidden = false;
-      }).catch(function (err) {
-        loading.textContent = err.message || "Failed to load editor";
-      });
+      function start(mode, label) {
+        backend = mode;
+        document.getElementById("editor-user").textContent = label;
+        backend.load()
+          .then(function (data) {
+            guide = data;
+            fillForm();
+            loading.hidden = true;
+            editor.hidden = false;
+          })
+          .catch(function (err) {
+            loading.textContent = err.message || "Failed to load editor";
+          });
+      }
+
+      function goToLogin() {
+        location.replace("login.html?next=" + encodeURIComponent("edit.html?guide=" + slug));
+      }
+
+      fetch("/api/me")
+        .then(function (r) {
+          var type = r.headers.get("content-type") || "";
+          if (!r.ok || type.indexOf("application/json") === -1) throw new Error("no api");
+          return r.json();
+        })
+        .then(function (me) {
+          if (!me.authenticated) return goToLogin();
+          start(serverBackend, me.user.email);
+        })
+        .catch(function () {
+          session = DPMEditor.getSession();
+          if (!session) return goToLogin();
+          start(staticBackend, "Signed in with access code");
+        });
     })();
   </script>
 </body>

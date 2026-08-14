@@ -7,10 +7,11 @@ import re
 import shutil
 from pathlib import Path
 
-ROOT = Path(r"C:\Users\James\Documents\Ampler-GMDM-Guide-PDFs")
+ROOT = Path(__file__).resolve().parent
 PDF_ROOT = ROOT / "pdfs"
 CONTENT_DIR = ROOT / "guide-content"
 GUIDE_DIR = ROOT / "guides"
+DATA_DIR = ROOT / "data"
 TEMP = Path.home() / "AppData/Local/Temp"
 ASSET_SRC = Path(
     r"C:\Users\James\.cursor\projects\c-Users-James-Documents-Ampler-GMDM-Guide-PDFs\assets"
@@ -63,7 +64,11 @@ def texts(node, out=None):
 
 
 def load_next_data(name: str) -> dict:
-    return json.loads((TEMP / name).read_text(encoding="utf-8-sig"))
+    """Prefer the copy committed to the repo so the build also runs in CI."""
+    for candidate in (DATA_DIR / name, TEMP / name):
+        if candidate.exists():
+            return json.loads(candidate.read_text(encoding="utf-8-sig"))
+    raise FileNotFoundError(f"Missing source data: {name}")
 
 
 def doc_index(data: dict) -> dict:
@@ -1292,6 +1297,7 @@ a { color: var(--navy); }
 .auth-card .btn { width: 100%; text-align: center; margin-top: 8px; border: 0; cursor: pointer; }
 .auth-error { color: var(--red); font-size: 0.88rem; margin: 0 0 8px; }
 .auth-back { text-align: center; margin: 16px 0 0; font-size: 0.9rem; }
+.auth-hint { margin: 12px 0 0; font-size: 0.85rem; color: var(--muted); text-align: center; }
 .auth-static { font-size: 0.92rem; line-height: 1.55; color: var(--muted); }
 .auth-static p { margin: 0 0 10px; }
 .auth-static strong { color: var(--ink); }
@@ -1469,6 +1475,9 @@ JS = """(function () {
     return location.pathname.indexOf('/guides/') !== -1 ? '../' : '';
   }
 
+  var SESSION_KEY = 'dpmEditorSession';
+  var staticMode = false;
+
   function renderAuth(me) {
     var prefix = rootPrefix();
     document.querySelectorAll('[data-auth-slot]').forEach(function (slot) {
@@ -1480,7 +1489,7 @@ JS = """(function () {
       var slug = slot.getAttribute('data-edit-slug');
       var bits = [];
       if (slug) {
-        bits.push('<a class="btn btn-edit" href="' + prefix + 'edit/' + encodeURIComponent(slug) + '">Edit guide</a>');
+        bits.push('<a class="btn btn-edit" href="' + prefix + 'edit.html?guide=' + encodeURIComponent(slug) + '">Edit guide</a>');
       }
       bits.push('<span class="editor-user">' + (me.user.email || 'Editor') + '</span>');
       bits.push('<button type="button" class="nav-link" data-logout>Sign out</button>');
@@ -1496,6 +1505,11 @@ JS = """(function () {
     var btn = e.target.closest('[data-logout]');
     if (!btn) return;
     e.preventDefault();
+    if (staticMode) {
+      try { sessionStorage.removeItem(SESSION_KEY); } catch (err) {}
+      location.reload();
+      return;
+    }
     fetch('/api/logout', { method: 'POST' }).then(function () {
       location.reload();
     }).catch(function () {
@@ -1503,7 +1517,23 @@ JS = """(function () {
     });
   });
 
-  // The published copy is static, so sign-in stays hidden unless the API answers.
+  // On the published copy there is no API; editing is unlocked with an access code.
+  function renderStaticAuth() {
+    staticMode = true;
+    document.body.setAttribute('data-static-site', 'true');
+    var unlocked = false;
+    try { unlocked = !!sessionStorage.getItem(SESSION_KEY); } catch (err) {}
+    if (unlocked) {
+      renderAuth({ authenticated: true, user: { email: 'Signed in with access code' } });
+      return;
+    }
+    fetch(rootPrefix() + 'assets/editor-key.json', { cache: 'no-store' })
+      .then(function (r) {
+        if (r.ok) renderAuth({ authenticated: false });
+      })
+      .catch(function () {});
+  }
+
   fetch('/api/me')
     .then(function (r) {
       var type = r.headers.get('content-type') || '';
@@ -1511,9 +1541,7 @@ JS = """(function () {
       return r.json();
     })
     .then(renderAuth)
-    .catch(function () {
-      document.body.setAttribute('data-static-site', 'true');
-    });
+    .catch(renderStaticAuth);
 })();
 """
 
@@ -1572,8 +1600,10 @@ def main():
     groups = build_groups()
     assets = ROOT / "assets"
     assets.mkdir(exist_ok=True)
-    shutil.copyfile(LOGO_SRC, assets / "dpm-lockup.png")
-    shutil.copyfile(BG_SRC, assets / "dossani-paradise-bg.png")
+    # Originals live outside the repo; in CI the committed copies are already in place.
+    for src, dest in ((LOGO_SRC, "dpm-lockup.png"), (BG_SRC, "dossani-paradise-bg.png")):
+        if src.exists():
+            shutil.copyfile(src, assets / dest)
     (assets / "styles.css").write_text(CSS, encoding="utf-8")
     (assets / "site.js").write_text(JS, encoding="utf-8")
 

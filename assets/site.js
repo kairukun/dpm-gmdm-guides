@@ -42,6 +42,9 @@
     return location.pathname.indexOf('/guides/') !== -1 ? '../' : '';
   }
 
+  var SESSION_KEY = 'dpmEditorSession';
+  var staticMode = false;
+
   function renderAuth(me) {
     var prefix = rootPrefix();
     document.querySelectorAll('[data-auth-slot]').forEach(function (slot) {
@@ -53,7 +56,7 @@
       var slug = slot.getAttribute('data-edit-slug');
       var bits = [];
       if (slug) {
-        bits.push('<a class="btn btn-edit" href="' + prefix + 'edit/' + encodeURIComponent(slug) + '">Edit guide</a>');
+        bits.push('<a class="btn btn-edit" href="' + prefix + 'edit.html?guide=' + encodeURIComponent(slug) + '">Edit guide</a>');
       }
       bits.push('<span class="editor-user">' + (me.user.email || 'Editor') + '</span>');
       bits.push('<button type="button" class="nav-link" data-logout>Sign out</button>');
@@ -69,6 +72,11 @@
     var btn = e.target.closest('[data-logout]');
     if (!btn) return;
     e.preventDefault();
+    if (staticMode) {
+      try { sessionStorage.removeItem(SESSION_KEY); } catch (err) {}
+      location.reload();
+      return;
+    }
     fetch('/api/logout', { method: 'POST' }).then(function () {
       location.reload();
     }).catch(function () {
@@ -76,7 +84,23 @@
     });
   });
 
-  // The published copy is static, so sign-in stays hidden unless the API answers.
+  // On the published copy there is no API; editing is unlocked with an access code.
+  function renderStaticAuth() {
+    staticMode = true;
+    document.body.setAttribute('data-static-site', 'true');
+    var unlocked = false;
+    try { unlocked = !!sessionStorage.getItem(SESSION_KEY); } catch (err) {}
+    if (unlocked) {
+      renderAuth({ authenticated: true, user: { email: 'Signed in with access code' } });
+      return;
+    }
+    fetch(rootPrefix() + 'assets/editor-key.json', { cache: 'no-store' })
+      .then(function (r) {
+        if (r.ok) renderAuth({ authenticated: false });
+      })
+      .catch(function () {});
+  }
+
   fetch('/api/me')
     .then(function (r) {
       var type = r.headers.get('content-type') || '';
@@ -84,7 +108,5 @@
       return r.json();
     })
     .then(renderAuth)
-    .catch(function () {
-      document.body.setAttribute('data-static-site', 'true');
-    });
+    .catch(renderStaticAuth);
 })();
