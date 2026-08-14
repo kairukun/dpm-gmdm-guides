@@ -8,7 +8,7 @@
 (function () {
   var KEY_FILE = "assets/editor-key.json";
   var STORE_KEY = "dpmEditorSession";
-  var API = "https://api.github.com";
+  var API = window.DPM_GITHUB_API || "https://api.github.com";
 
   function bytesToBase64(bytes) {
     var chunk = 0x8000;
@@ -126,12 +126,20 @@
   }
 
   function verify(session) {
-    return request(session, "/repos/" + session.repo).then(function (repo) {
-      if (!repo.permissions || !repo.permissions.push) {
-        throw new Error("This access code can no longer save changes.");
+    return request(session, "/repos/" + session.repo).then(
+      function (repo) {
+        if (!repo.permissions || !repo.permissions.push) {
+          throw new Error("This access code can no longer save changes.");
+        }
+        return session;
+      },
+      function (err) {
+        if (err.status === 401 || err.status === 403) {
+          throw new Error("GitHub rejected this code's saved access. It needs to be set up again.");
+        }
+        throw err;
       }
-      return session;
-    });
+    );
   }
 
   function contentPath(session, repoPath) {

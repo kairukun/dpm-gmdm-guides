@@ -141,7 +141,11 @@ async function main() {
   console.log("Then sign in on the published site with the access code.\n");
 }
 
-main().catch((err) => {
-  console.error(`\n${err.message}\n`);
-  process.exit(1);
-});
+module.exports = { encrypt, ITERATIONS, OUT };
+
+if (require.main === module) {
+  main().catch((err) => {
+    console.error(`\n${err.message}\n`);
+    process.exit(1);
+  });
+}
