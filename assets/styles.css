@@ -718,7 +718,6 @@ a { color: var(--navy); }
 .auth-card .btn { width: 100%; text-align: center; margin-top: 8px; border: 0; cursor: pointer; }
 .auth-error { color: var(--red); font-size: 0.88rem; margin: 0 0 8px; }
 .auth-back { text-align: center; margin: 16px 0 0; font-size: 0.9rem; }
-.auth-hint { margin: 12px 0 0; font-size: 0.85rem; color: var(--muted); text-align: center; }
 .auth-static { font-size: 0.92rem; line-height: 1.55; color: var(--muted); }
 .auth-static p { margin: 0 0 10px; }
 .auth-static strong { color: var(--ink); }
