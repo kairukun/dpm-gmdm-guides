@@ -59,7 +59,10 @@
 
   <script>
     (function () {
-      var slug = location.pathname.replace(/^\/edit\//, "").replace(/\.html$/, "").replace(/\/$/, "");
+      // Accept /edit/<slug> and ?guide=<slug>, so older cached links still work.
+      var slug =
+        new URLSearchParams(location.search).get("guide") ||
+        location.pathname.replace(/^.*\/edit\//, "").replace(/\.html$/, "").replace(/\/$/, "");
       var guide = null;
       var blocksEl = document.getElementById("blocks");
       var statusEl = document.getElementById("status");
