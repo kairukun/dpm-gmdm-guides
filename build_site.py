@@ -332,7 +332,7 @@ def build_html(groups: list[dict]) -> str:
         <label class="search">
           <input type="search" id="guide-search" placeholder="Search guides..." autocomplete="off">
         </label>
-        <div class="auth-slot" data-auth-slot>
+        <div class="auth-slot" data-auth-slot hidden>
           <a class="nav-link" href="login.html">Editor sign in</a>
         </div>
       </div>
@@ -529,7 +529,7 @@ def guide_page_html(
     <div class="guide-bar-inner">
       <a class="guide-back" href="{up}index.html">All guides</a>
       <div class="guide-bar-right">
-        <div class="auth-slot" data-auth-slot data-edit-slug="{html.escape(guide["slug"])}">
+        <div class="auth-slot" data-auth-slot data-edit-slug="{html.escape(guide["slug"])}" hidden>
           <a class="nav-link" href="{up}login.html">Editor sign in</a>
         </div>
         <img class="guide-bar-logo" src="{up}assets/dpm-lockup.png" alt="Dossani Paradise Management">
@@ -584,6 +584,9 @@ CSS = """:root {
 }
 
 * { box-sizing: border-box; }
+
+/* Keeps [hidden] winning over layout rules like .auth-slot { display: flex }. */
+[hidden] { display: none !important; }
 
 body {
   margin: 0;
@@ -1289,6 +1292,17 @@ a { color: var(--navy); }
 .auth-card .btn { width: 100%; text-align: center; margin-top: 8px; border: 0; cursor: pointer; }
 .auth-error { color: var(--red); font-size: 0.88rem; margin: 0 0 8px; }
 .auth-back { text-align: center; margin: 16px 0 0; font-size: 0.9rem; }
+.auth-static { font-size: 0.92rem; line-height: 1.55; color: var(--muted); }
+.auth-static p { margin: 0 0 10px; }
+.auth-static strong { color: var(--ink); }
+.auth-steps { margin: 0 0 12px; padding-left: 20px; }
+.auth-steps li { margin-bottom: 4px; }
+.auth-static code {
+  background: rgba(15, 23, 42, 0.06);
+  border-radius: 4px;
+  padding: 1px 5px;
+  font-size: 0.88em;
+}
 
 .editor-body { background: var(--page); }
 .editor-wrap { max-width: 940px; margin: 0 auto; padding: 28px 24px 72px; }
@@ -1458,6 +1472,7 @@ JS = """(function () {
   function renderAuth(me) {
     var prefix = rootPrefix();
     document.querySelectorAll('[data-auth-slot]').forEach(function (slot) {
+      slot.hidden = false;
       if (!me.authenticated) {
         slot.innerHTML = '<a class="nav-link" href="' + prefix + 'login.html">Editor sign in</a>';
         return;
@@ -1488,11 +1503,16 @@ JS = """(function () {
     });
   });
 
+  // The published copy is static, so sign-in stays hidden unless the API answers.
   fetch('/api/me')
-    .then(function (r) { return r.json(); })
+    .then(function (r) {
+      var type = r.headers.get('content-type') || '';
+      if (!r.ok || type.indexOf('application/json') === -1) throw new Error('no api');
+      return r.json();
+    })
     .then(renderAuth)
     .catch(function () {
-      /* Static file open without the Node server — keep public view. */
+      document.body.setAttribute('data-static-site', 'true');
     });
 })();
 """

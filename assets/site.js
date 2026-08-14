@@ -45,6 +45,7 @@
   function renderAuth(me) {
     var prefix = rootPrefix();
     document.querySelectorAll('[data-auth-slot]').forEach(function (slot) {
+      slot.hidden = false;
       if (!me.authenticated) {
         slot.innerHTML = '<a class="nav-link" href="' + prefix + 'login.html">Editor sign in</a>';
         return;
@@ -75,10 +76,15 @@
     });
   });
 
+  // The published copy is static, so sign-in stays hidden unless the API answers.
   fetch('/api/me')
-    .then(function (r) { return r.json(); })
+    .then(function (r) {
+      var type = r.headers.get('content-type') || '';
+      if (!r.ok || type.indexOf('application/json') === -1) throw new Error('no api');
+      return r.json();
+    })
     .then(renderAuth)
     .catch(function () {
-      /* Static file open without the Node server — keep public view. */
+      document.body.setAttribute('data-static-site', 'true');
     });
 })();
