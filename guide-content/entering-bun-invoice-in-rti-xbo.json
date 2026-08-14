@@ -1,0 +1,246 @@
+{
+ "slug": "entering-bun-invoice-in-rti-xbo",
+ "name": "Entering Bun Invoice in RTI/XBO",
+ "title": "Entering Bun Invoice in RTI/XBO",
+ "description": "This guide provides step-by-step instructions on how to enter a bun invoice in RTI/XBO. It ensures accuracy by verifying the quantity and cost per tray on the invoice. Following these steps will help maintain accurate records and prevent errors in the accounting system.",
+ "section": "Office ScribeHows",
+ "subsection": "XBO/RTI (All guides are using XBO unless specified)",
+ "pdf": "pdfs/Office ScribeHows/XBO-RTI/Entering Bun Invoice in RTI-XBO.pdf",
+ "tags": [
+  "Xenial"
+ ],
+ "scrapedAt": "2026-08-14T14:56:18.279Z",
+ "blocks": [
+  {
+   "kind": "warning",
+   "text": "Always verify the number of buns brought by the bakery matches the invoice quantity."
+  },
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "Example Bakery Invoice from Flowers.",
+   "image": {
+    "aspectRatio": "824 / 1034",
+    "targets": [],
+    "file": "assets/guides/entering-bun-invoice-in-rti-xbo/step-01.jpeg",
+    "width": 824,
+    "height": 1034
+   }
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "Navigate to [https://xbo.xenial.com/login](https://xbo.xenial.com/login)",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "Click \"Log In\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:50.27866242038217%;top:41.350531107738995%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/entering-bun-invoice-in-rti-xbo/step-03.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "Click \"Order/Purchase/Transfer\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:25%;top:19.347496206373293%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/entering-bun-invoice-in-rti-xbo/step-04.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "Click \"Enter Other Purchases & Credits\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:6.568471337579618%;top:29.81790591805766%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/entering-bun-invoice-in-rti-xbo/step-05.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "Click \"Add Purchase\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:96.45700636942675%;top:13.960546282245827%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/entering-bun-invoice-in-rti-xbo/step-06.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "Select restaurant you are adding the invoice for. Restaurant accounts only show their restaurant.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:25.119426751592357%;top:13.353566009104703%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/entering-bun-invoice-in-rti-xbo/step-07.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 8,
+   "text": "Select the bakery you received the bread from.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:50.03980891719745%;top:12.746585735963581%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/entering-bun-invoice-in-rti-xbo/step-08.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 9,
+   "text": "Enter the invoice number.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:85.07165605095541%;top:12.670713201820941%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/entering-bun-invoice-in-rti-xbo/step-09.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 10,
+   "text": "Click \"Load Default Items\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:94.5859872611465%;top:29.969650986342945%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/entering-bun-invoice-in-rti-xbo/step-10.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 11,
+   "text": "Verify the \"Cost\" fields match the price per tray on the invoice.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:82.68312101910828%;top:37.86039453717754%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/entering-bun-invoice-in-rti-xbo/step-11.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 12,
+   "text": "Enter the quantity of buns you received from the bun invoice.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:76.87101910828027%;top:37.177541729893775%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/entering-bun-invoice-in-rti-xbo/step-12.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 13,
+   "text": "Enter the balance amount from the invoice.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:63.853503184713375%;top:16.99544764795144%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/entering-bun-invoice-in-rti-xbo/step-13.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "warning",
+   "text": "The \"Total\" field should match the invoice. If it does not match, the \"Cost\" or \"Quantity\" fields are not correct. Occassionally, the amount may be off by 1 cent, that is unavoidable."
+  },
+  {
+   "kind": "step",
+   "number": 14,
+   "text": "Click \"Save\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:95.82006369426752%;top:26.403641881638844%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/entering-bun-invoice-in-rti-xbo/step-14.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.241815Z"
+}

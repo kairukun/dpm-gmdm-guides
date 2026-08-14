@@ -1,0 +1,188 @@
+{
+ "slug": "generating-sos-reports-in-dmb-portal",
+ "name": "Generating SOS Reports in DMB Portal",
+ "title": "Generating SOS Reports in DMB Portal",
+ "description": "This guide provides step-by-step instructions on how to generate a Drive Thru Daypart Summary Report. By following these steps, users can easily navigate to the desired website, select the appropriate options, and view the report for a specific date range. The report includes important metrics such as MBT, PUT, and TTL, providing valuable insights into drive-thru performance. This guide is essential for anyone looking to analyze and optimize their drive-thru operations.",
+ "section": "Office ScribeHows",
+ "subsection": "DMB Portal",
+ "pdf": "pdfs/Office ScribeHows/DMB Portal/Generating SOS Reports in DMB Portal.pdf",
+ "tags": [
+  "Sicomasp"
+ ],
+ "scrapedAt": "2026-08-14T14:53:50.678Z",
+ "blocks": [
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "Navigate to [https://bkdmb.sicomasp.com/index.php](https://bkdmb.sicomasp.com/index.php)",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "Click \"Drive Thru Director\"",
+   "image": {
+    "aspectRatio": "2560 / 1305",
+    "targets": [
+     {
+      "style": "width:2.1484375%;height:4.21455938697318%;left:64.0234375%;top:1.0727969348659003%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/generating-sos-reports-in-dmb-portal/step-02.jpeg",
+    "width": 2560,
+    "height": 1305
+   }
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "Click \"Admin Options\"",
+   "image": {
+    "aspectRatio": "2560 / 1305",
+    "targets": [
+     {
+      "style": "width:2.1484375%;height:4.21455938697318%;left:2.578125%;top:16.091954022988507%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/generating-sos-reports-in-dmb-portal/step-03.jpeg",
+    "width": 2560,
+    "height": 1305
+   }
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "Click \"Drive Thru Daypart Summary Report\"",
+   "image": {
+    "aspectRatio": "2560 / 1305",
+    "targets": [
+     {
+      "style": "width:2.1484375%;height:4.21455938697318%;left:23.515625%;top:12.183908045977011%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/generating-sos-reports-in-dmb-portal/step-04.jpeg",
+    "width": 2560,
+    "height": 1305
+   }
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "Click here.",
+   "image": {
+    "aspectRatio": "2560 / 1305",
+    "targets": [
+     {
+      "style": "width:2.1484375%;height:4.21455938697318%;left:17.6171875%;top:14.099616858237548%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/generating-sos-reports-in-dmb-portal/step-05.jpeg",
+    "width": 2560,
+    "height": 1305
+   }
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "Click the restaurant you would like to view. Restaurant accounts will automatically have the restaurant selected.",
+   "image": {
+    "aspectRatio": "2560 / 1305",
+    "targets": [
+     {
+      "style": "width:2.1484375%;height:4.21455938697318%;left:10.7421875%;top:33.02681992337165%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/generating-sos-reports-in-dmb-portal/step-06.jpeg",
+    "width": 2560,
+    "height": 1305
+   }
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "Click \"Done\"",
+   "image": {
+    "aspectRatio": "2560 / 1305",
+    "targets": [
+     {
+      "style": "width:2.1484375%;height:4.21455938697318%;left:16.09375%;top:42.98850574712644%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/generating-sos-reports-in-dmb-portal/step-07.jpeg",
+    "width": 2560,
+    "height": 1305
+   }
+  },
+  {
+   "kind": "step",
+   "number": 8,
+   "text": "Click here.",
+   "image": {
+    "aspectRatio": "2560 / 1305",
+    "targets": [
+     {
+      "style": "width:2.1484375%;height:4.21455938697318%;left:30.117187499999996%;top:14.406130268199233%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/generating-sos-reports-in-dmb-portal/step-08.jpeg",
+    "width": 2560,
+    "height": 1305
+   }
+  },
+  {
+   "kind": "step",
+   "number": 9,
+   "text": "Select date range you would like to view. Click \"Done\"",
+   "image": {
+    "aspectRatio": "688 / 384",
+    "targets": [],
+    "file": "assets/guides/generating-sos-reports-in-dmb-portal/step-09.webp"
+   }
+  },
+  {
+   "kind": "tip",
+   "text": "You may also use the \"Past,\" \"Current,\" and \"Week\" options."
+  },
+  {
+   "kind": "step",
+   "number": 10,
+   "text": "Click \"Run Report\"",
+   "image": {
+    "aspectRatio": "2560 / 1305",
+    "targets": [
+     {
+      "style": "width:2.1484375%;height:4.21455938697318%;left:96.171875%;top:10.421455938697317%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/generating-sos-reports-in-dmb-portal/step-10.jpeg",
+    "width": 2560,
+    "height": 1305
+   }
+  },
+  {
+   "kind": "step",
+   "number": 11,
+   "text": "This will pull your SOS for the timeframe that you selected for the restaurants you selected.",
+   "image": {
+    "aspectRatio": "852 / 362",
+    "targets": [],
+    "file": "assets/guides/generating-sos-reports-in-dmb-portal/step-11.jpeg",
+    "width": 852,
+    "height": 362
+   }
+  },
+  {
+   "kind": "tip",
+   "text": "MBT: Menu Board Time PUT: Pick-Up Time TTL: Total Time"
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.244813Z"
+}

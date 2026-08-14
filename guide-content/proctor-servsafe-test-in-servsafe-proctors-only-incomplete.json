@@ -1,0 +1,405 @@
+{
+ "slug": "proctor-servsafe-test-in-servsafe-proctors-only-incomplete",
+ "name": "Proctor ServSafe Test in ServSafe (Proctors Only) (INCOMPLETE)",
+ "title": "Proctor ServSafe Test in ServSafe (Proctors Only) (INCOMPLETE)",
+ "description": "This guide provides step-by-step instructions on how to proctor the ServSafe test. It outlines the process of setting up the exam for the proctor and examinees, including logging in, scheduling the exam session, entering the proctor code, and accessing the exam. It is a useful resource for anyone who needs to administer the ServSafe test and ensure a smooth testing experience.",
+ "section": "Office ScribeHows",
+ "subsection": "ServSafe",
+ "pdf": "pdfs/Office ScribeHows/ServSafe/Proctor ServSafe Test in ServSafe (Proctors Only) (INCOMPLETE).pdf",
+ "tags": [
+  "Servsafe"
+ ],
+ "scrapedAt": "2026-08-14T14:55:14.827Z",
+ "blocks": [
+  {
+   "kind": "section",
+   "text": "Setting Up Exam for Proctor"
+  },
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "Navigate to [https://www.servsafe.com/](https://www.servsafe.com/)",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "Click \"LOGIN / CREATE ACCOUNT\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:71.37738853503186%;top:8.649468892261002%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/proctor-servsafe-test-in-servsafe-proctors-only-incomplete/step-02.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "Log in to the proctor account.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:43.23248407643312%;top:45.295902883156295%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/proctor-servsafe-test-in-servsafe-proctors-only-incomplete/step-03.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "Click \"INSTRUCTORS/PROCTORS\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:53.10509554140127%;top:12.51896813353566%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/proctor-servsafe-test-in-servsafe-proctors-only-incomplete/step-04.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "Click \"Exam Management\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:14.171974522292993%;top:20.637329286798177%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/proctor-servsafe-test-in-servsafe-proctors-only-incomplete/step-05.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "Click \"SCHEDULE EXAM\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:66.60031847133759%;top:53.110773899848255%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/proctor-servsafe-test-in-servsafe-proctors-only-incomplete/step-06.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "Click \"I ACCEPT\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:40.167197452229296%;top:50.15174506828528%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/proctor-servsafe-test-in-servsafe-proctors-only-incomplete/step-07.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 8,
+   "text": "Click \"ONLINE EXAM\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:28.343949044585987%;top:50.07587253414264%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/proctor-servsafe-test-in-servsafe-proctors-only-incomplete/step-08.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 9,
+   "text": "Click this dropdown.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:40.047770700636946%;top:52.27617602427921%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/proctor-servsafe-test-in-servsafe-proctors-only-incomplete/step-09.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 10,
+   "text": "Click \"CONTINUE\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:38.53503184713376%;top:57.8907435508346%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/proctor-servsafe-test-in-servsafe-proctors-only-incomplete/step-10.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 11,
+   "text": "Select the \"Organization\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:43.82961783439491%;top:56.373292867981796%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/proctor-servsafe-test-in-servsafe-proctors-only-incomplete/step-11.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 12,
+   "text": "Enter how many people are being proctored.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:42.23726114649681%;top:57.96661608497724%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/proctor-servsafe-test-in-servsafe-proctors-only-incomplete/step-12.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 13,
+   "text": "Select the date of the exam.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:49.88057324840764%;top:45.220030349013655%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/proctor-servsafe-test-in-servsafe-proctors-only-incomplete/step-13.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 14,
+   "text": "Click \"SCHEDULE EXAM SESSION\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:67.51592356687898%;top:81.71471927162366%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/proctor-servsafe-test-in-servsafe-proctors-only-incomplete/step-14.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 15,
+   "text": "Your proctor code will be on this page. It will also be sent in email.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:45.06369426751593%;top:55.15933232169955%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/proctor-servsafe-test-in-servsafe-proctors-only-incomplete/step-15.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Setting Up Exam for Examinees"
+  },
+  {
+   "kind": "step",
+   "number": 16,
+   "text": "Navigate to [https://www.servsafe.com/](https://www.servsafe.com/)",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 17,
+   "text": "Click \"LOGIN / CREATE ACCOUNT\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:70.66082802547771%;top:8.19423368740516%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/proctor-servsafe-test-in-servsafe-proctors-only-incomplete/step-17.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 18,
+   "text": "Log in to the account taking the exam.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:44.5859872611465%;top:46.58573596358118%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/proctor-servsafe-test-in-servsafe-proctors-only-incomplete/step-18.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "tip",
+   "text": "You may have to create them an account."
+  },
+  {
+   "kind": "step",
+   "number": 19,
+   "text": "Click \"TAKE ONLINE EXAM\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:45.62101910828025%;top:71.77541729893778%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/proctor-servsafe-test-in-servsafe-proctors-only-incomplete/step-19.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 20,
+   "text": "Click this dropdown.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:42.99363057324841%;top:43.62670713201821%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/proctor-servsafe-test-in-servsafe-proctors-only-incomplete/step-20.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 21,
+   "text": "Click this dropdown.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:39.052547770700635%;top:69.19575113808801%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/proctor-servsafe-test-in-servsafe-proctors-only-incomplete/step-21.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 22,
+   "text": "Click \"I ACCEPT\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:39.171974522293%;top:58.04248861911988%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/proctor-servsafe-test-in-servsafe-proctors-only-incomplete/step-22.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 23,
+   "text": "Enter in the Exam Access Code.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:62.101910828025474%;top:64.03641881638846%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/proctor-servsafe-test-in-servsafe-proctors-only-incomplete/step-23.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "tip",
+   "text": "These codes are provided by Ops Support (ABE)."
+  },
+  {
+   "kind": "warning",
+   "text": "Steps following this are in progress."
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.254813Z"
+}

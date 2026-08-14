@@ -1,0 +1,190 @@
+{
+ "slug": "issuing-refund",
+ "name": "Issuing Refund",
+ "title": "Issuing Refund",
+ "description": "This guide provides a straightforward process for issuing refunds, ensuring that users can efficiently handle transactions while maintaining customer satisfaction. By following these steps, users can minimize errors and streamline their refund procedures, making it easier to manage customer returns. It's an essential resource for anyone looking to enhance their point-of-sale operations and improve overall service quality.",
+ "section": "PAR POS Guides",
+ "subsection": null,
+ "pdf": "pdfs/PAR POS Guides/Issuing Refund.pdf",
+ "tags": [
+  "Partech"
+ ],
+ "scrapedAt": "2026-08-14T14:52:38.227Z",
+ "blocks": [
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "Click \"Enter POS\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:35.18005540166205%;top:47.40061162079511%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/issuing-refund/step-01.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "Click \"Functions\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:86.14958448753463%;top:7.033639143730887%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/issuing-refund/step-02.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "Click \"Manager Functions\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:53.8781163434903%;top:14.449541284403669%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/issuing-refund/step-03.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "Slide card or enter PIN",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:55.81717451523546%;top:73.54740061162079%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/issuing-refund/step-04.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "Click \"Refund\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:87.90397045244691%;top:32.645259938837924%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/issuing-refund/step-05.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "Slide card or enter PIN",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:55.67867036011081%;top:74.08256880733946%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/issuing-refund/step-06.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "Select reason for refund.",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:45.93721144967682%;top:44.87767584097859%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/issuing-refund/step-07.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 8,
+   "text": "Ring up the items being refunded.",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:50.55401662049861%;top:16.896024464831804%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/issuing-refund/step-08.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 9,
+   "text": "Click \"Pay\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:22.206832871652814%;top:90.97859327217125%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/issuing-refund/step-09.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 10,
+   "text": "Select Payment Type.",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:36.51892890120037%;top:45.25993883792049%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/issuing-refund/step-10.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "warning",
+   "text": "Refunds should be done using the same payment method for the original transaction."
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.246816Z"
+}

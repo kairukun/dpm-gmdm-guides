@@ -1,0 +1,272 @@
+{
+ "slug": "managing-count-sheets-in-rti-xbo",
+ "name": "Managing Count Sheets in RTI/XBO",
+ "title": "Managing Count Sheets in RTI/XBO",
+ "description": "This guide provides step-by-step instructions on how to manage count sheets in RTI/XBO, a restaurant management system. It covers how to add/remove items from weekly and daily counts, and sort forms. If you need to effectively manage count sheets in RTI/XBO, this guide is a valuable resource.",
+ "section": "Office ScribeHows",
+ "subsection": "XBO/RTI (All guides are using XBO unless specified)",
+ "pdf": "pdfs/Office ScribeHows/XBO-RTI/Managing Count Sheets in RTI-XBO.pdf",
+ "tags": [
+  "Xenial"
+ ],
+ "scrapedAt": "2026-08-14T14:56:51.121Z",
+ "blocks": [
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "Navigate to [https://xbo.xenial.com/login](https://xbo.xenial.com/login)",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "Click \"Log In\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:49.601910828025474%;top:39.60546282245827%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/managing-count-sheets-in-rti-xbo/step-02.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "Click here.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:35.35031847133758%;top:26.934749620637326%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/managing-count-sheets-in-rti-xbo/step-03.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "Select the store you are adjusting. Restaurant accounts will only see their restaurant.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:31.130573248407643%;top:11.836115326251896%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/managing-count-sheets-in-rti-xbo/step-04.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Add/Remove- Weekly Counts"
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "Search the item you are adding or removing.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:15.684713375796179%;top:29.81790591805766%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/managing-count-sheets-in-rti-xbo/step-05.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "Click the box for UOM you want counted in the area you want it on the count sheet form. Uncheck the box to remove the item.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:27.34872611464968%;top:39.60546282245827%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/managing-count-sheets-in-rti-xbo/step-06.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "Click \"Save\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:97.093949044586%;top:20.637329286798177%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/managing-count-sheets-in-rti-xbo/step-07.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Add/Remove- Daily Counts"
+  },
+  {
+   "kind": "step",
+   "number": 8,
+   "text": "Click \"Additional Daily Items\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:84.79299363057325%;top:23.975720789074355%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/managing-count-sheets-in-rti-xbo/step-08.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 9,
+   "text": "Search the item you are adding or removing.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:16.162420382165603%;top:28.7556904400607%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/managing-count-sheets-in-rti-xbo/step-09.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 10,
+   "text": "Click the switch for the item you want counted. Uncheck the box to remove the item.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:29.020700636942674%;top:38.998482549317146%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/managing-count-sheets-in-rti-xbo/step-10.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 11,
+   "text": "Click \"Save\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:95.78025477707006%;top:21.01669195751138%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/managing-count-sheets-in-rti-xbo/step-11.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Sorting Forms"
+  },
+  {
+   "kind": "step",
+   "number": 12,
+   "text": "Click \"List Order\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:55.13535031847133%;top:24.73444613050076%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/managing-count-sheets-in-rti-xbo/step-12.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 13,
+   "text": "Click the \"Locations\" field to switch between sections of the sheet.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:94.30732484076432%;top:29.362670713201823%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/managing-count-sheets-in-rti-xbo/step-13.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 14,
+   "text": "Drag the items in the order you want them displayed.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:13.01751592356688%;top:37.101669195751136%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/managing-count-sheets-in-rti-xbo/step-14.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 15,
+   "text": "Click \"Save\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:95.34235668789809%;top:14.33990895295903%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/managing-count-sheets-in-rti-xbo/step-15.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.249814Z"
+}

@@ -1,0 +1,317 @@
+{
+ "slug": "assigning-deactivating-drawers",
+ "name": "Assigning/Deactivating Drawers",
+ "title": "Assigning/Deactivating Drawers",
+ "description": "This guide provides essential instructions for managing drawers in a point-of-sale system, including assigning, reassigning, unassigning, and deactivating drawers. It ensures that only clocked-in employees can be assigned to a drawer, maintaining security and accountability. By following this guide, users can efficiently manage cash drawers, ensuring proper cash handling and compliance with policies. It's a valuable resource for anyone looking to streamline their cash management processes.",
+ "section": "PAR POS Guides",
+ "subsection": null,
+ "pdf": "pdfs/PAR POS Guides/Assigning Drawers.pdf",
+ "tags": [
+  "Partech"
+ ],
+ "scrapedAt": "2026-08-14T14:52:30.920Z",
+ "blocks": [
+  {
+   "kind": "section",
+   "text": "Accessing Manage Drawers"
+  },
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "Click \"Enter POS\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:39.4275161588181%;top:45.718654434250766%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/assigning-deactivating-drawers/step-01.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "Click \"Functions\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:84.99538319482917%;top:7.721712538226299%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/assigning-deactivating-drawers/step-02.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "Click \"Manager Functions\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:57.710064635272396%;top:14.067278287461773%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/assigning-deactivating-drawers/step-03.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "Slide Card or Enter PIN",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:48.938134810710984%;top:63.53211009174312%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/assigning-deactivating-drawers/step-04.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "Click \"Manage Drawers\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:60.71098799630656%;top:45.33639143730887%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/assigning-deactivating-drawers/step-05.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Assign Drawer"
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "Click drawer you want to assign.",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:12.880886426592797%;top:23.92966360856269%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/assigning-deactivating-drawers/step-06.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "Click \"Assign Drawer\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:8.21791320406279%;top:94.26605504587155%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/assigning-deactivating-drawers/step-07.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 8,
+   "text": "Select Employee.",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:39.28901200369344%;top:44.64831804281346%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/assigning-deactivating-drawers/step-08.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "warning",
+   "text": "Only clocked in employees can be assigned to a drawer."
+  },
+  {
+   "kind": "section",
+   "text": "Reassign Drawer"
+  },
+  {
+   "kind": "warning",
+   "text": "Reassigning a drawer does not follow cash policies. This should only be done if a drawer has been incorrectly assigned."
+  },
+  {
+   "kind": "step",
+   "number": 9,
+   "text": "Click drawer you want to assign.",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:12.880886426592797%;top:23.92966360856269%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/assigning-deactivating-drawers/step-09.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 10,
+   "text": "Click \"Reassign Drawer\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:21.6528162511542%;top:93.19571865443424%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/assigning-deactivating-drawers/step-10.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 11,
+   "text": "Select Employee.",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:39.28901200369344%;top:44.64831804281346%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/assigning-deactivating-drawers/step-11.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "warning",
+   "text": "Only clocked in employees can be assigned to a drawer."
+  },
+  {
+   "kind": "section",
+   "text": "Unassign Drawer"
+  },
+  {
+   "kind": "tip",
+   "text": "Unassigning drawer should be used if moving drawer to another location."
+  },
+  {
+   "kind": "step",
+   "number": 12,
+   "text": "Click the drawer you want to unassign.",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:12.880886426592797%;top:23.92966360856269%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/assigning-deactivating-drawers/step-12.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 13,
+   "text": "Click \"Unassign Drawer\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:44.18282548476454%;top:93.42507645259938%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/assigning-deactivating-drawers/step-13.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Deactivate Drawer"
+  },
+  {
+   "kind": "step",
+   "number": 14,
+   "text": "Click drawer you want to deactivate.",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:12.880886426592797%;top:23.92966360856269%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/assigning-deactivating-drawers/step-14.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 15,
+   "text": "Click \"Drawer Checkout\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:57.10987996306556%;top:92.81345565749236%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/assigning-deactivating-drawers/step-15.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Count Drawer/Deposit"
+  },
+  {
+   "kind": "step",
+   "number": 16,
+   "text": "Navigate to: [Drawers/Deposits](drawers-deposits-in-rti-xbo.html) to learn how to do Drawers/Deposits",
+   "image": null
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.233813Z"
+}

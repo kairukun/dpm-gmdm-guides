@@ -1,0 +1,334 @@
+{
+ "slug": "submitting-product-quality-credits-in-gateway",
+ "name": "Submitting Product Quality Credits in Gateway",
+ "title": "Submitting Product Quality Credits in Gateway",
+ "description": "This guide provides step-by-step instructions on how to access the Incident Reporting Form on the BK Gateway site. It is useful for anyone who needs to report an incident related to Reinhart, PFG, Lineage, or any bakeries. The guide explains how to navigate to the form, sign in, select the relevant restaurant, fill out the necessary information, and upload any required pictures. It concludes with a final review and submission of the incident form.",
+ "section": "Office ScribeHows",
+ "subsection": "Gateway",
+ "pdf": "pdfs/Office ScribeHows/Gateway/Submitting Product Quality Credits in Gateway.pdf",
+ "tags": [
+  "Compliancemetrix",
+  "Okta",
+  "Whopper"
+ ],
+ "scrapedAt": "2026-08-14T14:54:02.570Z",
+ "blocks": [
+  {
+   "kind": "tip",
+   "text": "This is for credits regarding Reinhart, PFG, Lineage, and all bakeries."
+  },
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "Navigate to [https://rbi.okta.com/login/login.htm](https://rbi.okta.com/login/login.htm)",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "Sign in.",
+   "image": {
+    "aspectRatio": "2122 / 1318",
+    "targets": [
+     {
+      "style": "width:2.591894439208294%;height:4.17298937784522%;left:53.440150801131004%;top:45.59939301972686%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/submitting-product-quality-credits-in-gateway/step-02.jpeg",
+    "width": 2122,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "Click \"BK Gateway\"",
+   "image": {
+    "aspectRatio": "2122 / 1318",
+    "targets": [
+     {
+      "style": "width:2.591894439208294%;height:4.17298937784522%;left:43.73232799245994%;top:20.713201820940817%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/submitting-product-quality-credits-in-gateway/step-03.jpeg",
+    "width": 2122,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "Click \"Apps\"",
+   "image": {
+    "aspectRatio": "2122 / 1318",
+    "targets": [
+     {
+      "style": "width:2.591894439208294%;height:4.17298937784522%;left:53.911404335532524%;top:10.015174506828528%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/submitting-product-quality-credits-in-gateway/step-04.jpeg",
+    "width": 2122,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "Click \"Incident Reporting Form\"",
+   "image": {
+    "aspectRatio": "2122 / 1318",
+    "targets": [
+     {
+      "style": "width:2.591894439208294%;height:4.17298937784522%;left:54.759660697455224%;top:47.268588770864945%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/submitting-product-quality-credits-in-gateway/step-05.jpeg",
+    "width": 2122,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "Search your Restaurant.",
+   "image": {
+    "aspectRatio": "2122 / 1318",
+    "targets": [
+     {
+      "style": "width:2.591894439208294%;height:4.17298937784522%;left:33.64750235626767%;top:25.948406676783005%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/submitting-product-quality-credits-in-gateway/step-06.jpeg",
+    "width": 2122,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "Click your restaurant.",
+   "image": {
+    "aspectRatio": "2122 / 1318",
+    "targets": [
+     {
+      "style": "width:2.591894439208294%;height:4.17298937784522%;left:27.191328934967014%;top:20.561456752655538%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/submitting-product-quality-credits-in-gateway/step-07.jpeg",
+    "width": 2122,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 8,
+   "text": "Select the issue related to the incident.",
+   "image": {
+    "aspectRatio": "2122 / 1318",
+    "targets": [
+     {
+      "style": "width:2.591894439208294%;height:4.17298937784522%;left:49.811498586239395%;top:53.86949924127465%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/submitting-product-quality-credits-in-gateway/step-08.jpeg",
+    "width": 2122,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 9,
+   "text": "Fill out everything with an **\\*** under \"Your Information.\"",
+   "image": {
+    "aspectRatio": "2122 / 1318",
+    "targets": [
+     {
+      "style": "width:2.591894439208294%;height:4.17298937784522%;left:13.760603204524033%;top:54.24886191198786%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/submitting-product-quality-credits-in-gateway/step-09.jpeg",
+    "width": 2122,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 10,
+   "text": "Fill out everything with an **\\*** under \"Product Information.\" If the incident is regarding a bakery, click \"I am unable to find who delivered product.\"",
+   "image": {
+    "aspectRatio": "2122 / 1318",
+    "targets": [
+     {
+      "style": "width:2.591894439208294%;height:4.17298937784522%;left:13.195098963242224%;top:47.116843702579665%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/submitting-product-quality-credits-in-gateway/step-10.jpeg",
+    "width": 2122,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 11,
+   "text": "Fill out everything with an **\\*** under \"Incident Information.\"",
+   "image": {
+    "aspectRatio": "2122 / 1318",
+    "targets": [
+     {
+      "style": "width:2.591894439208294%;height:4.17298937784522%;left:13.57210179076343%;top:58.952959028831565%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/submitting-product-quality-credits-in-gateway/step-11.jpeg",
+    "width": 2122,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 12,
+   "text": "Click \"REQUEST CREDIT\"",
+   "image": {
+    "aspectRatio": "2122 / 1318",
+    "targets": [
+     {
+      "style": "width:2.591894439208294%;height:4.17298937784522%;left:8.294062205466542%;top:65.47799696509864%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/submitting-product-quality-credits-in-gateway/step-12.jpeg",
+    "width": 2122,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 13,
+   "text": "Fill out everything with an **\\*** under \"Incident Detail.\"",
+   "image": {
+    "aspectRatio": "2122 / 1318",
+    "targets": [
+     {
+      "style": "width:2.591894439208294%;height:4.17298937784522%;left:3.6757775683317626%;top:71.47192716236722%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/submitting-product-quality-credits-in-gateway/step-13.jpeg",
+    "width": 2122,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 14,
+   "text": "Upload a picture under \"Affected Product Showing Issue\". Please describe the information of the picture.",
+   "image": {
+    "aspectRatio": "2122 / 1318",
+    "targets": [
+     {
+      "style": "width:2.591894439208294%;height:4.17298937784522%;left:10.08482563619227%;top:25.341426403641883%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/submitting-product-quality-credits-in-gateway/step-14.jpeg",
+    "width": 2122,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 15,
+   "text": "Upload a picture under \"Case Label/Graphics\". Please describe the information of the picture.",
+   "image": {
+    "aspectRatio": "2122 / 1318",
+    "targets": [
+     {
+      "style": "width:2.591894439208294%;height:4.17298937784522%;left:10.08482563619227%;top:60.54628224582701%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/submitting-product-quality-credits-in-gateway/step-15.jpeg",
+    "width": 2122,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 16,
+   "text": "Upload a picture under \"Product Information\". Please describe the information of the picture.",
+   "image": {
+    "aspectRatio": "2122 / 1318",
+    "targets": [
+     {
+      "style": "width:2.591894439208294%;height:4.17298937784522%;left:10.179076343072573%;top:58.573596358118365%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/submitting-product-quality-credits-in-gateway/step-16.jpeg",
+    "width": 2122,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 17,
+   "text": "Upload a picture under \"Distributor pick sticker/label\". Please describe the information of the picture.",
+   "image": {
+    "aspectRatio": "2122 / 1318",
+    "targets": [
+     {
+      "style": "width:2.591894439208294%;height:4.17298937784522%;left:10.037700282752121%;top:56.06980273141124%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/submitting-product-quality-credits-in-gateway/step-17.jpeg",
+    "width": 2122,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 18,
+   "text": "Review the \"Incident Summary\" to make sure it is correct.",
+   "image": {
+    "aspectRatio": "2122 / 1318",
+    "targets": [
+     {
+      "style": "width:2.591894439208294%;height:4.17298937784522%;left:2.2620169651272386%;top:85.35660091047042%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/submitting-product-quality-credits-in-gateway/step-18.jpeg",
+    "width": 2122,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 19,
+   "text": "Click \"Submit Incident Form\"",
+   "image": {
+    "aspectRatio": "2122 / 1318",
+    "targets": [
+     {
+      "style": "width:2.591894439208294%;height:4.17298937784522%;left:49.858623939679546%;top:98.25493171471928%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/submitting-product-quality-credits-in-gateway/step-19.jpeg",
+    "width": 2122,
+    "height": 1318
+   }
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.260813Z"
+}

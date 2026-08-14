@@ -1,0 +1,304 @@
+{
+ "slug": "duke-broiler-cleaning",
+ "name": "Duke Broiler Cleaning",
+ "title": "Duke Broiler Cleaning",
+ "description": "This guide provides a detailed step-by-step process for cleaning a Duke Broiler. It includes instructions for daily cleaning as well as how to disassemble and clean various parts of the broiler. Following this guide will ensure that the broiler is properly cleaned and maintained, resulting in better performance and longevity.",
+ "section": "Equipment ScribeHows",
+ "subsection": null,
+ "pdf": "pdfs/Equipment ScribeHows/Duke Broiler Cleaning.pdf",
+ "tags": [
+  "Duke"
+ ],
+ "scrapedAt": "2026-08-14T14:57:30.624Z",
+ "blocks": [
+  {
+   "kind": "warning",
+   "text": "Do not immediately put broiler parts in water as it may cause them to warp."
+  },
+  {
+   "kind": "section",
+   "text": "Daily Cleaning"
+  },
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "Slide out Loader.",
+   "image": {
+    "aspectRatio": "316 / 214",
+    "targets": [],
+    "file": "assets/guides/duke-broiler-cleaning/step-01.jpeg",
+    "width": 316,
+    "height": 214
+   }
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "Dislodge and pull out Loader Tray.",
+   "image": {
+    "aspectRatio": "324 / 211",
+    "targets": [],
+    "file": "assets/guides/duke-broiler-cleaning/step-02.jpeg",
+    "width": 324,
+    "height": 211
+   }
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "Slide out Main Grease Pan.",
+   "image": {
+    "aspectRatio": "319 / 209",
+    "targets": [],
+    "file": "assets/guides/duke-broiler-cleaning/step-03.jpeg",
+    "width": 319,
+    "height": 209
+   }
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "Slide out \"V\" Grease Pan.",
+   "image": {
+    "aspectRatio": "311 / 215",
+    "targets": [],
+    "file": "assets/guides/duke-broiler-cleaning/step-04.jpeg",
+    "width": 311,
+    "height": 215
+   }
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "Slide up PHU Pan Shelf.",
+   "image": {
+    "aspectRatio": "321 / 213",
+    "targets": [],
+    "file": "assets/guides/duke-broiler-cleaning/step-05.jpeg",
+    "width": 321,
+    "height": 213
+   }
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "Slide up and out Discharge Hood.",
+   "image": {
+    "aspectRatio": "315 / 216",
+    "targets": [],
+    "file": "assets/guides/duke-broiler-cleaning/step-06.jpeg",
+    "width": 315,
+    "height": 216
+   }
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "Slide up and out Discharge Pan Holder.",
+   "image": {
+    "aspectRatio": "319 / 212",
+    "targets": [],
+    "file": "assets/guides/duke-broiler-cleaning/step-07.jpeg",
+    "width": 319,
+    "height": 212
+   }
+  },
+  {
+   "kind": "step",
+   "number": 8,
+   "text": "Tilt up, un-hook and pull forward Discharge Grease Pan.",
+   "image": {
+    "aspectRatio": "318 / 212",
+    "targets": [],
+    "file": "assets/guides/duke-broiler-cleaning/step-08.jpeg",
+    "width": 318,
+    "height": 212
+   }
+  },
+  {
+   "kind": "step",
+   "number": 9,
+   "text": "Tilt up, un-hook and pull forward Discharge Chute.",
+   "image": {
+    "aspectRatio": "315 / 210",
+    "targets": [],
+    "file": "assets/guides/duke-broiler-cleaning/step-09.jpeg",
+    "width": 315,
+    "height": 210
+   }
+  },
+  {
+   "kind": "step",
+   "number": 10,
+   "text": "Tilt up, un-hook and pull forward Side Panel.",
+   "image": {
+    "aspectRatio": "313 / 207",
+    "targets": [],
+    "file": "assets/guides/duke-broiler-cleaning/step-10.jpeg",
+    "width": 313,
+    "height": 207
+   }
+  },
+  {
+   "kind": "step",
+   "number": 11,
+   "text": "Pull forward, up and out Ash Scraper.",
+   "image": {
+    "aspectRatio": "315 / 215",
+    "targets": [],
+    "file": "assets/guides/duke-broiler-cleaning/step-11.jpeg",
+    "width": 315,
+    "height": 215
+   }
+  },
+  {
+   "kind": "step",
+   "number": 12,
+   "text": "Spray degreaser and wipe Interior Side Compartment.",
+   "image": {
+    "aspectRatio": "316 / 215",
+    "targets": [],
+    "file": "assets/guides/duke-broiler-cleaning/step-12.jpeg",
+    "width": 316,
+    "height": 215
+   }
+  },
+  {
+   "kind": "step",
+   "number": 13,
+   "text": "Lift up and away Body Front & Back Panels.",
+   "image": {
+    "aspectRatio": "315 / 209",
+    "targets": [],
+    "file": "assets/guides/duke-broiler-cleaning/step-13.jpeg",
+    "width": 315,
+    "height": 209
+   }
+  },
+  {
+   "kind": "step",
+   "number": 14,
+   "text": "Tilt in, un-hook and pull forward Loader Door.",
+   "image": {
+    "aspectRatio": "318 / 211",
+    "targets": [],
+    "file": "assets/guides/duke-broiler-cleaning/step-14.jpeg",
+    "width": 318,
+    "height": 211
+   }
+  },
+  {
+   "kind": "step",
+   "number": 15,
+   "text": "Unlock pin, angle forward and out Loader Ramp.",
+   "image": {
+    "aspectRatio": "313 / 212",
+    "targets": [],
+    "file": "assets/guides/duke-broiler-cleaning/step-15.jpeg",
+    "width": 313,
+    "height": 212
+   }
+  },
+  {
+   "kind": "step",
+   "number": 16,
+   "text": "Dislodge, shift down and out Flame Arrestor.",
+   "image": {
+    "aspectRatio": "313 / 216",
+    "targets": [],
+    "file": "assets/guides/duke-broiler-cleaning/step-16.jpeg",
+    "width": 313,
+    "height": 216
+   }
+  },
+  {
+   "kind": "step",
+   "number": 17,
+   "text": "Pull up, forward and out Lower Burner Compartment.",
+   "image": {
+    "aspectRatio": "321 / 217",
+    "targets": [],
+    "file": "assets/guides/duke-broiler-cleaning/step-17.jpeg",
+    "width": 321,
+    "height": 217
+   }
+  },
+  {
+   "kind": "step",
+   "number": 18,
+   "text": "Lift handles, un-hook from back wall and out Lower Burner Shield.",
+   "image": {
+    "aspectRatio": "316 / 217",
+    "targets": [],
+    "file": "assets/guides/duke-broiler-cleaning/step-18.jpeg",
+    "width": 316,
+    "height": 217
+   }
+  },
+  {
+   "kind": "step",
+   "number": 19,
+   "text": "From side panel, lift out of slots and out Lower Burner.",
+   "image": {
+    "aspectRatio": "312 / 214",
+    "targets": [],
+    "file": "assets/guides/duke-broiler-cleaning/step-19.jpeg",
+    "width": 312,
+    "height": 214
+   }
+  },
+  {
+   "kind": "step",
+   "number": 20,
+   "text": "Spray walls with degreaseer. Wait, then wipe Interior Compartment.",
+   "image": {
+    "aspectRatio": "319 / 216",
+    "targets": [],
+    "file": "assets/guides/duke-broiler-cleaning/step-20.jpeg",
+    "width": 319,
+    "height": 216
+   }
+  },
+  {
+   "kind": "step",
+   "number": 21,
+   "text": "Use shaft scraper side to remove build-up Discharge Shaft.",
+   "image": {
+    "aspectRatio": "312 / 212",
+    "targets": [],
+    "file": "assets/guides/duke-broiler-cleaning/step-21.jpeg",
+    "width": 312,
+    "height": 212
+   }
+  },
+  {
+   "kind": "step",
+   "number": 22,
+   "text": "Lift out of slot Flue Vent Top",
+   "image": {
+    "aspectRatio": "316 / 212",
+    "targets": [],
+    "file": "assets/guides/duke-broiler-cleaning/step-22.jpeg",
+    "width": 316,
+    "height": 212
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Flame Arrestor"
+  },
+  {
+   "kind": "step",
+   "number": 23,
+   "text": "Angle leading edge to insert under chain, slide across and in, lock in place.",
+   "image": {
+    "aspectRatio": "320 / 279",
+    "targets": [],
+    "file": "assets/guides/duke-broiler-cleaning/step-23.jpeg",
+    "width": 320,
+    "height": 279
+   }
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.241315Z"
+}

@@ -1,0 +1,219 @@
+{
+ "slug": "create-an-email-signature-in-outlook",
+ "name": "Create an Email Signature in Outlook",
+ "title": "Create an Email Signature in Outlook",
+ "description": "This guide provides a straightforward approach to creating a professional email signature in Outlook, ensuring your communications reflect your brand effectively. It covers both desktop and app versions, making it accessible for all users. By following these steps, you can personalize your signature with specific colors and set defaults for new messages and replies, enhancing your email's visual consistency and professionalism.",
+ "section": "Office ScribeHows",
+ "subsection": "Office 365",
+ "pdf": "pdfs/Office ScribeHows/Office 365/Create an Email Signature in Outlook.pdf",
+ "tags": [
+  "Office"
+ ],
+ "scrapedAt": "2026-08-14T14:54:31.521Z",
+ "blocks": [
+  {
+   "kind": "section",
+   "text": "Desktop App"
+  },
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "Navigate to [https://outlook.office.com/mail/](https://outlook.office.com/mail/)",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [],
+    "file": "assets/guides/create-an-email-signature-in-outlook/step-01.webp"
+   }
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "Click here.",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [
+     {
+      "style": "width:2.5392428439519854%;height:4.185692541856926%;left:96.81440443213296%;top:1.82648401826484%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/create-an-email-signature-in-outlook/step-02.jpeg",
+    "width": 2166,
+    "height": 1314
+   }
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "Click \"Account\"",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [
+     {
+      "style": "width:6.951177285318559%;height:11.458333333333332%;left:24.792243767313018%;top:12.404870624048705%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/create-an-email-signature-in-outlook/step-03.webp"
+   }
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "Click \"Signatures\"",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [
+     {
+      "style": "width:6.951177285318559%;height:11.458333333333332%;left:34.62603878116344%;top:11.491628614916285%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/create-an-email-signature-in-outlook/step-04.webp"
+   }
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "Name signature.",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [
+     {
+      "style": "width:6.951177285318559%;height:11.458333333333332%;left:45.75253924284395%;top:21.765601217656013%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/create-an-email-signature-in-outlook/step-05.webp"
+   }
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "Put in signature details.",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [
+     {
+      "style": "width:6.951177285318559%;height:11.458333333333332%;left:46.30655586334257%;top:25.49467275494673%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/create-an-email-signature-in-outlook/step-06.webp"
+   }
+  },
+  {
+   "kind": "tip",
+   "text": "Make sure that your name and Ampler is colored Ampler Green. Hex #73A74D. R115, G167, B77."
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "Select default signature \"For New Messages\"",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [
+     {
+      "style": "width:6.951177285318559%;height:11.458333333333332%;left:53.601108033241%;top:48.02130898021309%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/create-an-email-signature-in-outlook/step-07.webp"
+   }
+  },
+  {
+   "kind": "step",
+   "number": 8,
+   "text": "Select default signature \"For Replies/Forwards\"",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [
+     {
+      "style": "width:6.951177285318559%;height:11.458333333333332%;left:52.90858725761773%;top:52.28310502283106%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/create-an-email-signature-in-outlook/step-08.webp"
+   }
+  },
+  {
+   "kind": "step",
+   "number": 9,
+   "text": "Click \"Save\"",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [
+     {
+      "style": "width:6.951177285318559%;height:11.458333333333332%;left:72.4376731301939%;top:95.28158295281582%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/create-an-email-signature-in-outlook/step-09.webp"
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Outlook App"
+  },
+  {
+   "kind": "step",
+   "number": 10,
+   "text": "Click Window icon",
+   "image": {
+    "aspectRatio": "1080 / 2340",
+    "targets": [
+     {
+      "style": "width:24.82638888888889%;height:11.458333333333332%;left:8.333333333333332%;top:6.666666666666667%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/create-an-email-signature-in-outlook/step-10.webp"
+   }
+  },
+  {
+   "kind": "step",
+   "number": 11,
+   "text": "Click Settings icon.",
+   "image": {
+    "aspectRatio": "1080 / 2340",
+    "targets": [
+     {
+      "style": "width:24.82638888888889%;height:11.458333333333332%;left:8.981481481481483%;top:90.5982905982906%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/create-an-email-signature-in-outlook/step-11.webp"
+   }
+  },
+  {
+   "kind": "step",
+   "number": 12,
+   "text": "Click \"Signatures\"",
+   "image": {
+    "aspectRatio": "1080 / 2340",
+    "targets": [
+     {
+      "style": "width:24.82638888888889%;height:11.458333333333332%;left:23.055555555555557%;top:34.48717948717949%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/create-an-email-signature-in-outlook/step-12.webp"
+   }
+  },
+  {
+   "kind": "step",
+   "number": 13,
+   "text": "Input your section.",
+   "image": {
+    "aspectRatio": "1080 / 2340",
+    "targets": [],
+    "file": "assets/guides/create-an-email-signature-in-outlook/step-13.webp"
+   }
+  },
+  {
+   "kind": "tip",
+   "text": "Depending on your device, you may have to copy your signature from a sent email and paste from clipboard to have it match properly."
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.238815Z"
+}

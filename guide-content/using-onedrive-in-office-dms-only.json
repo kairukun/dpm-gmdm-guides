@@ -1,0 +1,385 @@
+{
+ "slug": "using-onedrive-in-office-dms-only",
+ "name": "Using OneDrive in Office (DMs only)",
+ "title": "Using OneDrive in Office (DMs only)",
+ "description": "This guide offers a straightforward walkthrough for effectively using OneDrive, covering essential tasks such as file access, sharing, and collaboration features. It empowers users to not only manage their files but also understand sharing options and version control, enhancing productivity and teamwork. By following these steps, individuals can maximize their experience with OneDrive, ensuring they utilize its full potential for file storage and collaboration.",
+ "section": "Office ScribeHows",
+ "subsection": "Office 365",
+ "pdf": "pdfs/Office ScribeHows/Office 365/Using OneDrive in Office (DMs only).pdf",
+ "tags": [
+  "Office"
+ ],
+ "scrapedAt": "2026-08-14T14:54:54.283Z",
+ "blocks": [
+  {
+   "kind": "section",
+   "text": "Accessing OneDrive"
+  },
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "Navigate to [https://www.office.com/](https://www.office.com/)",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [],
+    "file": "assets/guides/using-onedrive-in-office-dms-only/step-01.jpeg",
+    "width": 2166,
+    "height": 1314
+   }
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "Click \"Sign In\" Login to Ampler account.",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.69710806697108%;left:85.13388734995382%;top:2.28310502283105%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/using-onedrive-in-office-dms-only/step-01.jpeg",
+    "width": 2166,
+    "height": 1314
+   }
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "Click \"OneDrive\"",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [
+     {
+      "style": "width:6.951177285318559%;height:11.458333333333332%;left:1.569713758079409%;top:16.894977168949772%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/using-onedrive-in-office-dms-only/step-03.webp"
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Your Files/Upload Files"
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "Click \"My files\" to see your files",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [
+     {
+      "style": "width:6.951177285318559%;height:11.458333333333332%;left:6.786703601108034%;top:16.43835616438356%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/using-onedrive-in-office-dms-only/step-04.webp"
+   }
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "Click \"Add new\" to upload new file.",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [
+     {
+      "style": "width:6.951177285318559%;height:11.458333333333332%;left:4.893813481071098%;top:7.382039573820395%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/using-onedrive-in-office-dms-only/step-05.webp"
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Share Files"
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "Select file you would liek to share.",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.69710806697108%;left:17.636195752539244%;top:33.10502283105023%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/using-onedrive-in-office-dms-only/step-06.jpeg",
+    "width": 2166,
+    "height": 1314
+   }
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "Click \"Share\"",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.69710806697108%;left:22.945521698984304%;top:6.925418569254186%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/using-onedrive-in-office-dms-only/step-07.jpeg",
+    "width": 2166,
+    "height": 1314
+   }
+  },
+  {
+   "kind": "step",
+   "number": 8,
+   "text": "Type in name or group you would like to send to.",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.69710806697108%;left:49.81532779316713%;top:46.65144596651446%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/using-onedrive-in-office-dms-only/step-08.jpeg",
+    "width": 2166,
+    "height": 1314
+   }
+  },
+  {
+   "kind": "step",
+   "number": 9,
+   "text": "Click Pencil icon to change the level of access they will have.",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.69710806697108%;left:59.83379501385041%;top:45.81430745814307%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/using-onedrive-in-office-dms-only/step-09.jpeg",
+    "width": 2166,
+    "height": 1314
+   }
+  },
+  {
+   "kind": "step",
+   "number": 10,
+   "text": "Add a message regarding the shared file.",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.69710806697108%;left:54.201292705447834%;top:53.34855403348554%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/using-onedrive-in-office-dms-only/step-10.jpeg",
+    "width": 2166,
+    "height": 1314
+   }
+  },
+  {
+   "kind": "step",
+   "number": 11,
+   "text": "Click Settings icon for more options.",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.69710806697108%;left:55.58633425669437%;top:62.328767123287676%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/using-onedrive-in-office-dms-only/step-11.jpeg",
+    "width": 2166,
+    "height": 1314
+   }
+  },
+  {
+   "kind": "step",
+   "number": 12,
+   "text": "Set who the link will work for. Expiration date of link (blank is no expiration) Password of link (blank is no password)",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [],
+    "file": "assets/guides/using-onedrive-in-office-dms-only/step-12.webp"
+   }
+  },
+  {
+   "kind": "step",
+   "number": 13,
+   "text": "Click \"Apply\"",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.69710806697108%;left:59.04893813481071%;top:71.5372907153729%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/using-onedrive-in-office-dms-only/step-13.jpeg",
+    "width": 2166,
+    "height": 1314
+   }
+  },
+  {
+   "kind": "step",
+   "number": 14,
+   "text": "Click \"Send\"",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.69710806697108%;left:58.956602031394276%;top:62.78538812785388%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/using-onedrive-in-office-dms-only/step-14.jpeg",
+    "width": 2166,
+    "height": 1314
+   }
+  },
+  {
+   "kind": "warning",
+   "text": "They will receive an email with all information you provided above."
+  },
+  {
+   "kind": "step",
+   "number": 15,
+   "text": "To view files shared with you, click \"Shared.\"",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.69710806697108%;left:5.909510618651892%;top:19.48249619482496%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/using-onedrive-in-office-dms-only/step-15.jpeg",
+    "width": 2166,
+    "height": 1314
+   }
+  },
+  {
+   "kind": "section",
+   "text": "File Activity"
+  },
+  {
+   "kind": "step",
+   "number": 16,
+   "text": "Click \"MITs.xlsx\"",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.69710806697108%;left:22.11449676823638%;top:37.595129375951295%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/using-onedrive-in-office-dms-only/step-16.jpeg",
+    "width": 2166,
+    "height": 1314
+   }
+  },
+  {
+   "kind": "step",
+   "number": 17,
+   "text": "If you have a shared file and someone is currently working on it, you can see that by their initials showing up at the top next \"Comments\" You can also see their activity cursor, which will match the color of their initials at the top.",
+   "image": {
+    "aspectRatio": "766 / 349",
+    "targets": [],
+    "file": "assets/guides/using-onedrive-in-office-dms-only/step-17.webp"
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Version History"
+  },
+  {
+   "kind": "step",
+   "number": 18,
+   "text": "Click \"File\"",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [
+     {
+      "style": "width:6.951177285318559%;height:11.458333333333332%;left:1.154201292705448%;top:4.87062404870624%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/using-onedrive-in-office-dms-only/step-18.webp"
+   }
+  },
+  {
+   "kind": "step",
+   "number": 19,
+   "text": "Click \"Version History\"",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [
+     {
+      "style": "width:6.951177285318559%;height:11.458333333333332%;left:5.540166204986149%;top:32.03957382039574%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/using-onedrive-in-office-dms-only/step-19.webp"
+   }
+  },
+  {
+   "kind": "step",
+   "number": 20,
+   "text": "This shows all the history of the file.",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.69710806697108%;left:85.22622345337027%;top:12.252663622526635%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/using-onedrive-in-office-dms-only/step-20.jpeg",
+    "width": 2166,
+    "height": 1314
+   }
+  },
+  {
+   "kind": "step",
+   "number": 21,
+   "text": "Click which version you would like.",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.69710806697108%;left:88.55032317636196%;top:12.93759512937595%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/using-onedrive-in-office-dms-only/step-21.jpeg",
+    "width": 2166,
+    "height": 1314
+   }
+  },
+  {
+   "kind": "step",
+   "number": 22,
+   "text": "You may now restore file or save a copy of the file.",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.69710806697108%;left:51.200369344413666%;top:5.32724505327245%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/using-onedrive-in-office-dms-only/step-22.jpeg",
+    "width": 2166,
+    "height": 1314
+   }
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.263814Z"
+}

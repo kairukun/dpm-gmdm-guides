@@ -1,0 +1,14 @@
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+pdf-log.txt
+scrape-log.txt
+preview/
+.env
+.env.*
+*.tmp
+__pycache__/
+.Python
+.vscode/
+.idea/

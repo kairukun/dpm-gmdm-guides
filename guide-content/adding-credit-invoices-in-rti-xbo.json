@@ -1,0 +1,331 @@
+{
+ "slug": "adding-credit-invoices-in-rti-xbo",
+ "name": "Adding Credit Invoices in RTI/XBO",
+ "title": "Adding Credit Invoices in RTI/XBO",
+ "description": "This guide provides step-by-step instructions on how to add credit invoices in RTI/XBO. It includes examples, screenshots, and specific details to ensure accurate and efficient credit invoice entry. Following this guide will help users navigate the system and avoid potential errors when adding credit invoices, resulting in accurate pricing and accounting.",
+ "section": "Office ScribeHows",
+ "subsection": "XBO/RTI (All guides are using XBO unless specified)",
+ "pdf": "pdfs/Office ScribeHows/XBO-RTI/Adding Credit Invoices in RTI-XBO.pdf",
+ "tags": [
+  "Xenial"
+ ],
+ "scrapedAt": "2026-08-14T14:56:00.262Z",
+ "blocks": [
+  {
+   "kind": "section",
+   "text": "Truck Credits"
+  },
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "Example of credit invoice from Reinhart.",
+   "image": {
+    "aspectRatio": "994 / 469",
+    "targets": [],
+    "file": "assets/guides/adding-credit-invoices-in-rti-xbo/step-01.jpeg",
+    "width": 994,
+    "height": 469
+   }
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "Navigate to [https://xbo.xenial.com/login](https://xbo.xenial.com/login)",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "Click \"Log In\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:50.11942675159236%;top:40.28831562974203%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adding-credit-invoices-in-rti-xbo/step-03.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "Click \"Order/Purchase/Transfer\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:26.472929936305732%;top:19.726858877086496%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adding-credit-invoices-in-rti-xbo/step-04.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "Click \"Enter Other Purchases & Credits\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:6.488853503184713%;top:30.045523520485585%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adding-credit-invoices-in-rti-xbo/step-05.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "Select restaurant you are adding the credit for. Restaurant accounts will only show their restaurant.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:13.495222929936308%;top:63.50531107738998%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adding-credit-invoices-in-rti-xbo/step-06.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "Search for the date of the original invoice the credit is for.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:25.8359872611465%;top:90.13657056145675%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adding-credit-invoices-in-rti-xbo/step-07.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 8,
+   "text": "Click \"Search\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:25.079617834394906%;top:94.53717754172989%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adding-credit-invoices-in-rti-xbo/step-08.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 9,
+   "text": "Select invoice of original truck.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:66.32165605095541%;top:28.83156297420334%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adding-credit-invoices-in-rti-xbo/step-09.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 10,
+   "text": "Click \"Create Adjustment\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:92.67515923566879%;top:25.493171471927162%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adding-credit-invoices-in-rti-xbo/step-10.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "warning",
+   "text": "Always do create adjustment from the original invoice to make the prices match. Doing a stand-alone purchase may result in inaccurate prices."
+  },
+  {
+   "kind": "step",
+   "number": 11,
+   "text": "Use the \"Search\" field to find the item(s) on the credit.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:15.007961783439491%;top:30.500758725341427%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adding-credit-invoices-in-rti-xbo/step-11.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 12,
+   "text": "Put in the \"Qty\" field the amount being credited in a negative number.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:75.95541401273886%;top:50.758725341426405%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adding-credit-invoices-in-rti-xbo/step-12.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 13,
+   "text": "Example of how \"Qty\" should be filled out.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:78.7420382165605%;top:50.834597875569045%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adding-credit-invoices-in-rti-xbo/step-13.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 14,
+   "text": "Make sure all items on the invoice are added, including Discount and Taxes",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:15.843949044585987%;top:42.1092564491654%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adding-credit-invoices-in-rti-xbo/step-14.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 15,
+   "text": "Enter in the total amount of items being credited in for Tax and/or Discount. Discount should be put in as a positive #. Tax should be put in as a negative #.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:78.343949044586%;top:39.75720789074355%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adding-credit-invoices-in-rti-xbo/step-15.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 16,
+   "text": "Enter in the amount of the credit invoice.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:64.13216560509554%;top:16.61608497723824%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adding-credit-invoices-in-rti-xbo/step-16.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 17,
+   "text": "Enter in the invoice number of the credit invoice.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:83.12101910828027%;top:12.822458270106221%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adding-credit-invoices-in-rti-xbo/step-17.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 18,
+   "text": "Enter in the invoice date of the credit invoice.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:61.30573248407644%;top:12.51896813353566%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adding-credit-invoices-in-rti-xbo/step-18.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 19,
+   "text": "Click \"Save\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:95.62101910828027%;top:26.100151745068285%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adding-credit-invoices-in-rti-xbo/step-19.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.229314Z"
+}

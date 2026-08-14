@@ -1,0 +1,154 @@
+{
+ "slug": "audit-forms-in-zenput-phone-guide",
+ "name": "Audit Forms in Zenput (Phone Guide)",
+ "title": "Audit Forms in Zenput (Phone Guide)",
+ "description": "This guide provides step-by-step instructions on how to audit forms in Zenput. It includes information on logging in, accessing the forms, completing them, and submitting them. Anyone who needs to perform audits using Zenput can benefit from this guide.",
+ "section": "Office ScribeHows",
+ "subsection": "Zenput",
+ "pdf": "pdfs/Office ScribeHows/Zenput/Audit Forms in Zenput (Phone Guide).pdf",
+ "tags": [
+  "Zenput"
+ ],
+ "scrapedAt": "2026-08-14T14:57:16.450Z",
+ "blocks": [
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "Login to Zenput.",
+   "image": {
+    "aspectRatio": "1080 / 2267",
+    "targets": [
+     {
+      "style": "width:20.37037037037037%;height:9.704455227172474%;left:49.44444444444444%;top:35.509483899426556%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/audit-forms-in-zenput-phone-guide/step-01.jpeg",
+    "width": 1080,
+    "height": 2267
+   }
+  },
+  {
+   "kind": "tip",
+   "text": "The email for restaurant accounts are rgm####@rest.whopper.com. All other accounts user their Ampler email."
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "It will take you to the RBI login page. Login using your RBI (BKU) account.",
+   "image": {
+    "aspectRatio": "1080 / 2263",
+    "targets": [
+     {
+      "style": "width:20.37037037037037%;height:9.721608484312858%;left:51.01851851851852%;top:76.22624834290764%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/audit-forms-in-zenput-phone-guide/step-02.jpeg",
+    "width": 1080,
+    "height": 2263
+   }
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "Click the three bars to open the menu.",
+   "image": {
+    "aspectRatio": "864 / 1800",
+    "targets": [
+     {
+      "style": "width:25.462962962962965%;height:12.222222222222221%;left:6.25%;top:2.722222222222222%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/audit-forms-in-zenput-phone-guide/step-03.jpeg",
+    "width": 864,
+    "height": 1800
+   }
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "Select \"My Forms\"",
+   "image": {
+    "aspectRatio": "865 / 1800",
+    "targets": [
+     {
+      "style": "width:25.43352601156069%;height:12.222222222222221%;left:24.85549132947977%;top:32.5%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/audit-forms-in-zenput-phone-guide/step-04.jpeg",
+    "width": 865,
+    "height": 1800
+   }
+  },
+  {
+   "kind": "warning",
+   "text": "*If you do not see the form you are looking for, it has probably not yet been shared with you.*"
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "Click whichever audit you would like to complete.",
+   "image": {
+    "aspectRatio": "866 / 1800",
+    "targets": [
+     {
+      "style": "width:25.40415704387991%;height:12.222222222222221%;left:41.801385681293304%;top:47.61111111111111%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/audit-forms-in-zenput-phone-guide/step-05.jpeg",
+    "width": 866,
+    "height": 1800
+   }
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "Fill out all information requested throughout the form.",
+   "image": {
+    "aspectRatio": "866 / 1800",
+    "targets": [],
+    "file": "assets/guides/audit-forms-in-zenput-phone-guide/step-06.jpeg",
+    "width": 866,
+    "height": 1800
+   }
+  },
+  {
+   "kind": "warning",
+   "text": "Most questions on our forms are required to have a response before you can submit the form."
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "Once finished, click \"Submit\"",
+   "image": {
+    "aspectRatio": "865 / 1800",
+    "targets": [
+     {
+      "style": "width:25.43352601156069%;height:12.222222222222221%;left:50.86705202312138%;top:90.83333333333333%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/audit-forms-in-zenput-phone-guide/step-07.jpeg",
+    "width": 865,
+    "height": 1800
+   }
+  },
+  {
+   "kind": "step",
+   "number": 8,
+   "text": "Once submitted, it will be sent in email to everyone on the assigned distribution list (restaurant, DM, DO, etc.)",
+   "image": {
+    "aspectRatio": "1079 / 2106",
+    "targets": [],
+    "file": "assets/guides/audit-forms-in-zenput-phone-guide/step-08.jpeg",
+    "width": 1079,
+    "height": 2106
+   }
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.235314Z"
+}

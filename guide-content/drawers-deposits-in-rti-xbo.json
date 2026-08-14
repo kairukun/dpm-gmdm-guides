@@ -1,0 +1,353 @@
+{
+ "slug": "drawers-deposits-in-rti-xbo",
+ "name": "Drawers/Deposits in RTI/XBO",
+ "title": "Drawers/Deposits in RTI/XBO",
+ "description": "This guide provides a step-by-step process for managing cash deposits and safe counts in the XBO system, ensuring accurate financial tracking. By following these instructions, users can efficiently navigate the platform, streamline their cash management tasks, and minimize errors. It's an essential resource for anyone looking to enhance their operational efficiency and maintain financial integrity within their organization.",
+ "section": "Office ScribeHows",
+ "subsection": "XBO/RTI (All guides are using XBO unless specified)",
+ "pdf": "pdfs/Office ScribeHows/XBO-RTI/Drawers-Deposits in RTI-XBO.pdf",
+ "tags": [
+  "Xenial"
+ ],
+ "scrapedAt": "2026-08-14T14:56:15.940Z",
+ "blocks": [
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "Navigate to: [xbo.xenial.com](https://xbo.xenial.com)",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "Click \"Log In\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:50.83102493074792%;top:51.60550458715596%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/drawers-deposits-in-rti-xbo/step-02.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "Click \"Cash - Tills - Deposits\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:31.20960295475531%;top:37.84403669724771%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/drawers-deposits-in-rti-xbo/step-03.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "Click \"Safe Counts\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:4.293628808864266%;top:16.43730886850153%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/drawers-deposits-in-rti-xbo/step-04.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "Click \"Add Safe Count\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:94.87534626038781%;top:13.761467889908257%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/drawers-deposits-in-rti-xbo/step-05.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "Click \"Count\" Input Safe Counts.",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.986149584487535%;height:8.256880733944955%;left:59.14127423822715%;top:43.883792048929664%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/drawers-deposits-in-rti-xbo/step-06.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "Click \"Save\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:58.310249307479225%;top:71.10091743119266%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/drawers-deposits-in-rti-xbo/step-07.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Drawers"
+  },
+  {
+   "kind": "step",
+   "number": 8,
+   "text": "Click \"Import Tills\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:3.9242843951985225%;top:19.03669724770642%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/drawers-deposits-in-rti-xbo/step-08.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 9,
+   "text": "Click \"Import\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:60.94182825484764%;top:57.03363914373089%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/drawers-deposits-in-rti-xbo/step-09.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 10,
+   "text": "Click \"Close Tills\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:2.585410895660203%;top:22.018348623853214%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/drawers-deposits-in-rti-xbo/step-10.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 11,
+   "text": "Click drawer you are counting.",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:73.03785780240074%;top:42.12538226299694%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/drawers-deposits-in-rti-xbo/step-11.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 12,
+   "text": "Put in Cashier name.",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.986149584487535%;height:8.256880733944955%;left:85.73407202216067%;top:13.302752293577983%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/drawers-deposits-in-rti-xbo/step-12.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 13,
+   "text": "Put in drawer total.",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:61.54201292705448%;top:37.308868501529055%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/drawers-deposits-in-rti-xbo/step-13.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 14,
+   "text": "Click \"Save\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:94.87534626038781%;top:25.076452599388375%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/drawers-deposits-in-rti-xbo/step-14.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Deposit"
+  },
+  {
+   "kind": "step",
+   "number": 15,
+   "text": "Click \"Deposits\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:3.1855955678670362%;top:24.84709480122324%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/drawers-deposits-in-rti-xbo/step-15.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 16,
+   "text": "Click \"Add Deposit\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:94.78301015697139%;top:13.761467889908257%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/drawers-deposits-in-rti-xbo/step-16.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 17,
+   "text": "Put in Bag #.",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:51.015697137580794%;top:47.935779816513765%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/drawers-deposits-in-rti-xbo/step-17.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 18,
+   "text": "Put in Deposit Amount.",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:49.769159741458914%;top:51.75840978593273%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/drawers-deposits-in-rti-xbo/step-18.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 19,
+   "text": "Put in your name.",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:49.67682363804247%;top:56.49847094801223%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/drawers-deposits-in-rti-xbo/step-19.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 20,
+   "text": "Click \"Save\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:58.310249307479225%;top:67.2782874617737%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/drawers-deposits-in-rti-xbo/step-20.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.240316Z"
+}

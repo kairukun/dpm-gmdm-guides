@@ -1,0 +1,332 @@
+{
+ "slug": "change-pan-assignments-for-chef-in-dmb-portal",
+ "name": "Change Pan Assignments for Chef in DMB Portal",
+ "title": "Change Pan Assignments for Chef in DMB Portal",
+ "description": "This guide provides step-by-step instructions on how to change pan assignments for Chef. By following these steps, you can easily adjust the pan assignments for different restaurants and dayparts, ensuring efficient menu setup. If you need to make changes to pan assignments in Chef, this guide will help you navigate the necessary steps.",
+ "section": "Office ScribeHows",
+ "subsection": "DMB Portal",
+ "pdf": "pdfs/Office ScribeHows/DMB Portal/Change Pan Assignments for Chef in DMB Portal.pdf",
+ "tags": [
+  "Sicomasp"
+ ],
+ "scrapedAt": "2026-08-14T14:53:48.009Z",
+ "blocks": [
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "Navigate to [https://bkdmb.sicomasp.com/index.php](https://bkdmb.sicomasp.com/index.php)",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "Click \"CHEF\"",
+   "image": {
+    "aspectRatio": "2560 / 1305",
+    "targets": [
+     {
+      "style": "width:2.1484375%;height:4.21455938697318%;left:44.765625%;top:0.45977011494252873%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/change-pan-assignments-for-chef-in-dmb-portal/step-02.jpeg",
+    "width": 2560,
+    "height": 1305
+   }
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "Click \"Set Up Menus\"",
+   "image": {
+    "aspectRatio": "2560 / 1305",
+    "targets": [
+     {
+      "style": "width:2.1484375%;height:4.21455938697318%;left:2.5390625%;top:15.478927203065135%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/change-pan-assignments-for-chef-in-dmb-portal/step-03.jpeg",
+    "width": 2560,
+    "height": 1305
+   }
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "Click \"Setup Pan Assignments\"",
+   "image": {
+    "aspectRatio": "2560 / 1305",
+    "targets": [
+     {
+      "style": "width:2.1484375%;height:4.21455938697318%;left:11.2890625%;top:24.444444444444443%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/change-pan-assignments-for-chef-in-dmb-portal/step-04.jpeg",
+    "width": 2560,
+    "height": 1305
+   }
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "Click whichever restaurant you are wanting to adjust. Restaurant accounts will have their restaurant already selected.",
+   "image": {
+    "aspectRatio": "2560 / 1305",
+    "targets": [
+     {
+      "style": "width:2.1484375%;height:4.21455938697318%;left:14.6875%;top:25.90038314176245%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/change-pan-assignments-for-chef-in-dmb-portal/step-05.jpeg",
+    "width": 2560,
+    "height": 1305
+   }
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "Click \"Select Holding Unit\" dropdown box.",
+   "image": {
+    "aspectRatio": "2560 / 1305",
+    "targets": [
+     {
+      "style": "width:2.1484375%;height:4.21455938697318%;left:32.65625%;top:15.32567049808429%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/change-pan-assignments-for-chef-in-dmb-portal/step-06.jpeg",
+    "width": 2560,
+    "height": 1305
+   }
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "Click whichever PHU you are needing to adjust.",
+   "image": {
+    "aspectRatio": "2560 / 1305",
+    "targets": [
+     {
+      "style": "width:2.1484375%;height:4.21455938697318%;left:31.171875%;top:17.70114942528736%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/change-pan-assignments-for-chef-in-dmb-portal/step-07.jpeg",
+    "width": 2560,
+    "height": 1305
+   }
+  },
+  {
+   "kind": "step",
+   "number": 8,
+   "text": "Click \"Lunch\" or \"Breakfast\" depending on what you are needing to change.",
+   "image": {
+    "aspectRatio": "2560 / 1305",
+    "targets": [
+     {
+      "style": "width:2.1484375%;height:4.21455938697318%;left:27.65625%;top:21.839080459770116%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/change-pan-assignments-for-chef-in-dmb-portal/step-08.jpeg",
+    "width": 2560,
+    "height": 1305
+   }
+  },
+  {
+   "kind": "step",
+   "number": 9,
+   "text": "Click dropdown box of whichever PHU cavity you want to change.",
+   "image": {
+    "aspectRatio": "2560 / 1305",
+    "targets": [
+     {
+      "style": "width:2.1484375%;height:4.21455938697318%;left:51.1328125%;top:27.509578544061302%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/change-pan-assignments-for-chef-in-dmb-portal/step-09.jpeg",
+    "width": 2560,
+    "height": 1305
+   }
+  },
+  {
+   "kind": "tip",
+   "text": "Changing the PHU cavity of one will adjust the other one in the red box around the cavities in the above image."
+  },
+  {
+   "kind": "step",
+   "number": 10,
+   "text": "Click whichever item you want to change it to.",
+   "image": {
+    "aspectRatio": "2560 / 1305",
+    "targets": [
+     {
+      "style": "width:2.1484375%;height:4.21455938697318%;left:48.9453125%;top:49.042145593869726%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/change-pan-assignments-for-chef-in-dmb-portal/step-10.jpeg",
+    "width": 2560,
+    "height": 1305
+   }
+  },
+  {
+   "kind": "step",
+   "number": 11,
+   "text": "Click \"Copy Settings\"",
+   "image": {
+    "aspectRatio": "2560 / 1305",
+    "targets": [
+     {
+      "style": "width:2.1484375%;height:4.21455938697318%;left:36.2109375%;top:16.39846743295019%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/change-pan-assignments-for-chef-in-dmb-portal/step-11.jpeg",
+    "width": 2560,
+    "height": 1305
+   }
+  },
+  {
+   "kind": "step",
+   "number": 12,
+   "text": "Hold the \"Ctrl\" button and click every daypart that should be adjusted as well. You will need to click it for every daypart on everyday.",
+   "image": {
+    "aspectRatio": "2560 / 1305",
+    "targets": [
+     {
+      "style": "width:2.1484375%;height:4.21455938697318%;left:56.9921875%;top:46.28352490421456%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/change-pan-assignments-for-chef-in-dmb-portal/step-12.jpeg",
+    "width": 2560,
+    "height": 1305
+   }
+  },
+  {
+   "kind": "step",
+   "number": 13,
+   "text": "Click \"Copy\"",
+   "image": {
+    "aspectRatio": "2560 / 1305",
+    "targets": [
+     {
+      "style": "width:2.1484375%;height:4.21455938697318%;left:57.92968750000001%;top:36.39846743295019%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/change-pan-assignments-for-chef-in-dmb-portal/step-13.jpeg",
+    "width": 2560,
+    "height": 1305
+   }
+  },
+  {
+   "kind": "step",
+   "number": 14,
+   "text": "Click \"Save Changes\"",
+   "image": {
+    "aspectRatio": "2560 / 1305",
+    "targets": [
+     {
+      "style": "width:2.1484375%;height:4.21455938697318%;left:97.3828125%;top:9.118773946360154%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/change-pan-assignments-for-chef-in-dmb-portal/step-14.jpeg",
+    "width": 2560,
+    "height": 1305
+   }
+  },
+  {
+   "kind": "step",
+   "number": 15,
+   "text": "Click \"Sync changes\"",
+   "image": {
+    "aspectRatio": "2560 / 1305",
+    "targets": [
+     {
+      "style": "width:2.1484375%;height:4.21455938697318%;left:2.6953125%;top:18.46743295019157%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/change-pan-assignments-for-chef-in-dmb-portal/step-15.jpeg",
+    "width": 2560,
+    "height": 1305
+   }
+  },
+  {
+   "kind": "step",
+   "number": 16,
+   "text": "Click here.",
+   "image": {
+    "aspectRatio": "2560 / 1305",
+    "targets": [
+     {
+      "style": "width:2.1484375%;height:4.21455938697318%;left:6.25%;top:14.71264367816092%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/change-pan-assignments-for-chef-in-dmb-portal/step-16.jpeg",
+    "width": 2560,
+    "height": 1305
+   }
+  },
+  {
+   "kind": "step",
+   "number": 17,
+   "text": "Click the restaurant(s) you are adjusting. Accounts will only show the locations assigned to them.",
+   "image": {
+    "aspectRatio": "2560 / 1305",
+    "targets": [
+     {
+      "style": "width:2.1484375%;height:4.21455938697318%;left:9.8046875%;top:20.45977011494253%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/change-pan-assignments-for-chef-in-dmb-portal/step-17.jpeg",
+    "width": 2560,
+    "height": 1305
+   }
+  },
+  {
+   "kind": "step",
+   "number": 18,
+   "text": "Click \"Sync Changes\"",
+   "image": {
+    "aspectRatio": "2560 / 1305",
+    "targets": [
+     {
+      "style": "width:2.1484375%;height:4.21455938697318%;left:31.953125%;top:12.107279693486591%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/change-pan-assignments-for-chef-in-dmb-portal/step-18.jpeg",
+    "width": 2560,
+    "height": 1305
+   }
+  },
+  {
+   "kind": "step",
+   "number": 19,
+   "text": "Click \"Confirm\"",
+   "image": {
+    "aspectRatio": "2560 / 1305",
+    "targets": [
+     {
+      "style": "width:2.1484375%;height:4.21455938697318%;left:59.84374999999999%;top:59.77011494252874%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/change-pan-assignments-for-chef-in-dmb-portal/step-19.jpeg",
+    "width": 2560,
+    "height": 1305
+   }
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.237313Z"
+}

@@ -1,0 +1,200 @@
+{
+ "slug": "send-team-portal-reset-emails-in-rti-xbo",
+ "name": "Send Team Portal Reset Emails in RTI/XBO",
+ "title": "Send Team Portal Reset Emails in RTI/XBO",
+ "description": "This guide provides step-by-step instructions on how to send team portal reset emails in RTI/XBO. It is useful for anyone who needs to reset employee access or multi-factor authentication and wants to learn how to do it efficiently.",
+ "section": "Office ScribeHows",
+ "subsection": "XBO/RTI (All guides are using XBO unless specified)",
+ "pdf": "pdfs/Office ScribeHows/XBO-RTI/Send Team Portal Reset Emails in RTI-XBO.pdf",
+ "tags": [
+  "Xenial"
+ ],
+ "scrapedAt": "2026-08-14T14:57:02.440Z",
+ "blocks": [
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "Navigate to [https://xbo.xenial.com/login](https://xbo.xenial.com/login)",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "Log in.",
+   "image": {
+    "aspectRatio": "2289 / 1617",
+    "targets": [
+     {
+      "style": "width:3.604193971166448%;height:5.1020408163265305%;left:42.201834862385326%;top:40.07421150278293%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/send-team-portal-reset-emails-in-rti-xbo/step-02.jpeg",
+    "width": 2289,
+    "height": 1617
+   }
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "Click \"Employees && Scheduling\"",
+   "image": {
+    "aspectRatio": "2289 / 1617",
+    "targets": [
+     {
+      "style": "width:3.604193971166448%;height:5.1020408163265305%;left:28.74617737003058%;top:71.42857142857143%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/send-team-portal-reset-emails-in-rti-xbo/step-03.jpeg",
+    "width": 2289,
+    "height": 1617
+   }
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "Click \"Add / Update Employees\"",
+   "image": {
+    "aspectRatio": "2289 / 1617",
+    "targets": [
+     {
+      "style": "width:3.604193971166448%;height:5.1020408163265305%;left:9.305373525557012%;top:18.552875695732837%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/send-team-portal-reset-emails-in-rti-xbo/step-04.jpeg",
+    "width": 2289,
+    "height": 1617
+   }
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "Search for the employee you need to reset.",
+   "image": {
+    "aspectRatio": "2289 / 1617",
+    "targets": [
+     {
+      "style": "width:3.604193971166448%;height:5.1020408163265305%;left:40.67278287461774%;top:94.43413729128015%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/send-team-portal-reset-emails-in-rti-xbo/step-05.jpeg",
+    "width": 2289,
+    "height": 1617
+   }
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "Information: If there is a checkmark, their account is active.",
+   "image": {
+    "aspectRatio": "2289 / 1617",
+    "targets": [
+     {
+      "style": "width:3.604193971166448%;height:5.1020408163265305%;left:82.43774574049803%;top:91.713048855906%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/send-team-portal-reset-emails-in-rti-xbo/step-06.jpeg",
+    "width": 2289,
+    "height": 1617
+   }
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "Verify their email address is correct.",
+   "image": {
+    "aspectRatio": "2289 / 1617",
+    "targets": [
+     {
+      "style": "width:3.604193971166448%;height:5.1020408163265305%;left:69.85583224115334%;top:22.263450834879407%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/send-team-portal-reset-emails-in-rti-xbo/step-07.jpeg",
+    "width": 2289,
+    "height": 1617
+   }
+  },
+  {
+   "kind": "section",
+   "text": "XBO"
+  },
+  {
+   "kind": "step",
+   "number": 8,
+   "text": "Click this icon.",
+   "image": {
+    "aspectRatio": "2289 / 1617",
+    "targets": [
+     {
+      "style": "width:3.604193971166448%;height:5.1020408163265305%;left:95.01965923984272%;top:90.9090909090909%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/send-team-portal-reset-emails-in-rti-xbo/step-08.jpeg",
+    "width": 2289,
+    "height": 1617
+   }
+  },
+  {
+   "kind": "step",
+   "number": 9,
+   "text": "Click \"Reset Access\" and/or \"Reset MFA\" This sends a reset link to their email address.",
+   "image": {
+    "aspectRatio": "2289 / 1617",
+    "targets": [
+     {
+      "style": "width:3.604193971166448%;height:5.1020408163265305%;left:95.71865443425077%;top:82.25108225108225%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/send-team-portal-reset-emails-in-rti-xbo/step-09.jpeg",
+    "width": 2289,
+    "height": 1617
+   }
+  },
+  {
+   "kind": "section",
+   "text": "RTI"
+  },
+  {
+   "kind": "step",
+   "number": 10,
+   "text": "Click the employee you need to reset.",
+   "image": {
+    "aspectRatio": "1454 / 1354",
+    "targets": [
+     {
+      "style": "width:3.782668500687758%;height:4.062038404726736%;left:47.79917469050894%;top:26.292466765140325%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/send-team-portal-reset-emails-in-rti-xbo/step-10.jpeg",
+    "width": 1454,
+    "height": 1354
+   }
+  },
+  {
+   "kind": "step",
+   "number": 11,
+   "text": "Click \"Reset Access\" and/or \"Reset MFA\" This sends a reset link to their email address.",
+   "image": {
+    "aspectRatio": "1454 / 1354",
+    "targets": [
+     {
+      "style": "width:3.782668500687758%;height:4.062038404726736%;left:80.60522696011004%;top:97.41506646971935%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/send-team-portal-reset-emails-in-rti-xbo/step-11.jpeg",
+    "width": 1454,
+    "height": 1354
+   }
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.259312Z"
+}

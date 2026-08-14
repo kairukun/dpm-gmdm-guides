@@ -1,0 +1,416 @@
+{
+ "slug": "managing-users-in-frum",
+ "name": "Managing Users in FRUM",
+ "title": "Managing Users in FRUM",
+ "description": "This guide provides step-by-step instructions for managing users in FRUM. It includes information on adding employees/managers, changing roles, resetting passwords, and transferring employees/managers. If you need to navigate FRUM and perform these tasks, this guide will help you do so efficiently.",
+ "section": "Office ScribeHows",
+ "subsection": "FRUM",
+ "pdf": "pdfs/Office ScribeHows/FRUM/Managing Users in FRUM.pdf",
+ "tags": [
+  "Rbi",
+  "Okta"
+ ],
+ "scrapedAt": "2026-08-14T14:53:56.250Z",
+ "blocks": [
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "Navigate to [https://rbi.okta.com/login/login.htm](https://rbi.okta.com/login/login.htm)",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "Click this button.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:50.51751592356688%;top:46.965098634294385%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/managing-users-in-frum/step-02.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "Click \"FRUM BK\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:64.29140127388536%;top:20.18209408194234%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/managing-users-in-frum/step-03.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Adding Employee/Manager"
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "Click this button.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:48.288216560509554%;top:39.98482549317147%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/managing-users-in-frum/step-04.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "Click here.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:43.55095541401274%;top:47.79969650986343%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/managing-users-in-frum/step-05.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "Click \"Team Member\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:43.67038216560509%;top:59.55993930197268%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/managing-users-in-frum/step-06.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "warning",
+   "text": "Even for Manager hires, always select Team Member. It takes 24-48 hours for videos to appear for any other option."
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "Fill out first name.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:42.874203821656046%;top:50.53110773899848%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/managing-users-in-frum/step-07.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 8,
+   "text": "Fill out last name.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:54.259554140127385%;top:51.89681335356601%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/managing-users-in-frum/step-08.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 9,
+   "text": "Click \"Save\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:58.32006369426752%;top:66.76783004552352%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/managing-users-in-frum/step-09.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Changing Role"
+  },
+  {
+   "kind": "step",
+   "number": 10,
+   "text": "Find the employee/manager you are changing.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:68.94904458598727%;top:50.60698027314112%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/managing-users-in-frum/step-10.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 11,
+   "text": "Click \"Edit User\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:59.673566878980886%;top:73.14112291350531%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/managing-users-in-frum/step-11.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 12,
+   "text": "Click the \"Role\" dropdown box.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:49.56210191082803%;top:33.91502276176024%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/managing-users-in-frum/step-12.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 13,
+   "text": "Select new role.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:46.25796178343949%;top:41.274658573596355%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/managing-users-in-frum/step-13.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "warning",
+   "text": "Changing their role may require a password reset."
+  },
+  {
+   "kind": "step",
+   "number": 14,
+   "text": "Click \"Save\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:58.32006369426752%;top:67.75417298937785%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/managing-users-in-frum/step-14.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Resetting Password"
+  },
+  {
+   "kind": "step",
+   "number": 15,
+   "text": "Find the employee you are resetting the password for.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:67.67515923566879%;top:53.94537177541729%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/managing-users-in-frum/step-15.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 16,
+   "text": "Click dropdown box.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:60.07165605095541%;top:69.49924127465857%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/managing-users-in-frum/step-16.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 17,
+   "text": "Click \"Reset Password\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:40.76433121019109%;top:69.42336874051594%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/managing-users-in-frum/step-17.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "tip",
+   "text": "Password generates as random characters. It is best to copy and paste it in the login page."
+  },
+  {
+   "kind": "step",
+   "number": 18,
+   "text": "Click \"Save\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:58.28025477707006%;top:79.05918057663126%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/managing-users-in-frum/step-18.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Transferring Employees/Managers (DMs Only)"
+  },
+  {
+   "kind": "warning",
+   "text": "You can only transfer within your district."
+  },
+  {
+   "kind": "step",
+   "number": 19,
+   "text": "Find the employee/manager you are transferring.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:67.95382165605095%;top:54.62822458270106%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/managing-users-in-frum/step-19.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 20,
+   "text": "Click the \"Assign Hierarchy *\" field.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:49.124203821656046%;top:39.22610015174507%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/managing-users-in-frum/step-20.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 21,
+   "text": "Click the \"Filter\" field and search for restaurant.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:44.625796178343954%;top:15.402124430955993%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/managing-users-in-frum/step-21.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 22,
+   "text": "Click \"Save\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:58.28025477707006%;top:74.20333839150227%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/managing-users-in-frum/step-22.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "warning",
+   "text": "Changing their location may require a password reset."
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.250314Z"
+}

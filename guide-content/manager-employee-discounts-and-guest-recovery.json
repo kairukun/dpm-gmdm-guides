@@ -1,0 +1,172 @@
+{
+ "slug": "manager-employee-discounts-and-guest-recovery",
+ "name": "Manager/Employee Discounts and Guest Recovery",
+ "title": "Manager/Employee Discounts and Guest Recovery",
+ "description": "This guide provides a straightforward process for applying manager and employee discounts, as well as handling guest recovery efficiently. By following these steps, staff can ensure accurate transactions while maximizing customer satisfaction. It simplifies the discounting process, making it easier for employees to manage orders and enhance the guest experience. Viewing this guide will help streamline operations and improve service quality in your establishment.",
+ "section": "PAR POS Guides",
+ "subsection": null,
+ "pdf": "pdfs/PAR POS Guides/ManagerEmployee Discounts and Guest Recovery.pdf",
+ "tags": [
+  "Partech"
+ ],
+ "scrapedAt": "2026-08-14T14:52:44.603Z",
+ "blocks": [
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "Click \"Enter POS\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [],
+    "file": "assets/guides/manager-employee-discounts-and-guest-recovery/step-01.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "Ring up order.",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [],
+    "file": "assets/guides/manager-employee-discounts-and-guest-recovery/step-02.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Manager/Employee Meal"
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "Click \"Pay\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [],
+    "file": "assets/guides/manager-employee-discounts-and-guest-recovery/step-03.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "Name order.",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [],
+    "file": "assets/guides/manager-employee-discounts-and-guest-recovery/step-04.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "Select \"Employee\" (50%) or \"Manager\" (100%)",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [],
+    "file": "assets/guides/manager-employee-discounts-and-guest-recovery/step-05.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "Put in employee/manager name.",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [],
+    "file": "assets/guides/manager-employee-discounts-and-guest-recovery/step-06.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Guest Recovery"
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "Select items to be discounted.",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [],
+    "file": "assets/guides/manager-employee-discounts-and-guest-recovery/step-07.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "warning",
+   "text": "You must click the line the price is on."
+  },
+  {
+   "kind": "step",
+   "number": 8,
+   "text": "Click \"Functions\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [],
+    "file": "assets/guides/manager-employee-discounts-and-guest-recovery/step-08.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 9,
+   "text": "Click \"Manager Functions\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [],
+    "file": "assets/guides/manager-employee-discounts-and-guest-recovery/step-09.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 10,
+   "text": "Slide card or enter PIN",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [],
+    "file": "assets/guides/manager-employee-discounts-and-guest-recovery/step-10.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 11,
+   "text": "Click \"Guest Recovery\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [],
+    "file": "assets/guides/manager-employee-discounts-and-guest-recovery/step-11.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 12,
+   "text": "Click \"Pay\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [],
+    "file": "assets/guides/manager-employee-discounts-and-guest-recovery/step-12.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.248814Z"
+}

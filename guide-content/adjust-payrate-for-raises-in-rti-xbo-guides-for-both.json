@@ -1,0 +1,676 @@
+{
+ "slug": "adjust-payrate-for-raises-in-rti-xbo-guides-for-both",
+ "name": "Adjust Payrate for Raises in RTI/XBO (Guides for Both)",
+ "title": "Adjust Payrate for Raises in RTI/XBO (Guides for Both)",
+ "description": "This guide provides step-by-step instructions on how to adjust pay rates for raises in both RTI and XBO systems. It emphasizes the importance of following the steps accurately to avoid deactivating time card numbers. The guide covers specific actions for each system, including logging in, navigating to the relevant sections, adding new pay rates, deleting old ones, and removing deactivation dates. By following this guide, users can effectively and correctly adjust pay rates for raises in RTI and XBO systems.",
+ "section": "Office ScribeHows",
+ "subsection": "XBO/RTI (All guides are using XBO unless specified)",
+ "pdf": "pdfs/Office ScribeHows/XBO-RTI/Adjust Payrate for Raises in RTI-XBO (Guides for Both).pdf",
+ "tags": [
+  "Xenial"
+ ],
+ "scrapedAt": "2026-08-14T14:56:10.370Z",
+ "blocks": [
+  {
+   "kind": "warning",
+   "text": "It is recommended to complete this on XBO instead of RTI."
+  },
+  {
+   "kind": "warning",
+   "text": "Any incorrect steps will cause the Time Card number to be deactivated on the POS and which will require Xenial to fix. Verify all steps are completed before submitted the change."
+  },
+  {
+   "kind": "section",
+   "text": "RTI"
+  },
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "Log in to GM or above account.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "Click \"Employees & Scheduling\"",
+   "image": {
+    "aspectRatio": "1600 / 1006",
+    "targets": [
+     {
+      "style": "width:3.4375000000000004%;height:5.467196819085487%;left:33.9375%;top:32.90258449304175%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjust-payrate-for-raises-in-rti-xbo-guides-for-both/step-02.jpeg",
+    "width": 1600,
+    "height": 1006
+   }
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "Click \"Add/Update Employees\"",
+   "image": {
+    "aspectRatio": "1600 / 1010",
+    "targets": [
+     {
+      "style": "width:3.4375000000000004%;height:5.445544554455446%;left:13.5625%;top:15.841584158415841%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjust-payrate-for-raises-in-rti-xbo-guides-for-both/step-03.jpeg",
+    "width": 1600,
+    "height": 1010
+   }
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "Click the employee you are giving a raise to.",
+   "image": {
+    "aspectRatio": "1600 / 1006",
+    "targets": [
+     {
+      "style": "width:3.4375000000000004%;height:5.467196819085487%;left:28.4375%;top:20.675944333996025%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjust-payrate-for-raises-in-rti-xbo-guides-for-both/step-04.jpeg",
+    "width": 1600,
+    "height": 1006
+   }
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "Click \"Departments and Pay\"",
+   "image": {
+    "aspectRatio": "1601 / 1017",
+    "targets": [
+     {
+      "style": "width:3.4353529044347284%;height:5.408062930186824%;left:35.727670206121175%;top:12.684365781710916%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjust-payrate-for-raises-in-rti-xbo-guides-for-both/step-05.jpeg",
+    "width": 1601,
+    "height": 1017
+   }
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "Add a new line with the new pay rate and the date of the adjustment.",
+   "image": {
+    "aspectRatio": "1599 / 1015",
+    "targets": [
+     {
+      "style": "width:3.4396497811131956%;height:5.41871921182266%;left:38.524077548467794%;top:27.586206896551722%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjust-payrate-for-raises-in-rti-xbo-guides-for-both/step-06.jpeg",
+    "width": 1599,
+    "height": 1015
+   }
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "Click checkbox under \"Default\"",
+   "image": {
+    "aspectRatio": "1605 / 1016",
+    "targets": [
+     {
+      "style": "width:3.4267912772585665%;height:5.413385826771654%;left:49.59501557632399%;top:20.76771653543307%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjust-payrate-for-raises-in-rti-xbo-guides-for-both/step-07.jpeg",
+    "width": 1605,
+    "height": 1016
+   }
+  },
+  {
+   "kind": "step",
+   "number": 8,
+   "text": "Right click on the old line, and \"Delete\"",
+   "image": {
+    "aspectRatio": "1597 / 1016",
+    "targets": [
+     {
+      "style": "width:3.4439574201628056%;height:5.413385826771654%;left:17.09455228553538%;top:21.948818897637796%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjust-payrate-for-raises-in-rti-xbo-guides-for-both/step-08.jpeg",
+    "width": 1597,
+    "height": 1016
+   }
+  },
+  {
+   "kind": "step",
+   "number": 9,
+   "text": "Click \"Yes\"",
+   "image": {
+    "aspectRatio": "1601 / 1016",
+    "targets": [
+     {
+      "style": "width:3.4353529044347284%;height:5.413385826771654%;left:55.27795128044972%;top:59.54724409448819%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjust-payrate-for-raises-in-rti-xbo-guides-for-both/step-09.jpeg",
+    "width": 1601,
+    "height": 1016
+   }
+  },
+  {
+   "kind": "step",
+   "number": 10,
+   "text": "Click the \"...\" box next to new Departments.",
+   "image": {
+    "aspectRatio": "1603 / 1013",
+    "targets": [
+     {
+      "style": "width:3.4310667498440424%;height:5.429417571569595%;left:53.21272613849033%;top:19.2497532082922%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjust-payrate-for-raises-in-rti-xbo-guides-for-both/step-10.jpeg",
+    "width": 1603,
+    "height": 1013
+   }
+  },
+  {
+   "kind": "step",
+   "number": 11,
+   "text": "Verify the old pay rate is showing.",
+   "image": {
+    "aspectRatio": "1600 / 1019",
+    "targets": [
+     {
+      "style": "width:3.4375000000000004%;height:5.397448478900883%;left:28.1875%;top:29.34249263984298%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjust-payrate-for-raises-in-rti-xbo-guides-for-both/step-11.jpeg",
+    "width": 1600,
+    "height": 1019
+   }
+  },
+  {
+   "kind": "step",
+   "number": 12,
+   "text": "Select the Pay Rate that should be active.",
+   "image": {
+    "aspectRatio": "1600 / 1019",
+    "targets": [
+     {
+      "style": "width:3.4375000000000004%;height:5.397448478900883%;left:27.9375%;top:27.77232580961727%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjust-payrate-for-raises-in-rti-xbo-guides-for-both/step-12.jpeg",
+    "width": 1600,
+    "height": 1019
+   }
+  },
+  {
+   "kind": "step",
+   "number": 13,
+   "text": "Click \"Ok.\"",
+   "image": {
+    "aspectRatio": "1604 / 1016",
+    "targets": [
+     {
+      "style": "width:3.4289276807980054%;height:5.413385826771654%;left:37.46882793017456%;top:51.082677165354326%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjust-payrate-for-raises-in-rti-xbo-guides-for-both/step-13.jpeg",
+    "width": 1604,
+    "height": 1016
+   }
+  },
+  {
+   "kind": "step",
+   "number": 14,
+   "text": "Click \"POS Departments\"",
+   "image": {
+    "aspectRatio": "1603 / 1016",
+    "targets": [
+     {
+      "style": "width:3.4310667498440424%;height:5.413385826771654%;left:94.63505926388022%;top:85.03937007874016%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjust-payrate-for-raises-in-rti-xbo-guides-for-both/step-14.jpeg",
+    "width": 1603,
+    "height": 1016
+   }
+  },
+  {
+   "kind": "step",
+   "number": 15,
+   "text": "Click the \"Integration\" dropdown box.",
+   "image": {
+    "aspectRatio": "1603 / 1016",
+    "targets": [
+     {
+      "style": "width:3.4310667498440424%;height:5.413385826771654%;left:21.95882719900187%;top:25.590551181102363%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjust-payrate-for-raises-in-rti-xbo-guides-for-both/step-15.jpeg",
+    "width": 1603,
+    "height": 1016
+   }
+  },
+  {
+   "kind": "step",
+   "number": 16,
+   "text": "Click \"Encounter\"",
+   "image": {
+    "aspectRatio": "1601 / 1016",
+    "targets": [
+     {
+      "style": "width:3.4353529044347284%;height:5.413385826771654%;left:19.362898188632105%;top:27.559055118110237%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjust-payrate-for-raises-in-rti-xbo-guides-for-both/step-16.jpeg",
+    "width": 1601,
+    "height": 1016
+   }
+  },
+  {
+   "kind": "step",
+   "number": 17,
+   "text": "Verify the restaurant does not have a \"Deactivation Date\"",
+   "image": {
+    "aspectRatio": "1601 / 1015",
+    "targets": [
+     {
+      "style": "width:3.4353529044347284%;height:5.41871921182266%;left:28.419737663960028%;top:29.55665024630542%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjust-payrate-for-raises-in-rti-xbo-guides-for-both/step-17.jpeg",
+    "width": 1601,
+    "height": 1015
+   }
+  },
+  {
+   "kind": "warning",
+   "text": "If there is a deactivation date listed, this will deactivate the timecard number if saved."
+  },
+  {
+   "kind": "step",
+   "number": 18,
+   "text": "Click here",
+   "image": {
+    "aspectRatio": "1599 / 1016",
+    "targets": [
+     {
+      "style": "width:3.4396497811131956%;height:5.413385826771654%;left:31.58223889931207%;top:51.67322834645669%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjust-payrate-for-raises-in-rti-xbo-guides-for-both/step-18.jpeg",
+    "width": 1599,
+    "height": 1016
+   }
+  },
+  {
+   "kind": "step",
+   "number": 19,
+   "text": "Click \"Time Cards\"",
+   "image": {
+    "aspectRatio": "2560 / 1440",
+    "targets": [
+     {
+      "style": "width:2.1484375%;height:3.8194444444444446%;left:42.265625%;top:9.097222222222221%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjust-payrate-for-raises-in-rti-xbo-guides-for-both/step-19.jpeg",
+    "width": 2560,
+    "height": 1440
+   }
+  },
+  {
+   "kind": "step",
+   "number": 20,
+   "text": "Put in the original \"Time Card Number\"",
+   "image": {
+    "aspectRatio": "2560 / 1440",
+    "targets": [
+     {
+      "style": "width:2.1484375%;height:3.8194444444444446%;left:32.9296875%;top:13.472222222222221%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjust-payrate-for-raises-in-rti-xbo-guides-for-both/step-20.jpeg",
+    "width": 2560,
+    "height": 1440
+   }
+  },
+  {
+   "kind": "step",
+   "number": 21,
+   "text": "Put in the original \"Department\"",
+   "image": {
+    "aspectRatio": "2560 / 1440",
+    "targets": [
+     {
+      "style": "width:2.1484375%;height:3.8194444444444446%;left:71.2109375%;top:13.88888888888889%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjust-payrate-for-raises-in-rti-xbo-guides-for-both/step-21.jpeg",
+    "width": 2560,
+    "height": 1440
+   }
+  },
+  {
+   "kind": "step",
+   "number": 22,
+   "text": "Click \"OK\"",
+   "image": {
+    "aspectRatio": "2560 / 1440",
+    "targets": [
+     {
+      "style": "width:2.1484375%;height:3.8194444444444446%;left:71.0546875%;top:62.291666666666664%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjust-payrate-for-raises-in-rti-xbo-guides-for-both/step-22.jpeg",
+    "width": 2560,
+    "height": 1440
+   }
+  },
+  {
+   "kind": "warning",
+   "text": "Any incorrect steps will cause the Time Card number to be deactivated on the POS and will require Xenial to fix. Verify all steps are completed before submitted the change."
+  },
+  {
+   "kind": "section",
+   "text": "XBO"
+  },
+  {
+   "kind": "step",
+   "number": 23,
+   "text": "Navigate to [https://xbo.xenial.com/login](https://xbo.xenial.com/login)",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 24,
+   "text": "Log in.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:49.64171974522293%;top:41.578148710166914%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjust-payrate-for-raises-in-rti-xbo-guides-for-both/step-24.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 25,
+   "text": "Click \"Employees && Scheduling\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:25.75636942675159%;top:23.596358118361152%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjust-payrate-for-raises-in-rti-xbo-guides-for-both/step-25.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 26,
+   "text": "Click \"Add / Update Employees\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:7.285031847133758%;top:17.147192716236724%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjust-payrate-for-raises-in-rti-xbo-guides-for-both/step-26.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 27,
+   "text": "Find restaurant you are submitting the raise for. Restaurant accounts will only show their restaurant.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:18.630573248407643%;top:45.52352048558422%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjust-payrate-for-raises-in-rti-xbo-guides-for-both/step-27.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 28,
+   "text": "Click the employee you are giving a raise to.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:37.06210191082803%;top:37.63277693474962%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjust-payrate-for-raises-in-rti-xbo-guides-for-both/step-28.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 29,
+   "text": "Click \"Time Cards/Pay Rates\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:15.565286624203821%;top:33.30804248861912%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjust-payrate-for-raises-in-rti-xbo-guides-for-both/step-29.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 30,
+   "text": "Change the \"Pay Rate\" to their new pay rate.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:48.52707006369427%;top:27.16236722306525%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjust-payrate-for-raises-in-rti-xbo-guides-for-both/step-30.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 31,
+   "text": "Change the date to the date of change.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:65.60509554140127%;top:26.783004552352047%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjust-payrate-for-raises-in-rti-xbo-guides-for-both/step-31.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 32,
+   "text": "Click \"...\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:70.5812101910828%;top:27.23823975720789%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjust-payrate-for-raises-in-rti-xbo-guides-for-both/step-32.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 33,
+   "text": "Verify the pay history is correct. Click \"OK\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:3.5031847133757954%;height:6.676783004552352%;left:58.718152866242036%;top:68.89226100151745%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjust-payrate-for-raises-in-rti-xbo-guides-for-both/step-33.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "warning",
+   "text": "Make sure the effective date of the correct pay rate is the most current and marked default."
+  },
+  {
+   "kind": "step",
+   "number": 34,
+   "text": "Click here.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:97.2531847133758%;top:13.581183611532625%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjust-payrate-for-raises-in-rti-xbo-guides-for-both/step-34.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 35,
+   "text": "Click \"History\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.502274795268426%;height:4.7691307175373945%;left:77.78662420382165%;top:20.409711684370258%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjust-payrate-for-raises-in-rti-xbo-guides-for-both/step-35.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 36,
+   "text": "Make sure there is no \"Deactivation Date\" for their current POS Department.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:65.1671974522293%;top:40.13657056145675%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjust-payrate-for-raises-in-rti-xbo-guides-for-both/step-36.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "warning",
+   "text": "If there is a deactivation date listed, this will deactivate the timecard number if saved."
+  },
+  {
+   "kind": "step",
+   "number": 37,
+   "text": "Click \"OK\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:68.67038216560509%;top:67.98179059180576%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjust-payrate-for-raises-in-rti-xbo-guides-for-both/step-37.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 38,
+   "text": "Click \"Save\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:97.65127388535032%;top:13.201820940819422%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjust-payrate-for-raises-in-rti-xbo-guides-for-both/step-38.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "warning",
+   "text": "Any incorrect steps will cause the Time Card number to be deactivated on the POS and will require Xenial to fix. Verify all steps are completed before submitted the change."
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.231313Z"
+}

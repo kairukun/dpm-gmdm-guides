@@ -1,0 +1,188 @@
+{
+ "slug": "marking-sold-out-limited-availability",
+ "name": "Marking Sold Out/Limited Availability",
+ "title": "Marking Sold Out/Limited Availability",
+ "description": "This guide is essential for ensuring proper inventory management within your organization. It outlines the necessary steps for marking items as sold out or limited quantity, emphasizing the importance of communication with the District Manager. By following these procedures, you can maintain accurate item availability and prevent confusion during business operations. Understanding these workflows will enhance efficiency and support better decision-making in your sales environment.",
+ "section": "PAR POS Guides",
+ "subsection": null,
+ "pdf": "pdfs/PAR POS Guides/Zoho Workflow.pdf",
+ "tags": [
+  "Partech"
+ ],
+ "scrapedAt": "2026-08-14T14:52:48.855Z",
+ "blocks": [
+  {
+   "kind": "warning",
+   "text": "No items should be marked sold out without the knowledge of the District Manager."
+  },
+  {
+   "kind": "warning",
+   "text": "Marking it sold out will only last for the current business day. It will be marked as available at the start of the next business day."
+  },
+  {
+   "kind": "section",
+   "text": "Accessing Item Availability Menu"
+  },
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "Click \"Enter POS\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [],
+    "file": "assets/guides/marking-sold-out-limited-availability/step-01.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "Click \"Functions\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [],
+    "file": "assets/guides/marking-sold-out-limited-availability/step-02.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "Click \"Manager Functions\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [],
+    "file": "assets/guides/marking-sold-out-limited-availability/step-03.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "Slide card or enter PIN",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [],
+    "file": "assets/guides/marking-sold-out-limited-availability/step-04.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "Click \"Item Availability\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [],
+    "file": "assets/guides/marking-sold-out-limited-availability/step-05.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "Click here.",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [],
+    "file": "assets/guides/marking-sold-out-limited-availability/step-06.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "Select item(s)",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [],
+    "file": "assets/guides/marking-sold-out-limited-availability/step-07.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Not Available"
+  },
+  {
+   "kind": "tip",
+   "text": "Marking as \"Not Available\" marks the item with an X on the POS and marks it sold out on the menus (can take up to 30 minutes)."
+  },
+  {
+   "kind": "step",
+   "number": 8,
+   "text": "Click \"Not Available\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [],
+    "file": "assets/guides/marking-sold-out-limited-availability/step-08.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 9,
+   "text": "Click \"Save\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [],
+    "file": "assets/guides/marking-sold-out-limited-availability/step-09.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Limited Quality"
+  },
+  {
+   "kind": "tip",
+   "text": "Marking as \"Limited Quantity\" limits how many of the item can still be sold. Once the selected number of that item is sold it will mark the item with an X on the POS and marks it sold out on the menus (can take up to 30 minutes)."
+  },
+  {
+   "kind": "step",
+   "number": 10,
+   "text": "Select \"Limited Quantity\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [],
+    "file": "assets/guides/marking-sold-out-limited-availability/step-10.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 11,
+   "text": "Select quantity.",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [],
+    "file": "assets/guides/marking-sold-out-limited-availability/step-11.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 12,
+   "text": "Click \"Save\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [],
+    "file": "assets/guides/marking-sold-out-limited-availability/step-12.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.251313Z"
+}

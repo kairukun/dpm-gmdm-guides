@@ -1,0 +1,69 @@
+{
+ "slug": "gift-cards",
+ "name": "Gift Cards",
+ "title": "Gift Cards",
+ "description": "This guide provides essential instructions for managing gift cards at the point of sale, ensuring efficient customer service. It outlines how to check balances, issue new cards, and reload existing ones, making it a valuable resource for employees. By following these steps, staff can enhance the guest experience and streamline transactions, ultimately benefiting the business.",
+ "section": "PAR POS Guides",
+ "subsection": null,
+ "pdf": "pdfs/PAR POS Guides/Gift Cards.pdf",
+ "tags": [
+  "Partech"
+ ],
+ "scrapedAt": "2026-08-14T14:52:36.077Z",
+ "blocks": [
+  {
+   "kind": "step",
+   "text": "Enter POS using the current drawer's employee's number.",
+   "number": 1,
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:37.99630655586334%;top:46.330275229357795%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/gift-cards/step-01.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "text": "Click \"Functions\"",
+   "number": 2,
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:86.14958448753463%;top:7.110091743119266%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/gift-cards/step-02.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "text": "Click \"Check Gift Card Balance\" for balance of the guest's gift card. \"Gift Card Issue\" for loading money onto a new gift card. \"Gift Card Reload\" for loading money onto a used gift card.",
+   "number": 3,
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:6.64819944598338%;height:28.74617737003058%;left:91.78208679593722%;top:54.20489296636085%;border-color:#22C55Ebf",
+      "round": false
+     }
+    ],
+    "file": "assets/guides/gift-cards/step-03.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  }
+ ],
+ "updatedAt": "2026-08-14T15:13:04.836Z",
+ "updatedBy": "kyle@dossaniparadise.com",
+ "linksRewrittenAt": "2026-08-14T15:17:17.245315Z"
+}

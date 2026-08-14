@@ -1,0 +1,147 @@
+{
+ "slug": "remove-pin-access-card-only-dms-only",
+ "name": "Remove PIN Access, Card Only (DMs Only)",
+ "title": "Remove PIN Access, Card Only (DMs Only)",
+ "description": "This guide provides a straightforward process for removing PIN access and enabling card-only login for staff in a restaurant management system. By following these steps, managers can enhance security and streamline employee access, ensuring that only authorized personnel can log in. It's an essential resource for restaurant managers looking to optimize their operational protocols.",
+ "section": "PAR POS Guides",
+ "subsection": null,
+ "pdf": "pdfs/PAR POS Guides/Remove PIN Access Card Only DMs Only.pdf",
+ "tags": [
+  "Partech"
+ ],
+ "scrapedAt": "2026-08-14T14:52:52.071Z",
+ "blocks": [
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "Navigate to [https://admin25.parpos.com/Public/Login?ReturnUrl=%2f](https://admin25.parpos.com/Public/Login?ReturnUrl=%2f)",
+   "image": {
+    "aspectRatio": "2191 / 1570",
+    "targets": [],
+    "file": "assets/guides/remove-pin-access-card-only-dms-only/step-01.jpeg",
+    "width": 2191,
+    "height": 1570
+   }
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "Click \"Staff\"",
+   "image": {
+    "aspectRatio": "2191 / 1570",
+    "targets": [
+     {
+      "style": "width:6.395348837209303%;height:8.924974077914383%;left:3.605659516202647%;top:31.719745222929934%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/remove-pin-access-card-only-dms-only/step-01.jpeg",
+    "width": 2191,
+    "height": 1570
+   }
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "Click \"Employees\"",
+   "image": {
+    "aspectRatio": "2191 / 1570",
+    "targets": [
+     {
+      "style": "width:6.395348837209303%;height:8.924974077914383%;left:5.887722501141032%;top:36.68789808917197%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/remove-pin-access-card-only-dms-only/step-03.jpeg",
+    "width": 2191,
+    "height": 1570
+   }
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "Search for restaurant.",
+   "image": {
+    "aspectRatio": "2191 / 1570",
+    "targets": [
+     {
+      "style": "width:6.395348837209303%;height:8.924974077914383%;left:44.59151072569603%;top:30.38216560509554%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/remove-pin-access-card-only-dms-only/step-04.jpeg",
+    "width": 2191,
+    "height": 1570
+   }
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "Search for manager.",
+   "image": {
+    "aspectRatio": "2191 / 1570",
+    "targets": [
+     {
+      "style": "width:6.395348837209303%;height:8.924974077914383%;left:31.081697854860796%;top:49.681528662420384%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/remove-pin-access-card-only-dms-only/step-05.jpeg",
+    "width": 2191,
+    "height": 1570
+   }
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "Click the \"Override Job Login Options\" field.",
+   "image": {
+    "aspectRatio": "2191 / 1570",
+    "targets": [
+     {
+      "style": "width:6.395348837209303%;height:8.924974077914383%;left:24.87448653582839%;top:96.62420382165605%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/remove-pin-access-card-only-dms-only/step-06.jpeg",
+    "width": 2191,
+    "height": 1570
+   }
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "Make sure only the \"Card\" option is checked.",
+   "image": {
+    "aspectRatio": "2191 / 1570",
+    "targets": [
+     {
+      "style": "width:6.395348837209303%;height:8.924974077914383%;left:27.47603833865815%;top:78.15286624203821%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/remove-pin-access-card-only-dms-only/step-07.jpeg",
+    "width": 2191,
+    "height": 1570
+   }
+  },
+  {
+   "kind": "step",
+   "number": 8,
+   "text": "Click \"Save\"",
+   "image": {
+    "aspectRatio": "2191 / 1570",
+    "targets": [
+     {
+      "style": "width:6.395348837209303%;height:8.924974077914383%;left:24.46371519853948%;top:95.09554140127389%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/remove-pin-access-card-only-dms-only/step-08.jpeg",
+    "width": 2191,
+    "height": 1570
+   }
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.256317Z"
+}

@@ -1,0 +1,176 @@
+{
+ "slug": "access-user-summary-in-bku",
+ "name": "Access User Summary in BKU",
+ "title": "Access User Summary in BKU",
+ "description": "This guide provides a straightforward method for accessing and reviewing user summaries in the Burger King University platform. It outlines essential steps to track user engagement, including login history, video progress, course statuses, and earned badges. By following this guide, you can efficiently monitor user activity and achievements, ensuring effective training management and support for your team.",
+ "section": "Office ScribeHows",
+ "subsection": "BKU",
+ "pdf": "pdfs/Office ScribeHows/BKU/Access User Summary in BKU.pdf",
+ "tags": [
+  "Burgerking",
+  "Okta"
+ ],
+ "scrapedAt": "2026-08-14T14:53:40.950Z",
+ "blocks": [
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "Navigate to [https://www.burgerkinguniversity.com](https://rbi.okta.com/app/restaurantbrandsinternational_burgerkingacademy_1/exk1he4dgr4B86Exq1d8/sso/saml)",
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [],
+    "file": "assets/guides/access-user-summary-in-bku/step-01.jpeg",
+    "width": 2191,
+    "height": 1581
+   }
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "Log in.",
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [],
+    "file": "assets/guides/access-user-summary-in-bku/step-01.jpeg",
+    "width": 2191,
+    "height": 1581
+   }
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "Click Settings gear.",
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [],
+    "file": "assets/guides/access-user-summary-in-bku/step-03.jpeg",
+    "width": 2191,
+    "height": 1581
+   }
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "Click \"Users\"",
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [],
+    "file": "assets/guides/access-user-summary-in-bku/step-04.jpeg",
+    "width": 2191,
+    "height": 1581
+   }
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "Search for user.",
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [],
+    "file": "assets/guides/access-user-summary-in-bku/step-05.jpeg",
+    "width": 2191,
+    "height": 1581
+   }
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "Click this button.",
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [],
+    "file": "assets/guides/access-user-summary-in-bku/step-06.jpeg",
+    "width": 2191,
+    "height": 1581
+   }
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "Click \"User Personal Summary\"",
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [],
+    "file": "assets/guides/access-user-summary-in-bku/step-07.jpeg",
+    "width": 2191,
+    "height": 1581
+   }
+  },
+  {
+   "kind": "step",
+   "number": 8,
+   "text": "Shows the last time this user logged in.",
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [],
+    "file": "assets/guides/access-user-summary-in-bku/step-08.jpeg",
+    "width": 2191,
+    "height": 1581
+   }
+  },
+  {
+   "kind": "step",
+   "number": 9,
+   "text": "Shows the video progress %.",
+   "image": {
+    "aspectRatio": "1887 / 1294",
+    "targets": [
+     {
+      "style": "width:5.632069260828008%;height:8.213071634607767%;left:47.53577106518283%;top:70.17001545595053%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/access-user-summary-in-bku/step-09.webp"
+   }
+  },
+  {
+   "kind": "step",
+   "number": 10,
+   "text": "Click \"Courses\"",
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [],
+    "file": "assets/guides/access-user-summary-in-bku/step-10.jpeg",
+    "width": 2191,
+    "height": 1581
+   }
+  },
+  {
+   "kind": "step",
+   "number": 11,
+   "text": "Shows the status of all courses the user is enrolled in.",
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [],
+    "file": "assets/guides/access-user-summary-in-bku/step-11.jpeg",
+    "width": 2191,
+    "height": 1581
+   }
+  },
+  {
+   "kind": "step",
+   "number": 12,
+   "text": "Click \"Badges\"",
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [],
+    "file": "assets/guides/access-user-summary-in-bku/step-12.jpeg",
+    "width": 2191,
+    "height": 1581
+   }
+  },
+  {
+   "kind": "step",
+   "number": 13,
+   "text": "Shows all active badges and certifications the user has.",
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [],
+    "file": "assets/guides/access-user-summary-in-bku/step-13.jpeg",
+    "width": 2191,
+    "height": 1581
+   }
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.227814Z"
+}

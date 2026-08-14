@@ -1,0 +1,635 @@
+{
+ "slug": "ringing-in-editing-tendering-order",
+ "name": "Ringing in/Editing/Tendering Order",
+ "title": "Ringing in/Editing/Tendering Order",
+ "description": "This guide provides a comprehensive overview of the order ringing, editing, and tendering process, making it essential for anyone working in a fast-paced food service environment. It details each step clearly, from starting an order to completing transactions, ensuring that employees can efficiently manage customer orders and payments. By following this guide, staff can enhance their operational skills, improve customer service, and streamline the ordering process, ultimately leading to a better dining experience.",
+ "section": "PAR POS Guides",
+ "subsection": null,
+ "pdf": "pdfs/PAR POS Guides/Ringing inEditingTendering Order.pdf",
+ "tags": [
+  "Partech"
+ ],
+ "scrapedAt": "2026-08-14T14:53:20.417Z",
+ "blocks": [
+  {
+   "kind": "section",
+   "text": "Starting the Order- FC"
+  },
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "Enter POS using the current drawer's employee's number.",
+   "image": {
+    "aspectRatio": "2166 / 1436",
+    "targets": [],
+    "file": "assets/guides/ringing-in-editing-tendering-order/step-01.jpeg",
+    "width": 2166,
+    "height": 1436
+   }
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "Take Out or Eat In.",
+   "image": {
+    "aspectRatio": "2166 / 1436",
+    "targets": [],
+    "file": "assets/guides/ringing-in-editing-tendering-order/step-02.jpeg",
+    "width": 2166,
+    "height": 1436
+   }
+  },
+  {
+   "kind": "warning",
+   "text": "Whichever is displayed is the order type."
+  },
+  {
+   "kind": "section",
+   "text": "Starting the Order- DT"
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "Enter POS using the current drawer's employee's number.",
+   "image": {
+    "aspectRatio": "2166 / 1436",
+    "targets": [],
+    "file": "assets/guides/ringing-in-editing-tendering-order/step-03.jpeg",
+    "width": 2166,
+    "height": 1436
+   }
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "Click \"+ New Order\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:21.191135734072024%;top:92.50764525993884%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/ringing-in-editing-tendering-order/step-04.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "Select which lane.",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:46.86057248384118%;top:59.5565749235474%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/ringing-in-editing-tendering-order/step-05.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "section",
+   "text": "POS Overview"
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [],
+    "file": "assets/guides/ringing-in-editing-tendering-order/step-06.webp"
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Coupons/Loyalty Lookup"
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "Click \"BK Rewards Lookup\" to enter Guest's Loyalty number.",
+   "image": {
+    "aspectRatio": "2166 / 1436",
+    "targets": [],
+    "file": "assets/guides/ringing-in-editing-tendering-order/step-07.jpeg",
+    "width": 2166,
+    "height": 1436
+   }
+  },
+  {
+   "kind": "step",
+   "number": 8,
+   "text": "Click \"Coupon Lookup\" for paper coupons.",
+   "image": {
+    "aspectRatio": "2166 / 1436",
+    "targets": [],
+    "file": "assets/guides/ringing-in-editing-tendering-order/step-08.jpeg",
+    "width": 2166,
+    "height": 1436
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Ringing in the Order- Combo Meals"
+  },
+  {
+   "kind": "warning",
+   "text": "If needing to switch to Breakfast, click Breakfast at the top. To switch back to Lunch, you would click Lunch where breakfast currently is."
+  },
+  {
+   "kind": "step",
+   "number": 9,
+   "text": "Click the combo meal you want.",
+   "image": {
+    "aspectRatio": "2166 / 1436",
+    "targets": [],
+    "file": "assets/guides/ringing-in-editing-tendering-order/step-09.jpeg",
+    "width": 2166,
+    "height": 1436
+   }
+  },
+  {
+   "kind": "step",
+   "number": 10,
+   "text": "To change the drink, click the drink from the meal.",
+   "image": {
+    "aspectRatio": "2166 / 1436",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.128133704735376%;left:12.3730378578024%;top:33.07799442896936%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/ringing-in-editing-tendering-order/step-10.jpeg",
+    "width": 2166,
+    "height": 1436
+   }
+  },
+  {
+   "kind": "warning",
+   "text": "If you have a drink selected, you must uncheck the drink to switch to another drink type."
+  },
+  {
+   "kind": "warning",
+   "text": "To change the drink, you must click the drink from the center POS option."
+  },
+  {
+   "kind": "step",
+   "number": 11,
+   "text": "Then select the drink.",
+   "image": {
+    "aspectRatio": "2166 / 1436",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.128133704735376%;left:32.779316712834714%;top:38.022284122562674%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/ringing-in-editing-tendering-order/step-11.jpeg",
+    "width": 2166,
+    "height": 1436
+   }
+  },
+  {
+   "kind": "step",
+   "number": 12,
+   "text": "To change the side, click the side from the meal.",
+   "image": {
+    "aspectRatio": "2166 / 1436",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.128133704735376%;left:11.772853185595569%;top:30.013927576601674%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/ringing-in-editing-tendering-order/step-12.jpeg",
+    "width": 2166,
+    "height": 1436
+   }
+  },
+  {
+   "kind": "warning",
+   "text": "To change the side, you must click the side from the center POS option."
+  },
+  {
+   "kind": "step",
+   "number": 13,
+   "text": "Then select the side.",
+   "image": {
+    "aspectRatio": "2166 / 1436",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.128133704735376%;left:40.67405355493998%;top:37.32590529247911%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/ringing-in-editing-tendering-order/step-13.jpeg",
+    "width": 2166,
+    "height": 1436
+   }
+  },
+  {
+   "kind": "step",
+   "number": 14,
+   "text": "To change the build of the sandwich, click the sandwich from the meal.",
+   "image": {
+    "aspectRatio": "2166 / 1436",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.128133704735376%;left:15.327793167128348%;top:26.532033426183844%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/ringing-in-editing-tendering-order/step-14.jpeg",
+    "width": 2166,
+    "height": 1436
+   }
+  },
+  {
+   "kind": "step",
+   "number": 15,
+   "text": "Then select the build options.",
+   "image": {
+    "aspectRatio": "2166 / 1436",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.128133704735376%;left:31.25577100646353%;top:38.71866295264624%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/ringing-in-editing-tendering-order/step-15.jpeg",
+    "width": 2166,
+    "height": 1436
+   }
+  },
+  {
+   "kind": "step",
+   "number": 16,
+   "text": "To change the sizes of the combo, fry, or drink: Highlight the combo part of the meal and then click \"Upsize\" or \"Downsize\" to change the combo meal size. Highlight the side or drink and then click \"Upsize\" or \"Downsize\" to change the size of the drink or side.",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:8.679593721144968%;top:6.116207951070336%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/ringing-in-editing-tendering-order/step-16.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Ringing in the Order- Turn Single Item to a Combo"
+  },
+  {
+   "kind": "step",
+   "number": 17,
+   "text": "Click the item you want to make a combo.",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:11.126500461680518%;top:60.015290519877674%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/ringing-in-editing-tendering-order/step-17.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 18,
+   "text": "Click \"Make a Combo\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:36.288088642659275%;top:81.57492354740062%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/ringing-in-editing-tendering-order/step-18.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Ringing in the Order- Quantity"
+  },
+  {
+   "kind": "step",
+   "number": 19,
+   "text": "To edit Quantity of what you are about to ring in. Click the numbers or # at the top.",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:22.530009233610343%;top:13.226299694189603%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/ringing-in-editing-tendering-order/step-19.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 20,
+   "text": "Select the number you are ringing in. Click \"OK\" Then ring in the item.",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:56.186518928901194%;top:72.32415902140673%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/ringing-in-editing-tendering-order/step-20.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Ringing in the Order- Naming the Order"
+  },
+  {
+   "kind": "step",
+   "number": 21,
+   "text": "Click \"Functions\"",
+   "image": {
+    "aspectRatio": "2166 / 1436",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.128133704735376%;left:85.13388734995382%;top:10.027855153203342%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/ringing-in-editing-tendering-order/step-21.jpeg",
+    "width": 2166,
+    "height": 1436
+   }
+  },
+  {
+   "kind": "step",
+   "number": 22,
+   "text": "Click \"Name Order\"",
+   "image": {
+    "aspectRatio": "2166 / 1436",
+    "targets": [
+     {
+      "style": "width:4.986149584487535%;height:7.520891364902507%;left:46.445060018467224%;top:33.4958217270195%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/ringing-in-editing-tendering-order/step-22.webp"
+   }
+  },
+  {
+   "kind": "step",
+   "number": 23,
+   "text": "Put in name. Click \"Done\"",
+   "image": {
+    "aspectRatio": "2166 / 1436",
+    "targets": [],
+    "file": "assets/guides/ringing-in-editing-tendering-order/step-23.jpeg",
+    "width": 2166,
+    "height": 1436
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Ringing in the Order- Deleting Items"
+  },
+  {
+   "kind": "step",
+   "number": 24,
+   "text": "Click the item you want to delete.",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:10.295475530932595%;top:20.718654434250762%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/ringing-in-editing-tendering-order/step-24.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 25,
+   "text": "Click \"Delete\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:5.216989843028625%;top:83.63914373088684%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/ringing-in-editing-tendering-order/step-25.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "warning",
+   "text": "If you have already clicked the \"Pay\" option, you must give a reason for deleting the item."
+  },
+  {
+   "kind": "step",
+   "number": 26,
+   "text": "Select the reason for deleting the item.",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:56.14035087719298%;top:51.37614678899083%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/ringing-in-editing-tendering-order/step-26.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Completing the Order"
+  },
+  {
+   "kind": "step",
+   "number": 27,
+   "text": "Click \"Pay\"",
+   "image": {
+    "aspectRatio": "2166 / 1436",
+    "targets": [],
+    "file": "assets/guides/ringing-in-editing-tendering-order/step-27.jpeg",
+    "width": 2166,
+    "height": 1436
+   }
+  },
+  {
+   "kind": "step",
+   "number": 28,
+   "text": "Put a name on the order.",
+   "image": {
+    "aspectRatio": "2166 / 1436",
+    "targets": [],
+    "file": "assets/guides/ringing-in-editing-tendering-order/step-28.jpeg",
+    "width": 2166,
+    "height": 1436
+   }
+  },
+  {
+   "kind": "step",
+   "number": 29,
+   "text": "**FOR DT ONLY** Select order that you are cashing out.",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:17.03601108033241%;top:18.27217125382263%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/ringing-in-editing-tendering-order/step-29.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 30,
+   "text": "Click the green for cash transactions. \"Cash\" is for any amount not pre-listed.",
+   "image": {
+    "aspectRatio": "2166 / 1436",
+    "targets": [],
+    "file": "assets/guides/ringing-in-editing-tendering-order/step-30.jpeg",
+    "width": 2166,
+    "height": 1436
+   }
+  },
+  {
+   "kind": "step",
+   "number": 31,
+   "text": "Click \"Credit Card\" for card transactions.",
+   "image": {
+    "aspectRatio": "2166 / 1436",
+    "targets": [],
+    "file": "assets/guides/ringing-in-editing-tendering-order/step-31.jpeg",
+    "width": 2166,
+    "height": 1436
+   }
+  },
+  {
+   "kind": "step",
+   "number": 32,
+   "text": "Click \"Gift Card\" for gift card transactions.",
+   "image": {
+    "aspectRatio": "2166 / 1436",
+    "targets": [],
+    "file": "assets/guides/ringing-in-editing-tendering-order/step-32.jpeg",
+    "width": 2166,
+    "height": 1436
+   }
+  },
+  {
+   "kind": "warning",
+   "text": "For transactions using multiple tenders, select the first tender and select the amount. It will change the \"Balance Due\" amount to the new balance. Then select the next tender and select the amount."
+  },
+  {
+   "kind": "section",
+   "text": "Ask for Donations"
+  },
+  {
+   "kind": "warning",
+   "text": "Ask for donations on every order."
+  },
+  {
+   "kind": "step",
+   "number": 33,
+   "text": "Click \"Send/Pay\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:27.192982456140353%;top:91.81957186544342%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/ringing-in-editing-tendering-order/step-33.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 34,
+   "text": "Click \"Ampler Open $ Donation\" if rounding up or not a $1 donation.",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.986149584487535%;height:8.256880733944955%;left:35.13388734995383%;top:17.660550458715598%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/ringing-in-editing-tendering-order/step-34.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 35,
+   "text": "Enter amount Click \"OK\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:54.29362880886427%;top:76.91131498470948%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/ringing-in-editing-tendering-order/step-35.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 36,
+   "text": "Click \"Ampler $1 Donation\" for $1 donations.",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:42.797783933518005%;top:17.431192660550458%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/ringing-in-editing-tendering-order/step-36.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.258319Z"
+}

@@ -1,0 +1,230 @@
+{
+ "slug": "borrowing-employees-managers-in-rti-xbo",
+ "name": "Borrowing Employees/Managers in RTI/XBO",
+ "title": "Borrowing Employees/Managers in RTI/XBO",
+ "description": "This guide provides step-by-step instructions on how to borrow an employee in the RTI/XBO system. It is important for someone to view this guide if they need to borrow an employee and ensure that all the necessary steps are followed correctly to maintain accurate information in the system.",
+ "section": "Office ScribeHows",
+ "subsection": "XBO/RTI (All guides are using XBO unless specified)",
+ "pdf": "pdfs/Office ScribeHows/XBO-RTI/Borrowing Employees-Managers in RTI-XBO.pdf",
+ "tags": [
+  "Xenial"
+ ],
+ "scrapedAt": "2026-08-14T14:56:12.727Z",
+ "blocks": [
+  {
+   "kind": "warning",
+   "text": "This is for borrowing only. Transfers must be done by a DM. If you are transferring them to a new district, a DO or Ops Support must do it."
+  },
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "Navigate to [https://xbo.xenial.com/login](https://xbo.xenial.com/login)",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "Click \"Log In\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:49.044585987261144%;top:41.274658573596355%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/borrowing-employees-managers-in-rti-xbo/step-02.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "Click \"Employees && Scheduling\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:25%;top:23.21699544764795%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/borrowing-employees-managers-in-rti-xbo/step-03.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "Click \"Add / Update Employees\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:6.409235668789809%;top:16.236722306525035%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/borrowing-employees-managers-in-rti-xbo/step-04.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "Search for employee.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:19.26751592356688%;top:18.740515933232167%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/borrowing-employees-managers-in-rti-xbo/step-05.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "Click here.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:18.75%;top:40.21244309559939%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/borrowing-employees-managers-in-rti-xbo/step-06.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "Click the correct fields of their status.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:18.471337579617835%;top:35.204855842185125%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/borrowing-employees-managers-in-rti-xbo/step-07.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 8,
+   "text": "Click \"Search\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:24.601910828025478%;top:95.97875569044007%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/borrowing-employees-managers-in-rti-xbo/step-08.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 9,
+   "text": "Click the employee you are borrowing.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:96.57643312101911%;top:29.286798179059183%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/borrowing-employees-managers-in-rti-xbo/step-09.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 10,
+   "text": "Click \"Stores\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:14.928343949044587%;top:21.851289833080425%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/borrowing-employees-managers-in-rti-xbo/step-10.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 11,
+   "text": "Activate the store they are being borrowed to. Restaurants will only see their own restaurant.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:36.5843949044586%;top:69.80273141122913%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/borrowing-employees-managers-in-rti-xbo/step-11.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 12,
+   "text": "Click \"Time Cards/Pay Rates\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:16.839171974522294%;top:33.91502276176024%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/borrowing-employees-managers-in-rti-xbo/step-12.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 13,
+   "text": "Verify all the information is correct under the location they were borrowed to.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:92.63535031847134%;top:19.726858877086496%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/borrowing-employees-managers-in-rti-xbo/step-13.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.236814Z"
+}

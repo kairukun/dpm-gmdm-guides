@@ -1,0 +1,522 @@
+{
+ "slug": "background-check-onboarding-in-talentreef",
+ "name": "Background Check/Onboarding in TalentReef",
+ "title": "Background Check/Onboarding in TalentReef",
+ "description": "This guide provides step-by-step instructions on how to submit a background check and complete the onboarding process in TalentReef. It explains how to navigate the platform, submit background check requests, hire employees, and ensure that all onboarding paperwork is completed accurately. Following this guide will help streamline the background check and onboarding process for new hires.",
+ "section": "Office ScribeHows",
+ "subsection": "TalentReef",
+ "pdf": "pdfs/Office ScribeHows/TalentReef/Background Check-Onboarding in TalentReef.pdf",
+ "tags": [
+  "Talentreef"
+ ],
+ "scrapedAt": "2026-08-14T14:55:32.767Z",
+ "blocks": [
+  {
+   "kind": "section",
+   "text": "Submitting Background Check"
+  },
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "Navigate to <https://login.jobappnetwork.com/login>",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "Click \"Log in\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:50.79617834394905%;top:34.977238239757206%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/background-check-onboarding-in-talentreef/step-02.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "Click \"NEW APPLICANTS\" Or \"Jump to,\" \"Source,\" and then \"Active\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:7.165605095541401%;top:19.271623672230653%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/background-check-onboarding-in-talentreef/step-03.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "Click the employee or manager you would like to submit a background check for.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:4.697452229299364%;top:12.5948406676783%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/background-check-onboarding-in-talentreef/step-04.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "Click \"Request Background Check\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:76.15445859872611%;top:15.098634294385432%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/background-check-onboarding-in-talentreef/step-05.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "Click \"Submit for Background Check.\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:54.73726114649682%;top:55.46282245827011%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/background-check-onboarding-in-talentreef/step-06.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "Make sure all information is filled out correctly.",
+   "image": {
+    "aspectRatio": "2190 / 790",
+    "targets": [],
+    "file": "assets/guides/background-check-onboarding-in-talentreef/step-07.jpeg",
+    "width": 2190,
+    "height": 790
+   }
+  },
+  {
+   "kind": "step",
+   "number": 8,
+   "text": "Click \"Save and Next Step\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:91.87898089171973%;top:89.60546282245826%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/background-check-onboarding-in-talentreef/step-08.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 9,
+   "text": "Click which background check you would like to complete. Restaurant accounts only have the \"Team Member\" option.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:3.5031847133757963%;height:6.676783004552352%;left:7.006369426751593%;top:24.203338391502278%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/background-check-onboarding-in-talentreef/step-09.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 10,
+   "text": "Click \"Save and Next Step\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:4.378980891719745%;height:8.34597875569044%;left:92.83439490445859%;top:89.22610015174507%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/background-check-onboarding-in-talentreef/step-10.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 11,
+   "text": "Add any other names/addresses they may provide.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:5.838641188959661%;height:11.12797167425392%;left:89.68949044585987%;top:32.16995447647951%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/background-check-onboarding-in-talentreef/step-11.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 12,
+   "text": "Verify all information is correct.",
+   "image": {
+    "aspectRatio": "2218 / 545",
+    "targets": [],
+    "file": "assets/guides/background-check-onboarding-in-talentreef/step-12.jpeg",
+    "width": 2218,
+    "height": 545
+   }
+  },
+  {
+   "kind": "step",
+   "number": 13,
+   "text": "Click \"Submit Background Check\"",
+   "image": {
+    "aspectRatio": "1557 / 383",
+    "targets": [],
+    "file": "assets/guides/background-check-onboarding-in-talentreef/step-13.jpeg",
+    "width": 1557,
+    "height": 383
+   }
+  },
+  {
+   "kind": "tip",
+   "text": "This will send them a message to consent for us to do the background check."
+  },
+  {
+   "kind": "section",
+   "text": "Hiring/Onboarding"
+  },
+  {
+   "kind": "tip",
+   "text": "Once the background check comes back, they will automatically move to the \"Completed\" section of \"Background Checks\""
+  },
+  {
+   "kind": "step",
+   "number": 14,
+   "text": "Click \"Jump to\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:3.662420382165605%;top:5.993930197268589%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/background-check-onboarding-in-talentreef/step-14.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 15,
+   "text": "Click \"Background Checks\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:4.737261146496816%;top:14.33990895295903%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/background-check-onboarding-in-talentreef/step-15.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 16,
+   "text": "Click \"Completed\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:4.45859872611465%;top:22.91350531107739%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/background-check-onboarding-in-talentreef/step-16.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 17,
+   "text": "Click the employee or manager you would like to hire.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:9.872611464968154%;top:19.575113808801213%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/background-check-onboarding-in-talentreef/step-17.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 18,
+   "text": "Click \"View and edit\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:7.643312101910828%;top:34.67374810318665%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/background-check-onboarding-in-talentreef/step-18.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 19,
+   "text": "Click this dropdown.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.9193205944798306%;height:5.56398583712696%;left:42.396496815286625%;top:48.710166919575116%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/background-check-onboarding-in-talentreef/step-19.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 20,
+   "text": "Change Status to \"Hired\" Change Stage to \"New Hire\" Click \"Save\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.502274795268426%;height:4.7691307175373945%;left:58.95700636942676%;top:65.47799696509864%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/background-check-onboarding-in-talentreef/step-20.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "tip",
+   "text": "This will send them their onboarding paperwork."
+  },
+  {
+   "kind": "step",
+   "number": 21,
+   "text": "Click \"Jump to\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:3.5429936305732483%;top:6.373292867981791%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/background-check-onboarding-in-talentreef/step-21.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 22,
+   "text": "Click \"Hire\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:4.81687898089172%;top:24.355083459787558%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/background-check-onboarding-in-talentreef/step-22.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 23,
+   "text": "Click \"Onboarding\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:5.374203821656051%;top:20.94081942336874%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/background-check-onboarding-in-talentreef/step-23.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 24,
+   "text": "Click name of applicant.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:15.127388535031846%;top:12.5948406676783%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/background-check-onboarding-in-talentreef/step-24.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 25,
+   "text": "All 3 of these boxes must be checked and forms must be at 100% for the onboarding process to be complete.",
+   "image": {
+    "aspectRatio": "1209 / 327",
+    "targets": [],
+    "file": "assets/guides/background-check-onboarding-in-talentreef/step-25.jpeg",
+    "width": 1209,
+    "height": 327
+   }
+  },
+  {
+   "kind": "step",
+   "number": 26,
+   "text": "Click \"Forms\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:73.72611464968153%;top:35.28072837632777%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/background-check-onboarding-in-talentreef/step-26.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 27,
+   "text": "Any forms with a yellow caution sign are forms that we must complete.",
+   "image": {
+    "aspectRatio": "2338 / 414",
+    "targets": [],
+    "file": "assets/guides/background-check-onboarding-in-talentreef/step-27.jpeg",
+    "width": 2338,
+    "height": 414
+   }
+  },
+  {
+   "kind": "tip",
+   "text": "Once all forms are complete, all the boxes have checks, and it marks as 100% complete, you must verify that their onboarding status is \"Complete.\""
+  },
+  {
+   "kind": "warning",
+   "text": "The onboarding status does not always automatically mark them as \"Completed.\" Always verify."
+  },
+  {
+   "kind": "step",
+   "number": 28,
+   "text": "Click \"Hired: Onboarding\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:8.95700636942675%;top:39.98482549317147%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/background-check-onboarding-in-talentreef/step-28.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 29,
+   "text": "Click the \"New Status\" dropdown.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:42.595541401273884%;top:51.062215477996965%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/background-check-onboarding-in-talentreef/step-29.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 30,
+   "text": "Mark as \"Completed\" Click \"Save\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.9193205944798306%;height:5.56398583712696%;left:59.39490445859873%;top:62.74658573596358%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/background-check-onboarding-in-talentreef/step-30.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "warning",
+   "text": "If they are not marked as \"Completed\" they will not migrate to isolved. This will cause a delay in them receiving a Payroll ID."
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.235813Z"
+}

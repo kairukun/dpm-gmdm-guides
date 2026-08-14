@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sign in | Dossani Paradise Management</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body class="auth-body">
+  <main class="auth-card">
+    <img class="auth-logo" src="assets/dpm-lockup.png" alt="Dossani Paradise Management">
+    <h1>Guide editor sign in</h1>
+    <p class="auth-sub">Only authorized editors can change guide content.</p>
+    <form id="login-form">
+      <label>
+        Email
+        <input type="email" name="email" id="email" required autocomplete="username">
+      </label>
+      <label>
+        Password
+        <input type="password" name="password" id="password" required autocomplete="current-password">
+      </label>
+      <p class="auth-error" id="error" hidden></p>
+      <button class="btn btn-primary" type="submit">Sign in</button>
+    </form>
+    <p class="auth-back"><a href="index.html">Back to guides</a></p>
+  </main>
+  <script>
+    (function () {
+      var params = new URLSearchParams(location.search);
+      var next = params.get("next") || "index.html";
+      var form = document.getElementById("login-form");
+      var error = document.getElementById("error");
+
+      fetch("/api/me").then(function (r) { return r.json(); }).then(function (me) {
+        if (me.authenticated) location.replace(next);
+      }).catch(function () {});
+
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        error.hidden = true;
+        fetch("/api/login", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            email: document.getElementById("email").value,
+            password: document.getElementById("password").value
+          })
+        }).then(function (r) { return r.json().then(function (d) { return { ok: r.ok, d: d }; }); })
+          .then(function (res) {
+            if (!res.ok) {
+              error.textContent = res.d.error || "Sign in failed";
+              error.hidden = false;
+              return;
+            }
+            location.replace(next);
+          })
+          .catch(function () {
+            error.textContent = "Could not reach the server. Start it with npm start.";
+            error.hidden = false;
+          });
+      });
+    })();
+  </script>
+</body>
+</html>

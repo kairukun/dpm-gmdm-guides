@@ -1,0 +1,166 @@
+{
+ "slug": "adjust-kds-routing",
+ "name": "Adjust KDS Routing",
+ "title": "Adjust KDS Routing",
+ "description": "This guide provides a straightforward process for adjusting KDS routing, essential for optimizing kitchen operations. By following the steps outlined, users can efficiently manage their KDS settings, ensuring that orders are routed correctly and enhancing overall workflow. Whether you're a manager or staff member, mastering this function can lead to improved service and reduced errors in order preparation. Access the guide for a clear, step-by-step approach to streamline your kitchen's performance.",
+ "section": "PAR POS Guides",
+ "subsection": null,
+ "pdf": "pdfs/PAR POS Guides/Adjust KDS Routing.pdf",
+ "tags": [
+  "Partech"
+ ],
+ "scrapedAt": "2026-08-14T14:52:10.488Z",
+ "blocks": [
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "Click \"Enter POS\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:38.088642659279785%;top:47.018348623853214%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjust-kds-routing/step-01.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "Click \"Functions\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:85.78024007386888%;top:5.73394495412844%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjust-kds-routing/step-02.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "Click \"Manager Functions\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:57.202216066481995%;top:14.831804281345565%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjust-kds-routing/step-03.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "Slide card or enter PIN",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:54.385964912280706%;top:74.46483180428135%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjust-kds-routing/step-04.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "Click \"KDS Routing\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:36.70360110803324%;top:83.71559633027523%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjust-kds-routing/step-05.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "Select which routing you want.",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:32.825484764542935%;top:23.776758409785934%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjust-kds-routing/step-06.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "tip",
+   "text": "When you select the number, the layout of the KDS will be displayed."
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "Click \"Confirm Selection\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:71.9298245614035%;top:87.61467889908256%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjust-kds-routing/step-07.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 8,
+   "text": "Click \"OK\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:64.58910433979686%;top:70.79510703363916%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjust-kds-routing/step-08.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Rerouting Printers"
+  },
+  {
+   "kind": "step",
+   "number": 9,
+   "text": "Navigate to: [Rerouting Printers](rerouting-printers.html) to adjust your printers after adjusting your KDS.",
+   "image": null
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.230815Z"
+}

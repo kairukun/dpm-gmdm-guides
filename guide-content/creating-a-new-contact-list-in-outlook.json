@@ -1,0 +1,156 @@
+{
+ "slug": "creating-a-new-contact-list-in-outlook",
+ "name": "Creating a New Contact List in Outlook",
+ "title": "Creating a New Contact List in Outlook",
+ "description": "This guide provides a straightforward process for creating a new contact list in Outlook, making it easier to manage your contacts effectively. By following the simple steps outlined, users can streamline their communication and organization, ensuring they have quick access to important connections. Whether for personal or professional use, having a well-structured contact list enhances productivity and collaboration.",
+ "section": "Office ScribeHows",
+ "subsection": "Office 365",
+ "pdf": "pdfs/Office ScribeHows/Office 365/Creating a New Contact List in Outlook.pdf",
+ "tags": [
+  "Office"
+ ],
+ "scrapedAt": "2026-08-14T14:54:36.250Z",
+ "blocks": [
+  {
+   "kind": "section",
+   "text": "Creating Contact List"
+  },
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "Navigate to [https://outlook.office.com/mail/](https://outlook.office.com/mail/)",
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [],
+    "file": "assets/guides/creating-a-new-contact-list-in-outlook/step-01.webp"
+   }
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "Click the people symbol.",
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [
+     {
+      "style": "width:8.268199452304884%;height:11.458333333333332%;left:1.4148790506617983%;top:17.773561037318153%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/creating-a-new-contact-list-in-outlook/step-02.webp"
+   }
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "Click \"New contact list\"",
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [
+     {
+      "style": "width:6.395348837209303%;height:8.862877484076902%;left:14.742126882701962%;top:19.54459203036053%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/creating-a-new-contact-list-in-outlook/step-03.jpeg",
+    "width": 2191,
+    "height": 1581
+   }
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "Name the Contact List.",
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [
+     {
+      "style": "width:6.395348837209303%;height:8.862877484076902%;left:57.18849840255591%;top:33.270082226438966%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/creating-a-new-contact-list-in-outlook/step-04.webp"
+   }
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "Add contacts.",
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [
+     {
+      "style": "width:6.395348837209303%;height:8.862877484076902%;left:47.78639890460977%;top:49.01960784313725%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/creating-a-new-contact-list-in-outlook/step-05.webp"
+   }
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "Click \"Create\"",
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [
+     {
+      "style": "width:6.395348837209303%;height:8.862877484076902%;left:67.2295755362848%;top:71.34724857685009%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/creating-a-new-contact-list-in-outlook/step-06.webp"
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Adding Contact List to New Email"
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "Click \"New mail\"",
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [
+     {
+      "style": "width:8.268199452304884%;height:11.458333333333332%;left:10.04107713372889%;top:12.397216951296649%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/creating-a-new-contact-list-in-outlook/step-07.webp"
+   }
+  },
+  {
+   "kind": "step",
+   "number": 8,
+   "text": "Type in name of Contact List.",
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [
+     {
+      "style": "width:8.268199452304884%;height:11.458333333333332%;left:60.10953902327705%;top:23.086654016445287%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/creating-a-new-contact-list-in-outlook/step-08.webp"
+   }
+  },
+  {
+   "kind": "step",
+   "number": 9,
+   "text": "Select Contact List.",
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [
+     {
+      "style": "width:8.268199452304884%;height:11.458333333333332%;left:62.939297124600635%;top:28.39974699557242%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/creating-a-new-contact-list-in-outlook/step-09.webp"
+   }
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.239316Z"
+}

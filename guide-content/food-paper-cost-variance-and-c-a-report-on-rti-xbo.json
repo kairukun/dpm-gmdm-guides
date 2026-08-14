@@ -1,0 +1,405 @@
+{
+ "slug": "food-paper-cost-variance-and-c-a-report-on-rti-xbo",
+ "name": "Food/Paper Cost Variance and C=A Report on RTI/XBO",
+ "title": "Food/Paper Cost Variance and C=A Report on RTI/XBO",
+ "description": "This guide provides step-by-step instructions on how to generate and interpret a Food or Paper Cost Variance report on RTI or XBO. It explains how to navigate the report manager, view the report for specific dates and restaurants, and understand the different columns and units of measurement. It also includes information on menu waste, raw waste, variance, cost per unit, and highlights any items with significant growth or loss. Additionally, it explains how to view breakdowns of ideal and actual usage, as well as how to generate and read a C=A (Ideal Usage forced to match Actual Usage) report. Overall, this guide is essential for anyone who wants to effectively analyze and manage their food or paper cost variances.",
+ "section": "Office ScribeHows",
+ "subsection": "XBO/RTI (All guides are using XBO unless specified)",
+ "pdf": "pdfs/Office ScribeHows/XBO-RTI/Food-Paper Cost Variance and C=A Report on RTI-XBO.pdf",
+ "tags": [
+  "Xenial"
+ ],
+ "scrapedAt": "2026-08-14T14:56:23.119Z",
+ "blocks": [
+  {
+   "kind": "section",
+   "text": "Generating the Report"
+  },
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "Navigate to [https://xbo.xenial.com/report-manager/search](https://xbo.xenial.com/report-manager/search)",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "Click \"My Reports\"",
+   "image": {
+    "aspectRatio": "2560 / 1305",
+    "targets": [
+     {
+      "style": "width:2.1484375%;height:4.21455938697318%;left:34.84375%;top:15.708812260536398%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/food-paper-cost-variance-and-c-a-report-on-rti-xbo/step-02.jpeg",
+    "width": 2560,
+    "height": 1305
+   }
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "Click \"Daily Food Variance,\" \"Weekly Food Variance\" or \"Weekly Paper Variance\"",
+   "image": {
+    "aspectRatio": "2560 / 1305",
+    "targets": [
+     {
+      "style": "width:2.1484375%;height:4.21455938697318%;left:29.257812500000004%;top:49.11877394636016%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/food-paper-cost-variance-and-c-a-report-on-rti-xbo/step-03.jpeg",
+    "width": 2560,
+    "height": 1305
+   }
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "Click the calendar icon.",
+   "image": {
+    "aspectRatio": "2560 / 1305",
+    "targets": [
+     {
+      "style": "width:2.1484375%;height:4.21455938697318%;left:25.234374999999996%;top:95.93869731800766%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/food-paper-cost-variance-and-c-a-report-on-rti-xbo/step-04.jpeg",
+    "width": 2560,
+    "height": 1305
+   }
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "Select date range you would like to view.",
+   "image": {
+    "aspectRatio": "688 / 384",
+    "targets": [],
+    "file": "assets/guides/food-paper-cost-variance-and-c-a-report-on-rti-xbo/step-05.webp"
+   }
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "Click \"Apply\"",
+   "image": {
+    "aspectRatio": "2560 / 1305",
+    "targets": [
+     {
+      "style": "width:2.1484375%;height:4.21455938697318%;left:57.3828125%;top:65.59386973180077%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/food-paper-cost-variance-and-c-a-report-on-rti-xbo/step-06.jpeg",
+    "width": 2560,
+    "height": 1305
+   }
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "Click the restaurant(s) you would like to view. A maximum of 20 can be ran at a time.",
+   "image": {
+    "aspectRatio": "2560 / 1305",
+    "targets": [
+     {
+      "style": "width:2.1484375%;height:4.21455938697318%;left:12.968750000000002%;top:30.114942528735632%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/food-paper-cost-variance-and-c-a-report-on-rti-xbo/step-07.jpeg",
+    "width": 2560,
+    "height": 1305
+   }
+  },
+  {
+   "kind": "step",
+   "number": 8,
+   "text": "Click \"View\"",
+   "image": {
+    "aspectRatio": "2560 / 1305",
+    "targets": [
+     {
+      "style": "width:2.1484375%;height:4.21455938697318%;left:97.265625%;top:13.10344827586207%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/food-paper-cost-variance-and-c-a-report-on-rti-xbo/step-08.jpeg",
+    "width": 2560,
+    "height": 1305
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Reading the Report"
+  },
+  {
+   "kind": "warning",
+   "text": "For step 9-12, the numbers in the columns between the 2 large circles (like the individual number circled) are in individual units, not $ amounts."
+  },
+  {
+   "kind": "step",
+   "number": 9,
+   "text": "This is your ideal usage of your sales & and the amount in $s. This number is from all the items you have sold through the time frame you selected. The bottom units are % of sales and $ amount.",
+   "image": {
+    "aspectRatio": "405 / 683",
+    "targets": [],
+    "file": "assets/guides/food-paper-cost-variance-and-c-a-report-on-rti-xbo/step-09.jpeg",
+    "width": 405,
+    "height": 683
+   }
+  },
+  {
+   "kind": "step",
+   "number": 10,
+   "text": "This is your actual usage of your sales & the amount in $s. This number is from all the items you have sold, wasted, and are missing through the time frame you selected. The bottom units are % of sales and $ amount.",
+   "image": {
+    "aspectRatio": "371 / 693",
+    "targets": [],
+    "file": "assets/guides/food-paper-cost-variance-and-c-a-report-on-rti-xbo/step-10.jpeg",
+    "width": 371,
+    "height": 693
+   }
+  },
+  {
+   "kind": "step",
+   "number": 11,
+   "text": "Menu Waste is the amount of waste rang in through the terminals through the time frame you selected. The bottom units are % of sales and $ amount. Raw Waste is the amount of waste input on RTI or XBO through the time frame you selected. The bottom units are % of sales and $ amount.",
+   "image": {
+    "aspectRatio": "531 / 683",
+    "targets": [],
+    "file": "assets/guides/food-paper-cost-variance-and-c-a-report-on-rti-xbo/step-11.jpeg",
+    "width": 531,
+    "height": 683
+   }
+  },
+  {
+   "kind": "step",
+   "number": 12,
+   "text": "Variance is the amount of product over/short that is not accounted for. This number is your ideal usage subtracted by your actual usage subtracted by your waste. The bottom units are % of sales and $ amount. The units in the column (like in the rectangle) is the missing or overage of the product.",
+   "image": {
+    "aspectRatio": "617 / 687",
+    "targets": [],
+    "file": "assets/guides/food-paper-cost-variance-and-c-a-report-on-rti-xbo/step-12.jpeg",
+    "width": 617,
+    "height": 687
+   }
+  },
+  {
+   "kind": "step",
+   "number": 13,
+   "text": "Cost per Unit shows the Cost of each unit used on this report.",
+   "image": {
+    "aspectRatio": "714 / 247",
+    "targets": [],
+    "file": "assets/guides/food-paper-cost-variance-and-c-a-report-on-rti-xbo/step-13.jpeg",
+    "width": 714,
+    "height": 247
+   }
+  },
+  {
+   "kind": "step",
+   "number": 14,
+   "text": "Variance $ Over/Short is how much we are over or short of that product in $s. The bottom units are % of sales and $ amount. The 2 numbers combined will match your Variance.",
+   "image": {
+    "aspectRatio": "876 / 683",
+    "targets": [],
+    "file": "assets/guides/food-paper-cost-variance-and-c-a-report-on-rti-xbo/step-14.jpeg",
+    "width": 876,
+    "height": 683
+   }
+  },
+  {
+   "kind": "step",
+   "number": 15,
+   "text": "% of Actual is your how much of your Actual Usage is from your Variance.",
+   "image": {
+    "aspectRatio": "922 / 579",
+    "targets": [],
+    "file": "assets/guides/food-paper-cost-variance-and-c-a-report-on-rti-xbo/step-15.jpeg",
+    "width": 922,
+    "height": 579
+   }
+  },
+  {
+   "kind": "step",
+   "number": 16,
+   "text": "Anything highlighted in yellow indicates that you have grew over 100% on the product compared to your counts last week.",
+   "image": {
+    "aspectRatio": "922 / 104",
+    "targets": [],
+    "file": "assets/guides/food-paper-cost-variance-and-c-a-report-on-rti-xbo/step-16.jpeg",
+    "width": 922,
+    "height": 104
+   }
+  },
+  {
+   "kind": "step",
+   "number": 17,
+   "text": "Anything marked as &lt;C=A&gt; are items where Ideal Usage is forced to match Actual Usage. These usually are because there is no recipe attached to the item.",
+   "image": {
+    "aspectRatio": "170 / 412",
+    "targets": [],
+    "file": "assets/guides/food-paper-cost-variance-and-c-a-report-on-rti-xbo/step-17.jpeg",
+    "width": 170,
+    "height": 412
+   }
+  },
+  {
+   "kind": "warning",
+   "text": "Due to &lt;C=A&gt; having Ideal Usage match Actual Usage this causes variance to always be 0 for those items. Make sure to verify that we do not have heavy growth or loss in product by looking at the \"Ideal Usage\"/\"Actual Usage\" columns for high or negative usages. You may also view the &lt;C=A&gt; Report to view any high or low usages for all of these items."
+  },
+  {
+   "kind": "section",
+   "text": "Highest/Lowest 5 $ and %"
+  },
+  {
+   "kind": "step",
+   "number": 18,
+   "text": "These are the 5 items missing the most in $s through the time frame you selected.",
+   "image": {
+    "aspectRatio": "931 / 427",
+    "targets": [],
+    "file": "assets/guides/food-paper-cost-variance-and-c-a-report-on-rti-xbo/step-18.jpeg",
+    "width": 931,
+    "height": 427
+   }
+  },
+  {
+   "kind": "step",
+   "number": 19,
+   "text": "These are the 5 items over the most in $s through the time frame you selected.",
+   "image": {
+    "aspectRatio": "931 / 427",
+    "targets": [],
+    "file": "assets/guides/food-paper-cost-variance-and-c-a-report-on-rti-xbo/step-19.jpeg",
+    "width": 931,
+    "height": 427
+   }
+  },
+  {
+   "kind": "step",
+   "number": 20,
+   "text": "This is the 5 items missing the most compared to your ideal usage in a % through the time frame you selected.",
+   "image": {
+    "aspectRatio": "931 / 427",
+    "targets": [],
+    "file": "assets/guides/food-paper-cost-variance-and-c-a-report-on-rti-xbo/step-20.jpeg",
+    "width": 931,
+    "height": 427
+   }
+  },
+  {
+   "kind": "step",
+   "number": 21,
+   "text": "This is the 5 items over the most compared to your ideal usage in a % through the time frame you selected.",
+   "image": {
+    "aspectRatio": "931 / 427",
+    "targets": [],
+    "file": "assets/guides/food-paper-cost-variance-and-c-a-report-on-rti-xbo/step-21.jpeg",
+    "width": 931,
+    "height": 427
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Ideal/Actual Usage Breakdowns"
+  },
+  {
+   "kind": "step",
+   "number": 22,
+   "text": "To view the breakdown of where your Ideal Usage came from, click the blue number in the \"Ideal Usage\" column.",
+   "image": {
+    "aspectRatio": "2560 / 1305",
+    "targets": [
+     {
+      "style": "width:2.1484375%;height:4.21455938697318%;left:39.8046875%;top:60.30651340996168%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/food-paper-cost-variance-and-c-a-report-on-rti-xbo/step-22.jpeg",
+    "width": 2560,
+    "height": 1305
+   }
+  },
+  {
+   "kind": "step",
+   "number": 23,
+   "text": "Breakdown of the Ideal Usage.",
+   "image": {
+    "aspectRatio": "893 / 266",
+    "targets": [],
+    "file": "assets/guides/food-paper-cost-variance-and-c-a-report-on-rti-xbo/step-23.jpeg",
+    "width": 893,
+    "height": 266
+   }
+  },
+  {
+   "kind": "step",
+   "number": 24,
+   "text": "To view the breakdown of everything going into your Actual Usage, click the blue number in the \"Actual Usage\" column.",
+   "image": {
+    "aspectRatio": "2560 / 1305",
+    "targets": [
+     {
+      "style": "width:2.1484375%;height:4.21455938697318%;left:43.0078125%;top:61.072796934865906%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/food-paper-cost-variance-and-c-a-report-on-rti-xbo/step-24.jpeg",
+    "width": 2560,
+    "height": 1305
+   }
+  },
+  {
+   "kind": "step",
+   "number": 25,
+   "text": "Breakdown of the Actual Usage.",
+   "image": {
+    "aspectRatio": "915 / 850",
+    "targets": [],
+    "file": "assets/guides/food-paper-cost-variance-and-c-a-report-on-rti-xbo/step-25.jpeg",
+    "width": 915,
+    "height": 850
+   }
+  },
+  {
+   "kind": "section",
+   "text": "C=A Report"
+  },
+  {
+   "kind": "step",
+   "number": 26,
+   "text": "To generate the &lt;C=A&gt; report, repeat steps 1-8, replacing step 3 with this step.",
+   "image": {
+    "aspectRatio": "2560 / 1305",
+    "targets": [
+     {
+      "style": "width:2.1484375%;height:4.21455938697318%;left:29.140624999999996%;top:47.27969348659004%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/food-paper-cost-variance-and-c-a-report-on-rti-xbo/step-26.jpeg",
+    "width": 2560,
+    "height": 1305
+   }
+  },
+  {
+   "kind": "step",
+   "number": 27,
+   "text": "Reading C=A Report.",
+   "image": {
+    "aspectRatio": "882 / 642",
+    "targets": [],
+    "file": "assets/guides/food-paper-cost-variance-and-c-a-report-on-rti-xbo/step-27.jpeg",
+    "width": 882,
+    "height": 642
+   }
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.242816Z"
+}

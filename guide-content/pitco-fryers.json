@@ -1,0 +1,234 @@
+{
+ "slug": "pitco-fryers",
+ "name": "Pitco Fryers",
+ "title": "Pitco Fryers",
+ "description": "This guide offers step-by-step instructions for operating and programming Pitco Fryers, making it an essential resource for anyone looking to optimize their frying process. With clear directions on adjusting cook temperatures, times, and hold settings, users can ensure consistent food quality and efficiency. Whether you're adjusting settings for a single or dual-vat model, this guide simplifies the process, allowing for quick adaptations to meet specific cooking needs. Viewing this guide will empower users to maximize their fryer\u00e2\u20ac\u2122s capabilities with confidence.",
+ "section": "Equipment ScribeHows",
+ "subsection": null,
+ "pdf": "pdfs/Equipment ScribeHows/Pitco Fryers.pdf",
+ "tags": [
+  "Pitco"
+ ],
+ "scrapedAt": "2026-08-14T14:57:34.776Z",
+ "blocks": [
+  {
+   "kind": "section",
+   "text": "Setting Cook Temperature"
+  },
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "**Step 1: Enter programming mode** Press the \"P\" key to start programming the unit. The screen will read \"PROGRAM\" when the unit is ready.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "**Step 2: Access temperature control** Engage the temperature setting by tapping the thermometer key once for single-vat or twice for dual-vat models. The display will show \"SET -F TEMP.\"",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "**Step 3: Set the temperature** Use the product keys to enter the desired temperate.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "**Step 4: Save the new temperature** Press the \"P\" key to save the cook temperature.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "**Step 5: Exit Programming mode** Tap the \"P\" key again to leave programming mode.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "**Step 6: Resume normal operation** When both the left and right screens display the word \"READY,\" you can use the unit normally.",
+   "image": null
+  },
+  {
+   "kind": "section",
+   "text": "Changing Cook Time"
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "**Step 1: Access time programming mode** Press the \"P\" key and then the clock icon in order to engage the proper mode. The words \"SELECT PRODUCT\" will be displayed on the screen when the unit is ready.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 8,
+   "text": "**Step 2: Select the product** Press the desired product key for the product you wish to edit. The display will then read \"CKI - TIME\" and show the current cook time in minutes.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 9,
+   "text": "**Step 3: Set the new time** Use the product keys to enter the desired time.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 10,
+   "text": "**Step 4: Save the new cook time** Use the product keys to enter the desired time.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 11,
+   "text": "**Step 5: Leave programming mode** Press the \"P\" key until the display reads \"READY,\" \"HEATING\" or \"MELT.\" Note: You may have to press the \"P\" key more than once.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 12,
+   "text": "**Step 6: Use the unit normally** Once the unit is out of programming mode, you may resume normal operation",
+   "image": null
+  },
+  {
+   "kind": "section",
+   "text": "Changing Shake Time"
+  },
+  {
+   "kind": "step",
+   "number": 13,
+   "text": "**Step 1: Initiate time programming mode** Press the \u201cP\u201d key and then the clock key to start programming the fryer. Once the words \u201cSELECT PRODUCT\u201d appear on the screen, you may proceed to the next step.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 14,
+   "text": "**Step 2: Choose the product** Tap the product key for the product you wish to edit. The display should read \u201cCKI \u2014 TIME\u201d.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 15,
+   "text": "**Step 3: Access shake time** Press the clock key again in order to engage the shake time setting. The screen will show \u201cSHI \u2014 TIME,\u201d indicating the current shake time for that product.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 16,
+   "text": "**Step 4: Set the shake time** Use the product keys to enter the desired time.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 17,
+   "text": "**Step 5: Save the new shake time** Confirm the new setting by pressing the clock key three times until the screen once again says \u201cSELECT PRODUCT.\u201d",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 18,
+   "text": "**Step 6: Exit time programming mode** Finish programming by tapping the \u201cP\u201d key until the display reads \u201cREADY,\u201d \u201cHEATING\u201d or \u201cMELT.\u201d Note that you may have to press the \u201cP\u201d key more than once.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 19,
+   "text": "**Step 7: Resume normal operation** **Y**ou may now use the unit normally.",
+   "image": null
+  },
+  {
+   "kind": "section",
+   "text": "Changing Hold Time"
+  },
+  {
+   "kind": "step",
+   "number": 20,
+   "text": "**Step 1: Start time programming mode** Push the \u201cP\u201d key and then the clock button to begin programming the machine. The screen will read \u201cSELECT PRODUCT\u201d when the unit is in the proper mode.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 21,
+   "text": "**Step 2: Select the product** Press the product key for the product you want to edit. The display will show \u201cCKI \u2014 TIME\u201d.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 22,
+   "text": "**Step 3: Engage hold time** Tap the clock icon to advance to the hold time setting. The screen will read \u201cHDL \u2014 TIME,\u201d displaying the current hold time. Note that you may have to press the clock key more than once.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 23,
+   "text": "**Step 4: Set the hold time** Use the product keys to enter the new time.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 24,
+   "text": "**Step 5: Confirm the new hold time** Press the clock key twice to save the new hold time. Once the new hold time is set, the words \u201cSELECT PRODUCT\u201d will be displayed on the screen.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 25,
+   "text": "**Step 6: Exit time programming mode** Leave time programming mode by tapping the \u201cP\u201d key repeatedly until the display reads \u201cREADY,\u201d \u201cHEATING\u201d or \u201cMELT.\u201d Keep in mind that you will have to press the \u201cP\u201d key more than once.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 26,
+   "text": "**Step 7: Use the fryer normally** Now you may resume normal operation of the unit.",
+   "image": null
+  },
+  {
+   "kind": "section",
+   "text": "Changing Hold Pre-Alarm"
+  },
+  {
+   "kind": "step",
+   "number": 27,
+   "text": "**Step 1: Enable time programming mode** Press the \u201cP\u201d key and then tap the clock key to begin programming the fryer. The words \u201cSELECT PRODUCT\u201d will be displayed on the screen when the unit enters the correct mode.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 28,
+   "text": "**Step 2: Choose the product** Tap the product key for the product you wish to edit. The display will read \u201cCKI \u2014 TIME\u201d.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 29,
+   "text": "**Step 3: Access the hold pre-alarm** Push the clock icon three times to advance to the hold pre-alarm setting. The screen will display the words \u201cPAI \u2014 TIME,\u201d showing the current hold pre-alarm time for that product.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 30,
+   "text": "**Step 4: Set the new hold pre-alarm time** Use the product keys to set the new time for the alarm.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 31,
+   "text": "**Step 5: Save the new hold pre-alarm time** Tap the clock icon to confirm the new setting. The display will read \u201cSELECT PRODUCT\u201d once the new setting is saved.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 32,
+   "text": "**Step 6: Leave time programming mode** Conclude programming the unit by pressing the \u201cP\u201d button repeatedly until the display reads \u201cREADY,\u201d \u201cHEATING\u201d or \u201cMELT.\u201d Remember that you will have to press the \u201cP\u201d key more than once.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 33,
+   "text": "**Step 7: Use the unit normally** Now you may resume normal operation of the fryer.",
+   "image": null
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.254314Z"
+}

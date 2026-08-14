@@ -1,0 +1,192 @@
+{
+ "slug": "creating-a-new-email-rule-in-outlook",
+ "name": "Creating a New Email Rule in Outlook",
+ "title": "Creating a New Email Rule in Outlook",
+ "description": "This guide provides a straightforward method for creating custom email rules in Outlook, enhancing your email management efficiency. By following these steps, you can tailor your inbox to filter and organize messages according to your specific needs, saving you time and reducing clutter. Whether you're looking to prioritize important emails or automate repetitive tasks, this guide equips you with the tools to optimize your Outlook experience.",
+ "section": "Office ScribeHows",
+ "subsection": "Office 365",
+ "pdf": "pdfs/Office ScribeHows/Office 365/Creating a New Email Rule in Outlook.pdf",
+ "tags": [
+  "Office"
+ ],
+ "scrapedAt": "2026-08-14T14:54:41.009Z",
+ "blocks": [
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "Navigate to [https://outlook.office.com/mail/](https://outlook.office.com/mail/)",
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [],
+    "file": "assets/guides/creating-a-new-email-rule-in-outlook/step-01.webp"
+   }
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "Click \"...\"",
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [
+     {
+      "style": "width:4.534402441709619%;height:6.283918880319909%;left:92.14970333181196%;top:11.954459203036052%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/creating-a-new-email-rule-in-outlook/step-02.webp"
+   }
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "Click \"Manage rules\"",
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [
+     {
+      "style": "width:8.268199452304884%;height:11.458333333333332%;left:85.21223185759928%;top:28.336495888678055%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/creating-a-new-email-rule-in-outlook/step-03.webp"
+   }
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "Click \"\ue00cAdd new rule\"",
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [
+     {
+      "style": "width:6.395348837209303%;height:8.862877484076902%;left:86.80967594705614%;top:13.472485768500949%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/creating-a-new-email-rule-in-outlook/step-04.jpeg",
+    "width": 2191,
+    "height": 1581
+   }
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "Enter name of rule.",
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [
+     {
+      "style": "width:6.395348837209303%;height:8.862877484076902%;left:60.931081697854864%;top:17.267552182163186%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/creating-a-new-email-rule-in-outlook/step-05.jpeg",
+    "width": 2191,
+    "height": 1581
+   }
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "Click drop down under \"Add a condition.\" Select condition you wish to use.",
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [
+     {
+      "style": "width:6.395348837209303%;height:8.862877484076902%;left:65.08443633044271%;top:6.957621758380772%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/creating-a-new-email-rule-in-outlook/step-06.jpeg",
+    "width": 2191,
+    "height": 1581
+   }
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "Put in the condition.",
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [
+     {
+      "style": "width:6.395348837209303%;height:8.862877484076902%;left:68.59881332724783%;top:27.32447817836812%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/creating-a-new-email-rule-in-outlook/step-07.jpeg",
+    "width": 2191,
+    "height": 1581
+   }
+  },
+  {
+   "kind": "step",
+   "number": 8,
+   "text": "Click drop down under \"Add an action\" Pick an action to use.",
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [
+     {
+      "style": "width:6.395348837209303%;height:8.862877484076902%;left:64.35417617526244%;top:46.5528146742568%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/creating-a-new-email-rule-in-outlook/step-08.jpeg",
+    "width": 2191,
+    "height": 1581
+   }
+  },
+  {
+   "kind": "step",
+   "number": 9,
+   "text": "Put in the action.",
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [
+     {
+      "style": "width:6.395348837209303%;height:8.862877484076902%;left:83.06709265175719%;top:43.833017077798864%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/creating-a-new-email-rule-in-outlook/step-09.jpeg",
+    "width": 2191,
+    "height": 1581
+   }
+  },
+  {
+   "kind": "step",
+   "number": 10,
+   "text": "Click \"Run rule now.\"",
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [
+     {
+      "style": "width:6.395348837209303%;height:8.862877484076902%;left:38.977635782747605%;top:62.745098039215684%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/creating-a-new-email-rule-in-outlook/step-10.jpeg",
+    "width": 2191,
+    "height": 1581
+   }
+  },
+  {
+   "kind": "step",
+   "number": 11,
+   "text": "Click \"Save.\"",
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [
+     {
+      "style": "width:6.395348837209303%;height:8.862877484076902%;left:83.38658146964856%;top:89.94307400379506%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/creating-a-new-email-rule-in-outlook/step-11.jpeg",
+    "width": 2191,
+    "height": 1581
+   }
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.239814Z"
+}

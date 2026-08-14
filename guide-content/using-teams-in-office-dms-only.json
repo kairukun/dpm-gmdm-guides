@@ -1,0 +1,281 @@
+{
+ "slug": "using-teams-in-office-dms-only",
+ "name": "Using Teams in Office (DMs only)",
+ "title": "Using Teams in Office (DMs only)",
+ "description": "This guide provides a comprehensive walkthrough for effectively using Microsoft Teams within Office, making it an essential resource for anyone looking to enhance their collaboration and communication skills. It covers everything from logging in to managing teams, chats, and meetings, ensuring users can navigate the platform with ease. By following this guide, you can efficiently connect with colleagues, organize projects, and streamline your workflow, ultimately boosting productivity in a team environment.",
+ "section": "Office ScribeHows",
+ "subsection": "Office 365",
+ "pdf": "pdfs/Office ScribeHows/Office 365/Using Teams in Office (DMs only).pdf",
+ "tags": [
+  "Office"
+ ],
+ "scrapedAt": "2026-08-14T14:54:57.986Z",
+ "blocks": [
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "Navigate to [https://www.office.com](https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=4765445b-32c6-49b0-83e6-1d93765276ca&redirect_uri=https%3A%2F%2Fm365.cloud.microsoft%2Flandingv2&response_type=code%20id_token&scope=openid%20profile%20https%3A%2F%2Fwww.office.com%2Fv2%2FOfficeHome.All&response_mode=form_post&nonce=638818864862254640.YzE4OTI0NGUtMWU2NS00OGRjLTgxZjEtYmU2YTc3ZDNhYTgxMjIyZTU5YjctZTk5OC00MzdlLWEwZmMtMTY4Y2M5ZjJlNjIy&ui_locales=en-US&mkt=en-US&prompt=select_account&client-request-id=fbe49241-9555-46e7-8bdf-541efe57193a&state=uhi3fjLljRJs3yL7Bm7B7WoTrkgza0A1EuAolVQ-Uz8KgVUzeIxolGuWyZnBBy1uJ0x9qS2l-lXageeqKmUCPAwdupE6SUD-FGZiVfXwZmhYZvcHdi-YOF_YGS5c5jnAigDHYhSZaB26KsalCT7PYLu1DUp-68y1ZqUuJd1a0yLNbG0XutlIxVC3i7Xeq3BSAJM0DRmvXIGaP7okqOdrHMG6XNJGqKsqB7LRqlFxPReaAjBC6fVQJk-09zIgAMZ2XEcAY6iKPe5_YF2BBZcS8m8AmlXKiGhaWmdK53256QXzflqFTdYav91nI4tDOH-9UwGiRbZA7RTe1bU0EUuYhtfMLrbJ7XIQvt6UssoqR49yOmqO0oOSkY_YT0tANeHM&x-client-SKU=ID_NET8_0&x-client-ver=8.5.0.0)",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [],
+    "file": "assets/guides/using-teams-in-office-dms-only/step-01.jpeg",
+    "width": 2166,
+    "height": 1314
+   }
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "Login.",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.69710806697108%;left:51.985226223453374%;top:45.50989345509893%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/using-teams-in-office-dms-only/step-01.jpeg",
+    "width": 2166,
+    "height": 1314
+   }
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "Click menu icon.",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [
+     {
+      "style": "width:4.126858499632541%;height:6.802721088435375%;left:1.8928901200369344%;top:2.5114155251141552%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/using-teams-in-office-dms-only/step-03.webp"
+   }
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "Click Teams icon.",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.69710806697108%;left:16.80517082179132%;top:18.493150684931507%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/using-teams-in-office-dms-only/step-04.jpeg",
+    "width": 2166,
+    "height": 1314
+   }
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "Activity- Provides overview of all activities within Teams related to you \\ Chat- Where you will find all chats with Ampler users and chats to meetings you've attended \\ Teams- Team sites that all you to collaborate with other users on projects \\ Calendar- Outlook calendar will show here \\ Calls- History of all your Teams calls \\ OneDrive- Shows your personal OneDrive inside Teams",
+   "image": {
+    "aspectRatio": "68 / 349",
+    "targets": [],
+    "file": "assets/guides/using-teams-in-office-dms-only/step-05.webp"
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Teams Chat"
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "Preview of Chat page.",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [],
+    "file": "assets/guides/using-teams-in-office-dms-only/step-06.webp"
+   }
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "The search bar at the top lets you search for users to start chatting with them.",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.69710806697108%;left:36.749769159741454%;top:1.5220700152207%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/using-teams-in-office-dms-only/step-07.jpeg",
+    "width": 2166,
+    "height": 1314
+   }
+  },
+  {
+   "kind": "step",
+   "number": 8,
+   "text": "You can now chat with user and share files.",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [],
+    "file": "assets/guides/using-teams-in-office-dms-only/step-08.webp"
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Teams"
+  },
+  {
+   "kind": "step",
+   "number": 9,
+   "text": "Here you can see all the teams you have access to and have created. Teams is a way to collaborate with other members on a project. On the left plane you see all the teams you are member of.",
+   "image": {
+    "aspectRatio": "796 / 368",
+    "targets": [],
+    "file": "assets/guides/using-teams-in-office-dms-only/step-09.webp"
+   }
+  },
+  {
+   "kind": "step",
+   "number": 10,
+   "text": "You can create a team by click on the \"+\" button.",
+   "image": {
+    "aspectRatio": "422 / 408",
+    "targets": [],
+    "file": "assets/guides/using-teams-in-office-dms-only/step-10.webp"
+   }
+  },
+  {
+   "kind": "step",
+   "number": 11,
+   "text": "Fill in all the details for the team you want to create.\\ Team Type: Private (Makes sure no one can find the teams channel, only owners of the team can invite others into the channel)\\ Team Type: Public (Anyone can search for the Teams channel and join)",
+   "image": {
+    "aspectRatio": "382 / 370",
+    "targets": [],
+    "file": "assets/guides/using-teams-in-office-dms-only/step-11.webp"
+   }
+  },
+  {
+   "kind": "step",
+   "number": 12,
+   "text": "To manage a team, click on the 3 dots against the team and go to \"Manage team\"",
+   "image": {
+    "aspectRatio": "688 / 688",
+    "targets": [],
+    "file": "assets/guides/using-teams-in-office-dms-only/step-12.webp"
+   }
+  },
+  {
+   "kind": "step",
+   "number": 13,
+   "text": "You have various Teams management options here Channels: add or edit Channels within a team Members: Add or remove members. Add other members as owners Pending Requests: Check for Requests to join the team",
+   "image": {
+    "aspectRatio": "655 / 191",
+    "targets": [],
+    "file": "assets/guides/using-teams-in-office-dms-only/step-13.webp"
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Adding Members to the Team"
+  },
+  {
+   "kind": "step",
+   "number": 14,
+   "text": "Click on \"Members\" and \"+ Add member\"",
+   "image": {
+    "aspectRatio": "621 / 288",
+    "targets": [],
+    "file": "assets/guides/using-teams-in-office-dms-only/step-14.webp"
+   }
+  },
+  {
+   "kind": "step",
+   "number": 15,
+   "text": "Search for the member and click on the user",
+   "image": {
+    "aspectRatio": "499 / 392",
+    "targets": [],
+    "file": "assets/guides/using-teams-in-office-dms-only/step-15.webp"
+   }
+  },
+  {
+   "kind": "step",
+   "number": 16,
+   "text": "Change the member type as needed and click \"Add\"",
+   "image": {
+    "aspectRatio": "430 / 341",
+    "targets": [],
+    "file": "assets/guides/using-teams-in-office-dms-only/step-16.webp"
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Teams Calendar"
+  },
+  {
+   "kind": "step",
+   "number": 17,
+   "text": "To setup new meeting: Click \"New meeting\"",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.69710806697108%;left:86.0572483841182%;top:8.904109589041095%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/using-teams-in-office-dms-only/step-17.jpeg",
+    "width": 2166,
+    "height": 1314
+   }
+  },
+  {
+   "kind": "step",
+   "number": 18,
+   "text": "Fill out all the details for the invite.",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.69710806697108%;left:10.018467220683288%;top:16.590563165905632%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/using-teams-in-office-dms-only/step-18.jpeg",
+    "width": 2166,
+    "height": 1314
+   }
+  },
+  {
+   "kind": "step",
+   "number": 19,
+   "text": "Click \"Save\"",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.69710806697108%;left:92.84395198522623%;top:9.817351598173515%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/using-teams-in-office-dms-only/step-19.jpeg",
+    "width": 2166,
+    "height": 1314
+   }
+  },
+  {
+   "kind": "step",
+   "number": 20,
+   "text": "You Teams meeting invite will automatically generate a Teams meeting link, which people can join.",
+   "image": {
+    "aspectRatio": "936 / 453",
+    "targets": [],
+    "file": "assets/guides/using-teams-in-office-dms-only/step-20.webp"
+   }
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.264814Z"
+}

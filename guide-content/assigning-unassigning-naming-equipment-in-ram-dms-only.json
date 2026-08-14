@@ -1,0 +1,465 @@
+{
+ "slug": "assigning-unassigning-naming-equipment-in-ram-dms-only",
+ "name": "Assigning/Unassigning/Naming Equipment in RAM (DMs Only)",
+ "title": "Assigning/Unassigning/Naming Equipment in RAM (DMs Only)",
+ "description": "This guide provides step-by-step instructions on how to assign, unassign, and name equipment in RAM, a platform used for managing equipment in Zenput. It explains how to navigate to the RAM platform, use filters to find and assign/unassign equipment, and how to name equipment. This guide is useful for restaurant managers who want to ensure that their equipment is properly assigned and named in Zenput for accurate tracking and management.",
+ "section": "Office ScribeHows",
+ "subsection": "RAM",
+ "pdf": "pdfs/Office ScribeHows/RAM/Assigning-Unassigning-Naming Equipment in RAM (DMs Only).pdf",
+ "tags": [
+  "Rbi",
+  "Okta"
+ ],
+ "scrapedAt": "2026-08-14T14:55:05.137Z",
+ "blocks": [
+  {
+   "kind": "warning",
+   "text": "The equipment you have on RAM is the equipment that will show on Zenput. If you are missing that equipment from Zenput, it is because it is not assigned in RAM."
+  },
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "Navigate to [https://rbi.okta.com/login/login.htm](https://rbi.okta.com/login/login.htm)",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "Click this button.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:50.79617834394905%;top:46.4339908952959%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/assigning-unassigning-naming-equipment-in-ram-dms-only/step-02.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "Click \"RAM BK\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:70.93949044585987%;top:33.4597875569044%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/assigning-unassigning-naming-equipment-in-ram-dms-only/step-03.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Equipment Assignment"
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "Click \"Equipment Assignment\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:44.98407643312102%;top:10.242792109256449%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/assigning-unassigning-naming-equipment-in-ram-dms-only/step-04.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "Use the filters to find the equipment you are assigning.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:35.03184713375796%;top:15.326251896813353%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/assigning-unassigning-naming-equipment-in-ram-dms-only/step-05.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "Click the box of the equipment you are assigning.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:27.269108280254777%;top:19.802731411229136%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/assigning-unassigning-naming-equipment-in-ram-dms-only/step-06.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "Click \"Assignment\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:96.05891719745223%;top:5.690440060698028%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/assigning-unassigning-naming-equipment-in-ram-dms-only/step-07.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 8,
+   "text": "Find your restaurant.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:34.71337579617834%;top:44.916540212443095%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/assigning-unassigning-naming-equipment-in-ram-dms-only/step-08.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 9,
+   "text": "Click \"Assign\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:66.9187898089172%;top:90.51593323216996%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/assigning-unassigning-naming-equipment-in-ram-dms-only/step-09.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Equipment Unassign"
+  },
+  {
+   "kind": "step",
+   "number": 10,
+   "text": "Click \"Equipment Assignment\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:44.02866242038216%;top:10.015174506828528%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/assigning-unassigning-naming-equipment-in-ram-dms-only/step-10.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 11,
+   "text": "Use the filters to find the equipment you are unassigning.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:36.02707006369427%;top:15.174506828528072%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/assigning-unassigning-naming-equipment-in-ram-dms-only/step-11.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 12,
+   "text": "Click the box of the equipment you are assigning.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:27.388535031847134%;top:20.485584218512898%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/assigning-unassigning-naming-equipment-in-ram-dms-only/step-12.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 13,
+   "text": "Click \"Assignment\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:96.01910828025477%;top:5.690440060698028%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/assigning-unassigning-naming-equipment-in-ram-dms-only/step-13.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 14,
+   "text": "Click \"Unassign\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:59.275477707006374%;top:14.33990895295903%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/assigning-unassigning-naming-equipment-in-ram-dms-only/step-14.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 15,
+   "text": "Find the restaurant.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:34.51433121019109%;top:32.54931714719272%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/assigning-unassigning-naming-equipment-in-ram-dms-only/step-15.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 16,
+   "text": "Click \"Unassign\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:66.9187898089172%;top:90.13657056145675%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/assigning-unassigning-naming-equipment-in-ram-dms-only/step-16.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Naming Equipment"
+  },
+  {
+   "kind": "tip",
+   "text": "Naming the equipment on here will name the equipment on Zenput."
+  },
+  {
+   "kind": "step",
+   "number": 17,
+   "text": "Click here.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:71.3375796178344%;top:22.83763277693475%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/assigning-unassigning-naming-equipment-in-ram-dms-only/step-17.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 18,
+   "text": "Click \"Restaurant Equipment\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:44.705414012738856%;top:9.635811836115327%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/assigning-unassigning-naming-equipment-in-ram-dms-only/step-18.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 19,
+   "text": "Scroll all the way to the right.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:55.69267515923567%;top:79.21092564491654%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/assigning-unassigning-naming-equipment-in-ram-dms-only/step-19.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 20,
+   "text": "Click the plus button.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:71.13853503184714%;top:21.775417298937786%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/assigning-unassigning-naming-equipment-in-ram-dms-only/step-20.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 21,
+   "text": "Click this button.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:70.421974522293%;top:22.003034901365705%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/assigning-unassigning-naming-equipment-in-ram-dms-only/step-21.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 22,
+   "text": "Click the \"Category\" field.\\ Click the \"Manufacturer\" field.\\ Click the \"Model\" field. When 3 fields are filled out, the 4th automatically will. Click \"Search\"",
+   "image": {
+    "aspectRatio": "688 / 384",
+    "targets": [],
+    "file": "assets/guides/assigning-unassigning-naming-equipment-in-ram-dms-only/step-22.webp"
+   }
+  },
+  {
+   "kind": "warning",
+   "text": "All filters must be filled out for it to pull any equipment."
+  },
+  {
+   "kind": "step",
+   "number": 23,
+   "text": "Click \"Add More\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:70.70063694267516%;top:56.221547799696516%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/assigning-unassigning-naming-equipment-in-ram-dms-only/step-23.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 24,
+   "text": "Use the \"Alternative Name\" field to name the equipment.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:50.07961783439491%;top:56.145675265553876%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/assigning-unassigning-naming-equipment-in-ram-dms-only/step-24.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 25,
+   "text": "Select \"Restaurant Zone\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:33.47929936305732%;top:60.77389984825493%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/assigning-unassigning-naming-equipment-in-ram-dms-only/step-25.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 26,
+   "text": "Click \"Save\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:74.20382165605095%;top:65.62974203338392%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/assigning-unassigning-naming-equipment-in-ram-dms-only/step-26.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.234313Z"
+}

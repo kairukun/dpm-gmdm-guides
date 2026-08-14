@@ -1,0 +1,340 @@
+{
+ "slug": "generate-reports-in-zenput",
+ "name": "Generate Reports in Zenput",
+ "title": "Generate Reports in Zenput",
+ "description": "This guide provides step-by-step instructions on how to access and generate reports in Zenput. It covers both custom reports and form reports, explaining how to export data and filter results. By following this guide, users will be able to efficiently generate and analyze reports in Zenput to track and manage their data effectively.",
+ "section": "Office ScribeHows",
+ "subsection": "Zenput",
+ "pdf": "pdfs/Office ScribeHows/Zenput/Generate Reports in Zenput.pdf",
+ "tags": [
+  "Zenput",
+  "Okta"
+ ],
+ "scrapedAt": "2026-08-14T14:57:21.751Z",
+ "blocks": [
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "Navigate to [https://rbi.okta.com/login/login.htm](https://rbi.okta.com/login/login.htm)",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "Click this button.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:50.398089171974526%;top:46.13050075872534%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/generate-reports-in-zenput/step-02.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "Click this image.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:52.22929936305732%;top:46.28224582701062%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/generate-reports-in-zenput/step-03.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "Type \"[kyle@dossaniparadise.com](mailto:kyle@dossaniparadise.com)\"",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "Click \"CONTINUE\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:52.98566878980891%;top:44.00606980273141%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/generate-reports-in-zenput/step-05.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "Click \"Reports\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:2.8264331210191083%;top:36.57056145675266%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/generate-reports-in-zenput/step-06.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Custom Reports"
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "Click \"Create Report\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:96.81528662420382%;top:3.338391502276176%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/generate-reports-in-zenput/step-07.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 8,
+   "text": "Click any option on the left.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:40.84394904458598%;top:34.52200303490137%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/generate-reports-in-zenput/step-08.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 9,
+   "text": "Click any option that populates on the right.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:49.203821656050955%;top:37.101669195751136%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/generate-reports-in-zenput/step-09.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 10,
+   "text": "Click \"Create Report\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:58.39968152866242%;top:51.66919575113808%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/generate-reports-in-zenput/step-10.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 11,
+   "text": "Select the criteria (Data, Form, or Team)",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:26.313694267515924%;top:20.333839150227618%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/generate-reports-in-zenput/step-11.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 12,
+   "text": "Click \"Export\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:95.62101910828027%;top:2.959028831562974%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/generate-reports-in-zenput/step-12.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "tip",
+   "text": "This will be sent by email."
+  },
+  {
+   "kind": "section",
+   "text": "Form Reports"
+  },
+  {
+   "kind": "step",
+   "number": 13,
+   "text": "Navigate to [https://www.zenput.com/reports/](https://www.zenput.com/reports/)",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 14,
+   "text": "Click the form you are wanting to do a report for.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:22.969745222929934%;top:33.4597875569044%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/generate-reports-in-zenput/step-14.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 15,
+   "text": "Use the filters as necessary.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:16.32165605095541%;top:18.588770864946888%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/generate-reports-in-zenput/step-15.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 16,
+   "text": "Click \"Select Questions\" to only show certain answers to the selected questions.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:12.221337579617835%;top:24.051593323216995%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/generate-reports-in-zenput/step-16.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 17,
+   "text": "Click \"Export\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:94.82484076433121%;top:4.24886191198786%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/generate-reports-in-zenput/step-17.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 18,
+   "text": "Click \"Excel (Selected Columns)\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:90.56528662420382%;top:5.007587253414264%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/generate-reports-in-zenput/step-18.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "tip",
+   "text": "This will be sent by email."
+  },
+  {
+   "kind": "step",
+   "number": 19,
+   "text": "Clicking on any of the submissions listed will take you to that Zenput submission.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:8.75796178343949%;top:34.977238239757206%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/generate-reports-in-zenput/step-19.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 20,
+   "text": "Submission selected.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:19.546178343949045%;top:7.0561456752655545%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/generate-reports-in-zenput/step-20.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.243814Z"
+}

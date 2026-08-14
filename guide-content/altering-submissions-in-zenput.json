@@ -1,0 +1,180 @@
+{
+ "slug": "altering-submissions-in-zenput",
+ "name": "Altering Submissions in Zenput",
+ "title": "Altering Submissions in Zenput",
+ "description": "This guide provides step-by-step instructions on how to alter submissions in Zenput. It highlights the importance of having the necessary permissions from the Form Admin and walks the user through the process of accessing the form, selecting the submission, making adjustments, and saving the changes. Following this guide will help users effectively manage and update their submissions in Zenput.",
+ "section": "Office ScribeHows",
+ "subsection": "Zenput",
+ "pdf": "pdfs/Office ScribeHows/Zenput/Altering Submissions in Zenput.pdf",
+ "tags": [
+  "Zenput",
+  "Okta"
+ ],
+ "scrapedAt": "2026-08-14T14:57:14.510Z",
+ "blocks": [
+  {
+   "kind": "warning",
+   "text": "This can only be done if the Form Admin gave permissions to adjust submissions. ServSafe Check has these permissions available to adjust your own submissions."
+  },
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "Navigate to [https://rbi.okta.com/login/login.htm](https://rbi.okta.com/login/login.htm)",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "Click this button.",
+   "image": {
+    "aspectRatio": "2122 / 1318",
+    "targets": [
+     {
+      "style": "width:2.591894439208294%;height:4.17298937784522%;left:50.37700282752121%;top:46.50986342943854%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/altering-submissions-in-zenput/step-02.jpeg",
+    "width": 2122,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "Click \"Zenput Burger King\"",
+   "image": {
+    "aspectRatio": "2122 / 1318",
+    "targets": [
+     {
+      "style": "width:2.591894439208294%;height:4.17298937784522%;left:57.587181903864284%;top:46.965098634294385%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/altering-submissions-in-zenput/step-03.jpeg",
+    "width": 2122,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "Click \"CONTINUE\"",
+   "image": {
+    "aspectRatio": "2122 / 1318",
+    "targets": [
+     {
+      "style": "width:2.591894439208294%;height:4.17298937784522%;left:49.434495758718185%;top:46.66160849772382%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/altering-submissions-in-zenput/step-04.jpeg",
+    "width": 2122,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "Click \"Reports\"",
+   "image": {
+    "aspectRatio": "2122 / 1318",
+    "targets": [
+     {
+      "style": "width:2.591894439208294%;height:4.17298937784522%;left:4.665409990574929%;top:36.57056145675266%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/altering-submissions-in-zenput/step-05.jpeg",
+    "width": 2122,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "Click on whichever Form you are adjusting the submission for.",
+   "image": {
+    "aspectRatio": "2122 / 1318",
+    "targets": [
+     {
+      "style": "width:2.591894439208294%;height:4.17298937784522%;left:30.49010367577757%;top:16.61608497723824%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/altering-submissions-in-zenput/step-06.jpeg",
+    "width": 2122,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "Click the submission you need to adjust.",
+   "image": {
+    "aspectRatio": "2122 / 1318",
+    "targets": [
+     {
+      "style": "width:2.591894439208294%;height:4.17298937784522%;left:22.573044297832233%;top:34.06676783004553%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/altering-submissions-in-zenput/step-07.jpeg",
+    "width": 2122,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 8,
+   "text": "Click the pencil on whichever option(s) you need to adjust.",
+   "image": {
+    "aspectRatio": "2122 / 1318",
+    "targets": [
+     {
+      "style": "width:2.591894439208294%;height:4.17298937784522%;left:79.83034872761546%;top:23.368740515933233%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/altering-submissions-in-zenput/step-08.jpeg",
+    "width": 2122,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 9,
+   "text": "Adjust.",
+   "image": {
+    "aspectRatio": "2122 / 1318",
+    "targets": [
+     {
+      "style": "width:2.591894439208294%;height:4.17298937784522%;left:77.75683317624882%;top:42.4886191198786%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/altering-submissions-in-zenput/step-09.jpeg",
+    "width": 2122,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 10,
+   "text": "Click the check once completed.",
+   "image": {
+    "aspectRatio": "2122 / 1318",
+    "targets": [
+     {
+      "style": "width:2.591894439208294%;height:4.17298937784522%;left:79.87747408105561%;top:29.362670713201823%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/altering-submissions-in-zenput/step-10.jpeg",
+    "width": 2122,
+    "height": 1318
+   }
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.232813Z"
+}

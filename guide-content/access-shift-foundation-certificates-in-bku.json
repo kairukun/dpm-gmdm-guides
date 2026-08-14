@@ -1,0 +1,180 @@
+{
+ "slug": "access-shift-foundation-certificates-in-bku",
+ "name": "Access Shift Foundation Certificates in BKU",
+ "title": "Access Shift Foundation Certificates in BKU",
+ "description": "This guide provides a straightforward process for accessing and downloading Shift Foundation Certificates for Assistant and General Managers at Burger King. By following the steps outlined, users can efficiently navigate the system to obtain their certifications, ensuring they meet training requirements. This resource is essential for those looking to enhance their professional credentials within the organization.",
+ "section": "Office ScribeHows",
+ "subsection": "BKU",
+ "pdf": "pdfs/Office ScribeHows/BKU/Access Shift Foundation Certificates in BKU.pdf",
+ "tags": [
+  "Burgerking",
+  "Okta"
+ ],
+ "scrapedAt": "2026-08-14T14:53:29.382Z",
+ "blocks": [
+  {
+   "kind": "step",
+   "text": "Navigate to [https://www.burgerkinguniversity.com](https://rbi.okta.com/app/restaurantbrandsinternational_burgerkingacademy_1/exk1he4dgr4B86Exq1d8/sso/saml)",
+   "number": 1,
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [],
+    "file": "assets/guides/access-shift-foundation-certificates-in-bku/step-01.jpeg",
+    "width": 2191,
+    "height": 1581
+   }
+  },
+  {
+   "kind": "step",
+   "text": "Log in.",
+   "number": 2,
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [
+     {
+      "style": "width:6.395348837209303%;height:8.862877484076902%;left:48.37973528069375%;top:67.74193548387096%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/access-shift-foundation-certificates-in-bku/step-01.jpeg",
+    "width": 2191,
+    "height": 1581
+   }
+  },
+  {
+   "kind": "step",
+   "text": "Click Settings gear.",
+   "number": 3,
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [
+     {
+      "style": "width:6.395348837209303%;height:8.862877484076902%;left:96.48562300319489%;top:3.099304237824162%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/access-shift-foundation-certificates-in-bku/step-03.jpeg",
+    "width": 2191,
+    "height": 1581
+   }
+  },
+  {
+   "kind": "step",
+   "text": "Click \"Certificate template\"",
+   "number": 4,
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [
+     {
+      "style": "width:6.395348837209303%;height:8.862877484076902%;left:10.680054769511639%;top:48.89310562934852%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/access-shift-foundation-certificates-in-bku/step-04.jpeg",
+    "width": 2191,
+    "height": 1581
+   }
+  },
+  {
+   "kind": "step",
+   "text": "Click \"Issued Certificates\" for \"Shift Control NA English\"",
+   "number": 5,
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [
+     {
+      "style": "width:6.395348837209303%;height:8.862877484076902%;left:94.56869009584665%;top:20.809614168247943%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/access-shift-foundation-certificates-in-bku/step-05.jpeg",
+    "width": 2191,
+    "height": 1581
+   }
+  },
+  {
+   "kind": "step",
+   "text": "Click \"Learning Plan\"",
+   "number": 6,
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [
+     {
+      "style": "width:6.395348837209303%;height:8.862877484076902%;left:40.803286170698314%;top:19.038583175205567%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/access-shift-foundation-certificates-in-bku/step-06.jpeg",
+    "width": 2191,
+    "height": 1581
+   }
+  },
+  {
+   "kind": "step",
+   "text": "For Assistant Managers, click \"Manager Training - Foundations (SL) - Refresh - Manager Training - Foundations (SL) - Refresh\" option.",
+   "number": 7,
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [
+     {
+      "style": "width:6.395348837209303%;height:8.862877484076902%;left:40.57507987220447%;top:24.857685009487664%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/access-shift-foundation-certificates-in-bku/step-07.jpeg",
+    "width": 2191,
+    "height": 1581
+   }
+  },
+  {
+   "kind": "step",
+   "text": "For General Managers, click \"Manager Training - Foundations (RGM) - Refresh - Manager Training - Foundations (RGM) - Refresh\" option.",
+   "number": 8,
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [
+     {
+      "style": "width:6.395348837209303%;height:8.862877484076902%;left:40.803286170698314%;top:23.972169512966477%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/access-shift-foundation-certificates-in-bku/step-08.jpeg",
+    "width": 2191,
+    "height": 1581
+   }
+  },
+  {
+   "kind": "step",
+   "text": "Search the user.",
+   "number": 9,
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [
+     {
+      "style": "width:6.395348837209303%;height:8.862877484076902%;left:57.69055225924235%;top:33.08032890575585%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/access-shift-foundation-certificates-in-bku/step-09.webp"
+   }
+  },
+  {
+   "kind": "step",
+   "text": "Click the certificate button to download the certificate.",
+   "number": 10,
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [
+     {
+      "style": "width:6.395348837209303%;height:8.862877484076902%;left:75.76449109995436%;top:45.793801391524354%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/access-shift-foundation-certificates-in-bku/step-10.webp"
+   }
+  }
+ ],
+ "updatedAt": "2026-08-14T15:16:15.940Z",
+ "updatedBy": "kyle@dossaniparadise.com",
+ "linksRewrittenAt": "2026-08-14T15:17:17.227315Z"
+}

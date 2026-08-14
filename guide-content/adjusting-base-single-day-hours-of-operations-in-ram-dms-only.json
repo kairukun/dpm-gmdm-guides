@@ -1,0 +1,235 @@
+{
+ "slug": "adjusting-base-single-day-hours-of-operations-in-ram-dms-only",
+ "name": "Adjusting Base/Single Day Hours of Operations in RAM (DMs only)",
+ "title": "Adjusting Base/Single Day Hours of Operations in RAM (DMs only)",
+ "description": "This guide provides step-by-step instructions on how to adjust the base and single day hours of operations in RAM. By following these steps, users can easily navigate through the necessary menus and make changes to the opening and closing times for specific days, ensuring accurate and up-to-date information for their restaurant.",
+ "section": "Office ScribeHows",
+ "subsection": "RAM",
+ "pdf": "pdfs/Office ScribeHows/RAM/Adjusting Base-Single Day Hours of Operations in RAM (DMs only).pdf",
+ "tags": [
+  "Rbi",
+  "Okta"
+ ],
+ "scrapedAt": "2026-08-14T14:55:00.482Z",
+ "blocks": [
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "Navigate to [https://rbi.okta.com/](https://rbi.okta.com/)",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "Click this button.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:50.07961783439491%;top:47.420333839150224%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjusting-base-single-day-hours-of-operations-in-ram-dms-only/step-02.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "Click \"RAM BK\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:70.38216560509554%;top:32.92867981790592%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjusting-base-single-day-hours-of-operations-in-ram-dms-only/step-03.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "Select the restaurant you are adjusting.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:71.53662420382165%;top:22.98937784522003%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjusting-base-single-day-hours-of-operations-in-ram-dms-only/step-04.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "Click \"Operation Hours\"",
+   "image": {
+    "aspectRatio": "2487 / 1305",
+    "targets": [
+     {
+      "style": "width:2.2114997989545637%;height:4.21455938697318%;left:57.13711298753519%;top:9.272030651340996%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjusting-base-single-day-hours-of-operations-in-ram-dms-only/step-05.jpeg",
+    "width": 2487,
+    "height": 1305
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Base Adjustment"
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "Click \"Base Adjustment\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:31.886942675159236%;top:25.26555386949924%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjusting-base-single-day-hours-of-operations-in-ram-dms-only/step-06.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "Select which days you are adjusting.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:65.28662420382165%;top:21.471927162367223%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjusting-base-single-day-hours-of-operations-in-ram-dms-only/step-07.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 8,
+   "text": "Adjust the times for Opening/Closing.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:69.90445859872611%;top:32.701062215478%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjusting-base-single-day-hours-of-operations-in-ram-dms-only/step-08.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 9,
+   "text": "Click \"Save\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:68.19267515923568%;top:85.73596358118361%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjusting-base-single-day-hours-of-operations-in-ram-dms-only/step-09.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Single Day Adjustment"
+  },
+  {
+   "kind": "step",
+   "number": 10,
+   "text": "Click \"Single Day Adjustment\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:31.687898089171973%;top:31.031866464339906%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjusting-base-single-day-hours-of-operations-in-ram-dms-only/step-10.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 11,
+   "text": "Select the day you would like to adjust.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:38.81369426751593%;top:40.971168437025796%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjusting-base-single-day-hours-of-operations-in-ram-dms-only/step-11.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 12,
+   "text": "Adjust the times for Opening/Closing.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:65.28662420382165%;top:34.59787556904401%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjusting-base-single-day-hours-of-operations-in-ram-dms-only/step-12.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 13,
+   "text": "Click \"Save\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:70.34235668789809%;top:85.05311077389986%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/adjusting-base-single-day-hours-of-operations-in-ram-dms-only/step-13.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.232313Z"
+}

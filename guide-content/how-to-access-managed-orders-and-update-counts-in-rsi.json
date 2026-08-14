@@ -1,0 +1,176 @@
+{
+ "slug": "how-to-access-managed-orders-and-update-counts-in-rsi",
+ "name": "How To Access Managed Orders and Update Counts in RSI",
+ "title": "How To Access Managed Orders and Update Counts in RSI",
+ "description": "This guide provides a straightforward approach to managing orders and updating inventory counts in RSI, ensuring that users can efficiently keep track of their stock levels. By following the steps outlined, you can easily adjust on-hand quantities and manage order quantities, helping to streamline your restaurant's ordering process. Accessing and utilizing these features can lead to better inventory management and reduced waste, ultimately enhancing operational efficiency.",
+ "section": "Office ScribeHows",
+ "subsection": "RSI",
+ "pdf": "pdfs/Office ScribeHows/RSI/How To Access Managed Orders and Update Counts in RSI.pdf",
+ "tags": [
+  "Rsiweb"
+ ],
+ "scrapedAt": "2026-08-14T14:55:08.208Z",
+ "blocks": [
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "Navigate to [https://www.rsiweb.com/net/public/PubIndex.aspx](https://www.rsiweb.com/net/public/PubIndex.aspx)",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [],
+    "file": "assets/guides/how-to-access-managed-orders-and-update-counts-in-rsi/step-01.jpeg",
+    "width": 2166,
+    "height": 1314
+   }
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "Login.",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.69710806697108%;left:75.85410895660203%;top:5.251141552511415%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/how-to-access-managed-orders-and-update-counts-in-rsi/step-01.jpeg",
+    "width": 2166,
+    "height": 1314
+   }
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "Click \"Managed Orders\"",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.69710806697108%;left:74.46906740535549%;top:26.103500761035008%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/how-to-access-managed-orders-and-update-counts-in-rsi/step-03.jpeg",
+    "width": 2166,
+    "height": 1314
+   }
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "Click the \"Item\" dropdown box to pick the item you are trying to manage.",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.69710806697108%;left:30.840258541089565%;top:15.82952815829528%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/how-to-access-managed-orders-and-update-counts-in-rsi/step-04.webp"
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Adjust Onhand"
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "To adjust your on-hand, Click the number for your restaurant under \"On Hand Qty\"",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.69710806697108%;left:39.56602031394275%;top:28.538812785388128%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/how-to-access-managed-orders-and-update-counts-in-rsi/step-05.jpeg",
+    "width": 2166,
+    "height": 1314
+   }
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "Adjust to your onhand.",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.69710806697108%;left:52.81625115420129%;top:54.718417047184175%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/how-to-access-managed-orders-and-update-counts-in-rsi/step-06.jpeg",
+    "width": 2166,
+    "height": 1314
+   }
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "Click \"Save\"",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.69710806697108%;left:54.47830101569714%;top:61.339421613394215%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/how-to-access-managed-orders-and-update-counts-in-rsi/step-07.jpeg",
+    "width": 2166,
+    "height": 1314
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Adjust Order Quantity"
+  },
+  {
+   "kind": "step",
+   "number": 8,
+   "text": "Enter Quantity you would like on the next delivery date.",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.69710806697108%;left:58.818097876269626%;top:28.234398782343987%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/how-to-access-managed-orders-and-update-counts-in-rsi/step-08.jpeg",
+    "width": 2166,
+    "height": 1314
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Start/Stop Ordering"
+  },
+  {
+   "kind": "step",
+   "number": 9,
+   "text": "Click \"Stop\" icon to stop ordering. Click \"Start\" icon to resume ordering.",
+   "image": {
+    "aspectRatio": "2166 / 1314",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.69710806697108%;left:73.82271468144043%;top:31.81126331811263%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/how-to-access-managed-orders-and-update-counts-in-rsi/step-09.webp"
+   }
+  },
+  {
+   "kind": "warning",
+   "text": "If you have it marked as stopped, you are unable to change \"New Order Qty.\""
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.245816Z"
+}

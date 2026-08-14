@@ -1,0 +1,135 @@
+{
+ "slug": "kiosk-orders",
+ "name": "Kiosk Orders",
+ "title": "Kiosk Orders",
+ "description": "This guide provides a straightforward process for managing kiosk orders efficiently, ensuring users can navigate the system with ease. By following the outlined steps, users can quickly enter, process, and complete orders, enhancing their operational workflow. It's an essential resource for anyone looking to streamline their kiosk order management and improve customer service.",
+ "section": "PAR POS Guides",
+ "subsection": null,
+ "pdf": "pdfs/PAR POS Guides/Kiosk Orders.pdf",
+ "tags": [
+  "Partech"
+ ],
+ "scrapedAt": "2026-08-14T14:52:41.027Z",
+ "blocks": [
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "Click \"Enter POS\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:35.18005540166205%;top:48.776758409785934%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/kiosk-orders/step-01.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "Click \"Functions\"",
+   "image": {
+    "aspectRatio": "1808 / 1016",
+    "targets": [
+     {
+      "style": "width:4.867256637168142%;height:8.661417322834646%;left:84.56858407079646%;top:3.149606299212598%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/kiosk-orders/step-02.webp"
+   }
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "Click \"Kiosk Orders\"",
+   "image": {
+    "aspectRatio": "1811 / 1023",
+    "targets": [
+     {
+      "style": "width:4.8591938155715075%;height:8.60215053763441%;left:72.61181667586969%;top:40.27370478983382%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/kiosk-orders/step-03.webp"
+   }
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "Select order.",
+   "image": {
+    "aspectRatio": "2166 / 1436",
+    "targets": [],
+    "file": "assets/guides/kiosk-orders/step-04.jpeg",
+    "width": 2166,
+    "height": 1436
+   }
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "Click \"Send\"",
+   "image": {
+    "aspectRatio": "1825 / 1024",
+    "targets": [
+     {
+      "style": "width:4.821917808219178%;height:8.59375%;left:18.958904109589042%;top:97.36328125%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/kiosk-orders/step-05.webp"
+   }
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "Click \"Done\"",
+   "image": {
+    "aspectRatio": "1813 / 1014",
+    "targets": [
+     {
+      "style": "width:4.044861187718331%;height:7.23208415516108%;left:97.51792608935466%;top:96.64694280078896%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/kiosk-orders/step-06.webp"
+   }
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "Select order from \"Open Orders\"",
+   "image": {
+    "aspectRatio": "1812 / 1022",
+    "targets": [
+     {
+      "style": "width:4.856512141280353%;height:8.610567514677104%;left:65.01103752759381%;top:90.90019569471625%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/kiosk-orders/step-07.webp"
+   }
+  },
+  {
+   "kind": "step",
+   "number": 8,
+   "text": "Click \"Pay\" to cash out the order.",
+   "image": {
+    "aspectRatio": "1815 / 1022",
+    "targets": [
+     {
+      "style": "width:6.598203413972936%;height:11.717944419139803%;left:23.305785123966942%;top:92.56360078277886%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/kiosk-orders/step-08.webp"
+   }
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.247316Z"
+}

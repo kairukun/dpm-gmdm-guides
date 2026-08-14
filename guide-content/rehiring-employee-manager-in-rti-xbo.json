@@ -1,0 +1,229 @@
+{
+ "slug": "rehiring-employee-manager-in-rti-xbo",
+ "name": "Rehiring Employee/Manager in RTI/XBO",
+ "title": "Rehiring Employee/Manager in RTI/XBO",
+ "description": "This guide provides step-by-step instructions on how to rehire an employee in RTI/XBO. It includes detailed steps on navigating the platform, updating employee status, and verifying information. Viewing this guide will help you easily and accurately rehire employees, ensuring all necessary information is correct.",
+ "section": "Office ScribeHows",
+ "subsection": "XBO/RTI (All guides are using XBO unless specified)",
+ "pdf": "pdfs/Office ScribeHows/XBO-RTI/Rehiring Employee-Manager in RTI-XBO.pdf",
+ "tags": [
+  "Xenial"
+ ],
+ "scrapedAt": "2026-08-14T14:56:58.531Z",
+ "blocks": [
+  {
+   "kind": "warning",
+   "text": "RTI may have a slightly different setup on menus, but the same information must be filled out on either system."
+  },
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "Navigate to [https://xbo.xenial.com/login](https://xbo.xenial.com/login)",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "Login.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:47.65127388535032%;top:33.15629742033384%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/rehiring-employee-manager-in-rti-xbo/step-02.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "Click \"Employees && Scheduling\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:26.512738853503187%;top:23.672230652503792%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/rehiring-employee-manager-in-rti-xbo/step-03.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "Click \"Add / Update Employees\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:6.369426751592357%;top:15.781487101669194%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/rehiring-employee-manager-in-rti-xbo/step-04.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "Click \"Inactive\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:18.869426751592357%;top:32.54931714719272%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/rehiring-employee-manager-in-rti-xbo/step-05.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "Click \"Terminated\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:18.710191082802545%;top:35.204855842185125%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/rehiring-employee-manager-in-rti-xbo/step-06.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "Search for the employee you are rehiring.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:20.262738853503183%;top:17.147192716236724%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/rehiring-employee-manager-in-rti-xbo/step-07.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 8,
+   "text": "Click \"Search\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:25.159235668789808%;top:95.2959028831563%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/rehiring-employee-manager-in-rti-xbo/step-08.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 9,
+   "text": "Click the employee you are rehiring.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:45.740445859872615%;top:74.73444613050076%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/rehiring-employee-manager-in-rti-xbo/step-09.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 10,
+   "text": "Click \"Status\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:14.291401273885352%;top:18.968133535660094%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/rehiring-employee-manager-in-rti-xbo/step-10.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 11,
+   "text": "Click the \"Active\" switch to turn it to \"Yes\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:30.89171974522293%;top:18.28528072837633%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/rehiring-employee-manager-in-rti-xbo/step-11.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 12,
+   "text": "Verify all the information is correct under all sections.",
+   "image": {
+    "aspectRatio": "252 / 383",
+    "targets": [],
+    "file": "assets/guides/rehiring-employee-manager-in-rti-xbo/step-12.jpeg",
+    "width": 252,
+    "height": 383
+   }
+  },
+  {
+   "kind": "warning",
+   "text": "Pay Rate and Payroll ID must be 100% accurate."
+  },
+  {
+   "kind": "step",
+   "number": 13,
+   "text": "Click \"Save\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:97.77070063694268%;top:11.229135053110774%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/rehiring-employee-manager-in-rti-xbo/step-13.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.255815Z"
+}

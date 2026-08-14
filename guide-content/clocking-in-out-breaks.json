@@ -1,0 +1,212 @@
+{
+ "slug": "clocking-in-out-breaks",
+ "name": "Clocking In/Out & Breaks",
+ "title": "Clocking In/Out & Breaks",
+ "description": "This guide provides a straightforward process for clocking in and out, as well as managing breaks, ensuring that employees can efficiently track their work hours. It simplifies the steps needed to navigate the home screen and highlights important features, such as job selection and break management. By following this guide, users can avoid confusion and ensure compliance with timekeeping policies, ultimately enhancing productivity and accountability in the workplace.",
+ "section": "PAR POS Guides",
+ "subsection": null,
+ "pdf": "pdfs/PAR POS Guides/Clocking InOut.pdf",
+ "tags": [
+  "Partech"
+ ],
+ "scrapedAt": "2026-08-14T14:52:33.230Z",
+ "blocks": [
+  {
+   "kind": "section",
+   "text": "Return to Home Screen"
+  },
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "Click \"Home Screen\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.986149584487535%;height:8.256880733944955%;left:94.13665743305633%;top:6.039755351681957%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/clocking-in-out-breaks/step-01.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Home Screen Overview"
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [],
+    "file": "assets/guides/clocking-in-out-breaks/step-02.webp"
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Clock In"
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "Click \"Clock In/Out\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [],
+    "file": "assets/guides/clocking-in-out-breaks/step-03.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "Type in number.",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:57.38688827331486%;top:74.31192660550458%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/clocking-in-out-breaks/step-04.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "Select Job.",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [],
+    "file": "assets/guides/clocking-in-out-breaks/step-05.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "tip",
+   "text": "Selecting Job is not always applicable."
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "Click \"Clock-In\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [],
+    "file": "assets/guides/clocking-in-out-breaks/step-06.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Clock Out"
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "Click \"Clock In/Out\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [],
+    "file": "assets/guides/clocking-in-out-breaks/step-07.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 8,
+   "text": "Type in number.",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [],
+    "file": "assets/guides/clocking-in-out-breaks/step-08.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Start Break"
+  },
+  {
+   "kind": "step",
+   "number": 9,
+   "text": "Click \"Start/End Break\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [],
+    "file": "assets/guides/clocking-in-out-breaks/step-09.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 10,
+   "text": "Type in number.",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [],
+    "file": "assets/guides/clocking-in-out-breaks/step-10.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 11,
+   "text": "Click \"30 Minute\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [],
+    "file": "assets/guides/clocking-in-out-breaks/step-11.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "section",
+   "text": "End Break"
+  },
+  {
+   "kind": "step",
+   "number": 12,
+   "text": "Click \"Start/End Break\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [],
+    "file": "assets/guides/clocking-in-out-breaks/step-12.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 13,
+   "text": "Type in number.",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [],
+    "file": "assets/guides/clocking-in-out-breaks/step-13.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "warning",
+   "text": "If attempting to return from break early, an alert will pop up telling you how long until the 30 minutes are completed. You may continue to clock in or cancel the break."
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.237813Z"
+}

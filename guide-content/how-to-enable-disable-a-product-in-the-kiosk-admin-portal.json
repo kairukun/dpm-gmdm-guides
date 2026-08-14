@@ -1,0 +1,175 @@
+{
+ "slug": "how-to-enable-disable-a-product-in-the-kiosk-admin-portal",
+ "name": "How to Enable/Disable a Product in the Kiosk Admin Portal",
+ "title": "Managing Products in the Kiosk Admin Portal",
+ "description": "This guide provides essential instructions for effectively managing products in the Kiosk Admin Portal, ensuring users can easily mark items as sold out or hidden. It simplifies the process of navigating the portal, searching for products, and updating their status, which is crucial for maintaining accurate inventory. By following these steps, users can enhance their kiosk's functionality and improve customer experience. Overall, this guide is a valuable resource for anyone looking to streamline product management in the kiosk environment.",
+ "section": "Office ScribeHows",
+ "subsection": "Kiosk",
+ "pdf": "pdfs/Office ScribeHows/Kiosk/How to Enable-Disable a Product in the Kiosk Admin Portal.pdf",
+ "tags": [
+  "Burgerking"
+ ],
+ "scrapedAt": "2026-08-14T14:54:18.815Z",
+ "blocks": [
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "For Sicom: Navigate to [http://192.168.1.32/portal-admin-app](http://192.168.1.32/portal-admin-app/login-page.xhtml?faces-redirect=true&loggedOut=true) For PAR: Navigate to <http://192.168.1.20/portal-admin-app>",
+   "image": {
+    "aspectRatio": "1526 / 924",
+    "targets": [],
+    "file": "assets/guides/how-to-enable-disable-a-product-in-the-kiosk-admin-portal/step-01.jpeg",
+    "width": 1526,
+    "height": 924
+   }
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "Click \"SIGN IN\" Username: bk####sm\\ Password: password Username does not have any leading zeros.",
+   "image": {
+    "aspectRatio": "1526 / 924",
+    "targets": [],
+    "file": "assets/guides/how-to-enable-disable-a-product-in-the-kiosk-admin-portal/step-02.jpeg",
+    "width": 1526,
+    "height": 924
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Home Overview"
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "Overview of the Home Page",
+   "image": {
+    "aspectRatio": "1526 / 924",
+    "targets": [],
+    "file": "assets/guides/how-to-enable-disable-a-product-in-the-kiosk-admin-portal/step-03.webp"
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Product Search"
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "Click \"Product Editor\"",
+   "image": {
+    "aspectRatio": "1526 / 924",
+    "targets": [],
+    "file": "assets/guides/how-to-enable-disable-a-product-in-the-kiosk-admin-portal/step-04.jpeg",
+    "width": 1526,
+    "height": 924
+   }
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "Search for the product you want to mark as sold out or reenable.",
+   "image": {
+    "aspectRatio": "1526 / 924",
+    "targets": [],
+    "file": "assets/guides/how-to-enable-disable-a-product-in-the-kiosk-admin-portal/step-05.jpeg",
+    "width": 1526,
+    "height": 924
+   }
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "Click \"Search\"",
+   "image": {
+    "aspectRatio": "1526 / 924",
+    "targets": [],
+    "file": "assets/guides/how-to-enable-disable-a-product-in-the-kiosk-admin-portal/step-06.jpeg",
+    "width": 1526,
+    "height": 924
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Hide/Disable Products"
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "Click \"Disable\" or \"Hide\"",
+   "image": {
+    "aspectRatio": "1526 / 924",
+    "targets": [
+     {
+      "style": "width:5.766710353866317%;height:9.523809523809524%;left:93.97116644823068%;top:59.74025974025974%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/how-to-enable-disable-a-product-in-the-kiosk-admin-portal/step-07.webp"
+   }
+  },
+  {
+   "kind": "warning",
+   "text": "\"Disable\" marks it as sold out on Kiosk, but still displays it where it normally would on the Kiosk.\\ \"Hide\" will remove it from the Kiosk. It is recommended to select \"Hide.\""
+  },
+  {
+   "kind": "section",
+   "text": "Reenable Product"
+  },
+  {
+   "kind": "step",
+   "number": 8,
+   "text": "Click \"Enable\"",
+   "image": {
+    "aspectRatio": "1526 / 924",
+    "targets": [],
+    "file": "assets/guides/how-to-enable-disable-a-product-in-the-kiosk-admin-portal/step-08.jpeg",
+    "width": 1526,
+    "height": 924
+   }
+  },
+  {
+   "kind": "tip",
+   "text": "Disabled or hidden items will be highlighted in red."
+  },
+  {
+   "kind": "section",
+   "text": "Sync"
+  },
+  {
+   "kind": "step",
+   "number": 9,
+   "text": "Click \"Home\"",
+   "image": {
+    "aspectRatio": "1526 / 924",
+    "targets": [
+     {
+      "style": "width:5.766710353866317%;height:9.523809523809524%;left:7.208387942332896%;top:15.367965367965366%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/how-to-enable-disable-a-product-in-the-kiosk-admin-portal/step-09.jpeg",
+    "width": 1526,
+    "height": 924
+   }
+  },
+  {
+   "kind": "step",
+   "number": 10,
+   "text": "Click \"Sync Availability & Price\"",
+   "image": {
+    "aspectRatio": "1526 / 924",
+    "targets": [
+     {
+      "style": "width:5.766710353866317%;height:9.523809523809524%;left:84.33813892529488%;top:18.506493506493506%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/how-to-enable-disable-a-product-in-the-kiosk-admin-portal/step-10.jpeg",
+    "width": 1526,
+    "height": 924
+   }
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.246316Z"
+}

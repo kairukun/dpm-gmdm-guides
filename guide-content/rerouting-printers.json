@@ -1,0 +1,104 @@
+{
+ "slug": "rerouting-printers",
+ "name": "Rerouting Printers",
+ "title": "Rerouting Printers",
+ "description": "This guide provides a straightforward process for rerouting printers, ensuring efficient management of printing tasks in a point-of-sale system. By following these simple steps, users can quickly redirect print jobs to the desired printer, minimizing downtime and enhancing productivity. It's an essential resource for anyone looking to streamline their printing operations in a busy environment.",
+ "section": "PAR POS Guides",
+ "subsection": null,
+ "pdf": "pdfs/PAR POS Guides/Rerouting Printers.pdf",
+ "tags": [
+  "Partech"
+ ],
+ "scrapedAt": "2026-08-14T14:52:13.971Z",
+ "blocks": [
+  {
+   "kind": "warning",
+   "text": "If changing KDS routing, Navigate to : [Adjust KDS Routing](adjust-kds-routing.html) before adjusting printers."
+  },
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "Click \"Enter POS\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [],
+    "file": "assets/guides/rerouting-printers/step-01.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "Click \"Functions\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [],
+    "file": "assets/guides/rerouting-printers/step-02.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "Click \"Support Functions\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [],
+    "file": "assets/guides/rerouting-printers/step-03.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "Slide card or enter PIN",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [],
+    "file": "assets/guides/rerouting-printers/step-04.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "Click \"Re-Route Printers\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [],
+    "file": "assets/guides/rerouting-printers/step-05.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "Select which printer you want to reroute.",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [],
+    "file": "assets/guides/rerouting-printers/step-06.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "Click \"OK\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [],
+    "file": "assets/guides/rerouting-printers/step-07.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.256814Z"
+}

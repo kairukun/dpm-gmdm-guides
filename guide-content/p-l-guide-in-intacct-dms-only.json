@@ -1,0 +1,580 @@
+{
+ "slug": "p-l-guide-in-intacct-dms-only",
+ "name": "P&L Guide in Intacct (DMs Only)",
+ "title": "P&L Guide in Intacct (DMs Only)",
+ "description": "This guide provides step-by-step instructions on how to navigate Intacct and view the Profit and Loss (P&L) statement. It also explains how to review for incorrect charges, access drill-down capabilities, search for invoices, and favorite menu options. Additionally, it provides guidance on fixing authorization issues and viewing invoice images. This guide is essential for individuals using Intacct to effectively manage and analyze financial data.",
+ "section": "Office ScribeHows",
+ "subsection": "Intacct",
+ "pdf": "pdfs/Office ScribeHows/Intacct/P&L Guide in Intacct (DMs Only).pdf",
+ "tags": [
+  "Intacct"
+ ],
+ "scrapedAt": "2026-08-14T14:54:15.266Z",
+ "blocks": [
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "Navigate to [https://www.intacct.com/ia/acct/login.phtml](https://www.intacct.com/ia/acct/login.phtml)",
+   "image": null
+  },
+  {
+   "kind": "tip",
+   "text": "Horne-Ampler-Monday is the Company ID."
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "Click this button.",
+   "image": {
+    "aspectRatio": "2868 / 1617",
+    "targets": [
+     {
+      "style": "width:2.8765690376569037%;height:5.1020408163265305%;left:49.198047419804745%;top:49.04143475572047%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/p-l-guide-in-intacct-dms-only/step-02.jpeg",
+    "width": 2868,
+    "height": 1617
+   }
+  },
+  {
+   "kind": "section",
+   "text": "P&L"
+  },
+  {
+   "kind": "tip",
+   "text": "It is best to review your P&L for incorrect charges so they can be corrected before the P&L is finalized."
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "Click \"Applications\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:8.280254777070063%;top:6.22154779969651%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/p-l-guide-in-intacct-dms-only/step-03.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "Click \"Dashboards\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:9.076433121019107%;top:18.133535660091045%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/p-l-guide-in-intacct-dms-only/step-04.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "Click \"OPS P&L Dashboard\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:17.9140127388535%;top:19.423368740515933%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/p-l-guide-in-intacct-dms-only/step-05.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "Put the date as any date that falls in the period of the P&L you want to pull.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:86.78343949044586%;top:9.408194233687405%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/p-l-guide-in-intacct-dms-only/step-06.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "Find the restaurant of the P&L you want to pull.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:92.7547770700637%;top:8.952959028831563%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/p-l-guide-in-intacct-dms-only/step-07.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 8,
+   "text": "You can also select your District or Region. Doing so will give you a consolidated P&L for your District or Region.",
+   "image": {
+    "aspectRatio": "2834 / 1390",
+    "targets": [
+     {
+      "style": "width:1.9407198306280877%;height:3.9568345323741005%;left:90.93154551870148%;top:11.870503597122301%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/p-l-guide-in-intacct-dms-only/step-08.jpeg",
+    "width": 2834,
+    "height": 1390
+   }
+  },
+  {
+   "kind": "warning",
+   "text": "The dropdown shows every Cost Center in Ampler. Selecting one that you don't have access to will result in a P&L with all zeroes being displayed."
+  },
+  {
+   "kind": "step",
+   "number": 9,
+   "text": "Click \"Apply\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:95.97929936305732%;top:8.725341426403642%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/p-l-guide-in-intacct-dms-only/step-09.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 10,
+   "text": "Click \"\u25b6\" next to \"CONSOLIDATED P&L\" to see the P&L for the period you searched.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:1.194267515923567%;top:19.119878603945374%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/p-l-guide-in-intacct-dms-only/step-10.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 11,
+   "text": "Click \"\u25b6\" next to \"IS - PY to CP TREND\" to see a condensed P&L trend, showing only the actuals.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:1.1544585987261147%;top:23.975720789074355%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/p-l-guide-in-intacct-dms-only/step-11.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 12,
+   "text": "Preview of a P&L",
+   "image": {
+    "aspectRatio": "2439 / 461",
+    "targets": [],
+    "file": "assets/guides/p-l-guide-in-intacct-dms-only/step-12.jpeg",
+    "width": 2439,
+    "height": 461
+   }
+  },
+  {
+   "kind": "tip",
+   "text": "All blue text indicates drill down capabilities. The system will let you know when you are at the most detailed level of access when you see a permission denied message."
+  },
+  {
+   "kind": "step",
+   "number": 13,
+   "text": "Clicking a blue number on the P&L brings up the \"General Ledger Report.\"",
+   "image": {
+    "aspectRatio": "1315 / 1173",
+    "targets": [],
+    "file": "assets/guides/p-l-guide-in-intacct-dms-only/step-13.jpeg",
+    "width": 1315,
+    "height": 1173
+   }
+  },
+  {
+   "kind": "tip",
+   "text": "When reviewing the General ledger report you will notice a column labeled JNL, which is short for \u201cJournal\u201d. - JNL code SE stands for \u201cStandard Entry\u201d. These will be manual entries the accounting team makes. - JNL code PR stands for \u201cPayroll\u201d. While still a manual entry by the accounting team, it signifies data pulled from iSolved. - JNL code BR stands for \u201cBank Recon\u201d. These are entries from the Banking module, mostly to cash over/short and credit card fees. - JNL code AP stands for \u201cAccounts Payable\u201d. These are from AP, and should have an invoice image attached unless it comes from an EDI feed or was loaded via an Excel file from the vendor. If the column shows AP for accounts payable, then the dollar amount in blue will take you to a copy of the bill."
+  },
+  {
+   "kind": "step",
+   "number": 14,
+   "text": "Clicking a blue number on the P&L brings up the entry for that debit/credit. This also brings up all entries related to that charge. If there is an invoice attached, it will be a link within the circles shown.",
+   "image": {
+    "aspectRatio": "1283 / 1038",
+    "targets": [],
+    "file": "assets/guides/p-l-guide-in-intacct-dms-only/step-14.jpeg",
+    "width": 1283,
+    "height": 1038
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Searching for Invoice"
+  },
+  {
+   "kind": "step",
+   "number": 15,
+   "text": "Click \"Applications\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:11.743630573248408%;top:4.779969650986343%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/p-l-guide-in-intacct-dms-only/step-15.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 16,
+   "text": "Click \"Accounts Payable\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:9.355095541401273%;top:23.368740515933233%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/p-l-guide-in-intacct-dms-only/step-16.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 17,
+   "text": "Click \"Bills\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:16.32165605095541%;top:16.236722306525035%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/p-l-guide-in-intacct-dms-only/step-17.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 18,
+   "text": "Using the search boxes, input as much information as possible, and search for the invoice you are needing.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [],
+    "file": "assets/guides/p-l-guide-in-intacct-dms-only/step-18.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 19,
+   "text": "Click \"View\" for the invoice.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:3.662420382165605%;top:23.14112291350531%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/p-l-guide-in-intacct-dms-only/step-19.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Favoriting Menu Options"
+  },
+  {
+   "kind": "step",
+   "number": 20,
+   "text": "Click \"Applications\"",
+   "image": {
+    "aspectRatio": "2868 / 1617",
+    "targets": [
+     {
+      "style": "width:2.8765690376569037%;height:5.1020408163265305%;left:14.958158995815898%;top:7.606679035250464%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/p-l-guide-in-intacct-dms-only/step-20.jpeg",
+    "width": 2868,
+    "height": 1617
+   }
+  },
+  {
+   "kind": "step",
+   "number": 21,
+   "text": "Find the report you want to favorite.",
+   "image": {
+    "aspectRatio": "2868 / 1617",
+    "targets": [
+     {
+      "style": "width:2.8765690376569037%;height:5.1020408163265305%;left:10.460251046025103%;top:21.954236239950525%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/p-l-guide-in-intacct-dms-only/step-21.jpeg",
+    "width": 2868,
+    "height": 1617
+   }
+  },
+  {
+   "kind": "step",
+   "number": 22,
+   "text": "Hover over the menu you want to favorite.",
+   "image": {
+    "aspectRatio": "1454 / 820",
+    "targets": [],
+    "file": "assets/guides/p-l-guide-in-intacct-dms-only/step-22.jpeg",
+    "width": 1454,
+    "height": 820
+   }
+  },
+  {
+   "kind": "step",
+   "number": 23,
+   "text": "Click the \"Star\" next to the menu you want to favorite.",
+   "image": {
+    "aspectRatio": "2868 / 1617",
+    "targets": [],
+    "file": "assets/guides/p-l-guide-in-intacct-dms-only/step-23.jpeg",
+    "width": 2868,
+    "height": 1617
+   }
+  },
+  {
+   "kind": "step",
+   "number": 24,
+   "text": "To view your favorites, click the \"Star\" next to the \"Home\" button.",
+   "image": {
+    "aspectRatio": "2868 / 1617",
+    "targets": [
+     {
+      "style": "width:2.8765690376569037%;height:5.1020408163265305%;left:1.0460251046025104%;top:6.679035250463822%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/p-l-guide-in-intacct-dms-only/step-24.jpeg",
+    "width": 2868,
+    "height": 1617
+   }
+  },
+  {
+   "kind": "step",
+   "number": 25,
+   "text": "All favorites will show on this menu.",
+   "image": {
+    "aspectRatio": "2868 / 1617",
+    "targets": [
+     {
+      "style": "width:2.8765690376569037%;height:5.1020408163265305%;left:6.2761506276150625%;top:15.646258503401361%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/p-l-guide-in-intacct-dms-only/step-25.jpeg",
+    "width": 2868,
+    "height": 1617
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Fixing Not Authorized Message for an AP JNL Entry"
+  },
+  {
+   "kind": "step",
+   "number": 26,
+   "text": "Click \"Applications\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:9.872611464968154%;top:6.29742033383915%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/p-l-guide-in-intacct-dms-only/step-26.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 27,
+   "text": "Click \"General Ledger\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:11.06687898089172%;top:20.030349013657055%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/p-l-guide-in-intacct-dms-only/step-27.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 28,
+   "text": "Click \"General Ledger\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:37.06210191082803%;top:37.63277693474962%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/p-l-guide-in-intacct-dms-only/step-28.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 29,
+   "text": "Click \"Details\" under \"Show transaction presentation\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:15.565286624203821%;top:55.31107738998483%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/p-l-guide-in-intacct-dms-only/step-29.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 30,
+   "text": "Click \"Bill, invoice, or adjustment number\" under \"Select doc column value\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:29.578025477707005%;top:55.61456752655539%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/p-l-guide-in-intacct-dms-only/step-30.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "warning",
+   "text": "You have to do the next steps for it to save these changes."
+  },
+  {
+   "kind": "step",
+   "number": 31,
+   "text": "Pick a GL account. It can be any on the drop down list.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:13.89331210191083%;top:36.49468892261002%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/p-l-guide-in-intacct-dms-only/step-31.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 32,
+   "text": "Pick a location. It can be any of your locations on the drop down list.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:12.977707006369426%;top:43.93019726858877%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/p-l-guide-in-intacct-dms-only/step-32.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 33,
+   "text": "Click \"View\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:84.51433121019109%;top:9.180576631259484%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/p-l-guide-in-intacct-dms-only/step-33.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "tip",
+   "text": "After all these steps, you will be able to see view the invoice images."
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.252313Z"
+}

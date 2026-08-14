@@ -1,0 +1,1042 @@
+{
+ "slug": "4000-frymaster-fryers",
+ "name": "4000 Frymaster Fryers",
+ "title": "4000 Frymaster Fryers",
+ "description": "This guide provides step-by-step instructions for adding or editing products in 4000 Frymaster Fryers. It covers various settings such as temperature, hold time, shake timers, and filter settings. It also includes instructions for quick filtration, cleaning and filtering, filling the vat from bulk, and pan to waste processes. If you need to learn how to manage and operate a Frymaster Fryer, this guide is a valuable resource.",
+ "section": "Equipment ScribeHows",
+ "subsection": null,
+ "pdf": "pdfs/Equipment ScribeHows/4000 Frymaster Fryers.pdf",
+ "tags": [
+  "Frymaster"
+ ],
+ "scrapedAt": "2026-08-14T14:57:27.453Z",
+ "blocks": [
+  {
+   "kind": "section",
+   "text": "Adding or Editing Existing Products"
+  },
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "Press the Home button.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "Press the Recipes button.",
+   "image": {
+    "aspectRatio": "71 / 69",
+    "targets": [],
+    "file": "assets/guides/4000-frymaster-fryers/step-02.jpeg",
+    "width": 71,
+    "height": 69
+   }
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "Enter **1650**.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "Choose the product icon to edit or press the **+** to add a new product.",
+   "image": {
+    "aspectRatio": "308 / 193",
+    "targets": [],
+    "file": "assets/guides/4000-frymaster-fryers/step-04.jpeg",
+    "width": 308,
+    "height": 193
+   }
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "Press the pencil icon at the bottom of the screen to edit an existing product.",
+   "image": {
+    "aspectRatio": "90 / 83",
+    "targets": [],
+    "file": "assets/guides/4000-frymaster-fryers/step-05.jpeg",
+    "width": 90,
+    "height": 83
+   }
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "Enter or change the name of the product using the keyboard.",
+   "image": {
+    "aspectRatio": "325 / 201",
+    "targets": [],
+    "file": "assets/guides/4000-frymaster-fryers/step-06.jpeg",
+    "width": 325,
+    "height": 201
+   }
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "Press the \u221a (check) button.",
+   "image": {
+    "aspectRatio": "77 / 71",
+    "targets": [],
+    "file": "assets/guides/4000-frymaster-fryers/step-07.jpeg",
+    "width": 77,
+    "height": 71
+   }
+  },
+  {
+   "kind": "step",
+   "number": 8,
+   "text": "This screen displays the current setpoint, cook time, sensitivity, hold timer, shake timers and filter settings. To edit a parameter, press the item to edit.",
+   "image": {
+    "aspectRatio": "334 / 204",
+    "targets": [],
+    "file": "assets/guides/4000-frymaster-fryers/step-08.jpeg",
+    "width": 334,
+    "height": 204
+   }
+  },
+  {
+   "kind": "step",
+   "number": 9,
+   "text": "To edit temperature, press the temp button.",
+   "image": {
+    "aspectRatio": "53 / 66",
+    "targets": [],
+    "file": "assets/guides/4000-frymaster-fryers/step-09.jpeg",
+    "width": 53,
+    "height": 66
+   }
+  },
+  {
+   "kind": "step",
+   "number": 10,
+   "text": "Use the keypad to enter or edit the cook temperature for the product.",
+   "image": {
+    "aspectRatio": "345 / 212",
+    "targets": [],
+    "file": "assets/guides/4000-frymaster-fryers/step-10.jpeg",
+    "width": 345,
+    "height": 212
+   }
+  },
+  {
+   "kind": "step",
+   "number": 11,
+   "text": "Press the \u221a (check) button.",
+   "image": {
+    "aspectRatio": "77 / 71",
+    "targets": [],
+    "file": "assets/guides/4000-frymaster-fryers/step-11.jpeg",
+    "width": 77,
+    "height": 71
+   }
+  },
+  {
+   "kind": "step",
+   "number": 12,
+   "text": "Press the load compensation or sensitivity button.",
+   "image": {
+    "aspectRatio": "116 / 88",
+    "targets": [],
+    "file": "assets/guides/4000-frymaster-fryers/step-12.jpeg",
+    "width": 116,
+    "height": 88
+   }
+  },
+  {
+   "kind": "step",
+   "number": 13,
+   "text": "Use the up and down arrows to change the load compensation or sensitivity setting recommended for this product. This setting allows the product compensation (sensitivity) to be changed. Some menu items may need an adjustment, depending on their cooking characteristics.",
+   "image": {
+    "aspectRatio": "362 / 230",
+    "targets": [],
+    "file": "assets/guides/4000-frymaster-fryers/step-13.jpeg",
+    "width": 362,
+    "height": 230
+   }
+  },
+  {
+   "kind": "warning",
+   "text": "NOTE: It is highly recommended to NOT adjust this setting, as it could have an adverse effect on the products cooking cycles."
+  },
+  {
+   "kind": "step",
+   "number": 14,
+   "text": "Press the \u221a (check) button.",
+   "image": {
+    "aspectRatio": "77 / 71",
+    "targets": [],
+    "file": "assets/guides/4000-frymaster-fryers/step-14.jpeg",
+    "width": 77,
+    "height": 71
+   }
+  },
+  {
+   "kind": "step",
+   "number": 15,
+   "text": "Press the Hold Timer button.",
+   "image": {
+    "aspectRatio": "79 / 69",
+    "targets": [],
+    "file": "assets/guides/4000-frymaster-fryers/step-15.jpeg",
+    "width": 79,
+    "height": 69
+   }
+  },
+  {
+   "kind": "step",
+   "number": 16,
+   "text": "Enter the time in minutes and seconds for the product hold time.",
+   "image": {
+    "aspectRatio": "370 / 225",
+    "targets": [],
+    "file": "assets/guides/4000-frymaster-fryers/step-16.jpeg",
+    "width": 370,
+    "height": 225
+   }
+  },
+  {
+   "kind": "step",
+   "number": 17,
+   "text": "Press the \u221a (check) button.",
+   "image": {
+    "aspectRatio": "77 / 71",
+    "targets": [],
+    "file": "assets/guides/4000-frymaster-fryers/step-17.jpeg",
+    "width": 77,
+    "height": 71
+   }
+  },
+  {
+   "kind": "step",
+   "number": 18,
+   "text": "Press the Shake Timer 1 button.",
+   "image": {
+    "aspectRatio": "85 / 73",
+    "targets": [],
+    "file": "assets/guides/4000-frymaster-fryers/step-18.jpeg",
+    "width": 85,
+    "height": 73
+   }
+  },
+  {
+   "kind": "step",
+   "number": 19,
+   "text": "Enter the time in minutes and seconds for the first shake to be performed.",
+   "image": {
+    "aspectRatio": "357 / 220",
+    "targets": [],
+    "file": "assets/guides/4000-frymaster-fryers/step-19.jpeg",
+    "width": 357,
+    "height": 220
+   }
+  },
+  {
+   "kind": "step",
+   "number": 20,
+   "text": "Press the \u221a (check) button.",
+   "image": {
+    "aspectRatio": "77 / 71",
+    "targets": [],
+    "file": "assets/guides/4000-frymaster-fryers/step-20.jpeg",
+    "width": 77,
+    "height": 71
+   }
+  },
+  {
+   "kind": "step",
+   "number": 21,
+   "text": "Press the Shake Timer 2 button if an additional shake is needed, otherwise skip next 2 steps.",
+   "image": {
+    "aspectRatio": "86 / 74",
+    "targets": [],
+    "file": "assets/guides/4000-frymaster-fryers/step-21.jpeg",
+    "width": 86,
+    "height": 74
+   }
+  },
+  {
+   "kind": "step",
+   "number": 22,
+   "text": "Press the down arrow to scroll to more settings.",
+   "image": {
+    "aspectRatio": "78 / 76",
+    "targets": [],
+    "file": "assets/guides/4000-frymaster-fryers/step-22.jpeg",
+    "width": 78,
+    "height": 76
+   }
+  },
+  {
+   "kind": "step",
+   "number": 23,
+   "text": "Enter the time in minutes and seconds for the second to be performed.",
+   "image": {
+    "aspectRatio": "361 / 217",
+    "targets": [],
+    "file": "assets/guides/4000-frymaster-fryers/step-23.jpeg",
+    "width": 361,
+    "height": 217
+   }
+  },
+  {
+   "kind": "step",
+   "number": 24,
+   "text": "Press the \u221a (check) button.",
+   "image": {
+    "aspectRatio": "77 / 71",
+    "targets": [],
+    "file": "assets/guides/4000-frymaster-fryers/step-24.jpeg",
+    "width": 77,
+    "height": 71
+   }
+  },
+  {
+   "kind": "step",
+   "number": 25,
+   "text": "Press the Filter button.",
+   "image": {
+    "aspectRatio": "120 / 91",
+    "targets": [],
+    "file": "assets/guides/4000-frymaster-fryers/step-25.jpeg",
+    "width": 120,
+    "height": 91
+   }
+  },
+  {
+   "kind": "step",
+   "number": 26,
+   "text": "Ensure that the filter button is ON to enable auto filtration for this product. This setting is used to prevent co-mingling of product specific oils.",
+   "image": {
+    "aspectRatio": "361 / 217",
+    "targets": [],
+    "file": "assets/guides/4000-frymaster-fryers/step-26.jpeg",
+    "width": 361,
+    "height": 217
+   }
+  },
+  {
+   "kind": "step",
+   "number": 27,
+   "text": "Press the \u221a (check) button.",
+   "image": {
+    "aspectRatio": "77 / 71",
+    "targets": [],
+    "file": "assets/guides/4000-frymaster-fryers/step-27.jpeg",
+    "width": 77,
+    "height": 71
+   }
+  },
+  {
+   "kind": "step",
+   "number": 28,
+   "text": "Choose the icon to associate with the product recipe that is being entered or editied.",
+   "image": {
+    "aspectRatio": "334 / 204",
+    "targets": [],
+    "file": "assets/guides/4000-frymaster-fryers/step-28.jpeg",
+    "width": 334,
+    "height": 204
+   }
+  },
+  {
+   "kind": "step",
+   "number": 29,
+   "text": "Press the \u221a (check) button.",
+   "image": {
+    "aspectRatio": "77 / 71",
+    "targets": [],
+    "file": "assets/guides/4000-frymaster-fryers/step-29.jpeg",
+    "width": 77,
+    "height": 71
+   }
+  },
+  {
+   "kind": "step",
+   "number": 30,
+   "text": "Choose the menu(s) to associate with the product recipe that is being entered or edited.",
+   "image": {
+    "aspectRatio": "334 / 201",
+    "targets": [],
+    "file": "assets/guides/4000-frymaster-fryers/step-30.jpeg",
+    "width": 334,
+    "height": 201
+   }
+  },
+  {
+   "kind": "step",
+   "number": 31,
+   "text": "Press the \u221a (check) button.",
+   "image": {
+    "aspectRatio": "77 / 71",
+    "targets": [],
+    "file": "assets/guides/4000-frymaster-fryers/step-31.jpeg",
+    "width": 77,
+    "height": 71
+   }
+  },
+  {
+   "kind": "step",
+   "number": 32,
+   "text": "The controller displays saved.",
+   "image": {
+    "aspectRatio": "130 / 86",
+    "targets": [],
+    "file": "assets/guides/4000-frymaster-fryers/step-32.jpeg",
+    "width": 130,
+    "height": 86
+   }
+  },
+  {
+   "kind": "step",
+   "number": 33,
+   "text": "Press the \u221a (check) button.",
+   "image": {
+    "aspectRatio": "77 / 71",
+    "targets": [],
+    "file": "assets/guides/4000-frymaster-fryers/step-33.jpeg",
+    "width": 77,
+    "height": 71
+   }
+  },
+  {
+   "kind": "step",
+   "number": 34,
+   "text": "Select another product to edit or press the **+** key to add additional products. If finished press the home button.",
+   "image": {
+    "aspectRatio": "84 / 82",
+    "targets": [],
+    "file": "assets/guides/4000-frymaster-fryers/step-34.jpeg",
+    "width": 84,
+    "height": 82
+   }
+  },
+  {
+   "kind": "step",
+   "number": 35,
+   "text": "Press the Crew Mode button to return to main screen.",
+   "image": {
+    "aspectRatio": "129 / 106",
+    "targets": [],
+    "file": "assets/guides/4000-frymaster-fryers/step-35.jpeg",
+    "width": 129,
+    "height": 106
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Quick FIlter - Filter Prompt"
+  },
+  {
+   "kind": "tip",
+   "text": "CAPITALIZED WORDS AT THE TOP OF EACH STEP IS WHAT THE DISPLAY SHOULD READ OR THE STEP NEEDED TO TAKE."
+  },
+  {
+   "kind": "step",
+   "number": 36,
+   "text": "FILTRATION REQUIRED\\ FILTER NOW? Press the \u221a (check - YES) button to start filtration. If the X (NO) button is selected, filtering is cancelled and the fryer resumes normal operation. The controller will prompt again soon to filter the oil. This sequence repeats until a filter is completed.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 37,
+   "text": "REMOVE FILTER PAN Carefully pull the filter pan from the fryer.",
+   "image": null
+  },
+  {
+   "kind": "warning",
+   "text": "Remove the filter pan slowly to avoid splashing of hot oil that may cause severe burns, slipping and falling."
+  },
+  {
+   "kind": "step",
+   "number": 38,
+   "text": "IS FILTER PAN EMPTY? If the filter pan is empty \u221a (check - YES) button and proceed to the next step. If the pan is not empty, press the X (NO) button. Filtering is cancelled and the fryer resumes normal operation. Remove the oil from the pan and after inserting the filter pan, retry the function.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 39,
+   "text": "SKIM DEBRIS FROM VAT Press the \u221a (check - YES) button when complete.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 40,
+   "text": "START FILTRATION Press the BLUE button to start filtration.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 41,
+   "text": "INSERT PAN Push the filter pan fully into place. Displayed if the filter pan is not fully engaged.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 42,
+   "text": "DRAINING No action required as oil drains into filter pan.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 43,
+   "text": "FLUSHING No action required while the return valve opens and the vat is flushed with oil from the filter pan.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 44,
+   "text": "FILLING No action required while the vat is refilled.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 45,
+   "text": "ALERT DRAIN CLOSING REMOVE TOOLS Ensure that all tools are removed from the frypot prior to the drain closing to prevent damage to the drain.",
+   "image": null
+  },
+  {
+   "kind": "warning",
+   "text": "Keep all items out of drains. Closing actuators may cause damage or injury."
+  },
+  {
+   "kind": "step",
+   "number": 46,
+   "text": "IS VAT FULL? Press the \u221a (check - YES) button if the vat is full to continue. The controller returns to idle cook mode. Press X (NO) if the vat is not filled completely and the pump will run again.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 47,
+   "text": "PREHEAT No action required as the fryer heats to setpoint.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 48,
+   "text": "START Fryer is ready for use. Displayer once fryer reaches setpoint.",
+   "image": null
+  },
+  {
+   "kind": "section",
+   "text": "Quick Filter on Demand"
+  },
+  {
+   "kind": "step",
+   "number": 49,
+   "text": "Press the filration menu.",
+   "image": {
+    "aspectRatio": "362 / 224",
+    "targets": [
+     {
+      "style": "width:7.596685082872928%;height:12.276785714285714%;left:25.41436464088398%;top:93.75%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/4000-frymaster-fryers/step-49.jpeg",
+    "width": 362,
+    "height": 224
+   }
+  },
+  {
+   "kind": "warning",
+   "text": "The fryer must be on setpoint temperature."
+  },
+  {
+   "kind": "step",
+   "number": 50,
+   "text": "Select \"QUICK FILTER\"",
+   "image": {
+    "aspectRatio": "403 / 254",
+    "targets": [
+     {
+      "style": "width:8.39854934147738%;height:13.32525741974561%;left:25.806451612903224%;top:28.74015748031496%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/4000-frymaster-fryers/step-50.jpeg",
+    "width": 403,
+    "height": 254
+   }
+  },
+  {
+   "kind": "step",
+   "number": 51,
+   "text": "QUICK FILTER NOW? Press the \u221a (check - YES) button to start filtration. If the X (NO) button is selected, filtering is cancelled and the fryer resumes normal operation.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 52,
+   "text": "REMOVE FILTER PAN Carefully pull the filter pan from the fryer.",
+   "image": null
+  },
+  {
+   "kind": "warning",
+   "text": "Remove the filter pan slowly to avoid splashing of hot oil that may cause severe burns, slipping and falling."
+  },
+  {
+   "kind": "step",
+   "number": 53,
+   "text": "IS FILTER PAN EMPTY? If the filter pan is empty \u221a (check - YES) button and proceed to the next step. If the pan is not empty, press the X (NO) button. Filtering is cancelled and the fryer resumes normal operation. Remove the oil from the pan and after inserting the filter pan, retry the function.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 54,
+   "text": "SKIM DEBRIS FROM VAT Press the \u221a (check - YES) button when complete.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 55,
+   "text": "START FILTRATION Press the BLUE button to start filtration.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 56,
+   "text": "INSERT PAN Push the filter pan fully into place. Displayed if the filter pan is not fully engaged.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 57,
+   "text": "DRAINING No action required as oil drains into filter pan.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 58,
+   "text": "FLUSHING No action required while the return valve opens and the vat is flushed with oil from the filter pan.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 59,
+   "text": "FILLING No action required while the vat is refilled.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 60,
+   "text": "ALERT DRAIN CLOSING REMOVE TOOLS Ensure that all tools are removed from the frypot prior to the drain closing to prevent damage to the drain.",
+   "image": null
+  },
+  {
+   "kind": "warning",
+   "text": "Keep all items out of drains. Closing actuators may cause damage or injury."
+  },
+  {
+   "kind": "step",
+   "number": 61,
+   "text": "IS VAT FULL? Press the \u221a (check - YES) button if the vat is full to continue. The controller returns to idle cook mode. Press X (NO) if the vat is not filled completely and the pump will run again.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 62,
+   "text": "PREHEAT No action required as the fryer heats to setpoint.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 63,
+   "text": "START Fryer is ready for use. Displayer once fryer reaches setpoint.",
+   "image": null
+  },
+  {
+   "kind": "section",
+   "text": "Clean and Filter"
+  },
+  {
+   "kind": "step",
+   "number": 64,
+   "text": "Press the filration menu.",
+   "image": {
+    "aspectRatio": "362 / 224",
+    "targets": [
+     {
+      "style": "width:7.596685082872928%;height:12.276785714285714%;left:25.41436464088398%;top:93.75%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/4000-frymaster-fryers/step-64.jpeg",
+    "width": 362,
+    "height": 224
+   }
+  },
+  {
+   "kind": "warning",
+   "text": "The fryer must be on setpoint temperature."
+  },
+  {
+   "kind": "step",
+   "number": 65,
+   "text": "Select \"CLEAN AND FILTER\"",
+   "image": {
+    "aspectRatio": "403 / 254",
+    "targets": [
+     {
+      "style": "width:8.39854934147738%;height:13.32525741974561%;left:27.791563275434246%;top:43.7007874015748%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/4000-frymaster-fryers/step-65.jpeg",
+    "width": 403,
+    "height": 254
+   }
+  },
+  {
+   "kind": "step",
+   "number": 66,
+   "text": "CLEAN NOW? Press the \u221a (check - YES) button to start filtration. If the X (NO) button is selected, filtering is cancelled and the fryer resumes normal operation.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 67,
+   "text": "REMOVE FILTER PAN Carefully pull the filter pan from the fryer.",
+   "image": null
+  },
+  {
+   "kind": "warning",
+   "text": "Remove the filter pan slowly to avoid splashing of hot oil that may cause severe burns, slipping and falling."
+  },
+  {
+   "kind": "step",
+   "number": 68,
+   "text": "IS FILTER PAN EMPTY? If the filter pan is empty \u221a (check - YES) button and proceed to the next step. If the pan is not empty, press the X (NO) button. Filtering is cancelled and the fryer resumes normal operation. Remove the oil from the pan and after inserting the filter pan, retry the function.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 69,
+   "text": "SKIM DEBRIS FROM VAT Press the \u221a (check - YES) button when complete.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 70,
+   "text": "START FILTRATION Press the BLUE button to start filtration.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 71,
+   "text": "INSERT PAN Push the filter pan fully into place. Displayed if the filter pan is not fully engaged.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 72,
+   "text": "DRAINING No action required as oil drains into filter pan.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 73,
+   "text": "SCRUB INSIDE VAT Press the \u221a (check - YES) button when complete.",
+   "image": null
+  },
+  {
+   "kind": "warning",
+   "text": "Keep all items out of drains. Closing actuators may cause damage or injury."
+  },
+  {
+   "kind": "step",
+   "number": 74,
+   "text": "CLEAN SENSORS Press the \u221a (check - YES) button when complete. Clean the oil level sensor with a no scratch pad. Clean around AIF and ATO sensors with a screwdriver or similar object to remove any sediment from around the sensors.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 75,
+   "text": "FLUSHING No action required while the return valve opens and the vat is flushed with oil from the filter pan.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 76,
+   "text": "FLUSH AGAIN? If the vat is clean of debris, press the X (NO) button to continue. If crumbs are still present, press the \u221a (check - YES) button and the filter pump runs again. This cycle repeats until the X (NO) button is pressed.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 77,
+   "text": "ALERT DRAIN CLOSING REMOVE TOOLS Ensure that all tools are removed from the frypot prior to the drain closing to prevent damage to the drain.",
+   "image": null
+  },
+  {
+   "kind": "warning",
+   "text": "Keep all items out of drains. Closing actuators may cause damage or injury."
+  },
+  {
+   "kind": "step",
+   "number": 78,
+   "text": "RINSING IN PROGRESS No action required while the drain valve closes and the filter pump refills the vat. The drain valve opens and rinses the vat.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 79,
+   "text": "RINSE AGAIN? If the vat is clean of debris, press the X (NO) button to continue. If an additional rinse is desired, press the \u221a (check - YES) button and the rinse repeats until the X (NO) button is pressed.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 80,
+   "text": "POLISHING No action required while the drain and return valves are open and oil is pumped through the frypot for five minutes.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 81,
+   "text": "ALERT DRAIN CLOSING REMOVE TOOLS Ensure that all tools are removed from the frypot prior to the drain closing to prevent damage to the drain.",
+   "image": null
+  },
+  {
+   "kind": "warning",
+   "text": "Keep all items out of drains. Closing actuators may cause damage or injury."
+  },
+  {
+   "kind": "step",
+   "number": 82,
+   "text": "FILLING No action required while the vat is refilled.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 83,
+   "text": "MEASURING OIL QUALITY No action required while the OQS sensor calculates the oil quality value of the oil.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 84,
+   "text": "IS VAT FULL? Press the X (NO) button to run the pump again if the oil level is below the top oil level full line. \\* Press the \u221a (check - YES) button once the oil level is at the top oil level full line. If the vat oil level is not completely filled, check the filter pan to see if most of the oil has returned. The pan may have a small amount of oil. Press the \u221a (check - YES) button once no oil remains in the filter pan.",
+   "image": null
+  },
+  {
+   "kind": "section",
+   "text": "Fill Vat from Bulk"
+  },
+  {
+   "kind": "step",
+   "number": 85,
+   "text": "Turn the fryer off.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 86,
+   "text": "Press the filration menu.",
+   "image": {
+    "aspectRatio": "362 / 224",
+    "targets": [
+     {
+      "style": "width:7.596685082872928%;height:12.276785714285714%;left:25.41436464088398%;top:93.75%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/4000-frymaster-fryers/step-86.jpeg",
+    "width": 362,
+    "height": 224
+   }
+  },
+  {
+   "kind": "step",
+   "number": 87,
+   "text": "Scroll down.",
+   "image": {
+    "aspectRatio": "402 / 252",
+    "targets": [
+     {
+      "style": "width:7.8180525941719985%;height:12.471655328798187%;left:10.44776119402985%;top:60.317460317460316%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/4000-frymaster-fryers/step-87.jpeg",
+    "width": 402,
+    "height": 252
+   }
+  },
+  {
+   "kind": "step",
+   "number": 88,
+   "text": "Select \"FILL VAT FROM BULK\"",
+   "image": {
+    "aspectRatio": "411 / 248",
+    "targets": [
+     {
+      "style": "width:7.64685436218283%;height:12.672811059907835%;left:27.25060827250608%;top:57.66129032258065%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/4000-frymaster-fryers/step-88.jpeg",
+    "width": 411,
+    "height": 248
+   }
+  },
+  {
+   "kind": "step",
+   "number": 89,
+   "text": "FILL VAT FROM BULK? Press the \u221a (check - YES) button to continue. If the X (NO) button is selected, the controller goes to OFF.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 90,
+   "text": "START FILLING?\\ PRESS AND HOLD Press and hold the button to fill the vat. The bulk oil refill pump uses a momentary switch. It only pumps if the switch is depressed.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 91,
+   "text": "RELEASE BUTTON WHEN FULL Release the button when the vat is filled to the lower fill line.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 92,
+   "text": "CONTINUE FILLING? Press the X (NO) button once the vat is full to exit and return to OFF. Press the \u221a (check - YES) button to continue filling.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 93,
+   "text": "Turn the fryer back on.",
+   "image": null
+  },
+  {
+   "kind": "section",
+   "text": "Pan to Waste (Bulk Only)"
+  },
+  {
+   "kind": "step",
+   "number": 94,
+   "text": "Press the filration menu.",
+   "image": {
+    "aspectRatio": "362 / 224",
+    "targets": [
+     {
+      "style": "width:7.596685082872928%;height:12.276785714285714%;left:25.41436464088398%;top:93.75%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/4000-frymaster-fryers/step-94.jpeg",
+    "width": 362,
+    "height": 224
+   }
+  },
+  {
+   "kind": "step",
+   "number": 95,
+   "text": "Scroll down.",
+   "image": {
+    "aspectRatio": "402 / 252",
+    "targets": [
+     {
+      "style": "width:7.8180525941719985%;height:12.471655328798187%;left:10.44776119402985%;top:60.317460317460316%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/4000-frymaster-fryers/step-95.jpeg",
+    "width": 402,
+    "height": 252
+   }
+  },
+  {
+   "kind": "step",
+   "number": 96,
+   "text": "Select \"PAN TO WASTE\"",
+   "image": {
+    "aspectRatio": "411 / 248",
+    "targets": [
+     {
+      "style": "width:7.64685436218283%;height:12.672811059907835%;left:27.25060827250608%;top:72.58064516129032%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/4000-frymaster-fryers/step-96.jpeg",
+    "width": 411,
+    "height": 248
+   }
+  },
+  {
+   "kind": "step",
+   "number": 97,
+   "text": "PAN TO WASTE? Press the \u221a (check - YES) button to continue. If the X (NO) button is selected, the user returns to the filtration menu. If no pan is detected, the controller displays INSERT PAN until the pan is detected.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 98,
+   "text": "BULK TANK FULL? Press the \u221a (check - YES) button to acknowledge and call the bulk oil waste provider. The display returns to OFF.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 99,
+   "text": "OPEN DISPOSE VALVE Open the left cabinet door and unlock the valve if necessary. Pull the dispose valve completely forward to start disposal.",
+   "image": {
+    "aspectRatio": "191 / 246",
+    "targets": [],
+    "file": "assets/guides/4000-frymaster-fryers/step-99.jpeg",
+    "width": 191,
+    "height": 246
+   }
+  },
+  {
+   "kind": "step",
+   "number": 100,
+   "text": "DISPOSING No action is required while the pump transfers the waste oil from the pan to the bulk oil waste tanks for four (4) minutes.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 101,
+   "text": "REMOVE PAN Carefully pull the filter pan from the fryer.",
+   "image": null
+  },
+  {
+   "kind": "warning",
+   "text": "Open the filter pan slowly to avoid splashing of hot oil that may cause severe burns, slipping and falling."
+  },
+  {
+   "kind": "step",
+   "number": 102,
+   "text": "IS PAN EMPTY? If the filter pan is empty press the \u221a (check - YES) button. If the pan is not empty, press the X (NO) button and return to the previous step.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 103,
+   "text": "INSET PAN Insert the pan.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 104,
+   "text": "CLOSE DISPOSE VALVE Close the dispose valve by pushing the valve handle toward the rear of the fryer until it stops. Relock the valve if required by your manager.",
+   "image": {
+    "aspectRatio": "203 / 209",
+    "targets": [],
+    "file": "assets/guides/4000-frymaster-fryers/step-104.jpeg",
+    "width": 203,
+    "height": 209
+   }
+  },
+  {
+   "kind": "step",
+   "number": 105,
+   "text": "Turn the fryer on.",
+   "image": null
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.224815Z"
+}

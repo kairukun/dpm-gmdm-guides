@@ -1,0 +1,695 @@
+[
+ {
+  "slug": "adjust-kds-routing",
+  "name": "Adjust KDS Routing",
+  "url": "https://scribehow.com/shared/Adjust_KDS_Routing__YxuvqxdySaqnB60Pg7RZ3w",
+  "description": "This guide provides a straightforward process for adjusting KDS routing, essential for optimizing kitchen operations. By following the steps outlined, users can efficiently manage their KDS settings, ensuring that orders are routed correctly and enhancing overall workflow. Whether you're a manager or staff member, mastering this function can lead to improved service and reduced errors in order preparation. Access the guide for a clear, step-by-step approach to streamline your kitchen's performance.",
+  "section": "PAR POS Guides",
+  "subsection": null,
+  "tags": [
+   "Partech"
+  ],
+  "pdf": "pdfs/PAR POS Guides/Adjust KDS Routing.pdf"
+ },
+ {
+  "slug": "assigning-deactivating-drawers",
+  "name": "Assigning/Deactivating Drawers",
+  "url": "https://scribehow.com/shared/Assigning_Drawers__RrBSjd5MSnOc9sYmVB52Yg",
+  "description": "This guide provides essential instructions for managing drawers in a point-of-sale system, including assigning, reassigning, unassigning, and deactivating drawers. It ensures that only clocked-in employees can be assigned to a drawer, maintaining security and accountability. By following this guide, users can efficiently manage cash drawers, ensuring proper cash handling and compliance with policies. It's a valuable resource for anyone looking to streamline their cash management processes.",
+  "section": "PAR POS Guides",
+  "subsection": null,
+  "tags": [
+   "Partech"
+  ],
+  "pdf": "pdfs/PAR POS Guides/Assigning Drawers.pdf"
+ },
+ {
+  "slug": "clocking-in-out-breaks",
+  "name": "Clocking In/Out & Breaks",
+  "url": "https://scribehow.com/shared/Clocking_InOut__Breaks__BGkV7QQpT7GgNGwcJK6UCg",
+  "description": "This guide provides a straightforward process for clocking in and out, as well as managing breaks, ensuring that employees can efficiently track their work hours. It simplifies the steps needed to navigate the home screen and highlights important features, such as job selection and break management. By following this guide, users can avoid confusion and ensure compliance with timekeeping policies, ultimately enhancing productivity and accountability in the workplace.",
+  "section": "PAR POS Guides",
+  "subsection": null,
+  "tags": [
+   "Partech"
+  ],
+  "pdf": "pdfs/PAR POS Guides/Clocking InOut.pdf"
+ },
+ {
+  "slug": "gift-cards",
+  "name": "Gift Cards",
+  "url": "https://scribehow.com/shared/Gift_Cards__8T_PS8X0SlObCUw9qfDBIw",
+  "description": "This guide provides essential instructions for managing gift cards at the point of sale, ensuring efficient customer service. It outlines how to check balances, issue new cards, and reload existing ones, making it a valuable resource for employees. By following these steps, staff can enhance the guest experience and streamline transactions, ultimately benefiting the business.",
+  "section": "PAR POS Guides",
+  "subsection": null,
+  "tags": [
+   "Partech"
+  ],
+  "pdf": "pdfs/PAR POS Guides/Gift Cards.pdf"
+ },
+ {
+  "slug": "issuing-refund",
+  "name": "Issuing Refund",
+  "url": "https://scribehow.com/shared/Issuing_Refund__b5IwgCGgQISYbDbXGdkM9g",
+  "description": "This guide provides a straightforward process for issuing refunds, ensuring that users can efficiently handle transactions while maintaining customer satisfaction. By following these steps, users can minimize errors and streamline their refund procedures, making it easier to manage customer returns. It's an essential resource for anyone looking to enhance their point-of-sale operations and improve overall service quality.",
+  "section": "PAR POS Guides",
+  "subsection": null,
+  "tags": [
+   "Partech"
+  ],
+  "pdf": "pdfs/PAR POS Guides/Issuing Refund.pdf"
+ },
+ {
+  "slug": "kiosk-orders",
+  "name": "Kiosk Orders",
+  "url": "https://scribehow.com/shared/Kiosk_Orders__XJg3F-B2R2W63aKqL1j79A",
+  "description": "This guide provides a straightforward process for managing kiosk orders efficiently, ensuring users can navigate the system with ease. By following the outlined steps, users can quickly enter, process, and complete orders, enhancing their operational workflow. It's an essential resource for anyone looking to streamline their kiosk order management and improve customer service.",
+  "section": "PAR POS Guides",
+  "subsection": null,
+  "tags": [
+   "Partech"
+  ],
+  "pdf": "pdfs/PAR POS Guides/Kiosk Orders.pdf"
+ },
+ {
+  "slug": "manager-employee-discounts-and-guest-recovery",
+  "name": "Manager/Employee Discounts and Guest Recovery",
+  "url": "https://scribehow.com/shared/ManagerEmployee_Discounts_and_Guest_Recovery__e5WvilGlSVypJ7btyEj6Tg",
+  "description": "This guide provides a straightforward process for applying manager and employee discounts, as well as handling guest recovery efficiently. By following these steps, staff can ensure accurate transactions while maximizing customer satisfaction. It simplifies the discounting process, making it easier for employees to manage orders and enhance the guest experience. Viewing this guide will help streamline operations and improve service quality in your establishment.",
+  "section": "PAR POS Guides",
+  "subsection": null,
+  "tags": [
+   "Partech"
+  ],
+  "pdf": "pdfs/PAR POS Guides/ManagerEmployee Discounts and Guest Recovery.pdf"
+ },
+ {
+  "slug": "marking-sold-out-limited-availability",
+  "name": "Marking Sold Out/Limited Availability",
+  "url": "https://scribehow.com/shared/Zoho_Workflow__CGQhQKG1SuWjYuoyGadywg",
+  "description": "This guide is essential for ensuring proper inventory management within your organization. It outlines the necessary steps for marking items as sold out or limited quantity, emphasizing the importance of communication with the District Manager. By following these procedures, you can maintain accurate item availability and prevent confusion during business operations. Understanding these workflows will enhance efficiency and support better decision-making in your sales environment.",
+  "section": "PAR POS Guides",
+  "subsection": null,
+  "tags": [
+   "Partech"
+  ],
+  "pdf": "pdfs/PAR POS Guides/Zoho Workflow.pdf"
+ },
+ {
+  "slug": "remove-pin-access-card-only-dms-only",
+  "name": "Remove PIN Access, Card Only (DMs Only)",
+  "url": "https://scribehow.com/viewer/Remove_PIN_Access_Card_Only_DMs_Only__KJHfZZj_RBqOqJyCdogpmg",
+  "description": "This guide provides a straightforward process for removing PIN access and enabling card-only login for staff in a restaurant management system. By following these steps, managers can enhance security and streamline employee access, ensuring that only authorized personnel can log in. It's an essential resource for restaurant managers looking to optimize their operational protocols.",
+  "section": "PAR POS Guides",
+  "subsection": null,
+  "tags": [
+   "Partech"
+  ],
+  "pdf": "pdfs/PAR POS Guides/Remove PIN Access Card Only DMs Only.pdf"
+ },
+ {
+  "slug": "rerouting-printers",
+  "name": "Rerouting Printers",
+  "url": "https://scribehow.com/shared/Rerouting_Printers__7z66EKpQRtSy40IxsuMCyw",
+  "description": "This guide provides a straightforward process for rerouting printers, ensuring efficient management of printing tasks in a point-of-sale system. By following these simple steps, users can quickly redirect print jobs to the desired printer, minimizing downtime and enhancing productivity. It's an essential resource for anyone looking to streamline their printing operations in a busy environment.",
+  "section": "PAR POS Guides",
+  "subsection": null,
+  "tags": [
+   "Partech"
+  ],
+  "pdf": "pdfs/PAR POS Guides/Rerouting Printers.pdf"
+ },
+ {
+  "slug": "ringing-in-editing-tendering-order",
+  "name": "Ringing in/Editing/Tendering Order",
+  "url": "https://scribehow.com/shared/Ringing_inEditingTendering_Order__IqhIvF_9TWetuamAKw2Z0w",
+  "description": "This guide provides a comprehensive overview of the order ringing, editing, and tendering process, making it essential for anyone working in a fast-paced food service environment. It details each step clearly, from starting an order to completing transactions, ensuring that employees can efficiently manage customer orders and payments. By following this guide, staff can enhance their operational skills, improve customer service, and streamline the ordering process, ultimately leading to a better dining experience.",
+  "section": "PAR POS Guides",
+  "subsection": null,
+  "tags": [
+   "Partech"
+  ],
+  "pdf": "pdfs/PAR POS Guides/Ringing inEditingTendering Order.pdf"
+ },
+ {
+  "slug": "setting-login-clock-in-number-and-cards",
+  "name": "Setting Login (Clock-In) Number and Cards",
+  "url": "https://scribehow.com/shared/Setting_Login_Clock-In_Number__B4dnggyET9aLz7oe-K5QrQ",
+  "description": "This guide provides a straightforward process for setting up login numbers and cards for employees and managers in a POS system. By following these steps, users can efficiently manage access and streamline operations, ensuring that only authorized personnel can log in. It's essential for maintaining security and accountability within the workplace. Viewing this guide will help you enhance your POS management skills and improve overall efficiency.",
+  "section": "PAR POS Guides",
+  "subsection": null,
+  "tags": [
+   "Partech"
+  ],
+  "pdf": "pdfs/PAR POS Guides/Setting Login Clock In Number.pdf"
+ },
+ {
+  "slug": "access-shift-foundation-certificates-in-bku",
+  "name": "Access Shift Foundation Certificates in BKU",
+  "url": "https://scribehow.com/viewer/Access_Shift_Foundation_Certificates_in_BKU__AoTqFu6_TC6DQ3wKPlta3g",
+  "description": "This guide provides a straightforward process for accessing and downloading Shift Foundation Certificates for Assistant and General Managers at Burger King. By following the steps outlined, users can efficiently navigate the system to obtain their certifications, ensuring they meet training requirements. This resource is essential for those looking to enhance their professional credentials within the organization.",
+  "section": "Office ScribeHows",
+  "subsection": "BKU",
+  "tags": [
+   "Burgerking",
+   "Okta"
+  ],
+  "pdf": "pdfs/Office ScribeHows/BKU/Access Shift Foundation Certificates in BKU.pdf"
+ },
+ {
+  "slug": "access-user-summary-in-bku",
+  "name": "Access User Summary in BKU",
+  "url": "https://scribehow.com/viewer/Access_User_Summary_in_BKU__R2Kz90PjRWik-v2oMUbPGQ",
+  "description": "This guide provides a straightforward method for accessing and reviewing user summaries in the Burger King University platform. It outlines essential steps to track user engagement, including login history, video progress, course statuses, and earned badges. By following this guide, you can efficiently monitor user activity and achievements, ensuring effective training management and support for your team.",
+  "section": "Office ScribeHows",
+  "subsection": "BKU",
+  "tags": [
+   "Burgerking",
+   "Okta"
+  ],
+  "pdf": "pdfs/Office ScribeHows/BKU/Access User Summary in BKU.pdf"
+ },
+ {
+  "slug": "change-pan-assignments-for-chef-in-dmb-portal",
+  "name": "Change Pan Assignments for Chef in DMB Portal",
+  "url": "https://scribehow.com/shared/Change_Pan_Assignments_for_Chef__trcxVZnxQCGecx9dMGmKwQ",
+  "description": "This guide provides step-by-step instructions on how to change pan assignments for Chef. By following these steps, you can easily adjust the pan assignments for different restaurants and dayparts, ensuring efficient menu setup. If you need to make changes to pan assignments in Chef, this guide will help you navigate the necessary steps.",
+  "section": "Office ScribeHows",
+  "subsection": "DMB Portal",
+  "tags": [
+   "Sicomasp"
+  ],
+  "pdf": "pdfs/Office ScribeHows/DMB Portal/Change Pan Assignments for Chef in DMB Portal.pdf"
+ },
+ {
+  "slug": "generating-sos-reports-in-dmb-portal",
+  "name": "Generating SOS Reports in DMB Portal",
+  "url": "https://scribehow.com/shared/Generate_Drive_Thru_Daypart_Summary_Report_Step-by-Step__P5ShvDdYRWetKayQhUSSSA",
+  "description": "This guide provides step-by-step instructions on how to generate a Drive Thru Daypart Summary Report. By following these steps, users can easily navigate to the desired website, select the appropriate options, and view the report for a specific date range. The report includes important metrics such as MBT, PUT, and TTL, providing valuable insights into drive-thru performance. This guide is essential for anyone looking to analyze and optimize their drive-thru operations.",
+  "section": "Office ScribeHows",
+  "subsection": "DMB Portal",
+  "tags": [
+   "Sicomasp"
+  ],
+  "pdf": "pdfs/Office ScribeHows/DMB Portal/Generating SOS Reports in DMB Portal.pdf"
+ },
+ {
+  "slug": "managing-users-in-frum",
+  "name": "Managing Users in FRUM",
+  "url": "https://scribehow.com/shared/Managing_Users_in_FRUM__X7Cce9n_QvSxZz4ccfBRTA",
+  "description": "This guide provides step-by-step instructions for managing users in FRUM. It includes information on adding employees/managers, changing roles, resetting passwords, and transferring employees/managers. If you need to navigate FRUM and perform these tasks, this guide will help you do so efficiently.",
+  "section": "Office ScribeHows",
+  "subsection": "FRUM",
+  "tags": [
+   "Rbi",
+   "Okta"
+  ],
+  "pdf": "pdfs/Office ScribeHows/FRUM/Managing Users in FRUM.pdf"
+ },
+ {
+  "slug": "submitting-product-quality-credits-in-gateway",
+  "name": "Submitting Product Quality Credits in Gateway",
+  "url": "https://scribehow.com/shared/Submitting_Product_Quality_Credits_in_Gateway_Complete__LKsPsH6OS9a7WNpBYnM1Og",
+  "description": "This guide provides step-by-step instructions on how to access the Incident Reporting Form on the BK Gateway site. It is useful for anyone who needs to report an incident related to Reinhart, PFG, Lineage, or any bakeries. The guide explains how to navigate to the form, sign in, select the relevant restaurant, fill out the necessary information, and upload any required pictures. It concludes with a final review and submission of the incident form.",
+  "section": "Office ScribeHows",
+  "subsection": "Gateway",
+  "tags": [
+   "Compliancemetrix",
+   "Okta",
+   "Whopper"
+  ],
+  "pdf": "pdfs/Office ScribeHows/Gateway/Submitting Product Quality Credits in Gateway.pdf"
+ },
+ {
+  "slug": "p-l-guide-in-intacct-dms-only",
+  "name": "P&L Guide in Intacct (DMs Only)",
+  "url": "https://scribehow.com/shared/Intacct_Workflow__bHn_2vwtQZWq_5NPyPIJ1w",
+  "description": "This guide provides step-by-step instructions on how to navigate Intacct and view the Profit and Loss (P&L) statement. It also explains how to review for incorrect charges, access drill-down capabilities, search for invoices, and favorite menu options. Additionally, it provides guidance on fixing authorization issues and viewing invoice images. This guide is essential for individuals using Intacct to effectively manage and analyze financial data.",
+  "section": "Office ScribeHows",
+  "subsection": "Intacct",
+  "tags": [
+   "Intacct"
+  ],
+  "pdf": "pdfs/Office ScribeHows/Intacct/P&L Guide in Intacct (DMs Only).pdf"
+ },
+ {
+  "slug": "how-to-enable-disable-a-product-in-the-kiosk-admin-portal",
+  "name": "How to Enable/Disable a Product in the Kiosk Admin Portal",
+  "url": "https://scribehow.com/viewer/How_to_EnableDisable_a_Product_in_the_Kiosk_Admin_Portal__PtxHYjNATbGgzp7uHc4u3Q",
+  "description": "This guide provides essential instructions for effectively managing products in the Kiosk Admin Portal, ensuring users can easily mark items as sold out or hidden. It simplifies the process of navigating the portal, searching for products, and updating their status, which is crucial for maintaining accurate inventory. By following these steps, users can enhance their kiosk's functionality and improve customer experience. Overall, this guide is a valuable resource for anyone looking to streamline product management in the kiosk environment.",
+  "section": "Office ScribeHows",
+  "subsection": "Kiosk",
+  "tags": [
+   "Burgerking"
+  ],
+  "pdf": "pdfs/Office ScribeHows/Kiosk/How to Enable-Disable a Product in the Kiosk Admin Portal.pdf"
+ },
+ {
+  "slug": "momos-waiting-for-momos-commenting-to-be-released",
+  "name": "Momos (Waiting for Momos commenting to be released)",
+  "url": "",
+  "description": "",
+  "section": "Office ScribeHows",
+  "subsection": "Momos",
+  "tags": [],
+  "pdf": null
+ },
+ {
+  "slug": "access-email-in-outlook",
+  "name": "Access Email in Outlook",
+  "url": "https://scribehow.com/shared/Access_Email_in_Outlook_Complete__bLEh4I4TTd-lIQbzf5yWOw",
+  "description": "This guide provides a comprehensive overview of how to access your email using both Outlook.com and the Outlook desktop and mobile apps. It streamlines the login process with step-by-step instructions tailored for different devices and situations, making it easy for users of all skill levels to connect to their accounts securely. Whether you're a new user or just need a refresher, this guide ensures a smooth email access experience. View it to enhance your productivity and manage your communications effectively.",
+  "section": "Office ScribeHows",
+  "subsection": "Office 365",
+  "tags": [
+   "Office"
+  ],
+  "pdf": "pdfs/Office ScribeHows/Office 365/Access Email in Outlook.pdf"
+ },
+ {
+  "slug": "create-an-email-signature-in-outlook",
+  "name": "Create an Email Signature in Outlook",
+  "url": "https://scribehow.com/shared/Create_an_Email_Signature_in_Outlook_Complete__wWN7eiLaQpCGCLOp2ZP2dw",
+  "description": "This guide provides a straightforward approach to creating a professional email signature in Outlook, ensuring your communications reflect your brand effectively. It covers both desktop and app versions, making it accessible for all users. By following these steps, you can personalize your signature with specific colors and set defaults for new messages and replies, enhancing your email's visual consistency and professionalism.",
+  "section": "Office ScribeHows",
+  "subsection": "Office 365",
+  "tags": [
+   "Office"
+  ],
+  "pdf": "pdfs/Office ScribeHows/Office 365/Create an Email Signature in Outlook.pdf"
+ },
+ {
+  "slug": "creating-a-new-contact-list-in-outlook",
+  "name": "Creating a New Contact List in Outlook",
+  "url": "https://scribehow.com/shared/Creating_a_New_Contact_List_in_Outlook__1hPYqCWqRqa6L6AXwwsLyg",
+  "description": "This guide provides a straightforward process for creating a new contact list in Outlook, making it easier to manage your contacts effectively. By following the simple steps outlined, users can streamline their communication and organization, ensuring they have quick access to important connections. Whether for personal or professional use, having a well-structured contact list enhances productivity and collaboration.",
+  "section": "Office ScribeHows",
+  "subsection": "Office 365",
+  "tags": [
+   "Office"
+  ],
+  "pdf": "pdfs/Office ScribeHows/Office 365/Creating a New Contact List in Outlook.pdf"
+ },
+ {
+  "slug": "creating-a-new-email-rule-in-outlook",
+  "name": "Creating a New Email Rule in Outlook",
+  "url": "https://scribehow.com/shared/Creating_a_New_Email_Rule_in_Outlook__Cfogk4asRzGa-KzGHlPh5Q",
+  "description": "This guide provides a straightforward method for creating custom email rules in Outlook, enhancing your email management efficiency. By following these steps, you can tailor your inbox to filter and organize messages according to your specific needs, saving you time and reducing clutter. Whether you're looking to prioritize important emails or automate repetitive tasks, this guide equips you with the tools to optimize your Outlook experience.",
+  "section": "Office ScribeHows",
+  "subsection": "Office 365",
+  "tags": [
+   "Office"
+  ],
+  "pdf": "pdfs/Office ScribeHows/Office 365/Creating a New Email Rule in Outlook.pdf"
+ },
+ {
+  "slug": "setup-outlook-profile-for-office-365",
+  "name": "Setup Outlook Profile for Office 365",
+  "url": "https://scribehow.com/shared/Setup_Outlook_Profile_for_Office_365__wXcjMD7dRy-NNsckUlXsvw",
+  "description": "This guide provides a straightforward process for setting up an Outlook profile for Office 365, making it essential for anyone looking to streamline their email management. By following the concise steps outlined, users can quickly and efficiently create their profile, ensuring seamless access to their emails. Whether you're new to Office 365 or just need a refresher, this guide simplifies the setup process, allowing you to focus on productivity.",
+  "section": "Office ScribeHows",
+  "subsection": "Office 365",
+  "tags": [
+   "Office"
+  ],
+  "pdf": "pdfs/Office ScribeHows/Office 365/Setup Outlook Profile for Office 365.pdf"
+ },
+ {
+  "slug": "using-calendar-in-outlook",
+  "name": "Using Calendar in Outlook",
+  "url": "https://scribehow.com/shared/Scheduling_an_Event_in_Outlook_Calendar__7NUoyT6NSEmImbIeZNUB6Q",
+  "description": "This guide provides a step-by-step approach to efficiently schedule events using Outlook Calendar, making it easy to manage your time and communicate with attendees. It covers everything from creating an event to sharing your calendar, ensuring you can customize invitations and set reminders. Whether you're organizing a team meeting or a personal event, this resource simplifies the process, helping you stay organized and informed. It's an essential tool for anyone looking to enhance their scheduling skills in Outlook.",
+  "section": "Office ScribeHows",
+  "subsection": "Office 365",
+  "tags": [
+   "Office"
+  ],
+  "pdf": "pdfs/Office ScribeHows/Office 365/Using Calendar in Outlook.pdf"
+ },
+ {
+  "slug": "using-onedrive-in-office-dms-only",
+  "name": "Using OneDrive in Office (DMs only)",
+  "url": "https://scribehow.com/shared/How_to_Upload_Files_to_OneDrive__DxYykPF9Rr-S1CnXbzAC8w",
+  "description": "This guide offers a straightforward walkthrough for effectively using OneDrive, covering essential tasks such as file access, sharing, and collaboration features. It empowers users to not only manage their files but also understand sharing options and version control, enhancing productivity and teamwork. By following these steps, individuals can maximize their experience with OneDrive, ensuring they utilize its full potential for file storage and collaboration.",
+  "section": "Office ScribeHows",
+  "subsection": "Office 365",
+  "tags": [
+   "Office"
+  ],
+  "pdf": "pdfs/Office ScribeHows/Office 365/Using OneDrive in Office (DMs only).pdf"
+ },
+ {
+  "slug": "using-teams-in-office-dms-only",
+  "name": "Using Teams in Office (DMs only)",
+  "url": "https://scribehow.com/shared/Accessing_Microsoft_Office_Home_via_OAuth2__-jrNMK5eQqmhCZcF4a17xw",
+  "description": "This guide provides a comprehensive walkthrough for effectively using Microsoft Teams within Office, making it an essential resource for anyone looking to enhance their collaboration and communication skills. It covers everything from logging in to managing teams, chats, and meetings, ensuring users can navigate the platform with ease. By following this guide, you can efficiently connect with colleagues, organize projects, and streamline your workflow, ultimately boosting productivity in a team environment.",
+  "section": "Office ScribeHows",
+  "subsection": "Office 365",
+  "tags": [
+   "Office"
+  ],
+  "pdf": "pdfs/Office ScribeHows/Office 365/Using Teams in Office (DMs only).pdf"
+ },
+ {
+  "slug": "adjusting-base-single-day-hours-of-operations-in-ram-dms-only",
+  "name": "Adjusting Base/Single Day Hours of Operations in RAM (DMs only)",
+  "url": "https://scribehow.com/shared/Adjusting_BaseSingle_Day_Hours_of_Operations_in_RAM_DMs_only_Complete__YzyR_psbQJmSTsoklekw2A",
+  "description": "This guide provides step-by-step instructions on how to adjust the base and single day hours of operations in RAM. By following these steps, users can easily navigate through the necessary menus and make changes to the opening and closing times for specific days, ensuring accurate and up-to-date information for their restaurant.",
+  "section": "Office ScribeHows",
+  "subsection": "RAM",
+  "tags": [
+   "Rbi",
+   "Okta"
+  ],
+  "pdf": "pdfs/Office ScribeHows/RAM/Adjusting Base-Single Day Hours of Operations in RAM (DMs only).pdf"
+ },
+ {
+  "slug": "assigning-unassigning-naming-equipment-in-ram-dms-only",
+  "name": "Assigning/Unassigning/Naming Equipment in RAM (DMs Only)",
+  "url": "https://scribehow.com/shared/AssigningUnassigningNaming_Equipment_in_RAM_DMs_Only_Complete__PJM--HhmS3WbaLbfxCJy8w",
+  "description": "This guide provides step-by-step instructions on how to assign, unassign, and name equipment in RAM, a platform used for managing equipment in Zenput. It explains how to navigate to the RAM platform, use filters to find and assign/unassign equipment, and how to name equipment. This guide is useful for restaurant managers who want to ensure that their equipment is properly assigned and named in Zenput for accurate tracking and management.",
+  "section": "Office ScribeHows",
+  "subsection": "RAM",
+  "tags": [
+   "Rbi",
+   "Okta"
+  ],
+  "pdf": "pdfs/Office ScribeHows/RAM/Assigning-Unassigning-Naming Equipment in RAM (DMs Only).pdf"
+ },
+ {
+  "slug": "how-to-access-managed-orders-and-update-counts-in-rsi",
+  "name": "How To Access Managed Orders and Update Counts in RSI",
+  "url": "https://scribehow.com/shared/How_To_Access_Managed_Orders_and_Update_Counts__sAHIp-ZDTC2Ndiiu3IrIwA",
+  "description": "This guide provides a straightforward approach to managing orders and updating inventory counts in RSI, ensuring that users can efficiently keep track of their stock levels. By following the steps outlined, you can easily adjust on-hand quantities and manage order quantities, helping to streamline your restaurant's ordering process. Accessing and utilizing these features can lead to better inventory management and reduced waste, ultimately enhancing operational efficiency.",
+  "section": "Office ScribeHows",
+  "subsection": "RSI",
+  "tags": [
+   "Rsiweb"
+  ],
+  "pdf": "pdfs/Office ScribeHows/RSI/How To Access Managed Orders and Update Counts in RSI.pdf"
+ },
+ {
+  "slug": "proctor-servsafe-test-in-servsafe-proctors-only-incomplete",
+  "name": "Proctor ServSafe Test in ServSafe (Proctors Only) (INCOMPLETE)",
+  "url": "https://scribehow.com/shared/Proctor_ServSafe_Test_in_ServSafe_Complete__pGdMpOkTQuyuazacElaFhA",
+  "description": "This guide provides step-by-step instructions on how to proctor the ServSafe test. It outlines the process of setting up the exam for the proctor and examinees, including logging in, scheduling the exam session, entering the proctor code, and accessing the exam. It is a useful resource for anyone who needs to administer the ServSafe test and ensure a smooth testing experience.",
+  "section": "Office ScribeHows",
+  "subsection": "ServSafe",
+  "tags": [
+   "Servsafe"
+  ],
+  "pdf": "pdfs/Office ScribeHows/ServSafe/Proctor ServSafe Test in ServSafe (Proctors Only) (INCOMPLETE).pdf"
+ },
+ {
+  "slug": "background-check-onboarding-in-talentreef",
+  "name": "Background Check/Onboarding in TalentReef",
+  "url": "https://scribehow.com/shared/Background_CheckOnboarding_in_TalentReef__NAzxiyswT4uCUJ0KIp0WNg",
+  "description": "This guide provides step-by-step instructions on how to submit a background check and complete the onboarding process in TalentReef. It explains how to navigate the platform, submit background check requests, hire employees, and ensure that all onboarding paperwork is completed accurately. Following this guide will help streamline the background check and onboarding process for new hires.",
+  "section": "Office ScribeHows",
+  "subsection": "TalentReef",
+  "tags": [
+   "Talentreef"
+  ],
+  "pdf": "pdfs/Office ScribeHows/TalentReef/Background Check-Onboarding in TalentReef.pdf"
+ },
+ {
+  "slug": "resetting-incorrect-forms-in-talentreef",
+  "name": "Resetting Incorrect Forms in TalentReef",
+  "url": "https://scribehow.com/shared/Resetting_Incorrect_Forms_in_TalentReef__uf3TuQZBSoK38v_bg0Az5w",
+  "description": "This guide provides a step-by-step process for resetting incorrect forms in TalentReef, ensuring that employees can easily correct any mistakes in their onboarding paperwork. By following these instructions, users can efficiently navigate the system to reset forms like the I-9 and W-4, facilitating a smoother onboarding experience. It is essential for HR personnel and managers to understand this process to maintain compliance and accuracy in employee documentation.",
+  "section": "Office ScribeHows",
+  "subsection": "TalentReef",
+  "tags": [
+   "Talentreef",
+   "Jobappnetwork"
+  ],
+  "pdf": "pdfs/Office ScribeHows/TalentReef/Resetting Incorrect Forms in TalentReef.pdf"
+ },
+ {
+  "slug": "add-terminate-employee-manager-in-rti-xbo",
+  "name": "Add/Terminate Employee/Manager in RTI/XBO",
+  "url": "https://scribehow.com/shared/AddTerminate_EmployeeManager_in_RTIXBO_Complete__4WeXnyymQUSTQOE3tRZnYg",
+  "description": "This guide provides step-by-step instructions on how to add or terminate an employee/manager in the RTI/XBO system. It covers both the process of adding an employee, including retrieving their Employee ID and filling out necessary information, as well as the process of terminating an employee, including selecting the reason and providing additional information. Whether you are using RTI or XBO, this guide will help you navigate the system and complete these tasks effectively.",
+  "section": "Office ScribeHows",
+  "subsection": "XBO/RTI (All guides are using XBO unless specified)",
+  "tags": [
+   "Xenial"
+  ],
+  "pdf": "pdfs/Office ScribeHows/XBO-RTI/Add-Terminate Employee-Manager in RTI-XBO.pdf"
+ },
+ {
+  "slug": "adding-credit-invoices-in-rti-xbo",
+  "name": "Adding Credit Invoices in RTI/XBO",
+  "url": "https://scribehow.com/shared/Adjusting_Credits_and_Making_Purchases_in_XBO_interface__dlNEIeEVRhmrFmAtGvtuiw",
+  "description": "This guide provides step-by-step instructions on how to add credit invoices in RTI/XBO. It includes examples, screenshots, and specific details to ensure accurate and efficient credit invoice entry. Following this guide will help users navigate the system and avoid potential errors when adding credit invoices, resulting in accurate pricing and accounting.",
+  "section": "Office ScribeHows",
+  "subsection": "XBO/RTI (All guides are using XBO unless specified)",
+  "tags": [
+   "Xenial"
+  ],
+  "pdf": "pdfs/Office ScribeHows/XBO-RTI/Adding Credit Invoices in RTI-XBO.pdf"
+ },
+ {
+  "slug": "adding-rti-oil-invoice-in-rti-xbo",
+  "name": "Adding RTI Oil Invoice in RTI/XBO",
+  "url": "https://scribehow.com/shared/Adding_RTI_Oil_Invoice_in_RTIXBO_Complete__xczT67tCSleePk6qcbkT9Q",
+  "description": "This guide provides step-by-step instructions on how to add an RTI oil invoice in RTI/XBO. It also includes information on how to find the invoice on RTI TOM and how to count the oil for inventory purposes. Following this guide will help users accurately add and track RTI oil invoices in the system.",
+  "section": "Office ScribeHows",
+  "subsection": "XBO/RTI (All guides are using XBO unless specified)",
+  "tags": [
+   "Xenial",
+   "Rtitom"
+  ],
+  "pdf": "pdfs/Office ScribeHows/XBO-RTI/Adding RTI Oil Invoice in RTI-XBO.pdf"
+ },
+ {
+  "slug": "adjust-payrate-for-raises-in-rti-xbo-guides-for-both",
+  "name": "Adjust Payrate for Raises in RTI/XBO (Guides for Both)",
+  "url": "https://scribehow.com/shared/Adjust_Payrate_for_Raises_in_RTIXBO_Guides_for_Both_Complete__e2XOssgFQIOCT82KJiTEPA",
+  "description": "This guide provides step-by-step instructions on how to adjust pay rates for raises in both RTI and XBO systems. It emphasizes the importance of following the steps accurately to avoid deactivating time card numbers. The guide covers specific actions for each system, including logging in, navigating to the relevant sections, adding new pay rates, deleting old ones, and removing deactivation dates. By following this guide, users can effectively and correctly adjust pay rates for raises in RTI and XBO systems.",
+  "section": "Office ScribeHows",
+  "subsection": "XBO/RTI (All guides are using XBO unless specified)",
+  "tags": [
+   "Xenial"
+  ],
+  "pdf": "pdfs/Office ScribeHows/XBO-RTI/Adjust Payrate for Raises in RTI-XBO (Guides for Both).pdf"
+ },
+ {
+  "slug": "borrowing-employees-managers-in-rti-xbo",
+  "name": "Borrowing Employees/Managers in RTI/XBO",
+  "url": "https://scribehow.com/shared/Borrowing_Employee_in_RTIXBO_Complete__0KsrlX3AQ5OYipa6hhaSuw",
+  "description": "This guide provides step-by-step instructions on how to borrow an employee in the RTI/XBO system. It is important for someone to view this guide if they need to borrow an employee and ensure that all the necessary steps are followed correctly to maintain accurate information in the system.",
+  "section": "Office ScribeHows",
+  "subsection": "XBO/RTI (All guides are using XBO unless specified)",
+  "tags": [
+   "Xenial"
+  ],
+  "pdf": "pdfs/Office ScribeHows/XBO-RTI/Borrowing Employees-Managers in RTI-XBO.pdf"
+ },
+ {
+  "slug": "drawers-deposits-in-rti-xbo",
+  "name": "Drawers/Deposits in RTI/XBO",
+  "url": "https://scribehow.com/viewer/DrawersDeposits_in_RTIXBO__dQ8XFLXsTdy2hf853YOvpg",
+  "description": "This guide provides a step-by-step process for managing cash deposits and safe counts in the XBO system, ensuring accurate financial tracking. By following these instructions, users can efficiently navigate the platform, streamline their cash management tasks, and minimize errors. It's an essential resource for anyone looking to enhance their operational efficiency and maintain financial integrity within their organization.",
+  "section": "Office ScribeHows",
+  "subsection": "XBO/RTI (All guides are using XBO unless specified)",
+  "tags": [
+   "Xenial"
+  ],
+  "pdf": "pdfs/Office ScribeHows/XBO-RTI/Drawers-Deposits in RTI-XBO.pdf"
+ },
+ {
+  "slug": "entering-bun-invoice-in-rti-xbo",
+  "name": "Entering Bun Invoice in RTI/XBO",
+  "url": "https://scribehow.com/shared/Entering_Bun_Invoice_in_RTIXBO_Complete__RSXxsQCpRqCYKn_uf_x6wA",
+  "description": "This guide provides step-by-step instructions on how to enter a bun invoice in RTI/XBO. It ensures accuracy by verifying the quantity and cost per tray on the invoice. Following these steps will help maintain accurate records and prevent errors in the accounting system.",
+  "section": "Office ScribeHows",
+  "subsection": "XBO/RTI (All guides are using XBO unless specified)",
+  "tags": [
+   "Xenial"
+  ],
+  "pdf": "pdfs/Office ScribeHows/XBO-RTI/Entering Bun Invoice in RTI-XBO.pdf"
+ },
+ {
+  "slug": "food-paper-cost-variance-and-c-a-report-on-rti-xbo",
+  "name": "Food/Paper Cost Variance and C=A Report on RTI/XBO",
+  "url": "https://scribehow.com/shared/FoodPaper_Cost_Variance_and_CA_Report_on_RTIXBO_Complete__QbgGDNtOQKCaTMB5h_fXrw",
+  "description": "This guide provides step-by-step instructions on how to generate and interpret a Food or Paper Cost Variance report on RTI or XBO. It explains how to navigate the report manager, view the report for specific dates and restaurants, and understand the different columns and units of measurement. It also includes information on menu waste, raw waste, variance, cost per unit, and highlights any items with significant growth or loss. Additionally, it explains how to view breakdowns of ideal and actual usage, as well as how to generate and read a C=A (Ideal Usage forced to match Actual Usage) report. Overall, this guide is essential for anyone who wants to effectively analyze and manage their food or paper cost variances.",
+  "section": "Office ScribeHows",
+  "subsection": "XBO/RTI (All guides are using XBO unless specified)",
+  "tags": [
+   "Xenial"
+  ],
+  "pdf": "pdfs/Office ScribeHows/XBO-RTI/Food-Paper Cost Variance and C=A Report on RTI-XBO.pdf"
+ },
+ {
+  "slug": "making-schedule-in-rti-xbo",
+  "name": "Making Schedule in RTI/XBO",
+  "url": "https://scribehow.com/shared/Making_Schedule_in_RTIXBO_Complete__btgj5HYpT5WqjNh4QhdZEg",
+  "description": "This guide provides step-by-step instructions on how to make a schedule in RTI/XBO. It covers everything from logging in to the platform, adding projections, creating manager and crew schedules, and viewing and printing the schedule.",
+  "section": "Office ScribeHows",
+  "subsection": "XBO/RTI (All guides are using XBO unless specified)",
+  "tags": [
+   "Xenial"
+  ],
+  "pdf": "pdfs/Office ScribeHows/XBO-RTI/Making Schedule in RTI-XBO.pdf"
+ },
+ {
+  "slug": "managing-count-sheets-in-rti-xbo",
+  "name": "Managing Count Sheets in RTI/XBO",
+  "url": "https://scribehow.com/shared/Managing_Count_Sheets_in_RTIXBO_Complete__2YVZ4cc9Tdez9pqdjyTx1A",
+  "description": "This guide provides step-by-step instructions on how to manage count sheets in RTI/XBO, a restaurant management system. It covers how to add/remove items from weekly and daily counts, and sort forms. If you need to effectively manage count sheets in RTI/XBO, this guide is a valuable resource.",
+  "section": "Office ScribeHows",
+  "subsection": "XBO/RTI (All guides are using XBO unless specified)",
+  "tags": [
+   "Xenial"
+  ],
+  "pdf": "pdfs/Office ScribeHows/XBO-RTI/Managing Count Sheets in RTI-XBO.pdf"
+ },
+ {
+  "slug": "password-reset-reset-mfa-in-rti-xbo-both",
+  "name": "Password Reset/Reset MFA in RTI/XBO (Both)",
+  "url": "https://scribehow.com/viewer/Password_ResetReset_MFA_in_RTIXBO_Both__t2CgnoIwQ7i_FaQOQxxYcA",
+  "description": "This guide provides a straightforward process for resetting passwords and multi-factor authentication (MFA) for RTI and XBO users. It ensures that users can regain access to their accounts efficiently while adhering to security requirements. By following the outlined steps, users can quickly navigate the user management systems, making it an essential resource for administrators and users alike. Accessing this guide will streamline the account recovery process and enhance overall security management.",
+  "section": "Office ScribeHows",
+  "subsection": "XBO/RTI (All guides are using XBO unless specified)",
+  "tags": [
+   "Xenial"
+  ],
+  "pdf": "pdfs/Office ScribeHows/XBO-RTI/Password Reset-Reset MFA in RTI-XBO (Both).pdf"
+ },
+ {
+  "slug": "rehiring-employee-manager-in-rti-xbo",
+  "name": "Rehiring Employee/Manager in RTI/XBO",
+  "url": "https://scribehow.com/shared/Rehiring_EmployeeManager_in_RTIXBO_Complete__F0cs9rAlTc22aV5mxrPMlA",
+  "description": "This guide provides step-by-step instructions on how to rehire an employee in RTI/XBO. It includes detailed steps on navigating the platform, updating employee status, and verifying information. Viewing this guide will help you easily and accurately rehire employees, ensuring all necessary information is correct.",
+  "section": "Office ScribeHows",
+  "subsection": "XBO/RTI (All guides are using XBO unless specified)",
+  "tags": [
+   "Xenial"
+  ],
+  "pdf": "pdfs/Office ScribeHows/XBO-RTI/Rehiring Employee-Manager in RTI-XBO.pdf"
+ },
+ {
+  "slug": "send-team-portal-reset-emails-in-rti-xbo",
+  "name": "Send Team Portal Reset Emails in RTI/XBO",
+  "url": "https://scribehow.com/shared/Send_Team_Portal_Reset_Emails_in_RTIXBO_Complete__2aN33zKKTM6OPuehafQvJQ",
+  "description": "This guide provides step-by-step instructions on how to send team portal reset emails in RTI/XBO. It is useful for anyone who needs to reset employee access or multi-factor authentication and wants to learn how to do it efficiently.",
+  "section": "Office ScribeHows",
+  "subsection": "XBO/RTI (All guides are using XBO unless specified)",
+  "tags": [
+   "Xenial"
+  ],
+  "pdf": "pdfs/Office ScribeHows/XBO-RTI/Send Team Portal Reset Emails in RTI-XBO.pdf"
+ },
+ {
+  "slug": "submitting-truck-orders-in-rti-xbo",
+  "name": "Submitting Truck Orders in RTI/XBO",
+  "url": "https://scribehow.com/shared/Submitting_Truck_Orders_in_RTIXBO_and_TRACS_Complete__3Ibl6AlDRwauObJcaNsz9g",
+  "description": "This guide provides step-by-step instructions on how to submit truck orders in RTI/XBO and TRACS. It explains how to navigate the platforms, enter projections, calculate truck orders, and verify and submit the orders. By following this guide, users will be able to efficiently submit their truck orders and ensure accurate inventory management.",
+  "section": "Office ScribeHows",
+  "subsection": "XBO/RTI (All guides are using XBO unless specified)",
+  "tags": [
+   "Xenial"
+  ],
+  "pdf": "pdfs/Office ScribeHows/XBO-RTI/Submitting Truck Orders in RTI-XBO.pdf"
+ },
+ {
+  "slug": "verify-validate-deposit-records-in-rti-xbo",
+  "name": "Verify/Validate Deposit Records in RTI/XBO",
+  "url": "https://scribehow.com/shared/VerifyValidate_Deposit_Records_in_RTIXBO_Complete__kS1XYoydSzGkDh1EXZ23vA",
+  "description": "This guide provides step-by-step instructions on how to verify and validate deposit records in RTI/XBO. Following these steps will ensure accurate and reliable deposit information, preventing any discrepancies between deposit slips and the system. This guide is essential for anyone responsible for managing and maintaining deposit records.",
+  "section": "Office ScribeHows",
+  "subsection": "XBO/RTI (All guides are using XBO unless specified)",
+  "tags": [
+   "Xenial"
+  ],
+  "pdf": "pdfs/Office ScribeHows/XBO-RTI/Verify-Validate Deposit Records in RTI-XBO.pdf"
+ },
+ {
+  "slug": "altering-submissions-in-zenput",
+  "name": "Altering Submissions in Zenput",
+  "url": "https://scribehow.com/shared/Altering_Submissions_in_Zenput_Completed__0e9fX0ACQZ2xqoL9R_UMcA",
+  "description": "This guide provides step-by-step instructions on how to alter submissions in Zenput. It highlights the importance of having the necessary permissions from the Form Admin and walks the user through the process of accessing the form, selecting the submission, making adjustments, and saving the changes. Following this guide will help users effectively manage and update their submissions in Zenput.",
+  "section": "Office ScribeHows",
+  "subsection": "Zenput",
+  "tags": [
+   "Zenput",
+   "Okta"
+  ],
+  "pdf": "pdfs/Office ScribeHows/Zenput/Altering Submissions in Zenput.pdf"
+ },
+ {
+  "slug": "audit-forms-in-zenput-phone-guide",
+  "name": "Audit Forms in Zenput (Phone Guide)",
+  "url": "https://scribehow.com/shared/Audit_Forms_in_Zenput_Phone_Guide_Complete__sU6dsZ75S1yvciEDVxa8_w",
+  "description": "This guide provides step-by-step instructions on how to audit forms in Zenput. It includes information on logging in, accessing the forms, completing them, and submitting them. Anyone who needs to perform audits using Zenput can benefit from this guide.",
+  "section": "Office ScribeHows",
+  "subsection": "Zenput",
+  "tags": [
+   "Zenput"
+  ],
+  "pdf": "pdfs/Office ScribeHows/Zenput/Audit Forms in Zenput (Phone Guide).pdf"
+ },
+ {
+  "slug": "generate-reports-in-zenput",
+  "name": "Generate Reports in Zenput",
+  "url": "https://scribehow.com/shared/Generate_Reports_in_Zenput__tbhJHI1ISom_kuLIL6cuNw",
+  "description": "This guide provides step-by-step instructions on how to access and generate reports in Zenput. It covers both custom reports and form reports, explaining how to export data and filter results. By following this guide, users will be able to efficiently generate and analyze reports in Zenput to track and manage their data effectively.",
+  "section": "Office ScribeHows",
+  "subsection": "Zenput",
+  "tags": [
+   "Zenput",
+   "Okta"
+  ],
+  "pdf": "pdfs/Office ScribeHows/Zenput/Generate Reports in Zenput.pdf"
+ },
+ {
+  "slug": "4000-frymaster-fryers",
+  "name": "4000 Frymaster Fryers",
+  "url": "https://scribehow.com/shared/4000_Frymaster_Fryers_In_Progress__r0eqhMIoQpyGJHrdb3xSIQ",
+  "description": "This guide provides step-by-step instructions for adding or editing products in 4000 Frymaster Fryers. It covers various settings such as temperature, hold time, shake timers, and filter settings. It also includes instructions for quick filtration, cleaning and filtering, filling the vat from bulk, and pan to waste processes. If you need to learn how to manage and operate a Frymaster Fryer, this guide is a valuable resource.",
+  "section": "Equipment ScribeHows",
+  "subsection": null,
+  "tags": [
+   "Frymaster"
+  ],
+  "pdf": "pdfs/Equipment ScribeHows/4000 Frymaster Fryers.pdf"
+ },
+ {
+  "slug": "duke-broiler-cleaning",
+  "name": "Duke Broiler Cleaning",
+  "url": "https://scribehow.com/shared/Duke_Broiler_Cleaning__I5b9UAAOTuSV2K31RMtEmA",
+  "description": "This guide provides a detailed step-by-step process for cleaning a Duke Broiler. It includes instructions for daily cleaning as well as how to disassemble and clean various parts of the broiler. Following this guide will ensure that the broiler is properly cleaned and maintained, resulting in better performance and longevity.",
+  "section": "Equipment ScribeHows",
+  "subsection": null,
+  "tags": [
+   "Duke"
+  ],
+  "pdf": "pdfs/Equipment ScribeHows/Duke Broiler Cleaning.pdf"
+ },
+ {
+  "slug": "nieco-broiler-cleaning",
+  "name": "Nieco Broiler Cleaning",
+  "url": "https://scribehow.com/shared/Neico_Broiler_Cleaning__Djc4xFtBTnGJNCSCwVrk5g",
+  "description": "This guide provides a comprehensive step-by-step process for cleaning a Neico broiler. It includes instructions for both daily and monthly cleaning tasks, ensuring that the broiler remains in optimal condition. Following this guide will help maintain the broiler's performance and extend its lifespan.",
+  "section": "Equipment ScribeHows",
+  "subsection": null,
+  "tags": [
+   "Nieco"
+  ],
+  "pdf": "pdfs/Equipment ScribeHows/Nieco Broiler Cleaning.pdf"
+ },
+ {
+  "slug": "pitco-fryers",
+  "name": "Pitco Fryers",
+  "url": "https://scribehow.com/shared/Partstown_Workflow__tqxeF-8xQnKDQ_XGUP2GBg",
+  "description": "This guide offers step-by-step instructions for operating and programming Pitco Fryers, making it an essential resource for anyone looking to optimize their frying process. With clear directions on adjusting cook temperatures, times, and hold settings, users can ensure consistent food quality and efficiency. Whether you're adjusting settings for a single or dual-vat model, this guide simplifies the process, allowing for quick adaptations to meet specific cooking needs. Viewing this guide will empower users to maximize their fryer\u2019s capabilities with confidence.",
+  "section": "Equipment ScribeHows",
+  "subsection": null,
+  "tags": [
+   "Pitco"
+  ],
+  "pdf": "pdfs/Equipment ScribeHows/Pitco Fryers.pdf"
+ }
+]

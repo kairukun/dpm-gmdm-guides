@@ -1,0 +1,162 @@
+{
+ "slug": "setup-outlook-profile-for-office-365",
+ "name": "Setup Outlook Profile for Office 365",
+ "title": "Setup Outlook Profile for Office 365",
+ "description": "This guide provides a straightforward process for setting up an Outlook profile for Office 365, making it essential for anyone looking to streamline their email management. By following the concise steps outlined, users can quickly and efficiently create their profile, ensuring seamless access to their emails. Whether you're new to Office 365 or just need a refresher, this guide simplifies the setup process, allowing you to focus on productivity.",
+ "section": "Office ScribeHows",
+ "subsection": "Office 365",
+ "pdf": "pdfs/Office ScribeHows/Office 365/Setup Outlook Profile for Office 365.pdf",
+ "tags": [
+  "Office"
+ ],
+ "scrapedAt": "2026-08-14T14:54:44.696Z",
+ "blocks": [
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "Search and go to Control Panel.",
+   "image": {
+    "aspectRatio": "688 / 384",
+    "targets": [],
+    "file": "assets/guides/setup-outlook-profile-for-office-365/step-01.webp"
+   }
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "Click \"Mail (Microsoft Outlook)\"",
+   "image": {
+    "aspectRatio": "2560 / 1440",
+    "targets": [
+     {
+      "style": "width:3.4375000000000004%;height:6.111111111111111%;left:34.21875%;top:34.86111111111111%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/setup-outlook-profile-for-office-365/step-02.jpeg",
+    "width": 2560,
+    "height": 1440
+   }
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "Click \"Show Profiles...\"",
+   "image": {
+    "aspectRatio": "2560 / 1440",
+    "targets": [
+     {
+      "style": "width:3.4375000000000004%;height:6.111111111111111%;left:28.281250000000004%;top:38.958333333333336%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/setup-outlook-profile-for-office-365/step-03.jpeg",
+    "width": 2560,
+    "height": 1440
+   }
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "Click \"Add...\"",
+   "image": {
+    "aspectRatio": "2560 / 1440",
+    "targets": [
+     {
+      "style": "width:3.4375000000000004%;height:6.111111111111111%;left:15.507812500000002%;top:39.861111111111114%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/setup-outlook-profile-for-office-365/step-04.jpeg",
+    "width": 2560,
+    "height": 1440
+   }
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "Input Profile Name.",
+   "image": {
+    "aspectRatio": "2560 / 1440",
+    "targets": [
+     {
+      "style": "width:3.4375000000000004%;height:6.111111111111111%;left:20.1953125%;top:40.69444444444444%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/setup-outlook-profile-for-office-365/step-05.jpeg",
+    "width": 2560,
+    "height": 1440
+   }
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "Click \"OK\"",
+   "image": {
+    "aspectRatio": "2560 / 1440",
+    "targets": [
+     {
+      "style": "width:3.4375000000000004%;height:6.111111111111111%;left:24.53125%;top:36.875%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/setup-outlook-profile-for-office-365/step-06.jpeg",
+    "width": 2560,
+    "height": 1440
+   }
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "Enter name, email address and password.",
+   "image": {
+    "aspectRatio": "2560 / 1440",
+    "targets": [
+     {
+      "style": "width:3.4375000000000004%;height:6.111111111111111%;left:21.6796875%;top:42.01388888888889%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/setup-outlook-profile-for-office-365/step-07.jpeg",
+    "width": 2560,
+    "height": 1440
+   }
+  },
+  {
+   "kind": "step",
+   "number": 8,
+   "text": "Click \"Next >\"",
+   "image": {
+    "aspectRatio": "2560 / 1440",
+    "targets": [
+     {
+      "style": "width:3.4375000000000004%;height:6.111111111111111%;left:32.421875%;top:58.05555555555556%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/setup-outlook-profile-for-office-365/step-08.jpeg",
+    "width": 2560,
+    "height": 1440
+   }
+  },
+  {
+   "kind": "step",
+   "number": 9,
+   "text": "Click \"Finish\"",
+   "image": {
+    "aspectRatio": "2560 / 1440",
+    "targets": [
+     {
+      "style": "width:3.4375000000000004%;height:6.111111111111111%;left:32.421875%;top:57.77777777777777%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/setup-outlook-profile-for-office-365/step-09.jpeg",
+    "width": 2560,
+    "height": 1440
+   }
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.260313Z"
+}

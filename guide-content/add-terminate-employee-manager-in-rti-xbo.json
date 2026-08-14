@@ -1,0 +1,627 @@
+{
+ "slug": "add-terminate-employee-manager-in-rti-xbo",
+ "name": "Add/Terminate Employee/Manager in RTI/XBO",
+ "title": "Add/Terminate Employee/Manager in RTI/XBO",
+ "description": "This guide provides step-by-step instructions on how to add or terminate an employee/manager in the RTI/XBO system. It covers both the process of adding an employee, including retrieving their Employee ID and filling out necessary information, as well as the process of terminating an employee, including selecting the reason and providing additional information. Whether you are using RTI or XBO, this guide will help you navigate the system and complete these tasks effectively.",
+ "section": "Office ScribeHows",
+ "subsection": "XBO/RTI (All guides are using XBO unless specified)",
+ "pdf": "pdfs/Office ScribeHows/XBO-RTI/Add-Terminate Employee-Manager in RTI-XBO.pdf",
+ "tags": [
+  "Xenial"
+ ],
+ "scrapedAt": "2026-08-14T14:55:54.382Z",
+ "blocks": [
+  {
+   "kind": "warning",
+   "text": "RTI may have a slightly different setup on menus, but the same information must be filled out on either system."
+  },
+  {
+   "kind": "section",
+   "text": "Adding to RTI"
+  },
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "Navigate to [https://xbo.xenial.com/login](https://xbo.xenial.com/login)",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "Login to your RTI/XBO account",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:44.18789808917197%;top:33.53566009104704%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/add-terminate-employee-manager-in-rti-xbo/step-02.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "Click \"Employees && Scheduling\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:25.87579617834395%;top:23.14112291350531%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/add-terminate-employee-manager-in-rti-xbo/step-03.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "Click \"Add / Update Employees\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:5.6130573248407645%;top:15.705614567526554%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/add-terminate-employee-manager-in-rti-xbo/step-04.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "Click \"Add Employee\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:95.74044585987261%;top:13.429438543247343%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/add-terminate-employee-manager-in-rti-xbo/step-05.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "To retrieve the Employee ID, you must go to your isolved account.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:32.125796178343954%;top:21.320182094081943%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/add-terminate-employee-manager-in-rti-xbo/step-06.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "Login to your isolved account.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:44.705414012738856%;top:29.05918057663126%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/add-terminate-employee-manager-in-rti-xbo/step-07.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 8,
+   "text": "Click your name in top left corner.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:4.81687898089172%;top:4.17298937784522%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/add-terminate-employee-manager-in-rti-xbo/step-08.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 9,
+   "text": "Click \"Supervisor View\" or \"Manager View\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:3.7818471337579616%;top:10.166919575113809%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/add-terminate-employee-manager-in-rti-xbo/step-09.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 10,
+   "text": "Click any options under \"Employee Self-Service\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:1.9904458598726114%;top:22.003034901365705%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/add-terminate-employee-manager-in-rti-xbo/step-10.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 11,
+   "text": "Find the employee you are looking for.",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 12,
+   "text": "This is the number you will put into the \"Employee ID\" field on XBO/RTI.",
+   "image": {
+    "aspectRatio": "516 / 325",
+    "targets": [],
+    "file": "assets/guides/add-terminate-employee-manager-in-rti-xbo/step-12.jpeg",
+    "width": 516,
+    "height": 325
+   }
+  },
+  {
+   "kind": "warning",
+   "text": "Employees should not start without a Payroll ID."
+  },
+  {
+   "kind": "step",
+   "number": 13,
+   "text": "Type in the Payroll ID.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:31.687898089171973%;top:21.01669195751138%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/add-terminate-employee-manager-in-rti-xbo/step-13.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 14,
+   "text": "Fill out their First Name and Last Name.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:36.38535031847134%;top:30.424886191198787%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/add-terminate-employee-manager-in-rti-xbo/step-14.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 15,
+   "text": "Put it in their hire date.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:34.59394904458598%;top:58.2701062215478%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/add-terminate-employee-manager-in-rti-xbo/step-15.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 16,
+   "text": "Put in their birthday.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:31.926751592356688%;top:59.256449165402124%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/add-terminate-employee-manager-in-rti-xbo/step-16.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 17,
+   "text": "Click \"Contact Information\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:16.202229299363058%;top:16.61608497723824%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/add-terminate-employee-manager-in-rti-xbo/step-17.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 18,
+   "text": "Put in their phone number.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:32.00636942675159%;top:22.458270106221548%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/add-terminate-employee-manager-in-rti-xbo/step-18.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "warning",
+   "text": "Email must be added for Team Portal."
+  },
+  {
+   "kind": "step",
+   "number": 19,
+   "text": "Put in their email address.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:31.687898089171973%;top:31.031866464339906%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/add-terminate-employee-manager-in-rti-xbo/step-19.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 20,
+   "text": "Add the store they are working in. Restaurant accounts will only show their restaurant.",
+   "image": {
+    "aspectRatio": "688 / 384",
+    "targets": [],
+    "file": "assets/guides/add-terminate-employee-manager-in-rti-xbo/step-20.webp"
+   }
+  },
+  {
+   "kind": "step",
+   "number": 21,
+   "text": "\"Availability,\" \"Time Off,\" \"Fixed Schedules\" have no required fields, but you may fill them out with the information.",
+   "image": {
+    "aspectRatio": "688 / 384",
+    "targets": [],
+    "file": "assets/guides/add-terminate-employee-manager-in-rti-xbo/step-21.webp"
+   }
+  },
+  {
+   "kind": "step",
+   "number": 22,
+   "text": "Click \"Time Cards/Pay Rates\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:16.441082802547772%;top:33.53566009104704%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/add-terminate-employee-manager-in-rti-xbo/step-22.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 23,
+   "text": "Click \"+ Add Item\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:24.761146496815286%;top:93.55083459787556%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/add-terminate-employee-manager-in-rti-xbo/step-23.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 24,
+   "text": "Click \"Department\" dropdown. Click which position they are.",
+   "image": {
+    "aspectRatio": "688 / 384",
+    "targets": [],
+    "file": "assets/guides/add-terminate-employee-manager-in-rti-xbo/step-24.webp"
+   }
+  },
+  {
+   "kind": "step",
+   "number": 25,
+   "text": "Fill out their Time Card number, using the last 4 of their SSN.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:40.644904458598724%;top:26.555386949924127%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/add-terminate-employee-manager-in-rti-xbo/step-25.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 26,
+   "text": "Put in the pay rate, making sure that it matches their isolved pay rate.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:48.12898089171975%;top:27.38998482549317%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/add-terminate-employee-manager-in-rti-xbo/step-26.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "tip",
+   "text": "Pay rate can be found under the \"Salary\" menu under \"Employee Management\" in isolved."
+  },
+  {
+   "kind": "step",
+   "number": 27,
+   "text": "Put the \"Effective Date\" as the Hire Date.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:64.80891719745223%;top:26.783004552352047%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/add-terminate-employee-manager-in-rti-xbo/step-27.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 28,
+   "text": "Click \"Save\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:98.28821656050955%;top:11.608497723823975%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/add-terminate-employee-manager-in-rti-xbo/step-28.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Terminating in RTI"
+  },
+  {
+   "kind": "step",
+   "number": 29,
+   "text": "Navigate to [https://xbo.xenial.com/](https://xbo.xenial.com/)",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 30,
+   "text": "Click here.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:6.926751592356688%;top:10.925644916540213%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/add-terminate-employee-manager-in-rti-xbo/step-30.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 31,
+   "text": "Click \"Employees && Scheduling\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:26.273885350318473%;top:23.29286798179059%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/add-terminate-employee-manager-in-rti-xbo/step-31.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 32,
+   "text": "Click \"Add / Update Employees\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:5.7324840764331215%;top:15.705614567526554%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/add-terminate-employee-manager-in-rti-xbo/step-32.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 33,
+   "text": "Select the employee you are terminating.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:77.62738853503186%;top:26.631259484066767%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/add-terminate-employee-manager-in-rti-xbo/step-33.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 34,
+   "text": "Click \"Status\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:15.127388535031846%;top:19.726858877086496%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/add-terminate-employee-manager-in-rti-xbo/step-34.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 35,
+   "text": "Turn the \"Active\" switch to no.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:30.772292993630572%;top:19.347496206373293%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/add-terminate-employee-manager-in-rti-xbo/step-35.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 36,
+   "text": "Select the reason for the termination.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:30.21496815286624%;top:22.76176024279211%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/add-terminate-employee-manager-in-rti-xbo/step-36.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 37,
+   "text": "Select the date of the termination.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:34.355095541401276%;top:26.707132018209407%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/add-terminate-employee-manager-in-rti-xbo/step-37.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 38,
+   "text": "Give any additional information on the termination.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:33.71815286624204%;top:31.031866464339906%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/add-terminate-employee-manager-in-rti-xbo/step-38.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.228316Z"
+}

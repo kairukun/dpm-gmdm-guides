@@ -1,0 +1,150 @@
+{
+ "slug": "setting-login-clock-in-number-and-cards",
+ "name": "Setting Login (Clock-In) Number and Cards",
+ "title": "Setting Login (Clock-In) Number and Cards",
+ "description": "This guide provides a straightforward process for setting up login numbers and cards for employees and managers in a POS system. By following these steps, users can efficiently manage access and streamline operations, ensuring that only authorized personnel can log in. It's essential for maintaining security and accountability within the workplace. Viewing this guide will help you enhance your POS management skills and improve overall efficiency.",
+ "section": "PAR POS Guides",
+ "subsection": null,
+ "pdf": "pdfs/PAR POS Guides/Setting Login Clock In Number.pdf",
+ "tags": [
+  "Partech"
+ ],
+ "scrapedAt": "2026-08-14T14:53:25.795Z",
+ "blocks": [
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "Click \"Enter POS\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:36.51892890120037%;top:46.40672782874618%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/setting-login-clock-in-number-and-cards/step-01.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "Click \"Functions\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:84.71837488457987%;top:6.957186544342507%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/setting-login-clock-in-number-and-cards/step-02.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "Click \"Manager Functions\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:52.862419205909504%;top:15.443425076452598%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/setting-login-clock-in-number-and-cards/step-03.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "Slide card or enter PIN",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:55.58633425669437%;top:74.31192660550458%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/setting-login-clock-in-number-and-cards/step-04.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "Click \"Set Login\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:48.10710987996307%;top:68.34862385321101%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/setting-login-clock-in-number-and-cards/step-05.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "Select employee you are assigning login number for.",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:56.87903970452447%;top:43.57798165137615%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/setting-login-clock-in-number-and-cards/step-06.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "For employees, set login. Click \"OK\"",
+   "image": {
+    "aspectRatio": "2166 / 1308",
+    "targets": [
+     {
+      "style": "width:4.062788550323177%;height:6.727828746177369%;left:60.34164358264081%;top:69.03669724770643%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/setting-login-clock-in-number-and-cards/step-07.jpeg",
+    "width": 2166,
+    "height": 1308
+   }
+  },
+  {
+   "kind": "step",
+   "number": 8,
+   "text": "For managers, slide card. Click \"OK\"",
+   "image": {
+    "aspectRatio": "4000 / 2218",
+    "targets": [
+     {
+      "style": "width:7.848837209302325%;height:14.154801098831967%;left:64.1%;top:70.19837691614067%;border-color:#22C55Ebf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/setting-login-clock-in-number-and-cards/step-08.webp"
+   }
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.259814Z"
+}

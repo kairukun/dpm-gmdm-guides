@@ -1,0 +1,257 @@
+{
+ "slug": "verify-validate-deposit-records-in-rti-xbo",
+ "name": "Verify/Validate Deposit Records in RTI/XBO",
+ "title": "Verify/Validate Deposit Records in RTI/XBO",
+ "description": "This guide provides step-by-step instructions on how to verify and validate deposit records in RTI/XBO. Following these steps will ensure accurate and reliable deposit information, preventing any discrepancies between deposit slips and the system. This guide is essential for anyone responsible for managing and maintaining deposit records.",
+ "section": "Office ScribeHows",
+ "subsection": "XBO/RTI (All guides are using XBO unless specified)",
+ "pdf": "pdfs/Office ScribeHows/XBO-RTI/Verify-Validate Deposit Records in RTI-XBO.pdf",
+ "tags": [
+  "Xenial"
+ ],
+ "scrapedAt": "2026-08-14T14:57:11.817Z",
+ "blocks": [
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "Navigate to [https://xbo.xenial.com/](https://xbo.xenial.com/cash/deposits/search)",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "Login.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:44.546178343949045%;top:33.8391502276176%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/verify-validate-deposit-records-in-rti-xbo/step-02.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "Click \"Start of Day Tasks\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:17.8343949044586%;top:32.39757207890743%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/verify-validate-deposit-records-in-rti-xbo/step-03.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "Click \"Verify Yesterday's Deposit\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:6.170382165605096%;top:22.23065250379363%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/verify-validate-deposit-records-in-rti-xbo/step-04.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "Select restaurant you are verifying/validating. Put in date range of the deposit. Search.",
+   "image": {
+    "aspectRatio": "688 / 384",
+    "targets": [],
+    "file": "assets/guides/verify-validate-deposit-records-in-rti-xbo/step-05.webp"
+   }
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "Find the deposit, and click this icon.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:97.57165605095541%;top:25.87253414264036%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/verify-validate-deposit-records-in-rti-xbo/step-06.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "Click \"Verify\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:95.46178343949045%;top:30.349013657056144%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/verify-validate-deposit-records-in-rti-xbo/step-07.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 8,
+   "text": "Enter deposit amount from deposit slip.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:48.56687898089172%;top:53.86949924127465%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/verify-validate-deposit-records-in-rti-xbo/step-08.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 9,
+   "text": "Put in your name.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:48.40764331210191%;top:57.96661608497724%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/verify-validate-deposit-records-in-rti-xbo/step-09.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 10,
+   "text": "Click \"Save\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:59.195859872611464%;top:65.7814871016692%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/verify-validate-deposit-records-in-rti-xbo/step-10.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "warning",
+   "text": "If the deposit slip does not match the deposit in RTI/XBO, you must validate with the new amount for it to save it. Not validating will cause the deposit to be overwritten with the old amount."
+  },
+  {
+   "kind": "step",
+   "number": 11,
+   "text": "Find the deposit, and click this icon.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:97.4124203821656%;top:25.644916540212442%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/verify-validate-deposit-records-in-rti-xbo/step-11.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 12,
+   "text": "Click \"Validate\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:95.26273885350318%;top:33.68740515933232%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/verify-validate-deposit-records-in-rti-xbo/step-12.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 13,
+   "text": "Enter deposit information from deposit slip.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:48.60668789808918%;top:54.09711684370257%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/verify-validate-deposit-records-in-rti-xbo/step-13.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 14,
+   "text": "Put in your name.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:50.8359872611465%;top:57.96661608497724%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/verify-validate-deposit-records-in-rti-xbo/step-14.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 15,
+   "text": "Click \"Save\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:58.47929936305732%;top:67.98179059180576%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/verify-validate-deposit-records-in-rti-xbo/step-15.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.265815Z"
+}

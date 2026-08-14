@@ -1,0 +1,886 @@
+{
+ "slug": "making-schedule-in-rti-xbo",
+ "name": "Making Schedule in RTI/XBO",
+ "title": "Making Schedule in RTI/XBO",
+ "description": "This guide provides step-by-step instructions on how to make a schedule in RTI/XBO. It covers everything from logging in to the platform, adding projections, creating manager and crew schedules, and viewing and printing the schedule.",
+ "section": "Office ScribeHows",
+ "subsection": "XBO/RTI (All guides are using XBO unless specified)",
+ "pdf": "pdfs/Office ScribeHows/XBO-RTI/Making Schedule in RTI-XBO.pdf",
+ "tags": [
+  "Xenial"
+ ],
+ "scrapedAt": "2026-08-14T14:56:47.093Z",
+ "blocks": [
+  {
+   "kind": "warning",
+   "text": "Always verify your schedule follows all company policies and labor laws before posting."
+  },
+  {
+   "kind": "warning",
+   "text": "The DM should approve your schedules before posting."
+  },
+  {
+   "kind": "step",
+   "number": 1,
+   "text": "Navigate to [https://xbo.xenial.com/login](https://xbo.xenial.com/login)",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 2,
+   "text": "Log in.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:49.92038216560509%;top:42.1092564491654%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-02.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 3,
+   "text": "Click \"Employees && Scheduling\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:26.831210191082803%;top:23.596358118361152%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-03.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 4,
+   "text": "Click \"Add/Update Projections\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:6.568471337579618%;top:24.506828528072838%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-04.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 5,
+   "text": "Search for restaurant you are making the schedule for. Restaurant accounts will only be able to see their restaurant.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:24.800955414012737%;top:95.97875569044007%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-05.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 6,
+   "text": "Click \"Add Projections\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:96.85509554140127%;top:12.974203338391503%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-06.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 7,
+   "text": "Select a date within the week of the schedule you are making.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:58.797770700636946%;top:50.3793626707132%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-07.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 8,
+   "text": "Click \"Add\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:59.31528662420382%;top:60.24279210925645%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-08.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 9,
+   "text": "Click \"Use Trend Values\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:16.162420382165603%;top:21.851289833080425%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-09.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "warning",
+   "text": "Please review your projections to make sure they are accurate. See Projection section for information on trend dates."
+  },
+  {
+   "kind": "step",
+   "number": 10,
+   "text": "Click \"Save\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:97.05414012738854%;top:13.353566009104703%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-10.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Projections"
+  },
+  {
+   "kind": "step",
+   "number": 11,
+   "text": "Click \"Trend Dates\"",
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [
+     {
+      "style": "width:6.395348837209303%;height:8.862877484076902%;left:11.501597444089457%;top:25.996204933586338%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-11.jpeg",
+    "width": 2191,
+    "height": 1581
+   }
+  },
+  {
+   "kind": "step",
+   "number": 12,
+   "text": "Trend Dates preview:",
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-12.webp"
+   }
+  },
+  {
+   "kind": "warning",
+   "text": "The following steps are to show how to change dates being used for trend. This should only be done if you have a busy or slow sales day in your trend."
+  },
+  {
+   "kind": "step",
+   "number": 13,
+   "text": "Click which date you would like to remove.",
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [
+     {
+      "style": "width:6.395348837209303%;height:8.862877484076902%;left:7.895937927886809%;top:51.35989879822896%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-13.jpeg",
+    "width": 2191,
+    "height": 1581
+   }
+  },
+  {
+   "kind": "step",
+   "number": 14,
+   "text": "Click down arrow.",
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [
+     {
+      "style": "width:6.395348837209303%;height:8.862877484076902%;left:48.69922409858512%;top:82.79569892473118%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-14.jpeg",
+    "width": 2191,
+    "height": 1581
+   }
+  },
+  {
+   "kind": "step",
+   "number": 15,
+   "text": "Click date you want to add to your trend dates.",
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [
+     {
+      "style": "width:6.395348837209303%;height:8.862877484076902%;left:4.792332268370607%;top:68.943706514864%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-15.jpeg",
+    "width": 2191,
+    "height": 1581
+   }
+  },
+  {
+   "kind": "step",
+   "number": 16,
+   "text": "Click up arrow.",
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [
+     {
+      "style": "width:6.395348837209303%;height:8.862877484076902%;left:52.53308991328161%;top:49.905123339658445%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-16.jpeg",
+    "width": 2191,
+    "height": 1581
+   }
+  },
+  {
+   "kind": "step",
+   "number": 17,
+   "text": "Click \"Save\"",
+   "image": {
+    "aspectRatio": "2191 / 1581",
+    "targets": [
+     {
+      "style": "width:6.395348837209303%;height:8.862877484076902%;left:93.65586490187128%;top:21.695129664769134%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-17.jpeg",
+    "width": 2191,
+    "height": 1581
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Manager Schedule"
+  },
+  {
+   "kind": "step",
+   "number": 18,
+   "text": "Click \"Manager Schedules\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:4.856687898089172%;top:30.197268588770864%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-18.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 19,
+   "text": "Select restaurant for the schedule you are making. Restaurant accounts will be able to see their restaurant.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:33.71815286624204%;top:13.050075872534142%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-19.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 20,
+   "text": "Select the 4 week period you would like to make the manager schedule for.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:75.9952229299363%;top:12.746585735963581%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-20.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 21,
+   "text": "Input the schedule for the managers.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:35.509554140127385%;top:31.25948406676783%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-21.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "tip",
+   "text": "You will type the scheduled hours in. Examples: 11-5p will show 11:00AM - 05:00PM 5p-1 will show 05:00PM - 01:00AM"
+  },
+  {
+   "kind": "step",
+   "number": 22,
+   "text": "Click \"Save\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:97.45222929936305%;top:20.561456752655538%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-22.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Crew Schedule"
+  },
+  {
+   "kind": "step",
+   "number": 23,
+   "text": "Click \"Crew Schedules\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:3.7420382165605095%;top:33.23216995447648%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-23.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 24,
+   "text": "Click \"Add Schedule\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:95.82006369426752%;top:12.139605462822459%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-24.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 25,
+   "text": "Select restaurant for the schedule you are making. Restaurant accounts will be able to see their restaurant.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:58.67834394904459%;top:46.58573596358118%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-25.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 26,
+   "text": "Select a date within the week of the schedule you are making.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:58.917197452229296%;top:51.062215477996965%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-26.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 27,
+   "text": "Click \"Add\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:58.63853503184714%;top:60.01517450682853%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-27.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Daily View"
+  },
+  {
+   "kind": "step",
+   "number": 28,
+   "text": "Preview of the schedule builder in Daily View (default view).",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-28.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 29,
+   "text": "Breakdown of the schedule builder in Daily View (default view).",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-29.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "warning",
+   "text": "If your sales projections stop earlier than the close time of your restaurant, RTI has the incorrect Hours of Operations. A DO will have to fix this for you."
+  },
+  {
+   "kind": "step",
+   "number": 30,
+   "text": "Schedules on daily view (which is the default appearance) are line bars. You will left click and drag from start to finish to create the schedule shifts.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:36.504777070063696%;top:63.42943854324734%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-30.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 31,
+   "text": "You can also type the shift on the left side in the shift column.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:19.227707006369428%;top:45.220030349013655%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-31.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 32,
+   "text": "Right clicking on a shift gives options for that shift.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:54.816878980891715%;top:53.94537177541729%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-32.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 33,
+   "text": "Click \"Load Prior\" if you want to copy a schedule from a previous day or week.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:21.25796178343949%;top:11.305007587253414%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-33.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 34,
+   "text": "Click either \"Day\" or \"Week\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:50.955414012738856%;top:44.916540212443095%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-34.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 35,
+   "text": "Select the date(s) you want to copy.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:58.439490445859875%;top:53.03490136570561%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-35.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 36,
+   "text": "Click \"Apply\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:56.92675159235668%;top:61.83611532625189%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-36.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 37,
+   "text": "Click \"Save\" once you have completed the schedule for the current day.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:16.202229299363058%;top:12.898330804248861%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-37.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Weekly View"
+  },
+  {
+   "kind": "step",
+   "number": 38,
+   "text": "You can also create or view a schedule by Weekly View. On any day, click \"Weekly View\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:96.13853503184714%;top:10.54628224582701%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-38.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 39,
+   "text": "Preview of the schedule builder in Weekly View.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-39.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "tip",
+   "text": "The header is the same between Daily and Weekly View."
+  },
+  {
+   "kind": "step",
+   "number": 40,
+   "text": "On Weekly View, all shifts are adding by typing.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:35.98726114649681%;top:20.409711684370258%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-40.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "tip",
+   "text": "You will type the scheduled hours in. Examples: 11-5p will show 11:00AM - 05:00PM 5p-1 will show 05:00PM - 01:00AM"
+  },
+  {
+   "kind": "step",
+   "number": 41,
+   "text": "Click \"Employees\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:36.10668789808918%;top:10.849772382397573%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-41.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 42,
+   "text": "Click here.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:87.26114649681529%;top:10.849772382397573%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-42.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 43,
+   "text": "Click \"Weekly View\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:96.53662420382165%;top:10.925644916540213%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-43.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 44,
+   "text": "Click \"Save\" once you have completed the schedule for the week.",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:15.047770700636942%;top:11.153262518968134%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-44.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Complete/Approve"
+  },
+  {
+   "kind": "warning",
+   "text": "This must be done for the schedule to generate on Team Portal."
+  },
+  {
+   "kind": "step",
+   "number": 45,
+   "text": "Navigate to [https://xbo.xenial.com/labor/schedules/details](https://xbo.xenial.com/labor/schedules/details)",
+   "image": null
+  },
+  {
+   "kind": "step",
+   "number": 46,
+   "text": "Once the schedule is completed, Click \"Completed\"",
+   "image": {
+    "aspectRatio": "2122 / 1318",
+    "targets": [
+     {
+      "style": "width:2.591894439208294%;height:4.17298937784522%;left:61.02733270499529%;top:10.015174506828528%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-46.jpeg",
+    "width": 2122,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 47,
+   "text": "**DM Only** Once the schedule has been reviewed, Click \"Approved\"",
+   "image": {
+    "aspectRatio": "2122 / 1318",
+    "targets": [
+     {
+      "style": "width:2.591894439208294%;height:4.17298937784522%;left:64.2789820923657%;top:10.47040971168437%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-47.jpeg",
+    "width": 2122,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "section",
+   "text": "Print Schedule"
+  },
+  {
+   "kind": "step",
+   "number": 48,
+   "text": "Click \"This Week's Schedule\" or \"Next Week's Schedule\"",
+   "image": {
+    "aspectRatio": "2512 / 1318",
+    "targets": [
+     {
+      "style": "width:2.1894904458598723%;height:4.17298937784522%;left:5.971337579617835%;top:37.86039453717754%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-48.jpeg",
+    "width": 2512,
+    "height": 1318
+   }
+  },
+  {
+   "kind": "step",
+   "number": 49,
+   "text": "Click Print.",
+   "image": {
+    "aspectRatio": "2560 / 1440",
+    "targets": [
+     {
+      "style": "width:2.1484375%;height:3.8194444444444446%;left:94.5703125%;top:5.833333333333333%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-49.jpeg",
+    "width": 2560,
+    "height": 1440
+   }
+  },
+  {
+   "kind": "step",
+   "number": 50,
+   "text": "Click \"Print\"",
+   "image": {
+    "aspectRatio": "2560 / 1440",
+    "targets": [
+     {
+      "style": "width:2.1484375%;height:3.8194444444444446%;left:7.8125%;top:89.79166666666667%;border-color:#FB923Cbf",
+      "round": true
+     }
+    ],
+    "file": "assets/guides/making-schedule-in-rti-xbo/step-50.jpeg",
+    "width": 2560,
+    "height": 1440
+   }
+  }
+ ],
+ "linksRewrittenAt": "2026-08-14T15:17:17.248313Z"
+}
