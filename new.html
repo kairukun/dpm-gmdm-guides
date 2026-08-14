@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>New guide | Dossani Paradise Management</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body class="editor-body">
+  <header class="guide-bar">
+    <div class="guide-bar-inner">
+      <a class="guide-back" href="/index.html">All guides</a>
+      <div class="editor-bar-actions">
+        <span class="editor-user" id="editor-user"></span>
+        <button class="btn btn-ghost" type="button" id="logout-btn">Sign out</button>
+        <img class="guide-bar-logo" src="/assets/dpm-lockup.png" alt="Dossani Paradise Management">
+      </div>
+    </div>
+  </header>
+
+  <main class="editor-wrap" id="editor" hidden>
+    <div class="editor-header">
+      <div>
+        <p class="guide-crumb">Create guide</p>
+        <h1>New guide</h1>
+      </div>
+      <div class="editor-actions">
+        <button class="btn btn-primary" type="button" id="create-btn">Create guide</button>
+      </div>
+    </div>
+    <p class="editor-status" id="status" hidden></p>
+
+    <section class="editor-panel">
+      <label>Title<input id="title" type="text" required placeholder="e.g. Resetting a drawer"</label>
+      <label>Description<textarea id="description" rows="3" placeholder="Short summary shown on the home page"></textarea></label>
+      <label>Tags <span class="hint">(comma separated)</span><input id="tags" type="text" placeholder="e.g. Partech, POS"></label>
+    </section>
+
+    <section class="editor-panel">
+      <h2>Category</h2>
+      <p class="hint" style="margin-top:0">Pick an existing category or create a new one. Subcategories are optional (used like BKU under Office ScribeHows).</p>
+      <div class="editor-grid">
+        <label>
+          Category
+          <select id="section-select"></select>
+        </label>
+        <label id="section-custom-wrap" hidden>
+          New category name
+          <input id="section-custom" type="text" placeholder="e.g. Training Guides">
+        </label>
+      </div>
+      <div class="editor-grid">
+        <label>
+          Subcategory
+          <select id="subsection-select"></select>
+        </label>
+        <label id="subsection-custom-wrap" hidden>
+          New subcategory name
+          <input id="subsection-custom" type="text" placeholder="e.g. BKU">
+        </label>
+      </div>
+    </section>
+  </main>
+
+  <p class="editor-loading" id="loading">Loading…</p>
+
+  <script>
+    (function () {
+      var params = new URLSearchParams(location.search);
+      var categories = [];
+      var statusEl = document.getElementById("status");
+      var loading = document.getElementById("loading");
+      var editor = document.getElementById("editor");
+      var sectionSelect = document.getElementById("section-select");
+      var subsectionSelect = document.getElementById("subsection-select");
+      var sectionCustomWrap = document.getElementById("section-custom-wrap");
+      var subsectionCustomWrap = document.getElementById("subsection-custom-wrap");
+
+      function showStatus(msg, isError) {
+        statusEl.hidden = false;
+        statusEl.textContent = msg;
+        statusEl.className = "editor-status" + (isError ? " is-error" : " is-ok");
+      }
+
+      function fillSections(preferred) {
+        var names = categories.map(function (c) { return c.section; });
+        sectionSelect.innerHTML =
+          names.map(function (name) {
+            return '<option value="' + name.replace(/"/g, "&quot;") + '">' + name + "</option>";
+          }).join("") +
+          '<option value="__new__">+ Create new category…</option>';
+        if (preferred && names.indexOf(preferred) !== -1) sectionSelect.value = preferred;
+        else if (names.length) sectionSelect.value = names[0];
+        else sectionSelect.value = "__new__";
+        updateSectionCustom();
+        fillSubsections(params.get("subsection") || "");
+      }
+
+      function currentSection() {
+        if (sectionSelect.value === "__new__") return document.getElementById("section-custom").value.trim();
+        return sectionSelect.value;
+      }
+
+      function fillSubsections(preferred) {
+        var section = sectionSelect.value === "__new__" ? "" : sectionSelect.value;
+        var found = categories.find(function (c) { return c.section === section; });
+        var subs = found ? found.subsections.slice() : [];
+        subsectionSelect.innerHTML =
+          '<option value="">None</option>' +
+          subs.map(function (name) {
+            return '<option value="' + name.replace(/"/g, "&quot;") + '">' + name + "</option>";
+          }).join("") +
+          '<option value="__new__">+ Create new subcategory…</option>';
+        if (preferred && preferred !== "__new__" && subs.indexOf(preferred) !== -1) {
+          subsectionSelect.value = preferred;
+        } else {
+          subsectionSelect.value = "";
+        }
+        updateSubsectionCustom();
+      }
+
+      function updateSectionCustom() {
+        var isNew = sectionSelect.value === "__new__";
+        sectionCustomWrap.hidden = !isNew;
+        fillSubsections("");
+      }
+
+      function updateSubsectionCustom() {
+        subsectionCustomWrap.hidden = subsectionSelect.value !== "__new__";
+      }
+
+      sectionSelect.addEventListener("change", updateSectionCustom);
+      subsectionSelect.addEventListener("change", updateSubsectionCustom);
+
+      document.getElementById("create-btn").addEventListener("click", function () {
+        var title = document.getElementById("title").value.trim();
+        var section = currentSection();
+        var subsection =
+          subsectionSelect.value === "__new__"
+            ? document.getElementById("subsection-custom").value.trim()
+            : subsectionSelect.value;
+        if (!title) return showStatus("Title is required.", true);
+        if (!section) return showStatus("Category is required.", true);
+        if (subsectionSelect.value === "__new__" && !subsection) {
+          return showStatus("Enter a subcategory name, or choose None.", true);
+        }
+
+        showStatus("Creating guide…");
+        fetch("/api/guides", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            title: title,
+            description: document.getElementById("description").value.trim(),
+            tags: document.getElementById("tags").value,
+            section: section,
+            subsection: subsection || null
+          })
+        })
+          .then(function (r) { return r.json().then(function (d) { return { ok: r.ok, d: d }; }); })
+          .then(function (res) {
+            if (!res.ok) throw new Error(res.d.error || "Create failed");
+            showStatus("Created. Opening editor…");
+            location.href = "/edit/" + encodeURIComponent(res.d.guide.slug);
+          })
+          .catch(function (err) { showStatus(err.message, true); });
+      });
+
+      document.getElementById("logout-btn").addEventListener("click", function () {
+        fetch("/api/logout", { method: "POST" }).then(function () {
+          location.href = "/login.html";
+        });
+      });
+
+      fetch("/api/me")
+        .then(function (r) { return r.json(); })
+        .then(function (me) {
+          if (!me.authenticated) {
+            location.replace("/login.html?next=" + encodeURIComponent("/new.html" + location.search));
+            return null;
+          }
+          document.getElementById("editor-user").textContent = me.user.email;
+          return fetch("/api/categories");
+        })
+        .then(function (r) {
+          if (!r) return;
+          return r.json().then(function (d) { return { ok: r.ok, d: d }; });
+        })
+        .then(function (res) {
+          if (!res) return;
+          if (!res.ok) throw new Error(res.d.error || "Could not load categories");
+          categories = res.d.categories || [];
+          fillSections(params.get("section") || "");
+          loading.hidden = true;
+          editor.hidden = false;
+          document.getElementById("title").focus();
+        })
+        .catch(function (err) {
+          loading.textContent = err.message || "Failed to load";
+        });
+    })();
+  </script>
+</body>
+</html>

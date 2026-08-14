@@ -98,21 +98,77 @@ function rebuildSite() {
   return (result.stdout || "").trim().split("\n").slice(-3).join(" | ");
 }
 
-function syncManifest(guide) {
+function slugify(text) {
+  return String(text || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .slice(0, 80);
+}
+
+function readManifest() {
   const manifestPath = path.join(ROOT, "site-guides.json");
-  if (!fs.existsSync(manifestPath)) return;
-  const list = JSON.parse(fs.readFileSync(manifestPath, "utf8"));
+  if (!fs.existsSync(manifestPath)) return [];
+  return JSON.parse(fs.readFileSync(manifestPath, "utf8"));
+}
+
+function writeManifestList(list) {
+  fs.writeFileSync(path.join(ROOT, "site-guides.json"), JSON.stringify(list, null, 1), "utf8");
+}
+
+function syncManifest(guide) {
+  const list = readManifest();
   const i = list.findIndex((g) => g.slug === guide.slug);
-  if (i < 0) return;
-  list[i] = {
-    ...list[i],
-    name: guide.name || guide.title || list[i].name,
+  const entry = {
+    slug: guide.slug,
+    name: guide.name || guide.title || guide.slug,
+    url: guide.url || `local://${guide.slug}`,
     description: guide.description || "",
     tags: guide.tags || [],
-    section: guide.section || list[i].section,
-    subsection: guide.subsection ?? list[i].subsection,
+    section: guide.section || "Guides",
+    subsection: guide.subsection ?? null,
+    pdf: guide.pdf || null,
   };
-  fs.writeFileSync(manifestPath, JSON.stringify(list, null, 1), "utf8");
+  if (i < 0) list.push(entry);
+  else list[i] = { ...list[i], ...entry };
+  writeManifestList(list);
+}
+
+function uniqueSlug(title) {
+  const base = slugify(title) || "guide";
+  let candidate = base;
+  let n = 2;
+  while (fs.existsSync(contentPath(candidate)) || readManifest().some((g) => g.slug === candidate)) {
+    candidate = `${base}-${n}`;
+    n += 1;
+  }
+  return candidate;
+}
+
+function listCategories() {
+  const sections = new Map();
+  for (const g of readManifest()) {
+    const section = String(g.section || "Guides").trim() || "Guides";
+    if (!sections.has(section)) sections.set(section, new Set());
+    if (g.subsection) sections.get(section).add(String(g.subsection).trim());
+  }
+  for (const file of fs.readdirSync(CONTENT_DIR).filter((f) => f.endsWith(".json"))) {
+    try {
+      const data = JSON.parse(fs.readFileSync(path.join(CONTENT_DIR, file), "utf8"));
+      const section = String(data.section || "").trim();
+      if (!section) continue;
+      if (!sections.has(section)) sections.set(section, new Set());
+      if (data.subsection) sections.get(section).add(String(data.subsection).trim());
+    } catch {
+      /* ignore bad files */
+    }
+  }
+  return Array.from(sections.entries())
+    .map(([section, subs]) => ({
+      section,
+      subsections: Array.from(subs).sort((a, b) => a.localeCompare(b)),
+    }))
+    .sort((a, b) => a.section.localeCompare(b.section));
 }
 
 app.get("/api/me", (req, res) => {
@@ -143,6 +199,70 @@ app.post("/api/logout", (req, res) => {
     res.clearCookie("dpm_guide_sid");
     res.json({ ok: true });
   });
+});
+
+app.get("/api/categories", requireAuth, (_req, res) => {
+  res.json({ categories: listCategories() });
+});
+
+app.post("/api/guides", requireAuth, (req, res) => {
+  const body = req.body || {};
+  const title = String(body.title || "").trim();
+  if (!title) return res.status(400).json({ error: "Title is required" });
+
+  const section = String(body.section || "").trim();
+  if (!section) return res.status(400).json({ error: "Category is required" });
+
+  const subsectionRaw = body.subsection;
+  const subsection =
+    subsectionRaw === undefined || subsectionRaw === null || String(subsectionRaw).trim() === ""
+      ? null
+      : String(subsectionRaw).trim();
+
+  const tags = Array.isArray(body.tags)
+    ? body.tags.map((t) => String(t).trim()).filter(Boolean)
+    : String(body.tags || "")
+        .split(",")
+        .map((t) => t.trim())
+        .filter(Boolean);
+
+  const description = String(body.description || "").trim();
+  const slug = uniqueSlug(title);
+  const now = new Date().toISOString();
+  const guide = {
+    slug,
+    name: title,
+    title,
+    description,
+    section,
+    subsection,
+    pdf: null,
+    tags,
+    url: `local://${slug}`,
+    blocks: [
+      {
+        kind: "step",
+        text: "Add your first instruction here.",
+        number: 1,
+      },
+    ],
+    createdAt: now,
+    updatedAt: now,
+    updatedBy: req.session.user.email,
+  };
+
+  fs.writeFileSync(contentPath(slug), JSON.stringify(guide, null, 1), "utf8");
+  syncManifest(guide);
+
+  try {
+    const summary = rebuildSite();
+    res.status(201).json({ ok: true, guide, rebuild: summary });
+  } catch (err) {
+    res.status(500).json({
+      error: `Guide created, but rebuild failed: ${err.message}`,
+      guide,
+    });
+  }
 });
 
 app.get("/api/guides/:slug", requireAuth, (req, res) => {
@@ -264,6 +384,13 @@ app.post("/api/guides/:slug/image", requireAuth, upload.single("image"), (req, r
     return res.status(500).json({ error: `Image saved, rebuild failed: ${err.message}`, file: rel });
   }
   res.json({ ok: true, file: rel, guide });
+});
+
+app.get(["/new", "/new.html"], (req, res) => {
+  if (!req.session.user) {
+    return res.redirect(`/login.html?next=${encodeURIComponent("/new.html")}`);
+  }
+  res.sendFile(path.join(ROOT, "new.html"));
 });
 
 app.get(["/login", "/login.html"], (_req, res) => {

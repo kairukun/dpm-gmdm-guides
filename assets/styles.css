@@ -141,6 +141,24 @@ a { color: var(--navy); }
 
 .auth-slot { display: flex; align-items: center; gap: 8px; }
 
+.section-head,
+.group-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.section-head .section-title { margin-bottom: 0; }
+.group-head .group-title { margin-bottom: 0; }
+.section-add,
+.group-add {
+  flex: 0 0 auto;
+  font-size: 0.82rem;
+  padding: 6px 12px;
+}
+
 .btn-edit {
   background: #fff;
   color: var(--navy);

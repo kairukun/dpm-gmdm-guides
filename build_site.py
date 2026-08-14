@@ -6,6 +6,7 @@ import json
 import re
 import shutil
 from pathlib import Path
+from urllib.parse import quote
 
 ROOT = Path(r"C:\Users\James\Documents\Ampler-GMDM-Guide-PDFs")
 PDF_ROOT = ROOT / "pdfs"
@@ -171,7 +172,101 @@ def match_pdf(guide: dict, manifest: list[dict], pdfs: dict) -> str | None:
     return None
 
 
-def build_groups() -> list[dict]:
+SECTION_ORDER = ["PAR POS Guides", "Office ScribeHows", "Equipment ScribeHows"]
+
+
+def enrich_from_content(item: dict) -> dict:
+    """Prefer live guide-content fields so editor changes survive rebuilds."""
+    out = dict(item)
+    slug_key = (out.get("slug") or "").strip()
+    if not slug_key:
+        return out
+    path = CONTENT_DIR / f"{slug_key}.json"
+    if not path.exists():
+        return out
+    data = json.loads(path.read_text(encoding="utf-8"))
+    out["name"] = fix_text((data.get("title") or data.get("name") or out.get("name") or "").strip())
+    out["description"] = fix_text((data.get("description") or out.get("description") or "").strip())
+    if data.get("section"):
+        out["section"] = str(data["section"]).strip()
+    if "subsection" in data:
+        out["subsection"] = None if data["subsection"] in (None, "") else str(data["subsection"]).strip()
+    if isinstance(data.get("tags"), list):
+        out["tags"] = [str(t).strip() for t in data["tags"] if str(t).strip()]
+    steps = [b for b in data.get("blocks") or [] if b.get("kind") == "step"]
+    out["steps"] = len(steps)
+    if steps:
+        out["page"] = f"guides/{slug_key}.html"
+    out["has_content"] = bool(steps)
+    return out
+
+
+def sort_groups(groups: dict[tuple[str, str | None], dict]) -> list[dict]:
+    result = []
+    seen = set()
+    for section in SECTION_ORDER:
+        subs = [g for k, g in groups.items() if k[0] == section]
+        subs.sort(key=lambda g: (g["subsection"] or "").lower())
+        for g in subs:
+            g["guides"].sort(key=lambda x: x["name"].lower())
+            result.append(g)
+            seen.add((g["section"], g["subsection"]))
+    extras = [g for k, g in groups.items() if k not in seen]
+    extras.sort(key=lambda g: (g["section"].lower(), (g["subsection"] or "").lower()))
+    for g in extras:
+        g["guides"].sort(key=lambda x: x["name"].lower())
+        result.append(g)
+    return result
+
+
+def build_groups_from_catalog() -> list[dict] | None:
+    """Build from site-guides.json (the live catalog editors manage)."""
+    catalog_path = ROOT / "site-guides.json"
+    if not catalog_path.exists():
+        return None
+    raw = json.loads(catalog_path.read_text(encoding="utf-8"))
+    if not isinstance(raw, list) or not raw:
+        return None
+
+    groups: dict[tuple[str, str | None], dict] = {}
+    used = set()
+    for entry in raw:
+        item = enrich_from_content(entry)
+        section = (item.get("section") or "Guides").strip() or "Guides"
+        sub = item.get("subsection")
+        if sub == "":
+            sub = None
+        if (sub or "").strip().lower() in EXCLUDED_SUBSECTIONS:
+            continue
+        name = (item.get("name") or "").strip()
+        if not name or name.lower() in EXCLUDED_GUIDES:
+            continue
+        guide_slug = (item.get("slug") or slug(name) or "guide").strip()
+        base, candidate, n = guide_slug, guide_slug, 2
+        while candidate in used:
+            candidate, n = f"{base}-{n}", n + 1
+        used.add(candidate)
+        guide = {
+            "slug": candidate,
+            "name": name,
+            "url": item.get("url") or f"local://{candidate}",
+            "description": item.get("description") or "",
+            "section": section,
+            "subsection": sub,
+            "tags": item.get("tags") or [],
+            "pdf": item.get("pdf"),
+            "steps": item.get("steps") or 0,
+            "page": item.get("page"),
+            "has_content": bool(item.get("has_content")),
+        }
+        key = (section, sub)
+        groups.setdefault(key, {"section": section, "subsection": sub, "guides": []})
+        groups[key]["guides"].append(guide)
+    return sort_groups(groups)
+
+
+def build_groups_from_scrape() -> list[dict]:
+    """Legacy bootstrap from cached ScribeHow dumps (only if no catalog exists)."""
     manifest = json.loads((ROOT / "guides.json").read_text(encoding="utf-8"))
     pdfs = pdf_lookup()
 
@@ -198,23 +293,12 @@ def build_groups() -> list[dict]:
             it["pdf"] = match_pdf(it, manifest, pdfs)
         else:
             it["pdf"] = None
+        it["steps"] = it.get("steps") or 0
         key = (section, sub)
         groups.setdefault(key, {"section": section, "subsection": sub, "guides": []})
         groups[key]["guides"].append(it)
 
-    order = ["PAR POS Guides", "Office ScribeHows", "Equipment ScribeHows"]
-    result = []
-    for section in order:
-        subs = [g for k, g in groups.items() if k[0] == section]
-        subs.sort(key=lambda g: (g["subsection"] or "").lower())
-        for g in subs:
-            g["guides"].sort(key=lambda x: x["name"].lower())
-            result.append(g)
-    for key, g in groups.items():
-        if key[0] not in order:
-            g["guides"].sort(key=lambda x: x["name"].lower())
-            result.append(g)
-
+    result = sort_groups(groups)
     used = set()
     for group in result:
         for guide in group["guides"]:
@@ -227,28 +311,38 @@ def build_groups() -> list[dict]:
     return result
 
 
+def build_groups() -> list[dict]:
+    return build_groups_from_catalog() or build_groups_from_scrape()
+
+
 def card_html(guide: dict) -> str:
     name = html.escape(guide["name"])
     desc = html.escape(guide["description"])
-    if not guide["url"]:
+    has_page = bool(guide.get("page") or guide.get("has_content"))
+    is_placeholder = not guide.get("url") and not has_page and not guide.get("slug")
+    if is_placeholder:
         return f"""            <article class="card card-pending" data-name="{name.lower()}" data-desc="">
               <h3 class="card-title">{name}</h3>
               <div class="card-meta"><span class="meta-item">Coming soon</span></div>
             </article>"""
     meta = []
-    if guide["steps"]:
+    if guide.get("steps"):
         meta.append(f'<span class="meta-item">{guide["steps"]} steps</span>')
     tags = "".join(
-        f'<span class="tag">{html.escape(t)}</span>' for t in dict.fromkeys(guide["tags"])
+        f'<span class="tag">{html.escape(t)}</span>' for t in dict.fromkeys(guide.get("tags") or [])
     )
-    if guide.get("page"):
+    if has_page:
         open_link = f'<a class="btn btn-primary" href="{html.escape(guide["page"])}">Open guide</a>'
         edit_link = (
             f'<a class="btn btn-edit auth-only" href="edit/{html.escape(guide["slug"])}" hidden>Edit</a>'
         )
     else:
         open_link = '<span class="btn btn-disabled">Guide page pending</span>'
-        edit_link = ""
+        edit_link = (
+            f'<a class="btn btn-edit auth-only" href="edit/{html.escape(guide["slug"])}" hidden>Edit</a>'
+            if guide.get("slug")
+            else ""
+        )
     return f"""            <article class="card" data-name="{name.lower()}" data-desc="{desc.lower()}" data-slug="{html.escape(guide.get('slug') or '')}">
               <h3 class="card-title">{name}</h3>
               {f'<p class="card-desc">{desc}</p>' if desc else ''}
@@ -273,13 +367,21 @@ def section_html(groups: list[dict]) -> tuple[str, str]:
             sid = slug(current_section)
             nav.append(f'<a class="nav-link" href="#{sid}">{html.escape(current_section)}</a>')
             body.append(f'      <section class="section" id="{sid}">')
-            body.append(f'        <h2 class="section-title">{html.escape(current_section)}</h2>')
+            body.append(
+                '        <div class="section-head">'
+                f'<h2 class="section-title">{html.escape(current_section)}</h2>'
+                f'<a class="btn btn-edit auth-only section-add" hidden href="new.html?section={quote(current_section)}">Add guide</a>'
+                "</div>"
+            )
         if group["subsection"]:
             gid = slug(f'{current_section}-{group["subsection"]}')
             body.append(f'        <div class="group" id="{gid}">')
             body.append(
-                f'          <h3 class="group-title">{html.escape(group["subsection"])}'
+                '          <div class="group-head">'
+                f'<h3 class="group-title">{html.escape(group["subsection"])}'
                 f'<span class="group-count">{len(group["guides"])}</span></h3>'
+                f'<a class="btn btn-edit auth-only group-add" hidden href="new.html?section={quote(current_section)}&subsection={quote(group["subsection"])}">Add guide</a>'
+                "</div>"
             )
         else:
             body.append('        <div class="group">')
@@ -294,7 +396,7 @@ def section_html(groups: list[dict]) -> tuple[str, str]:
 
 def build_html(groups: list[dict]) -> str:
     sections, nav = section_html(groups)
-    total = sum(1 for g in groups for x in g["guides"] if x["url"])
+    total = sum(1 for g in groups for x in g["guides"] if x.get("slug"))
     categories = len({g["section"] for g in groups})
     systems = len({g["subsection"] for g in groups if g["subsection"]})
     return f"""<!DOCTYPE html>
@@ -714,6 +816,24 @@ a { color: var(--navy); }
 }
 
 .auth-slot { display: flex; align-items: center; gap: 8px; }
+
+.section-head,
+.group-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.section-head .section-title { margin-bottom: 0; }
+.group-head .group-title { margin-bottom: 0; }
+.section-add,
+.group-add {
+  flex: 0 0 auto;
+  font-size: 0.82rem;
+  padding: 6px 12px;
+}
 
 .btn-edit {
   background: #fff;
@@ -1470,6 +1590,8 @@ JS = """(function () {
       var bits = [];
       if (slug) {
         bits.push('<a class="btn btn-edit" href="' + prefix + 'edit/' + encodeURIComponent(slug) + '">Edit guide</a>');
+      } else if (prefix === '') {
+        bits.push('<a class="btn btn-edit" href="new.html">New guide</a>');
       }
       bits.push('<span class="editor-user">' + (me.user.email || 'Editor') + '</span>');
       bits.push('<button type="button" class="nav-link" data-logout>Sign out</button>');
@@ -1513,23 +1635,24 @@ def write_manifest(groups: list[dict]) -> None:
         {
             "slug": g["slug"],
             "name": g["name"],
-            "url": g["url"],
-            "description": g["description"],
+            "url": g.get("url") or f'local://{g["slug"]}',
+            "description": g.get("description") or "",
             "section": g["section"],
-            "subsection": g["subsection"],
-            "tags": g["tags"],
-            "pdf": g["pdf"],
+            "subsection": g.get("subsection"),
+            "tags": g.get("tags") or [],
+            "pdf": g.get("pdf"),
         }
         for group in groups
         for g in group["guides"]
+        if g.get("slug")
     ]
     (ROOT / "site-guides.json").write_text(json.dumps(flat, indent=1), encoding="utf-8")
 
 
 def write_guide_pages(groups: list[dict]) -> tuple[int, list[str]]:
-    """Render one page per guide that has scraped content. Returns (built, pending)."""
+    """Render one page per guide that has content. Returns (built, pending)."""
     GUIDE_DIR.mkdir(exist_ok=True)
-    ordered = [g for group in groups for g in group["guides"] if g["url"]]
+    ordered = [g for group in groups for g in group["guides"] if g.get("slug")]
     contents = {}
     for guide in ordered:
         path = CONTENT_DIR / f'{guide["slug"]}.json'
@@ -1540,10 +1663,11 @@ def write_guide_pages(groups: list[dict]) -> tuple[int, list[str]]:
                 contents[guide["slug"]] = data
                 guide["page"] = f'guides/{guide["slug"]}.html'
                 guide["steps"] = len(steps)
+                guide["has_content"] = True
 
     ready = [g for g in ordered if g["slug"] in contents]
     # Guide-to-guide references in step text should stay on this site
-    link_map = {scribe_key(g["url"]): f'{g["slug"]}.html' for g in ready}
+    link_map = {scribe_key(g["url"]): f'{g["slug"]}.html' for g in ready if g.get("url")}
     for g in ready:
         link_map[f'name:{slug(g["name"])}'] = f'{g["slug"]}.html'
         title = (contents[g["slug"]].get("title") or g["name"]).strip()

@@ -54,6 +54,8 @@
       var bits = [];
       if (slug) {
         bits.push('<a class="btn btn-edit" href="' + prefix + 'edit/' + encodeURIComponent(slug) + '">Edit guide</a>');
+      } else if (prefix === '') {
+        bits.push('<a class="btn btn-edit" href="new.html">New guide</a>');
       }
       bits.push('<span class="editor-user">' + (me.user.email || 'Editor') + '</span>');
       bits.push('<button type="button" class="nav-link" data-logout>Sign out</button>');

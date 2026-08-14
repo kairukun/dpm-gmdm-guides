@@ -21,6 +21,17 @@ Then open http://127.0.0.1:8899 and sign in with an editor account to change
 guides. This is the same application that should be deployed when the site is
 ready to go live.
 
+### Adding guides and categories
+
+After signing in:
+
+- Use **New guide** in the top bar, or **Add guide** on a category/system.
+- Choose an existing category, or create a new category / subcategory.
+- The new guide opens in the editor with one starter step so you can fill it in.
+
+Guide metadata lives in `site-guides.json` and content in `guide-content/`. Saving
+rebuilds the HTML pages automatically.
+
 ## Production deployment
 
 Deploy the repository to a Node.js host using:
