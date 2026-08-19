@@ -691,5 +691,17 @@
    "Pitco"
   ],
   "pdf": "pdfs/Equipment ScribeHows/Pitco Fryers.pdf"
+ },
+ {
+  "slug": "test",
+  "name": "Test",
+  "url": "local://test",
+  "description": "Test",
+  "section": "Test",
+  "subsection": "Test1",
+  "tags": [
+   "Test"
+  ],
+  "pdf": null
  }
 ]

@@ -1,14 +1,15 @@
-"""Build the Dossani Paradise Management guides website from cached ScribeHow data."""
+"""Build the guideMi guides website from the live guide catalog."""
 from __future__ import annotations
 
 import html
 import json
 import re
 import shutil
+import urllib.request
 from pathlib import Path
 from urllib.parse import quote
 
-ROOT = Path(r"C:\Users\James\Documents\Ampler-GMDM-Guide-PDFs")
+ROOT = Path(__file__).resolve().parent
 PDF_ROOT = ROOT / "pdfs"
 CONTENT_DIR = ROOT / "guide-content"
 GUIDE_DIR = ROOT / "guides"
@@ -33,6 +34,48 @@ EXCLUDED_GUIDES = {"setting up ampler command station"}
 EXCLUDED_TAGS = {"isolved", "owlops"}
 
 CONTACT_EMAIL = "kyle@dossaniparadise.com"
+SITE_NAME = "guideMi"
+SITE_TITLE = "guideMi | GM/DM Guides"
+DATA_DIR = ROOT / "data"
+LOGO_DIR = ROOT / "assets" / "logos"
+
+# Preferred ScribeHow app-tag icons for section headers (same favicons as the source site).
+SECTION_ICON_PREF: dict[str, list[str]] = {
+    "PAR POS Guides": ["Partech", "Parpos"],
+    "Office ScribeHows": ["Office"],
+    "Equipment ScribeHows": ["Frymaster", "Pitco", "Duke"],
+}
+SUBSECTION_ICON_PREF: dict[str, list[str]] = {
+    "BKU": ["Burgerkinguniversity", "Burgerking", "Okta"],
+    "DMB Portal": ["Sicomasp"],
+    "FRUM": ["Rbi", "Okta"],
+    "Gateway": ["Whopper", "Compliancemetrix", "Okta"],
+    "Intacct": ["Intacct"],
+    "Kiosk": ["Burgerking"],
+    "Office 365": ["Office", "Sharepoint"],
+    "RAM": ["Rbi", "Okta"],
+    "RSI": ["Rsiweb"],
+    "ServSafe": ["Servsafe"],
+    "TalentReef": ["Talentreef", "Jobappnetwork"],
+    "XBO/RTI (All guides are using XBO unless specified)": ["Xenial", "Rtitom"],
+    "Zenput": ["Zenput", "Okta"],
+    "Momos": ["Whopper"],
+}
+
+GUIDEMI_LOGO_SVG = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" role="img" aria-label="guideMi">
+  <defs>
+    <linearGradient id="gm" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c4b5fd"/>
+      <stop offset="45%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="10" width="52" height="52" rx="14" fill="url(#gm)"/>
+  <path d="M18 40V26h8c4.4 0 7 2.4 7 6.1 0 2.3-1.1 4.1-3 5l4.8 6.9h-4.9L29.8 38H22v8h-4zm4-4h4c1.8 0 2.8-.9 2.8-2.4S27.8 31 26 31h-4v5z" fill="#fff"/>
+  <text x="68" y="48" font-family="Segoe UI, Tahoma, sans-serif" font-size="34" font-weight="700" fill="#5b21b6">guide</text>
+  <text x="196" y="48" font-family="Segoe UI, Tahoma, sans-serif" font-size="34" font-weight="700" fill="#7c3aed">Mi</text>
+</svg>
+"""
 
 
 # Some cached ScribeHow copy came through as UTF-8 bytes read as cp1252
@@ -157,6 +200,89 @@ def pdf_lookup() -> dict:
 
 def slug(text: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
+
+
+def load_scribe_icon_urls() -> dict[str, str]:
+    """Collect favicon URLs from cached ScribeHow dumps (same icons as the source pages)."""
+    icons: dict[str, str] = {}
+    for name in ("scribe-next-data.json", "scribe-par-next.json"):
+        for candidate in (DATA_DIR / name, TEMP / name):
+            if not candidate.exists():
+                continue
+            data = json.loads(candidate.read_text(encoding="utf-8-sig"))
+            result = data["props"]["pageProps"]["result"]
+            pools = [result.get("scribe_documents") or []]
+            embedded = result.get("embedded_documents") or {}
+            if isinstance(embedded, dict):
+                pools.append(list(embedded.values()))
+            for pool in pools:
+                for doc in pool:
+                    if not isinstance(doc, dict):
+                        continue
+                    for tag in doc.get("app_tags") or []:
+                        tname = (tag.get("name") or "").strip()
+                        url = (tag.get("icon_url") or "").strip()
+                        if tname and url:
+                            icons.setdefault(tname, url)
+    return icons
+
+
+def cache_logos(icon_urls: dict[str, str]) -> dict[str, str]:
+    """Download app-tag favicons once; return tag name -> local assets path."""
+    LOGO_DIR.mkdir(parents=True, exist_ok=True)
+    local: dict[str, str] = {}
+    for name, url in sorted(icon_urls.items()):
+        safe = slug(name) or "app"
+        dest = LOGO_DIR / f"{safe}.png"
+        rel = f"assets/logos/{safe}.png"
+        if not dest.exists():
+            try:
+                req = urllib.request.Request(url, headers={"User-Agent": "guideMi-site-builder/1.0"})
+                with urllib.request.urlopen(req, timeout=20) as resp:
+                    dest.write_bytes(resp.read())
+            except OSError:
+                continue
+        if dest.exists():
+            local[name] = rel
+    return local
+
+
+def pick_icon(
+    local_icons: dict[str, str],
+    prefs: list[str],
+    tags: list[str] | None = None,
+) -> str | None:
+    for name in prefs:
+        if name in local_icons:
+            return local_icons[name]
+    for name in tags or []:
+        if name in local_icons:
+            return local_icons[name]
+    return None
+
+
+def logo_img(path: str | None, label: str, css_class: str) -> str:
+    if path:
+        return f'<img class="{css_class}" src="{html.escape(path)}" alt="">'
+    initial = html.escape((label.strip()[:1] or "?").upper())
+    return f'<span class="{css_class} logo-fallback" aria-hidden="true">{initial}</span>'
+
+
+def section_icon_path(section: str, local_icons: dict[str, str]) -> str | None:
+    return pick_icon(local_icons, SECTION_ICON_PREF.get(section, []))
+
+
+def group_icon_path(subsection: str, tags: list[str], local_icons: dict[str, str]) -> str | None:
+    return pick_icon(local_icons, SUBSECTION_ICON_PREF.get(subsection, []), tags)
+
+
+def group_tags(group: dict) -> list[str]:
+    tags: list[str] = []
+    for guide in group.get("guides") or []:
+        for tag in guide.get("tags") or []:
+            if tag and tag not in tags:
+                tags.append(tag)
+    return tags
 
 
 def match_pdf(guide: dict, manifest: list[dict], pdfs: dict) -> str | None:
@@ -355,47 +481,89 @@ def card_html(guide: dict) -> str:
             </article>"""
 
 
-def section_html(groups: list[dict]) -> tuple[str, str]:
-    body = []
-    nav = []
-    current_section = None
+def section_html(groups: list[dict], local_icons: dict[str, str]) -> tuple[str, str]:
+    body: list[str] = []
+    nav: list[str] = []
+    current_section: str | None = None
+    section_counts: dict[str, int] = {}
+    for group in groups:
+        section_counts[group["section"]] = section_counts.get(group["section"], 0) + len(group["guides"])
+
+    def close_section() -> None:
+        nonlocal current_section
+        if current_section is None:
+            return
+        body.append("          </div>")
+        body.append("        </details>")
+        body.append("      </section>")
+        current_section = None
+
     for group in groups:
         if group["section"] != current_section:
-            if current_section is not None:
-                body.append("      </section>")
+            close_section()
             current_section = group["section"]
             sid = slug(current_section)
             nav.append(f'<a class="nav-link" href="#{sid}">{html.escape(current_section)}</a>')
+            sec_icon = section_icon_path(current_section, local_icons)
+            count = section_counts.get(current_section, 0)
             body.append(f'      <section class="section" id="{sid}">')
+            body.append('        <details class="section-panel">')
+            body.append('          <summary class="section-summary">')
             body.append(
-                '        <div class="section-head">'
-                f'<h2 class="section-title">{html.escape(current_section)}</h2>'
+                f'            <span class="section-logo-wrap">{logo_img(sec_icon, current_section, "section-logo")}</span>'
+            )
+            body.append('            <span class="section-summary-text">')
+            body.append(f'              <span class="section-title">{html.escape(current_section)}</span>')
+            body.append(f'              <span class="section-meta">{count} guide{"s" if count != 1 else ""}</span>')
+            body.append("            </span>")
+            body.append('            <span class="section-chevron" aria-hidden="true"></span>')
+            body.append("          </summary>")
+            body.append('          <div class="section-body">')
+            body.append(
+                '            <div class="section-toolbar">'
                 f'<a class="btn btn-edit auth-only section-add" hidden href="new.html?section={quote(current_section)}">Add guide</a>'
                 "</div>"
             )
+
         if group["subsection"]:
             gid = slug(f'{current_section}-{group["subsection"]}')
-            body.append(f'        <div class="group" id="{gid}">')
+            gcount = len(group["guides"])
+            gicon = group_icon_path(group["subsection"], group_tags(group), local_icons)
+            body.append(f'            <details class="group-panel" id="{gid}">')
+            body.append('              <summary class="group-summary">')
             body.append(
-                '          <div class="group-head">'
-                f'<h3 class="group-title">{html.escape(group["subsection"])}'
-                f'<span class="group-count">{len(group["guides"])}</span></h3>'
-                f'<a class="btn btn-edit auth-only group-add" hidden href="new.html?section={quote(current_section)}&subsection={quote(group["subsection"])}">Add guide</a>'
-                "</div>"
+                f'                <span class="group-logo-wrap">{logo_img(gicon, group["subsection"], "group-logo")}</span>'
             )
+            body.append('                <span class="group-summary-text">')
+            body.append(f'                  <span class="group-title">{html.escape(group["subsection"])}</span>')
+            body.append(
+                f'                  <span class="group-meta">{gcount} guide{"s" if gcount != 1 else ""}</span>'
+            )
+            body.append("                </span>")
+            body.append('                <span class="group-chevron" aria-hidden="true"></span>')
+            body.append("              </summary>")
+            body.append('              <div class="group-body">')
+            body.append(
+                f'                <a class="btn btn-edit auth-only group-add" hidden href="new.html?section={quote(current_section)}&subsection={quote(group["subsection"])}">Add guide</a>'
+            )
+            body.append('                <div class="cards">')
+            body.extend(f"                  {card_html(g)}" for g in group["guides"])
+            body.append("                </div>")
+            body.append("              </div>")
+            body.append("            </details>")
         else:
-            body.append('        <div class="group">')
-        body.append('          <div class="cards">')
-        body.extend(card_html(g) for g in group["guides"])
-        body.append("          </div>")
-        body.append("        </div>")
-    if current_section is not None:
-        body.append("      </section>")
+            body.append('            <div class="group group-flat">')
+            body.append('              <div class="cards">')
+            body.extend(f"                {card_html(g)}" for g in group["guides"])
+            body.append("              </div>")
+            body.append("            </div>")
+
+    close_section()
     return "\n".join(body), "\n            ".join(nav)
 
 
-def build_html(groups: list[dict]) -> str:
-    sections, nav = section_html(groups)
+def build_html(groups: list[dict], local_icons: dict[str, str]) -> str:
+    sections, nav = section_html(groups, local_icons)
     total = sum(1 for g in groups for x in g["guides"] if x.get("slug"))
     categories = len({g["section"] for g in groups})
     systems = len({g["subsection"] for g in groups if g["subsection"]})
@@ -404,18 +572,18 @@ def build_html(groups: list[dict]) -> str:
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Dossani Paradise Management | GM/DM Guides</title>
-  <meta name="description" content="Step-by-step GM and DM operating guides for Dossani Paradise Management restaurants.">
+  <title>{SITE_TITLE}</title>
+  <meta name="description" content="Step-by-step GM and DM operating guides powered by guideMi.">
   <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
   <header class="hero">
     <div class="hero-inner">
-      <img class="hero-logo" src="assets/dpm-lockup.png" alt="Dossani Paradise Management">
+      <img class="hero-logo" src="assets/guidemi-logo.svg" alt="{SITE_NAME}">
       <h1 class="hero-title">GM / DM Guides</h1>
       <p class="hero-sub">
         Step-by-step walkthroughs for the systems your restaurant runs on.
-        Open a guide for training and day-to-day reference.
+        Expand a category to browse guides for training and day-to-day reference.
       </p>
       <div class="hero-stats">
         <div class="stat"><span class="stat-num">{total}</span><span class="stat-label">Guides</span></div>
@@ -452,8 +620,8 @@ def build_html(groups: list[dict]) -> str:
   </main>
 
   <footer class="footer">
-    <img class="footer-logo" src="assets/dpm-lockup.png" alt="Dossani Paradise Management">
-    <p>&copy; Dossani Paradise Management &mdash; internal training reference.</p>
+    <img class="footer-logo" src="assets/guidemi-logo.svg" alt="{SITE_NAME}">
+    <p>&copy; {SITE_NAME} &mdash; internal training reference.</p>
   </footer>
 
   <script src="assets/site.js"></script>
@@ -622,7 +790,7 @@ def guide_page_html(
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{title} | Dossani Paradise Management</title>
+  <title>{title} | {SITE_NAME}</title>
   <meta name="description" content="{desc}">
   <link rel="stylesheet" href="{up}assets/styles.css">
 </head>
@@ -634,7 +802,7 @@ def guide_page_html(
         <div class="auth-slot" data-auth-slot data-edit-slug="{html.escape(guide["slug"])}" hidden>
           <a class="nav-link" href="{up}login.html">Editor sign in</a>
         </div>
-        <img class="guide-bar-logo" src="{up}assets/dpm-lockup.png" alt="Dossani Paradise Management">
+        <img class="guide-bar-logo" src="{up}assets/guidemi-logo.svg" alt="{SITE_NAME}">
       </div>
     </div>
   </header>
@@ -663,8 +831,8 @@ def guide_page_html(
   </main>
 
   <footer class="footer">
-    <img class="footer-logo" src="{up}assets/dpm-lockup.png" alt="Dossani Paradise Management">
-    <p>&copy; Dossani Paradise Management &mdash; internal training reference.</p>
+    <img class="footer-logo" src="{up}assets/guidemi-logo.svg" alt="{SITE_NAME}">
+    <p>&copy; {SITE_NAME} &mdash; internal training reference.</p>
   </footer>
 
   <a class="to-top" href="#" aria-label="Back to top">&uarr;</a>
@@ -675,14 +843,23 @@ def guide_page_html(
 
 
 CSS = """:root {
-  --navy: #1b1f6b;
-  --navy-deep: #0d1240;
-  --red: #e2001a;
-  --ink: #131a33;
-  --muted: #5b6480;
-  --line: #e3e7f2;
+  --violet: #7c3aed;
+  --violet-deep: #5b21b6;
+  --violet-soft: #a78bfa;
+  --pastel-1: #faf5ff;
+  --pastel-2: #f3e8ff;
+  --pastel-3: #e9d5ff;
+  --pastel-4: #ddd6fe;
+  --accent: #8b5cf6;
+  --ink: #2e1065;
+  --muted: #6b5b95;
+  --line: #e9d5ff;
   --surface: #ffffff;
-  --page: #f4f6fc;
+  --page: #faf5ff;
+  /* Legacy aliases used throughout the stylesheet */
+  --navy: var(--violet);
+  --navy-deep: var(--violet-deep);
+  --red: var(--accent);
 }
 
 * { box-sizing: border-box; }
@@ -711,18 +888,19 @@ a { color: var(--navy); }
 /* Hero */
 .hero {
   position: relative;
-  background-image: url("dossani-paradise-bg.png");
-  background-size: cover;
-  background-position: center;
+  background:
+    radial-gradient(circle at 20% 20%, rgba(196, 181, 253, 0.55), transparent 42%),
+    radial-gradient(circle at 80% 10%, rgba(167, 139, 250, 0.45), transparent 38%),
+    linear-gradient(135deg, #5b21b6 0%, #7c3aed 45%, #a78bfa 100%);
   color: #fff;
-  border-bottom: 5px solid var(--red);
+  border-bottom: 5px solid var(--pastel-3);
 }
 
 .hero::after {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(9, 13, 48, 0.35) 0%, rgba(9, 13, 48, 0.72) 100%);
+  background: linear-gradient(180deg, rgba(46, 16, 101, 0.08) 0%, rgba(46, 16, 101, 0.28) 100%);
 }
 
 .hero-inner {
@@ -898,12 +1076,12 @@ a { color: var(--navy); }
 .notice {
   margin: 32px 0 8px;
   padding: 14px 18px;
-  background: #fff;
-  border-left: 4px solid var(--red);
+  background: var(--pastel-2);
+  border-left: 4px solid var(--violet-soft);
   border-radius: 8px;
   font-size: 0.95rem;
   color: var(--muted);
-  box-shadow: 0 1px 3px rgba(19, 26, 51, 0.06);
+  box-shadow: 0 1px 3px rgba(91, 33, 182, 0.06);
 }
 
 .empty-state {
@@ -916,33 +1094,157 @@ a { color: var(--navy); }
   border-radius: 10px;
 }
 
-.section { margin-top: 44px; scroll-margin-top: 84px; }
+.section { margin-top: 22px; scroll-margin-top: 84px; }
 
-.section-title {
-  margin: 0 0 6px;
-  font-size: 1.75rem;
-  color: var(--navy-deep);
-  padding-bottom: 12px;
-  border-bottom: 3px solid var(--red);
+.section-panel,
+.group-panel {
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--surface);
+  box-shadow: 0 1px 3px rgba(91, 33, 182, 0.05);
+  overflow: hidden;
 }
 
-.group { margin-top: 28px; scroll-margin-top: 84px; }
+.section-panel { margin-bottom: 18px; }
+.group-panel { margin-top: 14px; }
 
-.group-title {
+.section-panel > summary,
+.group-panel > summary {
+  list-style: none;
+  cursor: pointer;
+}
+
+.section-panel > summary::-webkit-details-marker,
+.group-panel > summary::-webkit-details-marker { display: none; }
+
+.section-summary,
+.group-summary {
   display: flex;
   align-items: center;
-  gap: 10px;
-  margin: 0 0 14px;
-  font-size: 1.1rem;
-  text-transform: uppercase;
-  letter-spacing: 1.1px;
-  color: var(--navy);
+  gap: 14px;
+  padding: 16px 18px;
+  background: linear-gradient(180deg, #fff 0%, var(--pastel-1) 100%);
+  transition: background 0.15s;
+}
+
+.section-summary:hover,
+.group-summary:hover { background: var(--pastel-2); }
+
+.section-logo-wrap,
+.group-logo-wrap {
+  flex: 0 0 auto;
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  background: var(--pastel-2);
+  border: 1px solid var(--pastel-3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.group-logo-wrap { width: 42px; height: 42px; border-radius: 12px; }
+
+.section-logo,
+.group-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 8px;
+  background: #fff;
+}
+
+.logo-fallback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-weight: 700;
+  color: var(--violet-deep);
+  background: var(--pastel-3);
+}
+
+.section-summary-text,
+.group-summary-text {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.section-title {
+  margin: 0;
+  font-size: 1.35rem;
+  color: var(--violet-deep);
+  font-weight: 700;
+}
+
+.section-meta,
+.group-meta {
+  font-size: 0.86rem;
+  color: var(--muted);
+}
+
+.section-chevron,
+.group-chevron {
+  flex: 0 0 auto;
+  width: 28px;
+  height: 28px;
+  border-radius: 999px;
+  border: 1px solid var(--pastel-3);
+  background: #fff;
+  position: relative;
+}
+
+.section-chevron::before,
+.group-chevron::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid var(--violet);
+  border-bottom: 2px solid var(--violet);
+  transform: translate(-50%, -65%) rotate(45deg);
+  transition: transform 0.15s;
+}
+
+.section-panel[open] > .section-summary .section-chevron::before,
+.group-panel[open] > .group-summary .group-chevron::before {
+  transform: translate(-50%, -35%) rotate(-135deg);
+}
+
+.section-body {
+  padding: 0 18px 18px;
+  border-top: 1px solid var(--pastel-3);
+  background: linear-gradient(180deg, var(--pastel-1) 0%, #fff 100%);
+}
+
+.section-toolbar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 12px 0 4px;
+}
+
+.group-body { padding: 0 14px 14px 68px; }
+
+.group-flat { margin-top: 8px; }
+
+.group-title {
+  margin: 0;
+  font-size: 1.02rem;
+  font-weight: 700;
+  color: var(--violet-deep);
 }
 
 .group-count {
   padding: 2px 9px;
   border-radius: 999px;
-  background: var(--navy);
+  background: var(--violet);
   color: #fff;
   font-size: 0.72rem;
   letter-spacing: 0.5px;
@@ -967,8 +1269,8 @@ a { color: var(--navy); }
 
 .card:hover {
   transform: translateY(-3px);
-  border-color: rgba(27, 31, 107, 0.35);
-  box-shadow: 0 14px 30px rgba(19, 26, 51, 0.12);
+  border-color: var(--pastel-4);
+  box-shadow: 0 14px 30px rgba(91, 33, 182, 0.12);
 }
 
 .card-title {
@@ -1043,20 +1345,20 @@ a { color: var(--navy); }
 }
 
 .btn-primary {
-  background: var(--navy);
+  background: linear-gradient(135deg, var(--violet) 0%, var(--violet-soft) 100%);
   color: #fff;
-  border: 1px solid var(--navy);
+  border: 1px solid transparent;
 }
 
-.btn-primary:hover { background: var(--navy-deep); }
+.btn-primary:hover { background: linear-gradient(135deg, var(--violet-deep) 0%, var(--violet) 100%); }
 
 .btn-ghost {
   background: #fff;
-  color: var(--red);
-  border: 1px solid rgba(226, 0, 26, 0.4);
+  color: var(--violet);
+  border: 1px solid var(--pastel-4);
 }
 
-.btn-ghost:hover { background: var(--red); color: #fff; border-color: var(--red); }
+.btn-ghost:hover { background: var(--violet); color: #fff; border-color: var(--violet); }
 
 .btn-disabled {
   background: #f1f3f9;
@@ -1103,18 +1405,18 @@ a { color: var(--navy); }
 
 .guide-hero {
   position: relative;
-  background-image: url("dossani-paradise-bg.png");
-  background-size: cover;
-  background-position: center;
+  background:
+    radial-gradient(circle at 15% 20%, rgba(196, 181, 253, 0.5), transparent 40%),
+    linear-gradient(135deg, #5b21b6 0%, #7c3aed 55%, #a78bfa 100%);
   color: #fff;
-  border-bottom: 4px solid var(--red);
+  border-bottom: 4px solid var(--pastel-3);
 }
 
 .guide-hero::after {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(9, 13, 48, 0.42) 0%, rgba(9, 13, 48, 0.78) 100%);
+  background: linear-gradient(180deg, rgba(46, 16, 101, 0.12) 0%, rgba(46, 16, 101, 0.34) 100%);
 }
 
 .guide-hero-inner {
@@ -1385,7 +1687,9 @@ a { color: var(--navy); }
   display: grid;
   place-items: center;
   padding: 24px;
-  background: var(--navy-deep) url("dossani-paradise-bg.png") center / cover;
+  background:
+    radial-gradient(circle at 20% 15%, rgba(196, 181, 253, 0.45), transparent 35%),
+    linear-gradient(135deg, #5b21b6 0%, #7c3aed 50%, #c4b5fd 100%);
 }
 
 .auth-card {
@@ -1531,6 +1835,8 @@ a { color: var(--navy); }
 }
 @media (max-width: 720px) {
   .editor-grid { grid-template-columns: 1fr; }
+  .group-body { padding-left: 14px; }
+  .section-summary, .group-summary { padding: 14px; }
 }
 """
 
@@ -1538,8 +1844,15 @@ JS = """(function () {
   var search = document.getElementById('guide-search');
   var empty = document.getElementById('empty-state');
   var cards = Array.prototype.slice.call(document.querySelectorAll('.card'));
-  var groups = Array.prototype.slice.call(document.querySelectorAll('.group'));
+  var groupPanels = Array.prototype.slice.call(document.querySelectorAll('.group-panel'));
+  var sectionPanels = Array.prototype.slice.call(document.querySelectorAll('.section-panel'));
   var sections = Array.prototype.slice.call(document.querySelectorAll('.section'));
+
+  function setOpen(panel, open) {
+    if (!panel) return;
+    if (open) panel.setAttribute('open', '');
+    else panel.removeAttribute('open');
+  }
 
   function apply(term) {
     if (!search) return;
@@ -1555,14 +1868,18 @@ JS = """(function () {
       if (hit) visible++;
     });
 
-    groups.forEach(function (group) {
-      var any = group.querySelector('.card:not([hidden])');
-      group.hidden = !any;
+    groupPanels.forEach(function (panel) {
+      var any = panel.querySelector('.card:not([hidden])');
+      panel.hidden = !any;
+      if (any && q) setOpen(panel, true);
     });
 
-    sections.forEach(function (section) {
-      var any = section.querySelector('.card:not([hidden])');
-      section.hidden = !any;
+    sectionPanels.forEach(function (panel) {
+      var any = panel.querySelector('.card:not([hidden])');
+      var section = panel.closest('.section');
+      if (section) section.hidden = !any;
+      panel.hidden = !any;
+      if (any && q) setOpen(panel, true);
     });
 
     if (empty) empty.hidden = visible !== 0;
@@ -1684,16 +2001,20 @@ def write_guide_pages(groups: list[dict]) -> tuple[int, list[str]]:
 
 def main():
     groups = build_groups()
+    local_icons = cache_logos(load_scribe_icon_urls())
     assets = ROOT / "assets"
     assets.mkdir(exist_ok=True)
-    shutil.copyfile(LOGO_SRC, assets / "dpm-lockup.png")
-    shutil.copyfile(BG_SRC, assets / "dossani-paradise-bg.png")
+    (assets / "guidemi-logo.svg").write_text(GUIDEMI_LOGO_SVG, encoding="utf-8")
+    if LOGO_SRC.exists():
+        shutil.copyfile(LOGO_SRC, assets / "dpm-lockup.png")
+    if BG_SRC.exists():
+        shutil.copyfile(BG_SRC, assets / "dossani-paradise-bg.png")
     (assets / "styles.css").write_text(CSS, encoding="utf-8")
     (assets / "site.js").write_text(JS, encoding="utf-8")
 
     write_manifest(groups)
     built, pending = write_guide_pages(groups)
-    (ROOT / "index.html").write_text(build_html(groups), encoding="utf-8")
+    (ROOT / "index.html").write_text(build_html(groups, local_icons), encoding="utf-8")
 
     total = 0
     for g in groups:

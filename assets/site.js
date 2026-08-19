@@ -2,8 +2,15 @@
   var search = document.getElementById('guide-search');
   var empty = document.getElementById('empty-state');
   var cards = Array.prototype.slice.call(document.querySelectorAll('.card'));
-  var groups = Array.prototype.slice.call(document.querySelectorAll('.group'));
+  var groupPanels = Array.prototype.slice.call(document.querySelectorAll('.group-panel'));
+  var sectionPanels = Array.prototype.slice.call(document.querySelectorAll('.section-panel'));
   var sections = Array.prototype.slice.call(document.querySelectorAll('.section'));
+
+  function setOpen(panel, open) {
+    if (!panel) return;
+    if (open) panel.setAttribute('open', '');
+    else panel.removeAttribute('open');
+  }
 
   function apply(term) {
     if (!search) return;
@@ -19,14 +26,18 @@
       if (hit) visible++;
     });
 
-    groups.forEach(function (group) {
-      var any = group.querySelector('.card:not([hidden])');
-      group.hidden = !any;
+    groupPanels.forEach(function (panel) {
+      var any = panel.querySelector('.card:not([hidden])');
+      panel.hidden = !any;
+      if (any && q) setOpen(panel, true);
     });
 
-    sections.forEach(function (section) {
-      var any = section.querySelector('.card:not([hidden])');
-      section.hidden = !any;
+    sectionPanels.forEach(function (panel) {
+      var any = panel.querySelector('.card:not([hidden])');
+      var section = panel.closest('.section');
+      if (section) section.hidden = !any;
+      panel.hidden = !any;
+      if (any && q) setOpen(panel, true);
     });
 
     if (empty) empty.hidden = visible !== 0;
